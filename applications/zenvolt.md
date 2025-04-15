@@ -14,7 +14,7 @@ ZenVolt will launch on a Polkadot EVM-compatible parachain (e.g., Moonbeam), usi
 ZenVolt tracks real-time vehicle data—such as fuel use, emissions, and driving behavior—and converts verified carbon reductions into tokenized digital assets on-chain. These tokens can be used by companies to demonstrate progress toward their ESG goals, while also rewarding eco-friendly driving behavior. Our aim is not to compete with other ESG initiatives in the Polkadot ecosystem, but to complement them by offering a focused, data-driven solution for the transportation sector. We believe Polkadot’s infrastructure allows us to bring trust, automation, and economic incentives into the world of sustainability compliance.
 Companies are under pressure to meet ESG goals, but tools for real-time emissions visibility and automated sustainability verification are lacking. ZenVolt fills this gap by combining vehicle data, behavioral science, and blockchain—making ESG compliance both automated and economically rewarding. We’re committed to bringing environmental integrity and DeFi-driven innovation together to help fleets and individuals decarbonize.
 **Video Pitch:** https://youtu.be/YLxZ5yJcFgc (To be updated later)
-
+**Pitch Deck** https://bit.ly/4jyjXtY
 ---
 
 ## 🔍 Project Details
