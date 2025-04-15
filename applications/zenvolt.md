@@ -15,8 +15,8 @@ ZenVolt tracks real-time vehicle data—such as fuel use, emissions, and driving
 
 Companies are under pressure to meet ESG goals, but tools for real-time emissions visibility and automated sustainability verification are lacking. ZenVolt fills this gap by combining vehicle data, behavioral science, and blockchain—making ESG compliance both automated and economically rewarding. We’re committed to bringing environmental integrity and DeFi-driven innovation together to help fleets and individuals decarbonize.
 
-**Video Pitch:** https://youtu.be/YLxZ5yJcFgc (To be updated later)
-**Pitch Deck** https://bit.ly/4jyjXtY
+- **Video Pitch:** https://youtu.be/YLxZ5yJcFgc (To be updated later)
+- **Pitch Deck** https://bit.ly/4jyjXtY
 ---
 
 ## 🔍 Project Details
