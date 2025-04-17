@@ -164,7 +164,6 @@ https://github.com/HarshalBhangale/tagster-zkverify
 |------|--------|------------|---------------------|
 | React Native performance issues with image processing | High | Medium | Implement lazy loading, optimize render cycles, use native modules for intensive operations |
 | Polkadot transaction speed limitations | Medium | Low | Implement batching for rewards, off-chain state with periodic settlements |
-| AWS cost overruns | Medium | Medium | Start with serverless architecture, implement usage caps, scale gradually |
 | Mobile app store rejection | High | Low | Adhere strictly to guidelines, engage with app review teams early 
 
 
