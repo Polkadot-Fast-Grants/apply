@@ -34,6 +34,14 @@ Our target audience is AI startups renting compute (to hedge costs and provide f
 
 Right now, there is no real way for trading firms or other interested parties to take action on the “AI economy” in a way directly tied to an underlying asset. We believe that compute hours are the base unit of the future AI economy, and we hope to provide seamless financial instruments around the ecosystem. In addition, GPU providers face a liquidity problem — as soon as an interested buyer wants to buy compute, they must use it immediately or the hour is expired. By implementing a synthetic market, we can better move money around the compute market. We can also help close the loop between AI demand and the crypto market structure.
 
+In particular, we will have the following functionality on Polkadot:
+
+- Centralized orderbook (on Postgres and in memory), but final transactions (settlements at contract expiry) recorded on Polkadot through smart contracts (the smart contract will denote the *market* and *settlements* structs for each market, the settlement struct will contain the Merkle root of all user PnL positions)
+- Trade event hashes recorded as well, along with periodic orderbook snapshots, as a public audit log
+- Experimenting with an on-chain escrow “vault” — wallet or parachain on Polkadot that collateralizes contract trades
+
+In this way, our MVP will maintain a public audit log on Polkadot, with opportunities to integrate further in the future.
+
 ## 👥 Team
 
 - **Team Name:** Squaretower Markets
