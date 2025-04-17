@@ -1,5 +1,5 @@
 # 📝 Tagster: Gamified Data Labeling Platform 
-### Follow us on X : https://x.com/0xtapster
+- **Follow us on X** : https://x.com/0xtapster
 ## 🌟 Project Overview
 
 ### The Inspiration: Mata Shabri's Story
@@ -77,9 +77,6 @@ While data labeling platforms exist (Scale AI, Amazon Mechanical Turk), none com
 - https://x.com/imbuddyharshal
 - https://github.com/HarshalBhangale/
 - https://www.linkedin.com/in/harshal-bhangale/
-- buddyharshal.me
-**GitHub/Portfolio**:
-- https://github.com/HarshalBhangale/
 
 **Team's Experience**:
 Harshal Bhangale is a graduate in Data Science & AI from IIT Madras with an eDiploma in Organizational Behavior from Harvard Business School. His technical journey began as a Research Intern at IIT Ropar, focusing on Cryptography, RSA, and Machine Learning.
@@ -161,12 +158,31 @@ https://github.com/HarshalBhangale/tagster-zkverify
 | 3 | Refinement & Launch | $2,000 | 1 month |
 | **Total** |  | **$10,000** | **3 months** |
 
-### Infrastructure & Operating Costs (included in budget)
-- **AWS Hosting**: $250/month for EC2 instances, S3 storage, and RDS database
-- **Content Delivery Network**: $150/month for global media distribution
-- **AI Image Comparison Algorithms**: Custom implementation using TensorFlow on AWS SageMaker
-- **Analytics Pipeline**: Event tracking and metrics processing framework
-- **Security & Compliance**: Data protection measures and privacy controls
+### Technical Risk Assessment & Mitigation
+
+| Risk | Impact | Probability | Mitigation Strategy |
+|------|--------|------------|---------------------|
+| React Native performance issues with image processing | High | Medium | Implement lazy loading, optimize render cycles, use native modules for intensive operations |
+| Polkadot transaction speed limitations | Medium | Low | Implement batching for rewards, off-chain state with periodic settlements |
+| AWS cost overruns | Medium | Medium | Start with serverless architecture, implement usage caps, scale gradually |
+| Mobile app store rejection | High | Low | Adhere strictly to guidelines, engage with app review teams early 
+
+
+### Technical Components 
+
+**AI Labeling Algorithm Approach:**
+- Implement inter-rater reliability algorithm (Cohen's Kappa)
+- Use majority voting with minimum 3 independent labels per item
+- Apply confidence thresholds to identify ambiguous items
+- Implement simple spam detection using time-based and pattern recognition approaches
+
+**Polkadot Integration Details:**
+- Utilize polkadot.js for wallet connectivity
+- Implement the following specific APIs:
+ - `api.tx.assets.transfer` for reward distribution
+ - `api.query.system.account` for account verification
+ - `api.tx.balances.transfer` for DOT payments
+- Develop lightweight smart contracts using ink! for automated reward distribution
 
 ## Lexica.art Partnership Initiative
 
