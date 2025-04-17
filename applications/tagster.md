@@ -212,7 +212,7 @@ Our ambition for Tagster extends beyond just a data labeling platform. We aim to
 
 ### Proven Track Record
 - Our tagster project won the OpenCampus **AI Web3 Application with zkVerify** award
-- Harshal's is a CLass of 2025 batch in Data Science& AI from Indian Institute of Technology, Madras with an experience for creating viral applications like AngryPets.io, Ordex.io, toradle.com demonstrates ability to build engaging products
+- Harshal is a Class of 2025 batch in Data Science & AI from Indian Institute of Technology, Madras with an experience for creating viral applications like AngryPets.io, Ordex.io, toradle.com demonstrates ability to build engaging products
 - Our founder has consistently delivered award-winning projects in Web3 hackathons (45+ wins)
 - Worked with Fast track startups - Ordex.io , Current - Ajna capital (UAE based VC fund), toradle.com 
 
