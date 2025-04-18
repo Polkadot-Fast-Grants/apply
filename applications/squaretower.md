@@ -95,7 +95,7 @@ This section should break the development roadmap down into milestones and deliv
 | 0c. | Testing | Unit tests for matching, TWAP, margin, liquidation |
 | 0d. | Launch | Launch announcement + explanation of synthetic GPU market model, along with a whitepaper/blog about our matching/market dynamics |
 | 1. | Matching Engine | Python-based central matching system with limit orders on contracts (CLOB) |
-| 2. | P&L, Ledger & Liquidation | Margin enforcement, cash-settled ledger accounting, wallet swaps |
+| 2. | P&L, Ledger & Liquidation | Margin enforcement, cash-settled ledger accounting, wallet swaps, including audit log on Polkadot (event + settlement records) |
 
 ### 💰 Budget Breakdown
 
