@@ -140,7 +140,7 @@ Circl is currently in the conceptual development phase. We have:
 ### Overview
 - **Estimated Duration:** 6 weeks
 - **Full-Time Equivalent (FTE):** 1.5
-- **Total Costs:** $8,000 USD
+- **Total Costs:** $10,000 USD
 
 ### Milestone 1: Core Platform Development
 
@@ -155,7 +155,7 @@ Circl is currently in the conceptual development phase. We have:
 | 3. | Stablecoin Integration | We will implement integration with at least two stablecoins through cross-chain functionality, allowing users to make and receive payments in their preferred stable asset. |
 
 **Estimated Completion:** 3 weeks
-**Cost:** $4,000 USD
+**Cost:** $5,000 USD
 
 ### Milestone 2: Enhanced Features & Mobile Optimization
 
@@ -171,15 +171,15 @@ Circl is currently in the conceptual development phase. We have:
 | 4. | Dispute Resolution Mechanism | We will develop a structured dispute resolution process with: 1) evidence submission tools, 2) configurable resolution timeframes, 3) escalation paths, and 4) transparent outcome tracking. |
 
 **Estimated Completion:** 3 weeks
-**Cost:** $4,000 USD
+**Cost:** $5,000 USD
 
 ### 💰 Budget Breakdown
 
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
 | --------- | ------------ | ---------- | -------------------- |
-| 1 | Core Platform Development | $4,000 | 3 weeks |
-| 2 | Enhanced Features & Mobile Optimization | $4,000 | 3 weeks |
-| **Total** | | **$8,000** | **6 weeks** |
+| 1 | Core Platform Development | $5,000 | 3 weeks |
+| 2 | Enhanced Features & Mobile Optimization | $5,000 | 3 weeks |
+| **Total** | | **$10,000** | **6 weeks** |
 
 ## 🔮 Future Plans
 
