@@ -1,126 +1,209 @@
-# 📝 Name of your Project
+# 📝 NovachatV2
 
 ## 🌟 Project Overview
 
-Please provide the following:
+- **Tagline:** Making Web3 effortless with AI-powered conversational DeFi.
+- **Brief Description:**\
+  NovachatV2 is an AI-driven chatbot designed for everyday users to interact with Polkadot’s EVM-compatible chains using natural language. It enables intuitive DeFi actions like checking balances, sending tokens, and trading/staking on decentralized exchanges (DEXs) by simply connecting a wallet and talking to the bot. The platform auto-executes read-only transactions and prompts MetaMask for state-changing ones, ensuring safety and ease. This grant will transform the Ethereum-based MVP into a production-ready platform with Polkadot EVM support, cloud deployment, and a polished user experience.
+- **Integration with Polkadot:**\
+  NovachatV2 will integrate with Polkadot’s EVM-compatible chains using Web3.js, supporting DeFi operations on two DEXs for trading and staking. It simplifies Web3 for regular users by automating tasks like adding RPC info to MetaMask.
+- **Team Interest:**\
+  As a serial hackathon winner and Web3 developer, I am passionate about removing barriers to DeFi adoption. NovachatV2’s conversational AI makes Polkadot’s EVM ecosystem accessible to non-technical users, empowering them to engage with Web3 effortlessly.
 
-- If the name of your project is not descriptive, a tagline (one sentence summary)
-- A brief description of your project
-- An indication of how your project relates to / integrates into Polkadot
-- An indication of why your team is interested in creating this project
-- (Optional but big bonus points): [1-min video pitch](https://www.ycombinator.com/video/)
+## 🔍 Project Details
 
-### 🔍 Project Details
+- **Technology Stack:**
 
-We expect applicants to have a solid idea about the project's expected final state. Therefore, please submit (where relevant):
+  - Frontend: React, TypeScript, Next.js 15+, Tailwind CSS
+  - Backend: Node.js, Web3.js for blockchain interactions
+  - AI: Llama 3.2 (natural language), Flock Web3 Agent Model (function calling)
+  - Infrastructure: Cloud servers (AWS/GCP), WebSocket for real-time updates
+  - Tools: RainbowKit for wallet integration
+  - Testing: Manual testing as needed
 
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- Any PoC/MVP or other relevant prior work or research on the topic
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and clarify any limitations
+- **Core Components:**
 
-### 🧩 Ecosystem Fit
+  1. **Conversational AI Interface:**
+     - Dual-model AI: Llama 3.2 for natural language processing, Flock Web3 Agent Model for Web3 function calling.
+     - Supports commands like “Check my balance” or “Swap tokens on a DEX.”
+     - Auto-executes read-only transactions (e.g., balance checks) and prompts MetaMask for state-changing ones (e.g., token transfers).
+     - Highly intuitive: users connect their wallet and can perform any typical DeFi action (trading, staking, sending tokens) by chatting, with the bot handling RPC configuration and transaction prompts.
+  2. **Polkadot EVM Integration:**
+     - Connectivity to Polkadot EVM chains for balance queries, token transfers, and DEX interactions.
+     - Automatic RPC info injection into MetaMask for seamless network switching.
+  3. **Function Playground:**
+     - Educational interface for users to learn Web3 mechanics by manually calling functions (e.g., send tokens, check balances) and experimenting with parameters.
+     - Supports custom transaction parsing, ABI-based contract interactions, and contract deployment.
+  4. **Cloud Deployment:**
+     - Production-ready setup with rate limits and public access for all users.
 
-Help us locate your project in the Polkadot landscape and what problems it tries to solve by answering each of these questions:
+- **Relevant Prior Work:**
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Polkadot ecosystem?
-  - If so, how is your project different?
-  - If not, why might such a project not exist yet?
+  - NovachatV2 MVP (Ethereum-based) is available at https://novachat-v2.vercel.app (AI functionality not working as it’s local). It supports Uniswap trading/staking, token transfers, and balance checks on EVM networks. Codebase: https://github.com/bonusducks777/novachat-v2/tree/main.
+  - Won #1 Flock and Educhain bounties at UK AI Agent Hackathon (2025), #1 BNB Chain and #2 Avalanche tracks at ETH Oxford (2024) for NovachatV1.
+  - Demo: YouTube pitch (begins halfway through).
 
-> **Note**: We prioritize projects building on Plaza/Polkadot Hub, games, and DeFi applications, though all types of projects will be considered.
+- **UI Mockups:**\
+  The interface will use the same UI as the MVP at https://novachat-v2.vercel.app, featuring:
+
+  - A chat window for user-AI interaction with suggested prompts.
+  - A function playground panel for manual function calls and parameter experimentation.
+  - A network switcher and wallet connection button for MetaMask integration.
+
+- **What NovachatV2 is NOT:**
+
+  - Not a developer-focused tool or IDE for DApp development.
+  - Not a custodial wallet or key management solution.
+  - Not supporting non-EVM Polkadot chains in this grant.
+  - Not developing cross-chain functionality or the Web3 intro educational section.
+
+## 🧩 Ecosystem Fit
+
+- **Ecosystem Position:**\
+  NovachatV2 is a user-friendly DeFi interface for Polkadot’s EVM-compatible chains, enabling everyday users to engage with Web3 without technical knowledge.
+- **Target Audience:**
+  - Regular users new to DeFi who want to trade, stake, or send tokens effortlessly.
+  - Crypto enthusiasts seeking a simple, conversational Web3 interface.
+  - Users curious about Web3 mechanics who use the function playground to learn.
+- **Needs Addressed:**
+  - Eliminates technical barriers by automating RPC setup and transaction prompts.
+  - Simplifies DeFi tasks (trading, staking, transfers) via natural language.
+  - Educates users through the playground, fostering Web3 understanding.
+  - Provides a safe, intuitive platform with MetaMask prompts for security.
+- **Similar Projects:**\
+  No similar projects were found in the Polkadot ecosystem (based on web searches and provided documents). Existing tools like PAPI Interactive Console and ink! AIDE target developers, not regular users. NovachatV2’s conversational AI and focus on daily DeFi users are unique.
 
 ## 👥 Team
 
-- **Team Name:** Name of your team. If you apply as a legal entity, please use its name.
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email
-- **Website:** Your website, GitHub org, blog, or similar
+- **Team Name:** NovachatV2
+- **Contact Name:** Soumil Sahjpall
+- **Contact Email:** soumil_sahjpall@hotmail.com
+- **Website:** https://github.com/bonusducks777/novachat-v2
 
-### Team members
+### Team Members
 
-Please list the legal name of all grant beneficiaries. Solo developers (1-person teams) are eligible for funding.
+- Soumil Sahjpall (Solo developer)
 
-#### LinkedIn Profiles (if available)
+### LinkedIn Profiles
 
-- https://www.linkedin.com/{person_1}
-- https://www.linkedin.com/{person_2}
+- https://www.linkedin.com/in/soumil-sahjpall
 
-### Team Code Repos
+### Team Code Repositories
 
-- https://github.com/{your_organisation}/{project_1}
-- https://github.com/{your_organisation}/{project_2}
+- https://github.com/bonusducks777/novachat-v2
+- https://github.com/bonusducks777/novatools
 
-Please also provide the GitHub accounts of all team members:
+### GitHub Accounts
 
-- https://github.com/{team_member_1}
-- https://github.com/{team_member_2}
+- https://github.com/bonusducks777
 
-### Team's experience
+### Team’s Experience
 
-Please describe the team's relevant experience, including any previous blockchain projects or contributions to the ecosystem.
+Soumil Sahjpall is an experienced Web3 developer and serial hackathon winner with 5+ years in blockchain and AI. Key achievements include:
+
+- Winner of Flock and Educhain bounties at UK AI Agent Hackathon (2025).
+- Winner of BNB Chain track and 2nd place in Avalanche track at ETH Oxford (2024).
+- Winner of the main hackathon track at EasyA x Polygon London (2022).
+- 2nd place in the student track for the International TRON Grand Hackathon (2023).
+- Finalist at EasyA x Stellar London (2024) and Harvard Hack Web3 (2022).
+- Winner of a non-technical prize at EasyA x Polygon London (2022).
+- Expertise in Web3.js, Llama, Flock Web3 Agent Model, and building user-focused DApps.
 
 ## 📊 Development Status
 
-If you've already started implementing your project, please provide a link and a description of the code. Otherwise, please provide some documentation on the research and other work you have conducted before applying.
+The NovachatV2 MVP, built from scratch, supports Ethereum-based DeFi interactions (Uniswap trading/staking, token transfers, balance checks) on EVM networks. It uses Llama 3.2 for natural language and the Flock Web3 Agent Model for function calling, with wallet integration via RainbowKit. The function playground allows manual testing of some functions, though contract deployment and custom transaction parsing are incomplete. The platform runs locally with the Flock model hosted via Replicate API, causing latency. MVP link: https://novachat-v2.vercel.app (AI functionality not working as it’s local). Demo link: YouTube pitch (begins halfway through). Codebase: https://github.com/bonusducks777/novachat-v2/tree/main.
+
+**Current Features:**
+
+- Conversational AI for crypto discussions and Web3 actions.
+- Function playground with partial functionality (balance checks, token sends, Uniswap interactions).
+- Wallet integration, network switching, and MetaMask RPC updates.
+- Transaction queue and suggested prompts.
+
+**Target Features (by July 31, 2025):**
+
+- Full trading/staking on two Polkadot EVM DEXs for liquidity and yield.
+- Polkadot EVM chain support for balances, transfers, and DEX interactions.
+- Polished chatbot with low latency and robust function calling.
+- Cloud deployment for public access with rate limits.
+- Complete function playground supporting all chatbot capabilities, custom transaction parsing, ABI-based contract interactions, and contract deployment.
 
 ## 📅 Development Roadmap
 
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, please describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality.
-
-**Important notes:**
-- Each milestone is capped at **$5,000 USD**
-- Milestones must be delivered within **3 months** of approval
-- The maximum grant amount is **$10,000 USD** per application (up to **$15,000 USD** per project in exceptional cases)
-- You will only receive payment after successful milestone delivery
-
 ### Overview
 
-- **Estimated Duration:** Duration of the whole project (maximum 3 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project
-- **Total Costs:** Requested amount in USD for the whole project (maximum $10,000 USD)
-
-> Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
+- **Estimated Duration:** 2 months (June 1, 2025 – July 31, 2025)
+- **Full-Time Equivalent (FTE):** 1 solo developer
+- **Total Costs:** $10,000 USD
 
 | Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... |
-| 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Article | We will publish an **article** that explains what was done/achieved as part of the grant. |
-| 1. | Feature X | We will create a feature that will... (Please describe in detail) |
-| 2. | Feature Y | The Y feature will... (Please describe in detail) |
-| 3. | Feature Z | The Z feature will... (Please describe in detail) |
+| --- | --- | --- |
+| 0a. | License | MIT |
+| 0b. | Documentation | Inline code documentation and a tutorial on using NovachatV2 for Polkadot EVM DeFi (e.g., trading on a DEX, sending tokens). |
+| 0c. | Testing and Testing Guide | Manual testing as needed to ensure chatbot and playground functionality. A guide will detail testing procedures. |
+| 0d. | Article | A blog post detailing NovachatV2’s Polkadot EVM integration, with a demo of key functions like trading and token transfers. |
+| 1. | Playground Tools for Polkadot EVM | Function playground support for Polkadot EVM chains, including balance queries, token transfers, custom transaction parsing, ABI-based contract interactions, and contract deployment. |
+| 2. | Chatbot Integration & Testing | Chatbot integration with playground tools for trading/staking on two Polkadot EVM DEXs, token transfers, and balance checks. Manual testing to ensure functionality and MetaMask prompt reliability. |
+| 3. | Cloud Deployment & Chatbot Polish | Cloud deployment on AWS/GCP with rate limits and public access. Polished chatbot with optimized function calling and low latency using the Flock Web3 Agent Model. |
 
 ### 💰 Budget Breakdown
 
-Please provide a breakdown of your budget by milestone:
+| Phase | Milestone | Deliverables | Cost (USD) | Estimated Completion |
+| --- | --- | --- | --- | --- |
+| 1 | Playground Tools for Polkadot EVM | Function playground tools | $3,000 | June 20, 2025 (3 weeks) |
+| 2 | Chatbot Integration & Testing | Chatbot integration and testing | $3,000 | July 10, 2025 (3 weeks) |
+| 3 | Cloud Deployment & Chatbot Polish | Cloud deployment and chatbot polish | $4,000 | July 31, 2025 (3 weeks) |
+| **Total** |  |  | **$10,000** | **2 months** |
 
-| Milestone | Deliverables | Cost (USD) | Estimated Completion |
-| --- | --- | --- | --- |
-| 1 | Features X, Y | $5,000 | 1.5 months |
-| 2 | Feature Z | $5,000 | 1.5 months |
-| **Total** | | **$10,000** | **3 months** |
+### Phase 1: Playground Tools for Polkadot EVM
+
+- **Duration:** 3 weeks
+- **Cost:** $3,000
+- **Deliverables:**
+  - Function playground support for Polkadot EVM chains: balance queries, token transfers, custom transaction parsing, ABI-based contract interactions, and contract deployment.
+  - Automatic RPC info injection into MetaMask for network setup.
+  - Manual testing to ensure playground functionality.
+
+### Phase 2: Chatbot Integration & Testing
+
+- **Duration:** 3 weeks
+- **Cost:** $3,000
+- **Deliverables:**
+  - Chatbot integration with playground tools for trading/staking on two Polkadot EVM DEXs, token transfers, and balance checks.
+  - Auto-execution of read-only transactions and MetaMask prompts for state-changing ones.
+  - Manual testing to ensure reliable chatbot responses and MetaMask prompts.
+
+### Phase 3: Cloud Deployment & Chatbot Polish
+
+- **Duration:** 3 weeks
+- **Cost:** $4,000
+- **Deliverables:**
+  - Cloud deployment on AWS/GCP with rate limits and public access.
+  - Polished chatbot with optimized Flock Web3 Agent Model function calling, low latency, and robust error handling.
+  - Manual testing to verify cloud performance and user experience.
 
 ## 🔮 Future Plans
 
-Please include:
+- **Short-term (3-6 months post-grant):**
 
-- How you intend to continue development after the Fast-Grant
-- Any plans for seeking additional funding (other grants, VC funding, etc.)
-- Your vision for the project's growth and impact in the Polkadot ecosystem
+  - Add functionality to other EVM-based blockchain ecosystems using their respective grants programs.
+  - Onboard a large user base to make Web3 accessible and intuitive for daily DeFi users.
+
+- **Long-term (6-12 months):**
+
+  - Implement cross-chain integration to enable token transfers between EVM chains.
+  - Save user data, including chat history and wallet addresses, to provide a complete DeFi solution.
+
+- **Additional Funding:**
+
+  - Apply for ecosystem-specific grants (e.g., BNB Chain, Avalanche) to fund chain expansions.
+  - Explore a freemium model with premium features while keeping the core open-source.
+
+- **Ecosystem Impact:**\
+  NovachatV2 aims to be the definitive conversational interface for Polkadot’s EVM ecosystem, driving user adoption by making DeFi intuitive and accessible. By simplifying interactions and providing a production-ready platform, it will empower everyday users to engage with Web3 confidently.
 
 ## ℹ️ Additional Information
 
-Here you can add any additional information that you think is relevant to this application, such as:
-
-- Work you have already done
-- If there are any other teams who have already contributed to the project
-- Other funding you may have applied for
-
-Remember that the Fast-Grants Programme is designed as a first step for promising projects. We're looking for projects that can continue to grow beyond this initial funding.
+- **Community Interest:** The NovachatV2 MVP won #1 Flock and Educhain bounties at the UK AI Agent Hackathon (2025), with users praising its ease of use for DeFi. Community feedback highlights demand for conversational Web3 tools.
+- **Unique Value Proposition:** NovachatV2’s AI-driven interface, automatic RPC setup, and safe MetaMask prompts make it uniquely accessible for daily DeFi users, unmatched by any Polkadot tool.
+- **Alignment with Fast-Grants Criteria:** The project supports Polkadot’s user ecosystem by simplifying EVM DeFi, with a proven MVP, clear roadmap, and potential for growth via other ecosystem grants.
