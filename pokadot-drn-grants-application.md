@@ -8,35 +8,35 @@
 **Tagline:** OpenSky is a decentralized computing infrastructure (Distributed Resource Network)
 
 **Brief Description:**  
-OpenSky is a decentralized computing infrastructure is a powered by peer allocated resources (compute, storage and network) and that features Polkadot's blockchain technology's to provide integrity, proof of work, security and tokenized access to resources. Blockchain blockchain is a key enabling technology on muliple levels.
+OpenSky is a decentralized computing infrastructure powered by peer allocated resources (compute, storage and network) that features Polkadot's blockchain technology to provide integrity, proof of work, security and tokenized access to resources. Blockchain is a key enabling technology on multiple levels.
 
-It allows the exchange of OpenSky resources against tokens value and allows users to build on the top of the rented out unused compute, storage, and networking resources in a secure, self-organized P2P network.
+It allows the exchange of OpenSky resources against token value and allows users to build on the top of the rented out unused compute, storage, and networking resources in a secure, self-organized P2P network.
 
 **Polkadot Blockchain**
-OpenSky utilizes Polkadot's parachain architecture to create specialized chains for resource management, verification, and marketplace operations. We leverage Substrate's flexibility to implement custom resource allocation logic, while benefiting from Polkadot's shared security model and cross-chain messaging capabilities and decentralization.
+OpenSky utilizes Polkadot's parachain architecture to create specialized chains for resource management, verification, and marketplace operations. We leverage Substrate's flexibility to implement custom resource allocation logic, while benefiting from Polkadot's shared security model, cross-chain messaging capabilities and decentralization.
 
 **Why We're Creating This**  
 We want to create a completely distributed infrastructure paradigm that could fundamentally change how we think about the future of computing.
 
 OpenSky is not just another application or network.
-OpenSky is a completey integrated, fully self sufficient infrastructure - on the top of which everything can run.
+OpenSky is a completely integrated, fully self-sufficient infrastructure - on the top of which everything can run.
 
 **Problem**
 
-Currently blockchain technologies has very limited real-world use cases, its trapped in its own world - outside of the cryptospace, blockchain technology often has little value.
-OpenSky utilises Polkadot blockchain technology to enable a new level of computing paradigm. Is is not a project, its a revolution - its the web3, redefined.
+Currently blockchain technology has very limited real-world use cases; it's trapped in its own world - outside of the cryptospace, blockchain technology often has little value.
+OpenSky utilizes Polkadot blockchain technology to enable a new level of computing paradigm. It is not a project, it's a revolution - it's the web3, redefined.
 OpenSky will finally allow ANY application to be secured by blockchain technology.
 
 
 ### 🔍 Project Details
 
-OpenSky's mission is to provide efficient thin clients that dynamically allocates hardware resources from almost any device. Clients works as nodes in a network where contributors get paid in tokens for performing operations.
+OpenSky's mission is to provide efficient thin clients that dynamically allocate hardware resources from almost any device. Clients work as nodes in a network where contributors get paid in tokens for performing operations.
 
 **Technology Stack:**
 Network nodes (Clients) that make up OpenSky are built with the following technologies:
 - Blockchain: Encryption, Emulation and Integrity. Polkadot's blockchain becomes a key enabling technology.
 - libp2p: for Peer-to-peer networking that efficiently allocates resources and distributes work.
-- Rust: Core language for managing allocated resouces
+- Rust: Core language for managing allocated resources
 - Docker: Docker as a secure containerized environment
 
 **Core Architecture Components:**
@@ -107,7 +107,7 @@ Cons: Large resource requirements per unit, less granular resource allocation
 Example: Running entire web services
 
 **Coherent Theory: Functional Resource Unit (FRU)**
-We think implementing a hybrid approach based on containerized functional workloads as the atomic unit:
+We propose implementing a hybrid approach based on containerized functional workloads as the atomic unit:
 
 Atomic Compute Unit: A container with well-defined inputs and outputs
 Resource Boundaries: Clear CPU, memory, storage, and time limits
@@ -118,8 +118,9 @@ This way we can strike a balance between flexibility and orchestration complexit
 
 
 **Hybrid Multi-Level Approach**
-You're absolutely right that a hybrid approach using multiple abstraction levels is potentially the most powerful solution. This is a brilliant insight.
-Implementation Strategy
+The hybrid approach using multiple abstraction levels is potentially the most powerful solution.
+
+**Implementation Strategy**
 <img width="529" alt="Screenshot 2025-04-19 at 20 19 15" src="https://github.com/user-attachments/assets/2a2c9c47-2b57-4e30-a7c9-f1f6c05c6eea" />
 
 **Examples of Level-Optimized Tasks:**
@@ -165,8 +166,9 @@ While several projects address decentralized storage (like Crust Network) or spe
 - **Team Name:** OpenSky
 - **Contact Name:** Gustaf
 - **Contact Email:** [g.ydstrom@hotmail.com](g.ydstrom@hotmail.com)
+- **Contact Email2:** [krzysztof.strzelec27x@gmail.com](krzysztof.strzelec27x@gmail.com)
 - **Website:** [OpenSky repo](https://github.com/Carl-Gustaf/opensky)
-
+- 
 
 ### Team members
 
@@ -187,15 +189,17 @@ While several projects address decentralized storage (like Crust Network) or spe
 
 Our team combines expertise in web development, distributed systems, and cloud infrastructure:
 
-- [Krzysztof] has experience in web development.
-- [Gustaf] has background in cloud infrastructure.
+- [Krzysztof] has extensive experience in web development, with a focus on building scalable applications and implementing secure user interfaces.
+- [Gustaf] has a strong background in cloud infrastructure, distributed systems architecture, and blockchain integration.
+
+We are also collaborating with additional technical advisors who will support the project implementation, accounting for the 3 FTE mentioned in our development roadmap.
 
 ## 📊 Development Status
 
 We currently have:
 - Extensive architectural design documents for the OpenSky
-- Complete EcoSystem thinking
-- Example portotype
+- Complete ecosystem thinking
+- Example prototype
 - Initial designs for the Web Gateway interface
 - Research on integration points with Polkadot's parachain technology
 
@@ -226,29 +230,29 @@ We currently have:
 | 2 | Web Gateway MVP + Orchestration Logic + Tokenomics | $5,000 | 1.5 months |
 | **Total** | | **$10,000** | **3 months** |
 
-NOTE: The purpose of tokens are to mediate as a storeholder of value that can be exchanged for agains proof of work done by the network and shared/used resources. The goal is to provide a token with a predictable and stable value, exchangeable for currencies, but should not be key of speculation. For example: we could use dollar-pegged tokens like USDC, with a support for other stablecoins or cryptocurrencies.
+NOTE: The purpose of tokens is to mediate as a storeholder of value that can be exchanged against proof of work done by the network and shared/used resources. The goal is to provide a token with a predictable and stable value, exchangeable for currencies, but should not be a subject of speculation. For example: we could use dollar-pegged tokens like USDC, with support for other stablecoins or cryptocurrencies.
 
 ## 🔮 Future Plans
 
 **Short-term Development:**
-- Lightweight P2P client, that dynamically efficiently allocates and coordinates tasks/resources
+- Lightweight P2P client that dynamically and efficiently allocates and coordinates tasks/resources
 - Expand the types of workloads supported by the network
 - Implement advanced resource verification mechanisms
 - Develop specialized job templates for common use cases
-- Create resource monitoring
+- Create resource monitoring systems
 
 **Long-term Vision:**
-- Build OpenSky into a complete wholesome idea and web3 paradigm shift.
-- Enable distributed computing resources like computing, storage, and networking as atomic units that can be rearanged for any task.
-- Atomic units: for Compute, Networking and Storgage: Potential use case: Users can share the storage, share the computing and another user can build something on-top of it.
-- Orchestraction layer: The "floating, self organised resources" needs a layer that allows available resources to complete "tasks". The big vision is that this is done in a secure and extremely redundant and resilient way.
-- Encryption, Emulation, Integrity: Are key aspects in order create a distributed resource network that is secure and redundant. For this blockchain becomes a key enabling technology.
-- Marketplace: The self-organising network needs to reward nodes for participating and needs to adjust cost/earnings dynamically for what is needed for the network.
+- Build OpenSky into a complete paradigm shift for web3.
+- Enable distributed computing resources like computing, storage, and networking as atomic units that can be rearranged for any task.
+- Atomic units for Compute, Networking and Storage: Potential use case: Users can share storage, share computing resources, and another user can build something on top of it.
+- Orchestration layer: The "floating, self-organized resources" need a layer that allows available resources to complete "tasks". The big vision is that this is done in a secure, extremely redundant and resilient way.
+- Encryption, Emulation, Integrity: Are key aspects in order to create a distributed resource network that is secure and redundant. For this, blockchain becomes a key enabling technology.
+- Marketplace: The self-organizing network needs to reward nodes for participating and needs to adjust cost/earnings dynamically for what is needed for the network.
 
 **Examples of long-term OpenSky's impact:**
-- Cloud services like (AWS for example) will become a gateways to the OpenSky, like search engies (for example Google's browser) is a gateway to the Internet.
-- Cloud services and data centres will become large contributors to the shared resources upon which OpenSky is based.
-- Applications will be efficiently distributed, and "floating", secured by Polkadot's Blockchain.
+- Cloud services (like AWS for example) will become gateways to the OpenSky, similar to how search engines (like Google) are gateways to the Internet.
+- Cloud services and data centers will become large contributors to the shared resources upon which OpenSky is based.
+- Applications will be efficiently distributed and "floating", secured by Polkadot's Blockchain.
 - Our hardware and software will become less relevant (PCs, smartphones), as applications will run on the OpenSky, utilizing shared resources.
 - Creation of specific hardware optimized for resource sharing.
 - Blockchain technology powered by Polkadot becomes a global security layer.
