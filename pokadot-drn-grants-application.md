@@ -1,44 +1,43 @@
 # 📝 OpenSky
 
-This is how web3 will be understood, in the future.
 ![alt text](https://github.com/Carl-Gustaf/polkadot-apply/blob/master/WhatsApp%20Image%202025-04-19%20at%2013.58.31.jpeg?raw=true)
 
 
 ## 🌟 Project Overview
 
-**Tagline:** Infrastructure - a decentralized "floating datacenter" (Distributed Resource Network) powered by user-contributed resources and Polkadot's secure infrastructure.
+**Tagline:** OpenSky is a decentralized computing infrastructure (Distributed Resource Network)
 
 **Brief Description:**  
-OpenSky creates a decentralized cloud infrastructure by allowing users to build on the top of the rented out unused compute, storage, and networking resources in a secure, self-organized P2P network. This "floating datacenter" provides cloud services without fixed physical infrastructure, instead leveraging distributed resources coordinated through Polkadot's blockchain technology.
+OpenSky is a decentralized computing infrastructure is a powered by peer allocated resources (compute, storage and network) and that features Polkadot's blockchain technology's to provide integrity, proof of work, security and tokenized access to resources. Blockchain blockchain is a key enabling technology on muliple levels.
 
-**Integration with Polkadot:**  
+It allows the exchange of OpenSky resources against tokens value and allows users to build on the top of the rented out unused compute, storage, and networking resources in a secure, self-organized P2P network.
+
+**Polkadot Blockchain**
 OpenSky utilizes Polkadot's parachain architecture to create specialized chains for resource management, verification, and marketplace operations. We leverage Substrate's flexibility to implement custom resource allocation logic, while benefiting from Polkadot's shared security model and cross-chain messaging capabilities and decentralization.
 
-**Why We're Creating This:**  
-We believe the future of cloud computing shouldn't be controlled by a handful of centralized providers. By creating a truly distributed infrastructure layer secured by Polkadot's technology, we can democratize access to computing resources, create new income streams for resource providers, and build resilient systems that aren't subject to centralized points of failure.
+**Why We're Creating This**  
+We want to create a completely distributed infrastructure paradigm that could fundamentally change how we think about the future of computing.
 
-Its not just another application, network.
-Its infrastructure - on the top of which everything can run.
+OpenSky is not just another application or network.
+OpenSky is a completey integrated, fully self sufficient infrastructure - on the top of which everything can run.
 
-Moreover, currently blockchain has very limited real-world use cases, its trapped in its own world - as soon as we leave the cryptospace, it often has no value. 
-OpenSky is not a project, its a revolution - its the web3, redefined.
+**Problem**
+
+Currently blockchain technologies has very limited real-world use cases, its trapped in its own world - outside of the cryptospace, blockchain technology often has little value.
+OpenSky utilises Polkadot blockchain technology to enable a new level of computing paradigm. Is is not a project, its a revolution - its the web3, redefined.
 OpenSky will finally allow ANY application to be secured by blockchain technology.
-
-
-
-
 
 
 ### 🔍 Project Details
 
-**Technology Stack:**
-- **Orchestration Layer:** Custom-built scheduler with libp2p integration.
-- **Containerization:** Docker for secure compute isolation.
-- **Web Gateway:** React frontend.
-- **Client Software:** Rust-based desktop application for resource allocation and job distribution.
-- **Cryptography:** encryption.
-- **Blockchain:** Encryption, Emulation and Integrity. Polkadot's blockchain becomes a key enabling technology.
+OpenSky's mission is to provide efficient thin clients that dynamically allocates hardware resources from almost any device. Clients works as nodes in a network where contributors get paid in tokens for performing operations.
 
+**Technology Stack:**
+Network nodes (Clients) that make up OpenSky are built with the following technologies:
+- Blockchain: Encryption, Emulation and Integrity. Polkadot's blockchain becomes a key enabling technology.
+- libp2p: for Peer-to-peer networking that efficiently allocates resources and distributes work.
+- Rust: Core language for managing allocated resouces
+- Docker: Docker as a secure containerized environment
 
 **Core Architecture Components:**
 
@@ -70,13 +69,8 @@ OpenSky will finally allow ANY application to be secured by blockchain technolog
 - Initial implementation of the web gateway interface
 - Architectural design for P2P resource discovery using DHT
 
-**UI Mockups:**
-- Consumer dashboard for job submission and monitoring
-- Contributor interface for resource allocation and earnings tracking
-- Marketplace view for resource pricing dynamics
-
 **What OpenSky Will Not Provide:**
-- We are not building a general-purpose blockchain, but rather leveraging Polkadot's existing infrastructure
+- We are not building a general-purpose blockchain, but rather leveraging Polkadot's existing blockchain technology
 - We will not guarantee performance equivalent to centralized cloud providers in the initial implementation
 - We are not focusing on supporting legacy applications that require high I/O performance or low latency
 - We do not guarantee data sovereignty (data may be stored across global nodes with encryption)
@@ -134,6 +128,7 @@ Our team combines expertise in web development, distributed systems, and cloud i
 
 We currently have:
 - Extensive architectural design documents for the OpenSky
+- Complete EcoSystem thinking
 - Example portotype
 - Initial designs for the Web Gateway interface
 - Research on integration points with Polkadot's parachain technology
@@ -152,8 +147,8 @@ We currently have:
 | 0b. | Documentation | We will provide both inline documentation of the code and a comprehensive technical whitepaper explaining the architecture and protocols of OpenSky, along with setup guides for both contributors and consumers. |
 | 0c. | Article | We will publish an article explaining the vision behind OpenSky, its integration with Polkadot, and the potential impact on decentralized cloud infrastructure. |
 | 1. | Substrate Module: Resource Registry | Implement a custom pallet that enables registration of compute, storage, and network resources with verification mechanisms for resource availability and performance metrics. |
-| 2. | Client Software Alpha | Develop a basic client allowing users to contribute resources to the network, with Docker-based isolation for compute tasks and encrypted storage functionality. |
-| 3. | Web Gateway MVP | Create the initial web interface for job submission, resource management, and basic analytics for both providers and consumers. |
+| 2. | Simple Client | Develop a basic client allowing users to contribute resources to the network, with Docker-based isolation for compute tasks and encrypted storage functionality. |
+| 3. | Command Line Interface | Create the initial interface for job submission, resource management, and basic analytics for both providers and consumers. |
 | 4. | Basic Orchestration Logic | Implement the core resource matching algorithm that pairs consumer requests with appropriate provider resources based on requirements and availability. |
 | 5. | Tokenomics Design | Design and implement the token system that incentivizes resource contribution and handles payment for resource consumption. |
 
