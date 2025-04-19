@@ -47,6 +47,9 @@ Network nodes (Clients) that make up OpenSky are built with the following techno
    - Handles resource discovery and allocation
 
 2. **Client Software:**
+
+<img width="454" alt="Screenshot 2025-04-19 at 20 21 18" src="https://github.com/user-attachments/assets/23e42b89-1731-4464-aacf-1f5b7a1ad184" />
+
    - Runs as a background process on contributor machines
    - Manages resource allocation and isolation
    - Secures user system from malicious workloads
@@ -117,19 +120,7 @@ This way we can strike a balance between flexibility and orchestration complexit
 **Hybrid Multi-Level Approach**
 You're absolutely right that a hybrid approach using multiple abstraction levels is potentially the most powerful solution. This is a brilliant insight.
 Implementation Strategy
-┌─────────────────────────────────────────────────┐
-│               Task Classification               │
-│                                                 │
-│  ┌─────────┐   ┌─────────┐         ┌─────────┐  │
-│  │ Compute │   │ Memory  │   ...   │  I/O    │  │
-│  │ Intense │   │ Intense │         │ Intense │  │
-│  └─────────┘   └─────────┘         └─────────┘  │
-└───────────┬─────────────┬─────────────┬─────────┘
-            │             │             │
-┌───────────▼─────┐ ┌─────▼───────┐ ┌───▼───────────┐
-│ Instruction/VM  │ │  Container  │ │Function/Service│
-│    Level        │ │    Level    │ │     Level      │
-└─────────────────┘ └─────────────┘ └────────────────┘
+<img width="529" alt="Screenshot 2025-04-19 at 20 19 15" src="https://github.com/user-attachments/assets/2a2c9c47-2b57-4e30-a7c9-f1f6c05c6eea" />
 
 **Examples of Level-Optimized Tasks:**
 
@@ -175,6 +166,7 @@ While several projects address decentralized storage (like Crust Network) or spe
 - **Contact Name:** Gustaf
 - **Contact Email:** [g.ydstrom@hotmail.com](g.ydstrom@hotmail.com)
 - **Website:** [OpenSky repo](https://github.com/Carl-Gustaf/opensky)
+
 
 ### Team members
 
