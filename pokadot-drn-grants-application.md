@@ -12,7 +12,7 @@ This is how web3 will be understood, in the future.
 OpenSky creates a decentralized cloud infrastructure by allowing users to build on the top of the rented out unused compute, storage, and networking resources in a secure, self-organized P2P network. This "floating datacenter" provides cloud services without fixed physical infrastructure, instead leveraging distributed resources coordinated through Polkadot's blockchain technology.
 
 **Integration with Polkadot:**  
-OpenSky utilizes Polkadot's parachain architecture to create specialized chains for resource management, verification, and marketplace operations. We leverage Substrate's flexibility to implement custom resource allocation logic, while benefiting from Polkadot's shared security model and cross-chain messaging capabilities.
+OpenSky utilizes Polkadot's parachain architecture to create specialized chains for resource management, verification, and marketplace operations. We leverage Substrate's flexibility to implement custom resource allocation logic, while benefiting from Polkadot's shared security model and cross-chain messaging capabilities and decentralization.
 
 **Why We're Creating This:**  
 We believe the future of cloud computing shouldn't be controlled by a handful of centralized providers. By creating a truly distributed infrastructure layer secured by Polkadot's technology, we can democratize access to computing resources, create new income streams for resource providers, and build resilient systems that aren't subject to centralized points of failure.
@@ -75,7 +75,7 @@ OpenSky will finally allow ANY application to be secured by blockchain technolog
 - Contributor interface for resource allocation and earnings tracking
 - Marketplace view for resource pricing dynamics
 
-**What DRN Will Not Provide:**
+**What OpenSky Will Not Provide:**
 - We are not building a general-purpose blockchain, but rather leveraging Polkadot's existing infrastructure
 - We will not guarantee performance equivalent to centralized cloud providers in the initial implementation
 - We are not focusing on supporting legacy applications that require high I/O performance or low latency
@@ -83,8 +83,8 @@ OpenSky will finally allow ANY application to be secured by blockchain technolog
 
 ### 🧩 Ecosystem Fit
 
-**Where DRN Fits in the Ecosystem:**
-DRN serves as critical infrastructure for the Polkadot ecosystem, providing decentralized computation resources that other parachains and applications can utilize. It extends Polkadot's capabilities beyond financial transactions into the realm of distributed computing infrastructure.
+**Where OpenSky Fits in the Ecosystem:**
+OpenSky serves as critical infrastructure for the Polkadot ecosystem, providing decentralized computation resources that other parachains and applications can utilize. It extends Polkadot's capabilities beyond financial transactions into the realm of distributed computing infrastructure.
 
 **Target Audience:**
 1. Individual resource providers looking to monetize spare computing capacity
@@ -99,45 +99,42 @@ DRN serves as critical infrastructure for the Polkadot ecosystem, providing dece
 4. Builds resilient infrastructure free from centralized control
 
 **Similar Projects in Polkadot Ecosystem:**
-While several projects address decentralized storage (like Crust Network) or specific compute needs, none have created a comprehensive "floating datacenter" that combines all three resource types (compute, storage, and networking) with an integrated orchestration layer. Our comprehensive approach to resource commoditization and unified marketplace creates a unique offering within the ecosystem.
+While several projects address decentralized storage (like Crust Network) or specific compute needs, none have created a comprehensive OpenSky that combines all three resource types (compute, storage, and networking) with an integrated orchestration layer. Our comprehensive approach to resource commoditization and unified marketplace creates a unique offering within the ecosystem.
 
 ## 👥 Team
 
-- **Team Name:** DRN Labs
+- **Team Name:** OpenSky
 - **Contact Name:** [Team Member 1]
 - **Contact Email:** [contact@drnlabs.xyz]
 - **Website:** [https://github.com/drnlabs]
 
 ### Team members
 
-- [Team Member 1]
-- [Team Member 2]
-- [Team Member 3]
+- Carl Gustaf Ydström
+- Krzysztof Strzelec
 
 #### LinkedIn Profiles
 
-- https://www.linkedin.com/[team_member_1]
-- https://www.linkedin.com/[team_member_2]
-- https://www.linkedin.com/[team_member_3]
+- [Gustaf](https://www.linkedin.com/in/carl-gustaf/)
+- [Krzysztof](https://www.linkedin.com/in/krzysztof-strzelec-a90939292/)
 
 ### Team Code Repos
 
-- https://github.com/drnlabs/drn-core
-- https://github.com/drnlabs/drn-client
-
+- [Gustaf](https://github.com/Carl-Gustaf)
+- [Krzysztof](https://github.com/kris27x)
+  
 ### Team's experience
 
-Our team combines expertise in distributed systems, blockchain development, and cloud infrastructure:
+Our team combines expertise in web development, distributed systems, and cloud infrastructure:
 
-- [Team Member 1] has [X] years of experience in distributed systems and P2P networks
-- [Team Member 2] has contributed to [relevant blockchain projects] and has expertise in Substrate development
-- [Team Member 3] has background in cloud infrastructure and containerization technologies
+- [Krzysztof] has experience in web development.
+- [Gustaf] has background in cloud infrastructure.
 
 ## 📊 Development Status
 
 We currently have:
-- Architectural design documents for the core DRN system
-- Proof-of-concept implementation of the resource isolation mechanism
+- Architectural design documents for the OpenSky
+- Example portotype
 - Initial designs for the Web Gateway interface
 - Research on integration points with Polkadot's parachain technology
 
@@ -178,19 +175,17 @@ We currently have:
 - Create a mobile client for resource monitoring
 
 **Long-term Vision:**
-- Build DRN into a complete alternative to centralized cloud providers
+- Build OpenSky into a complete alternative to centralized cloud providers
 - Create industry-specific solutions (scientific computing, render farms, etc.)
 - Develop an SDK for easy integration with other Polkadot parachains
-- Expand node capabilities to specialized hardware (GPUs, FPGAs, etc.)
 
 **Additional Funding Strategy:**
 - Apply for larger grants from the Polkadot Treasury
 - Seek venture funding from Web3-focused investors
 - Explore potential partnerships with hardware manufacturers
-- Launch a public token offering after demonstrating network viability
 
 ## ℹ️ Additional Information
 
-Our project builds upon concepts proven in distributed computing projects like BOINC, storage networks like Filecoin, and containerization technologies like Docker. What makes DRN unique is the comprehensive integration of all these elements into a cohesive system backed by Polkadot's security and interoperability features.
+Our project builds upon concepts proven in distributed computing projects like BOINC, storage networks like Filecoin, and containerization technologies like Docker. What makes OpenSky unique is the comprehensive integration of all these elements into a cohesive system backed by Polkadot's security and interoperability features.
 
-The "floating datacenter" concept represents a paradigm shift in how infrastructure can be provisioned and utilized in a Web3 context. By creating this system on Polkadot, we not only leverage its technical capabilities but also position ourselves to serve the growing ecosystem of parachains and applications that require off-chain compute resources.
+The OpenSky concept represents a paradigm shift in how infrastructure can be provisioned and utilized in a Web3 context. By creating this system on Polkadot, we not only leverage its technical capabilities but also position ourselves to serve the growing ecosystem of parachains and applications that require off-chain compute resources.
