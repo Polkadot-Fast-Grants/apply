@@ -165,10 +165,12 @@ We currently have:
 | 2 | Web Gateway MVP + Orchestration Logic + Tokenomics | $5,000 | 1.5 months |
 | **Total** | | **$10,000** | **3 months** |
 
-NOTE: The purpose of tokenomics (tokens) is to allow exchange of work (shared resources) for value. 
+NOTE: The purpose of tokens are to mediate as a storeholder of value that can be exchanged for agains proof of work done by the network and shared/used resources. The goal is to provide a token with a predictable and stable value, exchangeable for currencies, but should not be key of speculation. For example: we could use dollar-pegged tokens like USDC, with a support for other stablecoins or cryptocurrencies.
+
 ## 🔮 Future Plans
 
 **Short-term Development:**
+- Lightweight P2P client, that dynamically efficiently allocates and coordinates tasks/resources
 - Expand the types of workloads supported by the network
 - Implement advanced resource verification mechanisms
 - Develop specialized job templates for common use cases
