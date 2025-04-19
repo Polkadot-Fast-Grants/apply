@@ -175,9 +175,20 @@ We currently have:
 - Create a mobile client for resource monitoring
 
 **Long-term Vision:**
-- Build OpenSky into a complete alternative to centralized cloud providers
-- Create industry-specific solutions (scientific computing, render farms, etc.)
-- Develop an SDK for easy integration with other Polkadot parachains
+- Build OpenSky into a complete wholesome idea and web3 paradigm shift.
+- Enable distributed computing resources like computing, storage, and networking as atomic units that can be rearanged for any task.
+- Atomic units: for Compute, Networking and Storgage: Potential use case: Users can share the storage, share the computing and another user can build something on-top of it.
+- Orchestraction layer: The "floating, self organised resources" needs a layer that allows available resources to complete "tasks". The big vision is that this is done in a secure and extremely redundant and resilient way.
+- Encryption, Emulation, Integrity: Are key aspects in order create a distributed resource network that is secure and redundant. For this blockchain becomes a key enabling technology.
+- Marketplace: The self-organising network needs to reward nodes for participating and needs to adjust cost/earnings dynamically for what is needed for the network.
+
+**Examples of long-term OpenSky's impact:**
+- Cloud services like (AWS for example) will become a gateways to the OpenSky, like search engies (for example Google's browser) is a gateway to the Internet.
+- Cloud services and data centres will become large contributors to the shared resources upon which OpenSky is based.
+- Applications will be efficiently distributed, and "floating", secured by Polkadot's Blockchain.
+- Our hardware and software will become less relevant (PCs, smartphones), as applications will run on the OpenSky, utilizing shared resources.
+- Creation of specific hardware optimized for resource sharing.
+- Blockchain technology powered by Polkadot becomes a global security layer.
 
 **Additional Funding Strategy:**
 - Apply for larger grants from the Polkadot Treasury
