@@ -40,7 +40,7 @@
 - **Relevant Prior Work:**
 
   - NovachatV2 MVP (Ethereum-based) is available at https://novachat-v2.vercel.app (AI functionality not working as it’s local). It supports Uniswap trading/staking, token transfers, and balance checks on EVM networks. Codebase: https://github.com/bonusducks777/novachat-v2/tree/main.
-  - Won #1 Flock and Educhain bounties at UK AI Agent Hackathon (2025), #1 BNB Chain and #2 Avalanche tracks at ETH Oxford (2024) for NovachatV1.
+  - Won #1 Educhain (pending Flock) bounties at UK AI Agent Hackathon (2025), #1 BNB Chain and #2 Avalanche tracks at ETH Oxford (2024) for NovachatV1.
   - Demo: YouTube pitch (begins halfway through).
 
 - **UI Mockups:**\
@@ -101,7 +101,7 @@
 
 Soumil Sahjpall is an experienced Web3 developer and serial hackathon winner with 5+ years in blockchain and AI. Key achievements include:
 
-- Winner of Flock and Educhain bounties at UK AI Agent Hackathon (2025).
+- Winner of Educhain (pending Flock) bounties at UK AI Agent Hackathon (2025).
 - Winner of BNB Chain track and 2nd place in Avalanche track at ETH Oxford (2024).
 - Winner of the main hackathon track at EasyA x Polygon London (2022).
 - 2nd place in the student track for the International TRON Grand Hackathon (2023).
@@ -204,6 +204,6 @@ The NovachatV2 MVP, built from scratch, supports Ethereum-based DeFi interaction
 
 ## ℹ️ Additional Information
 
-- **Community Interest:** The NovachatV2 MVP won #1 Flock and Educhain bounties at the UK AI Agent Hackathon (2025), with users praising its ease of use for DeFi. Community feedback highlights demand for conversational Web3 tools.
+- **Community Interest:** The NovachatV2 MVP won #1 Educhain (pending Flock) bounties at the UK AI Agent Hackathon (2025), with users praising its ease of use for DeFi. Community feedback highlights demand for conversational Web3 tools.
 - **Unique Value Proposition:** NovachatV2’s AI-driven interface, automatic RPC setup, and safe MetaMask prompts make it uniquely accessible for daily DeFi users, unmatched by any Polkadot tool.
 - **Alignment with Fast-Grants Criteria:** The project supports Polkadot’s user ecosystem by simplifying EVM DeFi, with a proven MVP, clear roadmap, and potential for growth via other ecosystem grants.
