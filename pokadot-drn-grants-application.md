@@ -1,19 +1,33 @@
-# 📝 DRN: Distributed Resource Network
+# 📝 OpenSky
 
+This is how web3 will be understood, in the future.
 ![alt text](https://github.com/Carl-Gustaf/polkadot-apply/blob/master/WhatsApp%20Image%202025-04-19%20at%2013.58.31.jpeg?raw=true)
+
 
 ## 🌟 Project Overview
 
-**Tagline:** A decentralized "floating datacenter" powered by user-contributed resources and Polkadot's secure infrastructure.
+**Tagline:** Infrastructure - a decentralized "floating datacenter" (Distributed Resource Network) powered by user-contributed resources and Polkadot's secure infrastructure.
 
 **Brief Description:**  
-DRN (Distributed Resource Network) creates a decentralized cloud infrastructure by allowing users to rent out their unused compute, storage, and networking resources in a secure, self-organizing P2P network. This "floating datacenter" provides cloud services without fixed physical infrastructure, instead leveraging distributed resources coordinated through Polkadot's blockchain technology.
+OpenSky creates a decentralized cloud infrastructure by allowing users to build on the top of the rented out unused compute, storage, and networking resources in a secure, self-organized P2P network. This "floating datacenter" provides cloud services without fixed physical infrastructure, instead leveraging distributed resources coordinated through Polkadot's blockchain technology.
 
 **Integration with Polkadot:**  
-DRN utilizes Polkadot's parachain architecture to create specialized chains for resource management, verification, and marketplace operations. We leverage Substrate's flexibility to implement custom resource allocation logic, while benefiting from Polkadot's shared security model and cross-chain messaging capabilities.
+OpenSky utilizes Polkadot's parachain architecture to create specialized chains for resource management, verification, and marketplace operations. We leverage Substrate's flexibility to implement custom resource allocation logic, while benefiting from Polkadot's shared security model and cross-chain messaging capabilities.
 
 **Why We're Creating This:**  
 We believe the future of cloud computing shouldn't be controlled by a handful of centralized providers. By creating a truly distributed infrastructure layer secured by Polkadot's technology, we can democratize access to computing resources, create new income streams for resource providers, and build resilient systems that aren't subject to centralized points of failure.
+
+Its not just another application, network.
+Its infrastructure - on the top of which everything can run.
+
+Moreover, currently blockchain has very limited real-world use cases, its trapped in its own world - as soon as we leave the cryptospace, it often has no value. 
+OpenSky is not a project, its a revolution - its the web3, redefined.
+OpenSky will finally allow ANY application to be secured by blockchain technology.
+
+
+
+
+
 
 ### 🔍 Project Details
 
