@@ -63,6 +63,80 @@ Network nodes (Clients) that make up OpenSky are built with the following techno
    - Implements task sharding for distributed computation
    - Ensures data redundancy and availability
    - Provides verifiable proofs of task completion
+  
+### Compute Abstraction Levels for Distributed Execution
+
+Abstraction Level Tradeoffs
+A visualization of the different abstraction levels and their implications:
+**1. Instruction-Level (Lowest)**
+
+Approach: Distribute individual CPU instructions
+Pros: Maximum flexibility, can run anything
+Cons: Extremely high orchestration overhead, practically impossible at scale
+Example: Emulating a CPU across multiple machines
+
+**2. Virtual Machine Level**
+
+Approach: Distribute bytecode instructions to VMs
+Pros: Language-agnostic, reasonable isolation
+Cons: High coordination overhead, complex state management
+Example: Distributing JVM bytecode or WebAssembly modules
+
+**3. Container Level (Practical Sweet Spot)**
+
+Approach: Distribute containerized workloads with clear inputs/outputs
+Pros: Good isolation, established tooling, manageable orchestration
+Cons: Some overhead, requires input/output coordination
+Example: Docker containers with defined interfaces
+
+**4. Function Level**
+
+Approach: Distribute pure functions with clear inputs/outputs
+Pros: Simple orchestration, easy parallelization, minimal state complexity
+Cons: Limited to certain types of workloads, not suitable for all applications
+Example: AWS Lambda-style functions
+
+**5. Service Level (Highest)**
+
+Approach: Distribute entire microservices
+Pros: Simplest orchestration, familiar programming model
+Cons: Large resource requirements per unit, less granular resource allocation
+Example: Running entire web services
+
+**Coherent Theory: Functional Resource Unit (FRU)**
+We think implementing a hybrid approach based on containerized functional workloads as the atomic unit:
+
+Atomic Compute Unit: A container with well-defined inputs and outputs
+Resource Boundaries: Clear CPU, memory, storage, and time limits
+State Management: Explicit state input/output through attached storage volumes
+Deterministic Execution: Same inputs always produce same outputs for verification
+
+This way we can strike a balance between flexibility and orchestration complexity.
+
+
+**Hybrid Multi-Level Approach**
+You're absolutely right that a hybrid approach using multiple abstraction levels is potentially the most powerful solution. This is a brilliant insight.
+Implementation Strategy
+┌─────────────────────────────────────────────────┐
+│               Task Classification               │
+│                                                 │
+│  ┌─────────┐   ┌─────────┐         ┌─────────┐  │
+│  │ Compute │   │ Memory  │   ...   │  I/O    │  │
+│  │ Intense │   │ Intense │         │ Intense │  │
+│  └─────────┘   └─────────┘         └─────────┘  │
+└───────────┬─────────────┬─────────────┬─────────┘
+            │             │             │
+┌───────────▼─────┐ ┌─────▼───────┐ ┌───▼───────────┐
+│ Instruction/VM  │ │  Container  │ │Function/Service│
+│    Level        │ │    Level    │ │     Level      │
+└─────────────────┘ └─────────────┘ └────────────────┘
+
+**Examples of Level-Optimized Tasks:**
+
+Matrix multiplication: VM level (high compute density, minimal I/O)
+Image processing: Container level with GPU access
+Database queries: Service level with optimized storage
+API endpoints: Function level for maximum parallelization
 
 **Prior Work/Research:**
 - Proof-of-concept for Docker-based compute isolation with verification
