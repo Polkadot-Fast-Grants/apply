@@ -149,9 +149,8 @@ We currently have:
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | MIT |
-| 0b. | Documentation | We will provide both inline documentation of the code and a comprehensive technical whitepaper explaining the architecture and protocols of DRN, along with setup guides for both contributors and consumers. |
-| 0c. | Testing and Testing Guide | Core functions will be fully covered by unit tests. Integration tests will verify the interaction between different components. A testing guide will explain how to run these tests both locally and on a test network. |
-| 0d. | Article | We will publish an article explaining the vision behind DRN, its integration with Polkadot, and the potential impact on decentralized cloud infrastructure. |
+| 0b. | Documentation | We will provide both inline documentation of the code and a comprehensive technical whitepaper explaining the architecture and protocols of OpenSky, along with setup guides for both contributors and consumers. |
+| 0c. | Article | We will publish an article explaining the vision behind OpenSky, its integration with Polkadot, and the potential impact on decentralized cloud infrastructure. |
 | 1. | Substrate Module: Resource Registry | Implement a custom pallet that enables registration of compute, storage, and network resources with verification mechanisms for resource availability and performance metrics. |
 | 2. | Client Software Alpha | Develop a basic client allowing users to contribute resources to the network, with Docker-based isolation for compute tasks and encrypted storage functionality. |
 | 3. | Web Gateway MVP | Create the initial web interface for job submission, resource management, and basic analytics for both providers and consumers. |
@@ -166,13 +165,14 @@ We currently have:
 | 2 | Web Gateway MVP + Orchestration Logic + Tokenomics | $5,000 | 1.5 months |
 | **Total** | | **$10,000** | **3 months** |
 
+NOTE: The purpose of tokenomics (tokens) is to allow exchange of work (shared resources) for value. 
 ## 🔮 Future Plans
 
 **Short-term Development:**
 - Expand the types of workloads supported by the network
 - Implement advanced resource verification mechanisms
 - Develop specialized job templates for common use cases
-- Create a mobile client for resource monitoring
+- Create resource monitoring
 
 **Long-term Vision:**
 - Build OpenSky into a complete wholesome idea and web3 paradigm shift.
