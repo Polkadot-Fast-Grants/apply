@@ -32,13 +32,13 @@ OpenSky will finally allow ANY application to be secured by blockchain technolog
 ### 🔍 Project Details
 
 **Technology Stack:**
-- **Blockchain Layer:** Substrate framework for custom parachain development
-- **Smart Contracts:** ink! for resource verification and payment logic
-- **Client Software:** Rust-based desktop application for resource contribution
-- **Web Gateway:** React frontend with Polkadot.js integration
-- **Orchestration Layer:** Custom-built scheduler with libp2p integration
-- **Containerization:** Docker for secure compute isolation
-- **Cryptography:** zk-SNARKs for private computation verification
+- **Orchestration Layer:** Custom-built scheduler with libp2p integration.
+- **Containerization:** Docker for secure compute isolation.
+- **Web Gateway:** React frontend.
+- **Client Software:** Rust-based desktop application for resource allocation and job distribution.
+- **Cryptography:** encryption.
+- **Blockchain:** Encryption, Emulation and Integrity. Polkadot's blockchain becomes a key enabling technology.
+
 
 **Core Architecture Components:**
 
