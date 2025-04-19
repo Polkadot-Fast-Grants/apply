@@ -214,20 +214,19 @@ We currently have:
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | MIT |
-| 0b. | Documentation | We will provide both inline documentation of the code and a comprehensive technical whitepaper explaining the architecture and protocols of OpenSky, along with setup guides for both contributors and consumers. |
-| 0c. | Article | We will publish an article explaining the vision behind OpenSky, its integration with Polkadot, and the potential impact on decentralized cloud infrastructure. |
-| 1. | Substrate Module: Resource Registry | Implement a custom pallet that enables registration of compute, storage, and network resources with verification mechanisms for resource availability and performance metrics. |
-| 2. | Simple Client | Develop a basic client allowing users to contribute resources to the network, with Docker-based isolation for compute tasks and encrypted storage functionality. |
-| 3. | Command Line Interface | Create the initial interface for job submission, resource management, and basic analytics for both providers and consumers. |
-| 4. | Basic Orchestration Logic | Implement the core resource matching algorithm that pairs consumer requests with appropriate provider resources based on requirements and availability. |
-| 5. | Tokenomics Design | Design and implement the token system that incentivizes resource contribution and handles payment for resource consumption. |
+| 0b. | Extendedn documentation | We will provide both inline documentation of the code and a comprehensive technical whitepaper explaining the architecture and protocols of OpenSky, along with setup guides for both contributors and consumers. |
+| 0c. | Foundational Architecture | We will publish founding thoughs and achitectural principles.|
+| 1. | Versatile Client | Develop a basic client p2p client that allocates resources and computes jobs. The client will allow users to contribute resources to the network, with Docker-based isolation for compute tasks and encrypted storage functionality. |
+| 2. | OpenSky Interface | Create the initial interface for job submission, resource management, and token summary. |
+| 3. | Basic Orchestration Logic | Implement the core resource matching algorithm that pairs consumer requests with appropriate provider resources based on requirements and availability. |
+| 4. | Tokenomics Design | Design the token system that incentivizes resource contribution and handles payment for resource consumption. |
 
 ### 💰 Budget Breakdown
 
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
 | --- | --- | --- | --- |
-| 1 | Resource Registry + Client Software Alpha | $5,000 | 1.5 months |
-| 2 | Web Gateway MVP + Orchestration Logic + Tokenomics | $5,000 | 1.5 months |
+| 1 | Extendedn documentation + Client Software Alpha | $5,000 | 1.5 months |
+| 2 | OpenSky Interface MVP + Orchestration Logic + Tokenomics | $5,000 | 1.5 months |
 | **Total** | | **$10,000** | **3 months** |
 
 NOTE: The purpose of tokens is to mediate as a storeholder of value that can be exchanged against proof of work done by the network and shared/used resources. The goal is to provide a token with a predictable and stable value, exchangeable for currencies, but should not be a subject of speculation. For example: we could use dollar-pegged tokens like USDC, with support for other stablecoins or cryptocurrencies.
