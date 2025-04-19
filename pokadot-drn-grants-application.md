@@ -104,9 +104,9 @@ While several projects address decentralized storage (like Crust Network) or spe
 ## 👥 Team
 
 - **Team Name:** OpenSky
-- **Contact Name:** [Team Member 1]
-- **Contact Email:** [contact@drnlabs.xyz]
-- **Website:** [https://github.com/drnlabs]
+- **Contact Name:** Gustaf
+- **Contact Email:** [g.ydstrom@hotmail.com](g.ydstrom@hotmail.com)
+- **Website:** [OpenSky repo](https://github.com/Carl-Gustaf/opensky)
 
 ### Team members
 
@@ -133,7 +133,7 @@ Our team combines expertise in web development, distributed systems, and cloud i
 ## 📊 Development Status
 
 We currently have:
-- Architectural design documents for the OpenSky
+- Extensive architectural design documents for the OpenSky
 - Example portotype
 - Initial designs for the Web Gateway interface
 - Research on integration points with Polkadot's parachain technology
