@@ -4,74 +4,93 @@
 
 Please provide the following:
 
-- If the name of your project is not descriptive, a tagline (one sentence summary)
-- A brief description of your project
-- An indication of how your project relates to / integrates into Polkadot
-- An indication of why your team is interested in creating this project
-- (Optional but big bonus points): [1-min video pitch](https://www.ycombinator.com/video/)
+- tagline (one sentence summary) " Empowering every voice, delivering justice everywhere — bridging people and the law." 
+- It allows user to
+- Find a lawyer in the nearset area and relevent experitise
+- Customers can connect to a legal expert any hour of the day (24 hours)
+- It'll allows customer to get any legal paper work done from anywhere in the world through our website (Indian Juridiction)
+
+- We're highly mortivated in creating a platform for providing legal aid and awareness to people and becoming thee voice aginst any actrocities, with increasing crime and distress among the citizens this a highly needed service to the scoiety. This is our core idea to promote this venture so that we can bring a change and make this society better again.
 
 ### 🔍 Project Details
 
 We expect applicants to have a solid idea about the project's expected final state. Therefore, please submit (where relevant):
 
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- Any PoC/MVP or other relevant prior work or research on the topic
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and clarify any limitations
+- Technologies used:
+- Frontend: React, Tailwind CSS, Vite
+- Wallet: Polkadot API, Polkadot Js(Talisman Wallet SDK If needed) Integration with a Polkadot-specific Web3 modal
+-optional: Lit protocol for social login + wallet generation
+
+- Backend: Database: PostgreSQL
+- Express js
+- Prisma ORM
+- Backend transactions via Polkadot api
 
 ### 🧩 Ecosystem Fit
 
 Help us locate your project in the Polkadot landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
-- Who is your target audience?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Polkadot ecosystem?
-  - If so, how is your project different?
-  - If not, why might such a project not exist yet?
+- This venture is like "LAWCLERK", we're trying to create a one-stop solution to cater to all the legal needs of the common people and NRI who are far away or don't have access to the attorenys and don't have much knowledge about such situations as there is a much needed gap to be filled. People can come to this platform and get their work done in the minimum time with no possible.
+- It aims to provide hassle-free Legal Aid to people in need (residents as well as NRIs) and awareness about various government schemes and rules of the land in an easy and interactive manner
+- NO, as much as we have seen, we haven't found any similar programs. 
 
 > **Note**: We prioritize projects building on Plaza/Polkadot Hub, games, and DeFi applications, though all types of projects will be considered.
 
 ## 👥 Team
 
-- **Team Name:** Name of your team. If you apply as a legal entity, please use its name.
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email
-- **Website:** Your website, GitHub org, blog, or similar
+- **Team Name:** LegalBuddy
+- **Contact Name:** Selel Jain
+- **Contact Email:** selel.jain@gmail.com
+- 
 
 ### Team members
+- Team name "LegalBuddy"
+- Contact name: Selel Jain
+- Contact Email: selel.jain@gmail.com
 
-Please list the legal name of all grant beneficiaries. Solo developers (1-person teams) are eligible for funding.
+- Contact name: Pritindra Das
+- Contact Email: pritindra.d@gmail.com
+
+- Contact name: Avishek Mehrotra
+- Contact Email: avi.mehrotra1702@gmail.com
 
 #### LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/{person_1}
-- https://www.linkedin.com/{person_2}
-
-### Team Code Repos
-
-- https://github.com/{your_organisation}/{project_1}
-- https://github.com/{your_organisation}/{project_2}
-
-Please also provide the GitHub accounts of all team members:
-
-- https://github.com/{team_member_1}
-- https://github.com/{team_member_2}
+- https://www.linkedin.com/in/selel-jain/
+- https://www.linkedin.com/in/pritindra-das/
+- https://www.linkedin.com/in/avishek-mehrotra/
 
 ### Team's experience
+- Pritinder Das is M.Tech CSE student at IIT Kanpur. I bring a strong foundation in computer science with hands-on experience in research and development. My background includes working in research labs, where I built computer networks-focused applications, honing my skills in system design and optimization. Additionally, I have extensive experience in full-stack development, specializing in Python for backend services and JavaScript (Node.js for backend, React/Next.js for frontend) to build scalable and responsive web applications. I have successfully delivered multiple freelancing projects, developing end-to-end web solutions for clients.My expertise spans both theoretical research and practical software development.
+  
+- Avishek Mehrotra I'm a attorney working at apex court of India (Supreme court), I have vast network of attorneys and expertise in coprporate law, Banking, civil law. I have personally handeled many high end cases which has given him particular experience in the field.
 
-Please describe the team's relevant experience, including any previous blockchain projects or contributions to the ecosystem.
+- Selel Jain I have my expertise in networking and marketing with my current network in major instituions and government body will get this venture all the liscense and exposure needed for furture scaling up. 
 
 ## 📊 Development Status
 
-If you've already started implementing your project, please provide a link and a description of the code. Otherwise, please provide some documentation on the research and other work you have conducted before applying.
+- Not Started Yet.
 
 ## 📅 Development Roadmap
 
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, please describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality.
+- Phase 1 
+	- Design wireframes and user flows
+	- Setup database
+	- Implement authentication
+	- Add wallet connection and flow to frontend
+- Phase 2
+	- Add backend compatibility with Database
+	- Add wallet authentication as NextAuth provider
+	- Storing wallet sessions
+- Phase 3
+	- Add further features (like appointment booking)
+	- Setup payout model in database to log transactions
+	- Integrate frontend with backend
+- Phase 4
+	- Add admins, users and service providers roles and accesess
+	- Build admin panel
+	- Deploy basic MVP
 
 **Important notes:**
 - Each milestone is capped at **$5,000 USD**
@@ -81,46 +100,30 @@ This section should break the development roadmap down into milestones and deliv
 
 ### Overview
 
-- **Estimated Duration:** Duration of the whole project (maximum 3 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project
-- **Total Costs:** Requested amount in USD for the whole project (maximum $10,000 USD)
-
-> Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... |
-| 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Article | We will publish an **article** that explains what was done/achieved as part of the grant. |
-| 1. | Feature X | We will create a feature that will... (Please describe in detail) |
-| 2. | Feature Y | The Y feature will... (Please describe in detail) |
-| 3. | Feature Z | The Z feature will... (Please describe in detail) |
+- **Estimated Duration:** 3- 3.5 months
+- **Full-Time Equivalent (FTE):** 2 Person 
+- **Total Costs:** 18000$
 
 ### 💰 Budget Breakdown
 
 Please provide a breakdown of your budget by milestone:
 
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
-| --- | --- | --- | --- |
-| 1 | Features X, Y | $5,000 | 1.5 months |
-| 2 | Feature Z | $5,000 | 1.5 months |
-| **Total** | | **$10,000** | **3 months** |
+| 1 | UI/UX | $3,000 | 1 months |
+| 2 | Mobile Application, blockchain wallet for transaction | $15,000 | 2 months |
+| **Total** | | **$18,000** | **3 months** |
 
 ## 🔮 Future Plans
 
 Please include:
 
-- How you intend to continue development after the Fast-Grant
-- Any plans for seeking additional funding (other grants, VC funding, etc.)
-- Your vision for the project's growth and impact in the Polkadot ecosystem
+- We tend to get some professional UI/UX designer as well as two mobile application developers for developing the app that'll work on both Android and iOS for easier access
+- We're planning to raise around 100000$ through various grants like "Startup India", "startinUP", various national and International grants, and through Investors. This venture is an initial cash-intensive business as needs high-tech systems, Cloud computing, LLM models (LLM models will be built by us in later stages of commercialisation), and a marketing team.
 
 ## ℹ️ Additional Information
 
 Here you can add any additional information that you think is relevant to this application, such as:
 
-- Work you have already done
-- If there are any other teams who have already contributed to the project
-- Other funding you may have applied for
-
-Remember that the Fast-Grants Programme is designed as a first step for promising projects. We're looking for projects that can continue to grow beyond this initial funding.
+- The design for the website is in finalizing stage with backend starting soon.
+- We're trying to build the website and mobile application from scratch with original designs and a facile UI/UX for a friendly user interface. 
+- We are in the  initial stages of creating the ideation into reality, and haven't applied for the funding yet. 
