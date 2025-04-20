@@ -1,5 +1,4 @@
-# 📝 Name of your Project
-
+# 📝 LegalBuddy By Selel Jain
 ## 🌟 Project Overview
 
 Please provide the following:
