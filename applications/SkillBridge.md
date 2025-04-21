@@ -1,7 +1,7 @@
 
-Project Name: SkillsBridge
+# 📝  Project Name: SkillsBridge
 
-🌟 Project Overview
+## 🌟 Project Overview
 
 Please provide the following:
 
