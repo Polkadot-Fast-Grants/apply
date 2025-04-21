@@ -26,11 +26,10 @@ Harmonify is a Polkadot‑based, blockchain‑transparent, decentralised AI plat
 For too long, music‑streaming platforms have treated listener data as their asset, hiding recommendation logic behind black‑box algorithms and limiting how much users can shape their own discovery. Hours of listening habits, mood signals, and personal preferences are collected, yet fans can’t see how those insights drive their playlists—or export and tweak them outside a single silo. This opaque approach undermines user trust and favours mass‑market hits over emerging or niche artists, stifling creative diversity and leaving listeners frustrated by one‑size‑fits‑all feeds.
  
 
-### 🔍 Project Details
-
+# 🔍 Project Details
 
 **Development Status**  
-Development has not yet begun, as our lead is focused on dissertation writing and will defend in early May.  
+Development has not yet begun, as our lead is focused on dissertation writing and will complete this in May.  
 
 ## Technology Stack  
 - **Blockchain Layer:** Moonbeam (EVM‑compatible Polkadot parachain)  
