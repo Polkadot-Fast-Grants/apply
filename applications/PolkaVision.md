@@ -11,6 +11,15 @@ Please provide the following:
      A brief description of your project
 #### *PolkaVision* is a comprehensive visual AI development tool that enables users to design, build, and deploy decentralized applications on Polkadot through an intuitive drag-and-drop interface powered by artificial intelligence. It eliminates the steep learning curve typically associated with blockchain development by automatically generating Rust and ink! code from visual workflows and natural language instructions.
 
+**Pain Points**
+- Polkadot has a step learning curve for new developers
+- Shortage of experienced devs in Polkadot
+- Existing tools mayb not b user-friendly or accessibl for new developers
+
+**Why it matters:**
+- Slow down ecosystem growth
+- Limited innovation due to small developers pool
+
 ---
 
     An indication of how your project relates to / integrates into Polkadot
@@ -122,15 +131,13 @@ I used this to build EchoPay 2
 
 EchoPay 2 is an innovative payment platform concept enabling users to conduct secure, cross-chain transactions through voice commands. This repository contains the initial proof-of-concept implementation focusing on the frontend interface, wallet connection, and voice input simulation.
 
-Key takeaway would be connection wallet, and write smart contract on rust
+Key takeaway would be connection wallet, voice input simultation and write smart contract on rust, we use connect wallet to charge for AI credits.
 
-* **MVP**:
-* **PoC**:
 ---
       Mockups/designs of any UI components
 ## User Interface Features
 
-[![1](1)](1)
+[![User Interface](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-22%20003359.png)](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-22%20003359.png)
 
 ---
     Data models / API specifications of the core functionality
@@ -143,52 +150,52 @@ Key takeaway would be connection wallet, and write smart contract on rust
 What the Project Will Not Provide:
 
 Excluded Features & Limitations
-1. Low-Level Programming Support
+1. **Low-Level Programming Support**
 ❌ No assembly or manual Rust optimization
 FlowCode avoids exposing users to low-level Rust/ink! coding, memory management, or performance tweaking. It abstracts these details behind its visual interface and AI-generated code.
 
-2. Multi-Chain Compatibility
+2. **Multi-Chain Compatibility**
 ❌ No support for non-Polkadot ecosystems
 The tool is strictly focused on Polkadot/Substrate/Kusama. Cross-chain compatibility with Ethereum, Solana, or other ecosystems is outside its scope.
 
-3. Advanced Infrastructure Management
+3. **Advanced Infrastructure Management**
 ❌ No direct control over collators, validators, or RPC nodes
 FlowCode relies on integrations like the Polkadot Deployment Portal (PDP) for infrastructure orchestration. It does not manage relay chain validators or coretime allocation directly.
 
-4. Custom Runtime Development
+4. **Custom Runtime Development**
 ❌ No manual runtime pallet configuration
 Users cannot directly modify Substrate pallets or runtime logic. All runtime templates (e.g., OZ Generic/EVM) are pre-defined and managed via AI.
 
-5. On-Chain Governance Tools
+5. **On-Chain Governance Tools**
 ❌ No native governance dashboards
 While FlowCode generates governance-related modules (e.g., voting systems), it does not provide tools for managing on-chain treasury proposals or council elections.
 
-6. Financial Services
+6. **Financial Services**
 ❌ No built-in wallets or payment gateways
 FlowCode focuses on dApp development, not financial infrastructure. Users must integrate third-party wallets (e.g., Talisman, Polkadot.js).
 
-7. Manual Error Handling
+7. **Manual Error Handling**
 ❌ No fine-grained exception control
 The AI automatically handles common errors (e.g., transaction failures), avoiding low-level try/catch logic or manual rollback workflows.
 
-8. Legacy System Integration
+8. **Legacy System Integration**
 ❌ No support for non-containerized environments
 FlowCode mandates Docker-based workflows and pre-configured environments. It does not support legacy systems or custom non-containerized setups.
 
-9. Native Mobile Development
+9. **Native Mobile Development**
 ❌ No mobile SDKs or platform-specific tooling
 The platform generates web-first code (React/TypeScript) and does not target iOS/Android native apps.
 
-10. Proprietary AI Models for Code Audits
+10. **Proprietary AI Models for Code Audits**
 ❌ No manual AI model training
 Users cannot customize or retrain the underlying AI models (e.g., Llama3Instruct8B) used for code generation or security audits.
 
 Philosophical Exclusions
-No "code-first" workflows: FlowCode prioritizes visual design over traditional coding, even for advanced users.
+**No "code-first" workflows:** FlowCode prioritizes visual design over traditional coding, even for advanced users.
 
-No permissionless runtime modifications: All deployments adhere to pre-vetted Polkadot runtime standards to ensure security.
+**No permissionless runtime modifications:** All deployments adhere to pre-vetted Polkadot runtime standards to ensure security.
 
-No community-driven template submissions: Templates are curated internally to maintain quality and compatibility.
+**No community-driven template submissions:** Templates are curated internally to maintain quality and compatibility.
 
 ---
         This is a place for you to manage expectations and clarify any limitations
@@ -255,9 +262,6 @@ Polkadot Deployment Portal (PDP), which provides a streamlined, user-friendly ex
 | Polkadot.js & Substrate              | Core tools and frameworks that simplify interaction and development on Polkadot, including user-friendly interfaces and modular blockchain building blocks. | Tooling and development frameworks     |
 | Chainziz, Submap, DotAppstore, etc.  | Visualization, analytics, and app directories that make navigating and understanding the ecosystem easier for developers and users. | Ecosystem navigation and visualization |
 
-
-
-[1](1)
 ---
         If so, how is your project different?
 How Polkavision Is Different
@@ -481,7 +485,11 @@ I am seeking funding to support the following next steps in our project developm
 ---
     🔮 Future Plans
 
-
+- A team of specialized AI agents, each focusing on a key aspect of dApp development.
+- AI-generated, ready-to-use websites, complete with UI and backend to seamlessly interact with deployed dApps.
+- AI-generated, end-to-end project documentation, offering clear guidance for users.
+- A native blockchain explorer, enabling users to discover, explore, and interact with existing on-chain programs via CPI.
+- A comprehensive learning hub, featuring a rich repository of resources, tutorials, and hands-on projects, guided by a personal AI tutor agent to simplify Solana development.
 
         How you intend to continue development after the Fast-Grant
 1.   [Polkadot-grants-and-funding-guide](https://polkadot.com/blog/the-ultimate-2024-polkadot-grants-and-funding-guide/)
