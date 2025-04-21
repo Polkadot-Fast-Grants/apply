@@ -38,7 +38,6 @@ This toolchain was specifically designed to reduce average smart contract initia
 
 [![1](1)](1)
 
-#### We believe that empowering freelancers with instant, secure payments and trustless work agreements will help distribute economic opportunity more equitably across the world.
 ---
     (Optional but big bonus points): 1-min video pitch
 
@@ -103,11 +102,17 @@ While there isn't a direct precedent for a visual, AI-powered Polkadot developme
 
 The existing PoCs and MVPs in the ecosystem provide valuable insights for *PolkaVision's* development path—particularly regarding rapid prototyping capabilities, security considerations, and approaches to lowering the barrier to entry for blockchain development.
 
-
 [Project Aurras](https://grants.web3.foundation/applications/project_aurras_mvp_phase_1)
+
+
+Chainziz, Submap, DotAppstore, etc.	Visualization, analytics, and app directories that make navigating and understanding the ecosystem easier for developers and users.
+
+Polkadot.js & Substrate	Core tools and frameworks that simplify interaction and development on Polkadot, including user-friendly interfaces and modular blockchain building blocks.	Tooling and development frameworks
+
+I useed this to build EchoPay 2
       
 ### Drawing on what we learn from EchoPay 2
-[1](1)
+[EchoPay 2](https://github.com/YanniWu88/EchoPay-2/tree/master "EchoPay 2")
 
 EchoPay 2 is an innovative payment platform concept enabling users to conduct secure, cross-chain transactions through voice commands. This repository contains the initial proof-of-concept implementation focusing on the frontend interface, wallet connection, and voice input simulation.
 
@@ -118,7 +123,6 @@ Key takeaway would be connection wallet, and write smart contract on rust
 ---
       Mockups/designs of any UI components
 ## User Interface Features
-
 
 [![1](1)](1)
 
@@ -131,8 +135,7 @@ Key takeaway would be connection wallet, and write smart contract on rust
         What your project is not or will not provide or implement
 
 What the Project Will Not Provide:
-While not explicitly stated in the document, the initial version appears to rely on pre-defined program code components rather than unrestricted AI-generated code to ensure security and reliability
-The platform will not eliminate the need for all development knowledge, but rather lower the barrier to entry
+
 
 ---
         This is a place for you to manage expectations and clarify any limitations
@@ -178,16 +181,105 @@ Target Audience:
  --- 
     Are there any other projects similar to yours in the Polkadot ecosystem?
 
-*Polkavision* drastically lowers the barrier to entry for Polkadot development, making it possible to build on the platform without being a Rust expert.
 Similar Projects:
 
-Polkadot Deployment Portal (PDP) Initiative 
-Project Aurras 
+Polkadot Deployment Portal (PDP) stands out as a direct peer to Polkavision. It provides a user-friendly, 1-click solution for deploying rollups and managing blockchain infrastructure, explicitly aiming to make Polkadot accessible to those who are not Rust experts or deeply technical.
+
+BuildOnDot and DotforDummies focus on educational resources and idea curation, helping new developers find their footing and inspiration within the ecosystem.
+
+Core tools like Polkadot.js and Substrate are foundational, with extensive documentation and user interfaces that lower the technical barrier for blockchain development on Polkadot.
+
+Community projects such as Chainziz (visualization) and DotAppstore (app directory) further support developer onboarding and ecosystem navigation by making information and resources more accessible
+
+Polkadot Deployment Portal (PDP), which provides a streamlined, user-friendly experience for deploying and managing Polkadot-based chains
+
+*Polkavision* drastically lowers the barrier to entry for Polkadot development, making it possible to build on the platform without being a Rust expert.
+
+## Key Comparable Projects
+
+| Project Name                        | Description                                                                                                 | Focus Area                             |
+|--------------------------------------|-------------------------------------------------------------------------------------------------------------|----------------------------------------|
+| Polkadot Deployment Portal (PDP)     | A 1-click deployment solution for Polkadot rollups, offering an intuitive UI to configure, deploy, and manage chains. It aims to make building on Polkadot accessible, especially for those not deeply familiar with the underlying tech. | Simplified blockchain deployment       |
+| Project Aurras                      | Mentioned in your query as a similar project, though no additional details are found in the current search results. Presumably focused on developer accessibility. | Developer experience                   |
+| BuildOnDot                          | A curated list of project ideas and resources for newcomers and students to start building on Polkadot, helping them find useful projects and ideas without deep prior exposure. | Project discovery and onboarding       |
+| DotforDummies                       | A comprehensive reading list and resource hub designed to help new developers and users learn about Polkadot. | Educational resources                  |
+| Polkadot.js & Substrate              | Core tools and frameworks that simplify interaction and development on Polkadot, including user-friendly interfaces and modular blockchain building blocks. | Tooling and development frameworks     |
+| Chainziz, Submap, DotAppstore, etc.  | Visualization, analytics, and app directories that make navigating and understanding the ecosystem easier for developers and users. | Ecosystem navigation and visualization |
+
 
 
 [1](1)
 ---
         If so, how is your project different?
+How Polkavision Is Different
+1. No-Code/Low-Code Development
+Polkavision enables users to build and deploy on Polkadot without writing or understanding Rust (or even much code at all).
+
+   Others like PDP focus on simplifying deployment, but often still require some technical configuration or scripting knowledge.
+
+2. Unified Visual Interface
+Polkavision offers a visual, drag-and-drop interface for designing parachains, smart contracts, and dApps.
+
+    PDP and similar tools may provide step-by-step wizards or forms, but not a fully interactive visual builder.
+
+3. End-to-End Workflow Integration
+Polkavision covers the entire process: from design, deployment, monitoring, to upgrades—within a single platform.
+
+    Other tools often focus on one aspect (e.g., deployment or monitoring), requiring users to switch between multiple platforms.
+
+4. Accessibility for Non-Technical Users
+Polkavision is designed specifically for entrepreneurs, product managers, and non-developers, not just software engineers.
+
+    Most alternatives are still developer-centric, assuming some familiarity with blockchain concepts or coding.
+
+5. Plug-and-Play Modules
+    Polkavision provides a library of pre-built modules (governance, tokens, NFTs, etc.) that can be added with a click.
+
+Other platforms may require manual configuration or code customization for similar features.
+
+6. Real-Time Collaboration
+    Polkavision supports collaborative editing, so teams can work together in real time—similar to Google Docs, but for blockchain projects.
+
+Few, if any, competitors offer this level of real-time, multi-user collaboration.
+
+
+Polkavision is unique because it:
+
+- Dramatically lowers the technical barrier with a true no-code/low-code, visual approach.
+
+- Provides an all-in-one platform covering every stage of the Polkadot development lifecycle.
+
+- Is built for non-developers as well as developers, democratizing access to Polkadot’s technology.
+
+- If you’re looking for the easiest, most accessible way to build on Polkadot—Polkavision is designed for you.
+
+## Feature Comparison Table
+
+| **Feature**                        | **Polkavision**                                      | **Polkadot Deployment Portal (PDP)** | **Other Tools (e.g., Substrate, BuildOnDot)** |
+|-------------------------------------|------------------------------------------------------|--------------------------------------|-----------------------------------------------|
+| **No-Code/Low-Code Development**    | ✅ Full drag-and-drop, no coding required             | ❌ Requires some technical setup      | ❌ Coding knowledge required                  |
+| **Visual Interface**                | ✅ Interactive, modular visual builder                | ⚠️ Wizard-style forms, not fully visual | ❌ Command line or text-based                 |
+| **End-to-End Workflow**             | ✅ Design, deploy, monitor, upgrade—all in one        | ⚠️ Focus on deployment                | ❌ Separate tools for each stage              |
+| **Real-Time Collaboration**         | ✅ Multi-user, Google Docs-style editing              | ❌ Single-user                        | ❌ Single-user                                |
+| **Pre-Built Plug-and-Play Modules** | ✅ Extensive library (tokens, NFTs, governance, etc.) | ⚠️ Limited templates                  | ❌ Manual configuration                       |
+| **Non-Developer Friendly**          | ✅ Built for all backgrounds                          | ⚠️ Some technical knowledge needed    | ❌ Developer-centric                          |
+| **Educational Resources**           | ✅ Embedded onboarding and tooltips                   | ⚠️ Basic documentation                | ✅/⚠️ Varies by tool                          |
+| **Deployment to Polkadot**          | ✅ 1-click, seamless                                 | ✅ 1-click                            | ⚠️ Multi-step, manual                        |
+| **Monitoring & Upgrades**           | ✅ Integrated dashboard                               | ⚠️ Limited                            | ❌ External tools needed                      |
+| **Community & Support**             | ✅ Active support, user forums                        | ⚠️ Limited                            | ✅/⚠️ Varies by project                       |
+
+### Legend:
+- ✅ = Fully supported
+- ⚠️ = Partially supported or limited
+- ❌ = Not supported
+
+## Key Takeaways
+
+- **Polkavision** is the only platform offering a true no-code, visual, and collaborative experience for the entire Polkadot development lifecycle.
+- **PDP** simplifies deployment but still requires some technical knowledge and lacks a visual builder or collaboration features.
+- **Other tools** are powerful but developer-focused, with steep learning curves and fragmented workflows.
+
+    
  --- 
         If not, why might such a project not exist yet?
 ---
@@ -360,7 +452,7 @@ We intend to apply for larger grants from the Polkadot Treasury for specific fea
 Team Expansion Plans:
 Just found out about this grant on Saturday so I am in discussions with experienced developers— [Justin](https://github.com/ju3tin) may join the project, depending on their availability.
 
-Also made a met [Jasmine](https://github.com/JasmineSJYThompson/) last weeek, and would love to work with her 
+Also made a met [Jasmine](https://github.com/JasmineSJYThompson/) last week, and would love to work with her 
 
 Relevant Experience:
 
