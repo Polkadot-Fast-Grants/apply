@@ -183,10 +183,10 @@ Paxmata
 Alexander Burge
 
 ### Contact Email: 
-[Email redacted for privacy]
+alexander@paxmata.com
 
 ### Website: 
-https://github.com/Paxmata
+www.paxmata.com
 
 ### Team Members:
 Alexander Burge - Founder/CEO/Head Developer
@@ -195,25 +195,25 @@ Alexander Burge - Founder/CEO/Head Developer
 https://www.linkedin.com/in/alexander-burge-1702142b3
 
 ### Team Code Repos:
-https://github.com/Paxmata
+https://github.com/AdlusMjRb
 
 ### GitHub Accounts:
-https://github.com/AlexBurge
+https://github.com/Paxmata
 
 ### Team's Experience:
 Alexander Burge brings a unique combination of real estate experience and blockchain development skills to the project:
 - 6 years of real estate industry experience
 - 4 years of experience as a web3 full-stack developer
 - Exeter University alumnus with a background in technology and business
-- Winner at the 2024 EasyA hackathon for building on blockchain technology
-- Developed multiple smart contract systems focusing on real estate and construction applications
+- Winner at the 2024/2025 EasyA hackathon for building on blockchain technology
+- Developed multiple smart contract systems focusing on real estate and construction applications, p2p lending and project verification.
 
 ## 📊 Development Status
 
 Paxmata has already made significant progress in its development:
 
 1. **Core Smart Contracts:** The initial versions of the NFT, Office, and Escrow contracts have been created and
-tested in a development environment.
+tested in a development environment. P2P lending contracts have been desinged and deployed on the Polkadot assest hub.
 3. **Architecture Design:** The entire platform architecture, including the Factory pattern for contract deployment
 and security measures, has been designed and documented.
 5. **Technical Whitepaper:** A comprehensive technical whitepaper detailing the platform's architecture, security
@@ -227,7 +227,7 @@ completed, including detailed contract specifications.
 
 ### Overview
 
-- **Estimated Duration:** 3 months
+- **Estimated Duration:** 1.2 months
 - **Full-Time Equivalent (FTE):** 1
 - **Total Costs:** $10,000 USD
 
