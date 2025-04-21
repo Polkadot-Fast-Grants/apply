@@ -1,14 +1,30 @@
-# 📝 Name of your Project
+# 📝 Harmonify
 
 ## 🌟 Project Overview
 
-Please provide the following:
+### One-liner
+“Harmonify: Blockchain‑secured, AI‑powered soundtrack seamlessly curating the perfect playlist for every mood and moment with complete data transparency.”
 
-- If the name of your project is not descriptive, a tagline (one sentence summary)
-- A brief description of your project
-- An indication of how your project relates to / integrates into Polkadot
-- An indication of why your team is interested in creating this project
-- (Optional but big bonus points): [1-min video pitch](https://www.ycombinator.com/video/)
+### Brief description
+Harmonify is a Polkadot‑based, blockchain‑transparent, decentralised AI platform that gives you full rights over your personal data pods—seamlessly integrating with existing music services and educational resources to democratize access and ownership. By deploying AI models on‑chain and leveraging decentralised knowledge graphs, it crafts dynamic, fine‑grained playlists tailored to your mood, habits, and preferences, while ensuring explainability and cross‑platform interoperability. Even at just 1% of its potential, Harmonify sparks a transformative shift in global music ecosystems, igniting cultural diversity and creative freedom for listeners and artists alike.
+
+## Why We Chose Polkadot [TODO review this]
+
+- **Shared Security & Scalability**  
+  Leverages the Relay Chain’s pooled security while letting our parachain scale AI workloads independently.
+
+- **Substrate Customizability**  
+  Tailors runtime modules for decentralized AI agents, fine‑grained data‑pod permissions, and on‑chain explainability.
+
+- **Cross‑Chain Interoperability**  
+  Uses XCMP to natively integrate with other Web3 ecosystems (e.g., OriginTrail) without external bridges.
+
+- **Fork‑less Upgrades & Governance**  
+  Enables seamless protocol and model updates via on‑chain governance—no hard forks or downtime.
+
+### Motivations behind buildinig the project
+For too long, music‑streaming platforms have treated listener data as their own asset, hiding recommendation logic behind black‑box algorithms and limiting how much users can shape their own discovery. Hours of listening habits, mood signals, and personal preferences are collected, yet fans can’t see how those insights drive their playlists—or export and tweak them outside a single silo. This opaque approach undermines user trust and favours mass‑market hits over emerging or niche artists, stifling creative diversity and leaving listeners frustrated by one‑size‑fits‑all feeds.
+ 
 
 ### 🔍 Project Details
 
@@ -33,33 +49,26 @@ Help us locate your project in the Polkadot landscape and what problems it tries
   - If so, how is your project different?
   - If not, why might such a project not exist yet?
 
-> **Note**: We prioritize projects building on Plaza/Polkadot Hub, games, and DeFi applications, though all types of projects will be considered.
 
 ## 👥 Team
 
-- **Team Name:** Name of your team. If you apply as a legal entity, please use its name.
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email
-- **Website:** Your website, GitHub org, blog, or similar
-
+- **Team Name:** Harmonify
+- **Contact Name:** Ram Vinjamuri
+- **Contact Email:** av646@cam.ac.uk
+- **My Information:**:
+  Linkedin: https://www.linkedin.com/in/ram-vinjamuri/
+  Website: https://ramstar3000.github.io/Portfolio/
+  
 ### Team members
 
-Please list the legal name of all grant beneficiaries. Solo developers (1-person teams) are eligible for funding.
+At the moment, this is a solo venture, although I have other developers [from Cambridge] interested in collaborating if I need support during this project.
 
-#### LinkedIn Profiles (if available)
-
-- https://www.linkedin.com/{person_1}
-- https://www.linkedin.com/{person_2}
 
 ### Team Code Repos
 
 - https://github.com/{your_organisation}/{project_1}
 - https://github.com/{your_organisation}/{project_2}
 
-Please also provide the GitHub accounts of all team members:
-
-- https://github.com/{team_member_1}
-- https://github.com/{team_member_2}
 
 ### Team's experience
 
