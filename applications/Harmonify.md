@@ -121,38 +121,50 @@ This section breaks the development roadmap down into milestones and deliverable
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... |
-| 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Article | We will publish an **article** that explains what was done/achieved as part of the grant. |
-| 1. | Feature X | We will create a feature that will... (Please describe in detail) |
-| 2. | Feature Y | The Y feature will... (Please describe in detail) |
-| 3. | Feature Z | The Z feature will... (Please describe in detail) |
+| 0a. | License | We will release all code and docs under the **MIT License**.  |
+| 0b. | Documentation | Inline comments [e.g. Docstrings] on all contracts and modules, plus a **User Tutorial** covering setup, DataPod creation, playlist generation, and cross‑chain configuration. |
+| 0c. | Testing and Testing Guide | ≥90% unit‑test coverage for all logic; plus end‑to‑end integration test. In the guide, we will describe how to run these tests. |
+| 0d. | Article | Publish a **grant recap article** (on LinkedIn preferred) detailing architecture, challenges, and outcomes. |
+| 1.     | **AI Agents**             | **Specification:** Decentralised AI microservices that monitor user listening events, generate personalised track recommendations via on‑chain parameters  <br>**Verification:** Unit tests covering model invocation logic; simulate a listening session, ; front‑end displays the recommended tracks correctly. |
+| 2.     | **Data Pods**             | **Specification:** Encrypted user data stores (pods) managed by a registry contract, enabling creation, permission grants/revocations, and metadata queries.  <br>**Verification:** Test scripts to create pods, grant/revoke access, and list pods; on‑chain event logs reflect each change; UI flow allows users to manage pod permissions successfully.                   |
+| 3.     | **Knowledge Graph Integration**        | **Specification:** Adapter service to fetch and verify metadata from OriginTrail’s decentralised knowledge graphs via XCM.  <br>**Verification:** End‑to‑end test sending a metadata request over XCM to OriginTrail and receiving a valid, verifiable response stored on‑chain; UI correctly displays enriched track metadata.                                       |
+| 4.     | **Privacy‑Preserving Compute**         | **Specification:** Off‑chain compute adapter using Phala Network for confidential AI jobs on user data pods.  <br>**Verification:** Trigger a private inference job on Phala with sample input, confirm compute completes off‑chain, and verify the result is returned and recorded on‑chain; unit tests for adapter reliability.                                    |
+
 
 ### 💰 Budget Breakdown
 
 Please provide a breakdown of your budget by milestone:
 
-| Milestone | Deliverables | Cost (USD) | Estimated Completion |
-| --- | --- | --- | --- |
-| 1 | Features X, Y | $5,000 | 1.5 months |
-| 2 | Feature Z | $5,000 | 1.5 months |
-| **Total** | | **$10,000** | **3 months** |
+### 💰 Budget Breakdown
+
+| Milestone | Deliverables                                              | Cost (USD) | Estimated Completion |
+|-----------|-----------------------------------------------------------|------------|----------------------|
+| 1         | AI Agents                                                 | $3,000     | 1 month              |
+| 2         | Data Pods & XCM Relayer Module                            | $3,000     | 1 month              |
+| 3         | Knowledge Graph Integration & Privacy‑Preserving Compute  | $3,000     | 1 month              |
+| **Total** |                                                           | **$9,000** | **3 months**         |
+
 
 ## 🔮 Future Plans
 
-Please include:
+- **Post‑Grant Development**  
+  After the Fast‑Grant period, we will:  
+  - Expand the dApp to include native mobile clients and enhanced UI/UX flows.  
+  - Implement on‑chain governance modules and tokenomics to align incentives for curators, listeners, and node operators.  
+  - Roll out advanced analytics dashboards and community‑driven model fine‑tuning tools.  
 
-- How you intend to continue development after the Fast-Grant
-- Any plans for seeking additional funding (other grants, VC funding, etc.)
-- Your vision for the project's growth and impact in the Polkadot ecosystem
+- **Additional Funding Strategy**  
+  - Apply for further Polkadot ecosystem grants (e.g., Decentralized Futures, Web3 Foundation) to fund development.  
+  - Pursue strategic angel/seed VC rounds to scale team and infrastructure for user acquisition.  
+
+- **Long‑Term Vision & Impact**  
+- Position Harmonify as the go‑to decentralized media hub on Polkadot, interconnecting music, and knowledge graphs across parachains.  
+- Grow a vibrant, community‑governed ecosystem where users own and monetise their data pods, AI agents become modular services, and new dApps plug in via XCM.  
+- Drive cultural innovation by enabling emerging artists and educators to reach global audiences through transparent, permissionless discovery and curation.  
+
 
 ## ℹ️ Additional Information
 
-Here you can add any additional information that you think is relevant to this application, such as:
-
-- Work you have already done
-- If there are any other teams who have already contributed to the project
-- Other funding you may have applied for
-
-Remember that the Fast-Grants Programme is designed as a first step for promising projects. We're looking for projects that can continue to grow beyond this initial funding.
+- **Long‑Term Growth**  
+- Fast‑Grant will deliver core modules and public demos, attracting contributors and paving the way for larger follow‑on grants.  
+- Aims to become a composable media hub on Polkadot, fostering ecosystem partnerships and user‑driven innovation.  
