@@ -199,10 +199,14 @@ SkillBridge fits into the Polkadot ecosystem as a specialized DeFi application f
 ---
 
       Help us locate your project in the Polkadot landscape and what problems it tries to solve by answering each of these questions:
-aaaa
----
       Where and how does your project fit into the ecosystem?
-aaaaa
+SkillBridge fits into the Polkadot ecosystem as a specialized DeFi application focused on the freelance economy. It leverages Polkadot's core strengths in these ways:
+1. focused on the freelance economy. It leverages Polkadot's core strengths in these ways:
+Cross-Chain Interoperability: Utilizes XCMP to enable payments across different parachains and blockchains, allowing freelancers and clients to use their preferred currencies.
+2. Shared Security: Benefits from Polkadot's shared security model, ensuring that the platform maintains high security standards without the cost of establishing its own validator network.
+3. Scalability: Leverages Substrate's scalability to handle a growing user base and increasing transaction volumes.
+4. Governance: Implements Polkadot's on-chain governance for platform improvements and dispute resolution mechanisms.
+
 ---
       Who is your target audience?
 - Freelancers (developers, designers, writers, etc.) seeking global opportunities, instant, secure payments and fair treatment, particularly those in emerging economies.Benefit from faster payments, reduced fees, and secure project agreements.
@@ -453,9 +457,8 @@ We have also been active participants in the Polkadot ecosystem for over a year.
 
     Other funding you may have applied for
 
-on Thursday 17 April 2025 I did submit Idea to Student Blockchain Event
-[Student Blockchain Event](https://moledao.io/#/event/8ac9b6be-343c-4f0a-bcb3-27068ab2e8f7)
-here the document [SKillBridge: Empowering Freelancers Through Decentralized Innovation](https://docs.google.com/document/d/1g6tVjUvINIDS3MUAqD0bIxgS1lInLzHLMLFrS-0P2ns/edit?tab=t.0)
+
+On Thursday, 17 April 2025, I submitted my project [SKillBridge: Empowering Freelancers Through Decentralized Innovation](https://docs.google.com/document/d/1g6tVjUvINIDS3MUAqD0bIxgS1lInLzHLMLFrS-0P2ns/edit?tab=t.0) to the [Student Blockchain Event](https://moledao.io/#/event/8ac9b6be-343c-4f0a-bcb3-27068ab2e8f7). This submission is currently under review.
 
 
 
