@@ -4,11 +4,11 @@
 
 **Tagline:** Securing cultural heritage and resolving land disputes through Polkadot's interoperable blockchain infrastructure.
 
-Our project builds a comprehensive blockchain framework for cultural heritage preservation and land dispute resolution using Polkadot's parachain architecture. It addresses two critical global challenges: the digital preservation of cultural artifacts and the resolution of land ownership disputes through immutable, transparent record-keeping.
+My project builds a comprehensive blockchain framework for cultural heritage preservation and land dispute resolution using Polkadot's parachain architecture. It addresses two critical global challenges: the digital preservation of cultural artifacts and the resolution of land ownership disputes through immutable, transparent record-keeping.
 
 The system leverages Polkadot's heterogeneous multi-chain capabilities to create specialized parachains for heritage records, land registry, governance, and data storage. These chains communicate through Polkadot's cross-chain messaging protocol (XCMP), enabling seamless data sharing while maintaining specialized functionality for each domain.
 
-Our team is passionate about applying blockchain technology to solve real-world problems with significant social impact. Cultural heritage preservation and land rights are fundamental issues affecting millions globally, particularly in developing regions where documentation systems are inadequate. By building on Polkadot, we can create a scalable, interoperable solution that connects with existing systems while providing unprecedented transparency and security.
+I am passionate about applying blockchain technology to solve real-world problems with significant social impact. Cultural heritage preservation and land rights are fundamental issues affecting millions globally, particularly in developing regions where documentation systems are inadequate. By building on Polkadot, we can create a scalable, interoperable solution that connects with existing systems while providing unprecedented transparency and security.
 
 [1-min video pitch](https://drive.google.com/file/d/1hXJYVRLMfM_-o4o0NTVlXII4MDvOXKN7/view?usp=drive_link)
 
