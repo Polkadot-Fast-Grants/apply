@@ -87,7 +87,8 @@ At the moment, this is a solo venture, although I have other developers [from Ca
 
 - https://github.com/ramstar3000/EnviroChain = Decentralised platform for smart environmental monitoring
 - https://github.com/LeoS0112/SherlockGame = Sherlock Holmes inspired puzzle game, development into adding on-chain components is being completed
-
+- https://github.com/ramstar3000/SkinDetection = CNN understanding project
+- https://github.com/ramstar3000/Diss/tree/dev = Natural language parsing on Sanskrit (Request access as this is a private repository)
 
 ### Team's experience
 
