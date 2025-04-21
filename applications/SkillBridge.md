@@ -9,25 +9,25 @@ Please provide the following:
 *Tagline:* Empowering freelancers through decentralized blockchain innovation on Polkadot
 ---
      A brief description of your project
-### *SkillBridge* is a decentralized freelance marketplace that leverages Polkadot’s blockchain infrastructure to address critical challenges in the global freelance economy. The platform targets three key issues: lack of trust between parties, payment delays and high fees, and access barriers faced by the underbanked.
+#### *SkillBridge* is a decentralized freelance marketplace that leverages Polkadot’s blockchain infrastructure to address critical challenges in the global freelance economy. The platform targets three key issues: lack of trust between parties, payment delays and high fees, and access barriers faced by the underbanked.
 
-### By utilizing smart contracts for secure escrow, enabling instant cross-chain payments, and incorporating decentralized dispute resolution, SkillBridge creates a trustless environment that benefits freelancers and clients worldwide.
+#### By utilizing smart contracts for secure escrow, enabling instant cross-chain payments, and incorporating decentralized dispute resolution, SkillBridge creates a trustless environment that benefits freelancers and clients worldwide.
 
 <<1>>
 ---
 
     An indication of how your project relates to / integrates into Polkadot
-### 🔗 *SkillBridge* will be built as a parachain on Polkadot, leveraging cross-chain interoperability to enable seamless payments across multiple blockchains and currencies. The project will utilize the Substrate framework and ink! smart contracts to implement secure escrow services, milestone-based payments, and automated dispute resolution.
+#### 🔗 *SkillBridge* will be built as a parachain on Polkadot, leveraging cross-chain interoperability to enable seamless payments across multiple blockchains and currencies. The project will utilize the Substrate framework and ink! smart contracts to implement secure escrow services, milestone-based payments, and automated dispute resolution.
 
-### By taking advantage of Polkadot’s shared security model and cross-chain messaging (XCMP), SkillBridge can deliver secure, low-cost transactions while maintaining interoperability with a broad range of blockchain ecosystems.
+#### By taking advantage of Polkadot’s shared security model and cross-chain messaging (XCMP), SkillBridge can deliver secure, low-cost transactions while maintaining interoperability with a broad range of blockchain ecosystems.
 ---
 
     An indication of why your team is interested in creating this project
-## 💡 I am motivated to create this project because the $1.5 trillion global freelance economy—comprising 1.5 billion participants worldwide—continues to face fundamental challenges that blockchain technology is uniquely equipped to solve. Polkadot’s interoperable architecture offers an ideal foundation for building a truly global and accessible freelance marketplace, capable of connecting to multiple blockchain ecosystems and supporting fiat on/off ramps.
+#### 💡 I am motivated to create this project because the $1.5 trillion global freelance economy—comprising 1.5 billion participants worldwide—continues to face fundamental challenges that blockchain technology is uniquely equipped to solve. Polkadot’s interoperable architecture offers an ideal foundation for building a truly global and accessible freelance marketplace, capable of connecting to multiple blockchain ecosystems and supporting fiat on/off ramps.
 
 <<2>
 
-## We believe that empowering freelancers with instant, secure payments and trustless work agreements will help distribute economic opportunity more equitably across the world.
+### We believe that empowering freelancers with instant, secure payments and trustless work agreements will help distribute economic opportunity more equitably across the world.
 ---
     (Optional but big bonus points): 1-min video pitch
 <<2>>
@@ -136,16 +136,16 @@ The platform will feature a clean, intuitive interface with the following key sc
 
 
 ### 2. Project Model:
--📋 Project details and requirements
--💰 Budget and timeline information
--🎯 Milestone definitions
--📈 Status tracking
+- 📋 Project details and requirements
+- 💰 Budget and timeline information
+- 🎯 Milestone definitions
+- 📈 Status tracking
 
 ### 3. Contract Model:
--📄🤝 Agreement terms
--💸🗓️ Payment schedule
--📦✅ Deliverable specifications
--⚖️🗣️ Dispute resolution terms
+- 📄🤝 Agreement terms
+- 💸🗓️ Payment schedule
+- 📦✅ Deliverable specifications
+- ⚖️🗣️ Dispute resolution terms
 
  ### 4. Payment API:
  - Integration with Polkadot parachains for cross-chain transactions
@@ -248,16 +248,15 @@ aaaaa
  - Team Name: SkillBridge   
  - Contact Name:  Yanni Freya Wu
  - Contact Email: wuyanni777@gmail.com
- - Website: [SkillBridge](https://skillbridge1.netlify.app/"SkillBridge")
+ - Website: [SkillBridge](https://skillbridge1.netlify.app/)
   
 Team members
 * Yanni Freya Wu
-* [Yanni Wu Linkedin](https://www.linkedin.com/in/yanni-wu-a64850352")
+* [[Yanni Wu Linkedin](https://www.linkedin.com/in/yanni-wu-a64850352)])
 
       Please list the legal name of all grant beneficiaries. Solo developers (1-person teams) are eligible for funding. LinkedIn Profiles (if available)
 
-[Yanni Wu Linkedin](https://www.linkedin.com/in/yanni-wu-a64850352 "Yanni_Wu_Linkedin")
-
+[https://www.linkedin.com/in/yanni-wu-a64850352/](https://www.linkedin.com/in/yanni-wu-a64850352/)
 ---
     Team Code Repos
 
