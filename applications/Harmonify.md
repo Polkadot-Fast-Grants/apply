@@ -83,7 +83,6 @@ To my knowledge, there are no d-apps in the Polka ecosystem focusing on AI‑dri
 ### Team members
 At the moment, this is a solo venture, although I have other developers [from Cambridge] interested in collaborating if I need support during this project.
 
-
 ### Team Code Repos
 
 - https://github.com/ramstar3000/EnviroChain = Decentralised platform for smart environmental monitoring
@@ -92,8 +91,10 @@ At the moment, this is a solo venture, although I have other developers [from Ca
 
 ### Team's experience
 
-I’m relatively new to the Polkadot ecosystem, having learned and built projects through EasyA hackathons. In my first solo event, I placed in the top 10, proof that I can tackle this ambitious project independently, drawing on experience from various codebases and leveraging EasyA’s guidance for any on‑chain challenges.
+I’m relatively new to the Polkadot ecosystem, having learned and built projects through EasyA hackathons. In my first solo event, I placed in the top 10, proof that I can tackle this ambitious project independently, drawing on experience from various codebases and leveraging EasyA’s guidance for any on‑chain challenges.  Additionally, I have lots of experience coding in non-blockchain, ML environments, currently working on a project within Natural Language understanding of Sanskrit. (Currently a private repository but code can be shared upon request)
 
+For initial Polka specific help Anujayan Sugirtharan [https://www.linkedin.com/in/anujayan/] has agreed to help develop code as a temporary team member. He has built various on-chain defi application on both moonbeam and XRP Ledger, with his most notable project being a decentralised betting platform called XRPlay which he begun building in an EasyA Amsterdam hackathon!
+ 
 ## 📊 Development Status
 
 Unfortunately development has not begun yet, at the moment I am iterating through different ways to implement this project, while completing my thesis for university, then I will focus on building this project.
@@ -122,7 +123,7 @@ This section breaks the development roadmap down into milestones and deliverable
 | 0b. | Documentation | Inline comments [e.g. Docstrings] on all contracts and modules, plus a **User Tutorial** covering setup, DataPod creation, playlist generation, and cross‑chain configuration. |
 | 0c. | Testing and Testing Guide | ≥90% unit‑test coverage for all logic; plus end‑to‑end integration test. In the guide, we will describe how to run these tests. |
 | 0d. | Article | Publish a **grant recap article** (on LinkedIn preferred) detailing architecture, challenges, and outcomes. |
-| 1.     | **AI Agents**             | **Specification:** Decentralised AI microservices that monitor user listening events, generate personalised track recommendations via on‑chain parameters  <br>**Verification:** Unit tests covering model invocation logic; simulate a listening session, ; front‑end displays the recommended tracks correctly. |
+| 1.     | **AI Agents**             | **Specification:** Decentralised AI microservices that monitor user listening events, generate personalised track recommendations via on‑chain parameters  <br>**Verification:** Unit tests covering model invocation logic; simulate a listening session, front‑end displays the recommended tracks correctly. |
 | 2.     | **Data Pods**             | **Specification:** Encrypted user data stores (pods) managed by a registry contract, enabling creation, permission grants/revocations, and metadata queries.  <br>**Verification:** Test scripts to create pods, grant/revoke access, and list pods; on‑chain event logs reflect each change; UI flow allows users to manage pod permissions successfully.                   |
 | 3.     | **Knowledge Graph Integration**        | **Specification:** Adapter service to fetch and verify metadata from OriginTrail’s decentralised knowledge graphs via XCM.  <br>**Verification:** End‑to‑end test sending a metadata request over XCM to OriginTrail and receiving a valid, verifiable response stored on‑chain; UI correctly displays enriched track metadata.                                       |
 | 4.     | **Privacy‑Preserving Compute**         | **Specification:** Off‑chain compute adapter using Phala Network for confidential AI jobs on user data pods.  <br>**Verification:** Trigger a private inference job on Phala with sample input, confirm compute completes off‑chain, and verify the result is returned and recorded on‑chain; unit tests for adapter reliability.                                    |
@@ -136,10 +137,10 @@ Please provide a breakdown of your budget by milestone:
 
 | Milestone | Deliverables                                              | Cost (USD) | Estimated Completion |
 |-----------|-----------------------------------------------------------|------------|----------------------|
-| 1         | AI Agents                                                 | $3,000     | 1 month              |
-| 2         | Data Pods & XCM Relayer Module                            | $3,000     | 1 month              |
+| 1         | AI Agents                                                 | $4,000     | 1 month              |
+| 2         | Data Pods                                                 | $3,000     | 1 month              |
 | 3         | Knowledge Graph Integration & Privacy‑Preserving Compute  | $3,000     | 1 month              |
-| **Total** |                                                           | **$9,000** | **3 months**         |
+| **Total** |                                                           | **$10,000** | **3 months**         |
 
 
 ## 🔮 Future Plans
@@ -164,4 +165,6 @@ Please provide a breakdown of your budget by milestone:
 
 - **Long‑Term Growth**  
 - Fast‑Grant will deliver core modules and public demos, attracting contributors and paving the way for larger follow‑on grants.  
-- Aims to become a composable media hub on Polkadot, fostering ecosystem partnerships and user‑driven innovation.  
+- Aims to become a composable media hub on Polkadot, fostering ecosystem partnerships and user‑driven innovation.
+
+I am attending Y Combinator’s AI Start up school (AI‑SUS), I submitted Harmonify as part of my application for this—underscoring its promise and potential, and will participate in the two‑day program designed to inspire and support AI startups.
