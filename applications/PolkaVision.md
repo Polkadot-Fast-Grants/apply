@@ -142,6 +142,11 @@ Key takeaway would be connection wallet, voice input simultation and write smart
 ---
     Data models / API specifications of the core functionality
 
+Sign up to Polkdot Deployment Portal for early tester
+[early tester of the Polkadot Deployment Portal](https://polkadot.polkassembly.io/forum/t/polkadot-deployment-portal-the-1-click-solution-for-polkadot/12176)
+
+Then connect this to Drag-and-drop interface, template, need more research 
+
 ### 1. User Model:
 
 ---
@@ -472,14 +477,16 @@ I am seeking funding to support the following next steps in our project developm
 
 | Milestone | Deliverables                                                                                                 | Cost (USD) | Estimated Completion |
 |-----------|-------------------------------------------------------------------------------------------------------------------------|------------|---------------------|
-| 1         | Core team assembled: at least 2 co-founders onboarded, roles & responsibilities defined                                 | $2,000     | 1.5 weeks           |
-| 2         | "Golden Path" user journey mapped: complete, reviewed flowcharts for freelancer & client from registration to completion| $500       | 1 week              |
-| 3         | User Story Map and initial UI wireframes created and reviewed                                                           | $500       | 1 week              |
-| 4         | POC, MVP, and MMP definitions documented and approved by stakeholders                                                   | $1,000     | 1 week              |
-| 5         | Full technical specification with C4 diagrams (Context, Containers, Components, Code)                                   | $1,000     | 2 weeks             |
-| 6         |                     | $1,000     | 2 weeks             |
-| 7         |                                                   | $2,000     | 2 weeks             |
-| 8         |                                 | $1,000     | 2 weeks             |
+| 1         | Core team assembled: at least 2 co-founders onboarded, roles & responsibilities defined | $2,000     | 1.5 weeks           |
+| 2         | Test and understand how the Polkadot Deployment Portal (PDP) works  | $500       | 1 week              |
+| 3         | Identify and select a suitable drag-and-drop interface template     | $500       | 1 week              |
+| 4         | "Golden Path" user journey mapped: complete, reviewed flowcharts    | $500       | 1 week              |
+| 5         | User Story Map and initial UI wireframes created and reviewed       | $1000       | 1 week              |
+| 6         | POC, MVP, and MMP definitions documented and approved by stakeholders | $1,000     | 1 week              |
+| 7         | Full technical specification with C4 diagrams (Context, Containers, Components, Code)| $1,000     | 1 weeks|
+| 8         | Initial prototype of visual interface with PDP                        | $1,000     | 2 weeks             |
+| 9         | Integration with Polkadot Deployment Portal and basic user testing    | $2,000     | 2 weeks             |
+| 10        | Final MVP demo and stakeholder review; feedback collected for MMP planning| $500     | 2 weeks           |
 | **Total** |                                                                                                                         | **$10,000**| **3 months**        |
 
 ---
