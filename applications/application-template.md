@@ -1,4 +1,4 @@
-# 📝 Skillbridge
+# 📝 Project Name
 
 ## 🌟 Project Overview
 
