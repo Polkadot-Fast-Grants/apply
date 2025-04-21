@@ -125,10 +125,8 @@ struct Loan {
 
 ### What the Project Will Not Provide
 
-- **General Project Management:** Paxmata is focused specifically on real estate and construction projects, not
-general project management
 - **Direct Cryptocurrency Exchange:** The platform will not function as a cryptocurrency exchange
-- **Property Listing Service:** Paxmata is not a real estate listing platform for buying or selling properties
+- **Property Listing Service:** Paxmata is not a real estate listing platform for buying or selling properties, but this might be included in the future. firs twill are focusing on improving a small but specialised part of project management
 - **Corporate-Level Enterprise Solutions:** While Paxmata provides robust project management, it's designed for
 non-commercial users rather than enterprise-level organisations
 - **Full Legal Documentation Generation:** The platform will assist with project documentation but is not a legal
