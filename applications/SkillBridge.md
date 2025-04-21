@@ -337,38 +337,33 @@ I am seeking funding to support the following next steps in our project developm
 ---
 
     📅 Development Roadmap
+    This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, please describe the functionality we should expect in as much detail as possible, plus how we can verify and test that functionality.
+    
+    Important notes:
+    
+    Each milestone is capped at $5,000 USD
+    Milestones must be delivered within 3 months of approval
+    The maximum grant amount is $10,000 USD per application (up to $15,000 USD per project in exceptional cases)
+    You will only receive payment after successful milestone delivery
 
 ## Project Overview
 
-## Project Overview
+    Estimated Duration: Duration of the whole project (maximum 3 months)
+    Full-Time Equivalent (FTE): Average number of full-time employees working on the project
+    Total Costs: Requested amount in USD for the whole project (maximum $10,000 USD)
+    Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
 
-Number 	Deliverable 	Specification
-0a. 	License 	Apache 2.0 / GPLv3 / MIT / Unlicense
-0b. 	Documentation 	We will provide both inline documentation of the code and a basic tutorial that explains how a user can...
-0c. 	Testing and Testing Guide 	Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.
-0d. 	Article 	We will publish an article that explains what was done/achieved as part of the grant.
-1. 	Feature X 	We will create a feature that will... (Please describe in detail)
-2. 	Feature Y 	The Y feature will... (Please describe in detail)
-3. 	Feature Z 	The Z feature will... (Please describe in detail)
-💰 Budget Breakdown
-
-        Please provide a breakdown of your budget by milestone:
-        Milestone 	Deliverables 	Cost (USD) 	Estimated Completion
-        1 	Features X, Y 	$5,000 	1.5 months
-        2 	Feature Z 	$5,000 	1.5 months
-        Total 		$10,000 	3 months
-
-## Milestone 1: Core Platform & Smart Contract Development
-
-| Section                       | Description / Focus                                                                                          | Key Features / Coverage                                                                                              |
-|-------------------------------|-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| **0b. Documentation**         | Inline code docs & user tutorial                                                                            | - Comprehensive comments for smart contracts<br>- Step-by-step guide: job posting, bidding, escrow, cross-chain pay  |
-| **0c. Testing & Security**    | Unit test coverage & testing guide                                                                          | - Instructions for running tests<br>- Validate escrow lock/release<br>- Payment settlement finality                  |
-| **0d. Ecosystem Article**     | Content focus for public article                                                                            | - Polkadot XCM integration<br>- Decentralized escrow benefits<br>- Substrate’s advantages for marketplaces           |
-| **1. Smart Contract Escrow**  | ink! implementation                                                                                         | - Multi-sig escrow wallet<br>- Milestone-based payments<br>- Dispute resolution oracle integration                   |
-| **2. User Management System** | On-chain identity & credentialing                                                                           | - Polkadot.js extension integration<br>- Skill credentials via IPFS hashes                                           |
-| **3. Job Marketplace UI**     | Core marketplace interface features                                                                         | - Search/filter projects<br>- Proposal submission with bid tiers<br>- Ratings preview for clients/freelancers        |
-| **4. Payment Release Mech.**  | Testnet implementation of payment logic                                                                     | - Automated fund release on milestone approval<br>- Cross-chain settlement simulation (DOT <> KSM)          
+| Number | Deliverable                   | Specification                                                                                          | Cost (USD) | Estimated Completion |
+|--------|-------------------------------|--------------------------------------------------------------------------------------------------------|------------|---------------------|
+| 0a     | License                       | Project code will be released under the MIT license.                                                   |            |                     |
+| 0b     | Documentation                 | Inline documentation for all smart contracts and core functions.<br>User tutorial covering:<br>- Job posting and bidding<br>- Escrow fund management<br>- Cross-chain payment flows |            |                     |
+| 0c     | Testing and Testing Guide     | Comprehensive unit tests for all core functions.<br>Testing guide with instructions for:<br>- Running the test suite<br>- Validating escrow lock/release<br>- Verifying payment settlement finality |            |                     |
+| 0d     | Article                       | Publish an article detailing:<br>- Polkadot XCM integration for cross-chain payments<br>- Benefits of decentralized escrow for freelancers<br>- Substrate's technical advantages for marketplaces |            |                     |
+| 1      | Assembled a team      | Defined responsibilities defined                                                                                                             | $2,000     | 1.5 weeks             |
+| 2      | Design   | Golden Path, User Story, wireframe, c4 diagrams, MMP signed off                                                                                           | $3,000     | 5 weeks             |
+| 3     | Smart Contract Escrow         | Develop and deploy an ink! smart contract escrow system with:<br>- wallet logic<br>- Milestone-based payment triggers<br> on testnet-  | $2,000     | 2 weeks             |
+| 4      | User registration and project posting    | Demo video/screenshots, test cases passed                                                                                   | $2,000     | 2 weeks             |
+| 5      | Payment system and platform integration:    | Demo completed, integration guide in repo                                                                                | $1,000     | 2 weeks             |
 
 ---
     This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, please describe the functionality we should expect in as much detail as possible, plus how we can verify and test that functionality.
@@ -388,16 +383,16 @@ Number 	Deliverable 	Specification
 
 
 | Milestone | Deliverables                                                                                                 | Cost (USD) | Estimated Completion |
-|-----------|-------------------------------------------------------------------------------------------------------------|------------|---------------------|
-| 1         | Build a team looking for co-founders                                                                         | $2,000     | 1.5 weeks           |
-| 2         | Define The Golden Path, user journey for the freelancer and Client. User flow mapping. <br>Complete user journey—from registration through to project completion. | $500       | 1 week              |
-| 3         | Create the User Story Map: user interface designs                                                            | $500       | 1 week              |
-| 4         | Define the POC, MVP & MMP                                                                                    | $1,000     | 1 week              |
-| 5         | Create a detailed specification like C4 Diagrams (Context, Containers, Components and code Diagram)          | $1,000     | 2 weeks             |
-| 6         | Create Simple Smart Contract Escrow                                                                          | $2,000     | 2 weeks             |
-| 7         | User Registration, Project Posting                                                                           | $2,000     | 2 weeks             |
-| 8         | Payment System, Platform Integration                                                                         | $1,000     | 2 weeks             |
-| **Total** |                                                                                                              | **$10,000**| **3 months**        |
+|-----------|-------------------------------------------------------------------------------------------------------------------------|------------|---------------------|
+| 1         | Core team assembled: at least 2 co-founders onboarded, roles & responsibilities defined                                 | $2,000     | 1.5 weeks           |
+| 2         | "Golden Path" user journey mapped: complete, reviewed flowcharts for freelancer & client from registration to completion| $500       | 1 week              |
+| 3         | User Story Map and initial UI wireframes created and reviewed                                                           | $500       | 1 week              |
+| 4         | POC, MVP, and MMP definitions documented and approved by stakeholders                                                   | $1,000     | 1 week              |
+| 5         | Full technical specification with C4 diagrams (Context, Containers, Components, Code)                                   | $1,000     | 2 weeks             |
+| 6         | Smart contract escrow prototype (ink!) deployed to testnet, with basic milestone-based payment logic                    | $1,000     | 2 weeks             |
+| 7         | User registration and project posting modules implemented and tested                                                    | $2,000     | 2 weeks             |
+| 8         | Payment system and platform integration: cross-chain payment flow demo, integration docs                                | $1,000     | 2 weeks             |
+| **Total** |                                                                                                                         | **$10,000**| **3 months**        |
 
 ---
     🔮 Future Plans
@@ -447,7 +442,6 @@ Several members of our team, including myself, have personal experience working 
 We have also been active participants in the Polkadot ecosystem for over a year. Notably, we received a guarantee fund for our project EchoPay 2 at the EasyA London Hackathon 2024. In addition, we have attended numerous workshops, webinars, and community events to deepen our knowledge and strengthen our connections within the ecosystem.
 
     Other funding you may have applied for
-
 
 On Thursday, 17 April 2025, I submitted my project [SKillBridge: Empowering Freelancers Through Decentralized Innovation](https://docs.google.com/document/d/1g6tVjUvINIDS3MUAqD0bIxgS1lInLzHLMLFrS-0P2ns/edit?tab=t.0) to the [Student Blockchain Event](https://moledao.io/#/event/8ac9b6be-343c-4f0a-bcb3-27068ab2e8f7). This submission is currently under review.
 
