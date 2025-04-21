@@ -18,8 +18,8 @@ By building on Polkadot, we create a transparent, fair marketplace where labeler
 ## 🔍 Project Details
 
 ### Technology Stack
-- **Frontend**: React Native mobile application with Polkadot.js integration
-- **Backend**: Node.js API services with substrate-compatible endpoints
+- **Frontend**: Next- JS mobile application with Polkadot.js integration
+- **Backend**: Node-js for initial MVP data storage.
 - **Blockchain**: Polkadot Plaza/Hub integration
   - Smart contracts for transparent reward distribution
   - NFT certificates that prove contribution quality
@@ -27,7 +27,6 @@ By building on Polkadot, we create a transparent, fair marketplace where labeler
 
 ### Core Components
 - **Swipe Interface**: TikTok-inspired UI for quick, intuitive labeling with engaging animations
-- **Content Feed Algorithm**: Personalized content delivery based on user preferences and labeling history
 - **Verification System**: Multi-user consensus mechanism ensuring data quality
 - **Reward Mechanism**: DOT-based payments with bonus multipliers for consistency and accuracy
 - **Gamification Elements**: Leaderboards, achievements, and progression system with visual rewards
@@ -35,8 +34,8 @@ By building on Polkadot, we create a transparent, fair marketplace where labeler
 ### User Experience Flow
 1. User onboards with easy wallet creation/connection
 2. Completes simple tutorial explaining the labeling process
-3. Begins swiping through content (images/videos)
-4. Earns DOT rewards displayed in real-time
+3. Begins swiping through content (images)
+4. Earns DOT rewards for verified contributions
 5. Unlocks achievements and rises through leaderboards
 
 ### Not in Scope
@@ -51,9 +50,9 @@ By building on Polkadot, we create a transparent, fair marketplace where labeler
 Tagster creates a new DeFi use case by establishing a marketplace for AI data labor, directly connecting data providers with laborers through Polkadot's blockchain infrastructure.
 
 ### Target Audience
-1. **Users**: All Mobile users looking for legitimate ways to earn crypto and Scoll dating apps Or tiktok.
+1. **Users**: Any users who access to internet & looking for legitimate ways to earn crypto and Scoll dating apps Or tiktok.
 2. **AI Companies**: Organizations needing large volumes of labeled data
-3. **Researchers**: Academic institutions building AI models
+3. **Researchers & Academic institutions **: Academic institutions building AI models
 
 ### Needs Addressed
 - Provides fair compensation for data labeling work
@@ -66,7 +65,7 @@ While data labeling platforms exist (Scale AI, Amazon Mechanical Turk), none com
 
 ## 👥 Team
 
-**Team Name**: Tagster Crew
+**Team Name**: Tagster Crew.. 
 
 **Contact Name**: Harshal Bhangale (Founder, CEO, Full Stack Developer)
 
@@ -114,11 +113,10 @@ https://github.com/HarshalBhangale/tagster-zkverify
 | 0b. | Documentation | Comprehensive inline documentation and setup guide for both React Native app and Polkadot integration |
 | 0c. | Testing | Core functions with 80%+ test coverage and detailed testing methodology |
 | 0d. | Article | Medium article showcasing Tagster's vision and technical implementation |
-| 1. | TikTok-like Mobile UX | React Native app with fluid swipe interface, content carousel, and engaging animations |
-| 2. | AI Labeling Algorithms | Custom algorithms for efficient image/video classification with intelligent queuing system |
-| 3. | Industry Dashboard | Secure portal for companies to upload, monitor, and manage datasets |
-| 4. | User Preference Engine | Algorithm tracking user behavior to personalize content and improve engagement |
-| 5. | Polkadot Integration | Wallet connection, transaction processing, and asset management |
+| 1. | Dating App-like UX | Next.js application with simple swipe interface for image labeling, content carousel, and engaging animations |
+| 2. | Binary classification system | With Logistic Regression (yes/no, like/dislike) |
+| 3. | Industry/Admin Dashboard | Secure portal for companies to upload, monitor, and manage datasets |
+| 4. | Polkadot Integration | Wallet connection, asset management |
 
 ### Milestone 2: Gamification & Rewards System ($3,000)
 **Estimated completion**: 1 month
@@ -130,47 +128,34 @@ https://github.com/HarshalBhangale/tagster-zkverify
 | 0c. | Testing | Comprehensive testing of economic systems and user progression logic |
 | 0d. | Article | Tutorial demonstrating Tagster's reward mechanisms and progression system |
 | 1. | Leaderboard System | Global and category-specific leaderboards with real-time updates |
-| 2. | DOT Reward Engine | Smart contract implementation for transparent, merit-based reward distribution |
-| 3. | Level Progression | 12-level progression system with increasing challenges and rewards |
-| 4. | Achievement System | 50+ unique achievements unlocking special benefits and recognition |
-| 5. | AI Image Comparison | Integration of sophisticated algorithm for comparing user preferences among AI-generated images 
+| 2. | DOT Reward System | Smart contract implementation for transparent, merit-based reward distribution |
+| 3. | 5-Tier Progression | Nobbie, Skilled, Expert, Master, Guru with increasing rewards |
+| 4. | Profile | Interface showing contributions, rewards, and analytics |
+| 5. | Industry Dataset Analytics | Displaying Analytics of Datasets , status ,expected completion time|
 
-### Milestone 3: Refinement & Launch ($2,000)
-**Estimated completion**: 1 month
-
-| Number | Deliverable | Specification |
-|--------|-------------|---------------|
-| 0a. | License | MIT |
-| 0b. | Documentation | Final documentation including API references and integration guides for partners |
-| 0c. | Testing | Security audit, performance optimization, and comprehensive user testing |
-| 0d. | Article | Launch announcement with case studies showing measurable AI improvement through platform |
-| 1. | Verification Mechanism | Hypothesis testing for establishing statistical significance in labeling |
-| 2. | Analytics Dashboard | Comprehensive metrics for AI companies to track progress |
-| 3. | Mobile App Store Release | Finalized apps deployed to Google Play Store |
-| 4. | Performance Optimization | Ensuring sub-200ms response times and smooth experience on all devices |
 
 ## 💰 Budget Breakdown
 
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
 |-----------|--------------|------------|----------------------|
 | 1 | Core App Development | $5,000 | 1 month |
-| 2 | Gamification & Rewards | $3,000 | 1 month |
-| 3 | Refinement & Launch | $2,000 | 1 month |
+| 2 | Gamification , Rewards, Analytics , Final Testing | $5,000 | 1 month |
+
 | **Total** |  | **$10,000** | **3 months** |
 
 ### Technical Risk Assessment & Mitigation
 
 | Risk | Impact | Probability | Mitigation Strategy |
 |------|--------|------------|---------------------|
-| React Native performance issues with image processing | High | Medium | Implement lazy loading, optimize render cycles, use native modules for intensive operations |
+| Next.js performance with image processing | Medium | Low | Implement lazy loading, optimize render cycles, use native modules for intensive operations |
 | Polkadot transaction speed limitations | Medium | Low | Implement batching for rewards, off-chain state with periodic settlements |
-| Mobile app store rejection | High | Low | Adhere strictly to guidelines, engage with app review teams early 
+| User adoption | High | Low | Plan to Start with simple UI and focus on core labeling experience
 
 
 ### Technical Components 
 
 **AI Labeling Algorithm Approach:**
-- Implement inter-rater reliability algorithm (Cohen's Kappa)
+
 - Use majority voting with minimum 3 independent labels per item
 - Apply confidence thresholds to identify ambiguous items
 - Implement simple spam detection using time-based and pattern recognition approaches
@@ -203,9 +188,9 @@ After completing the Fast-Grant, we plan to:
 3. **Build AI Tools**: Create tools that help companies prepare their data for labeling
 4. **Scale User Base**: Launch marketing campaigns to attract both labelers and companies
 5. Build extensions for Secure data collections wtiht users.
-
+6. **Content Feed Algorithm**: Personalized content delivery based on user preferences and labeling history
 Our long-term vision is to make Tagster the standard platform for decentralized data labeling, creating a sustainable economy where individuals are fairly compensated for their contributions to AI development.
-
+7. Implement inter-rater reliability algorithm (Cohen's Kappa)
 
 ### Vision is to go Beyond Traditional Social Media
 Our ambition for Tagster extends beyond just a data labeling platform. We aim to create an alternative to Instagram and TikTok shorts where users can be rewarded for their engagement rather than just having their attention monetized by advertisers. By bringing this to Polkadot, we're creating a true Web3 social experience with real utility.
