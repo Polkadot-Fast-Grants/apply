@@ -79,7 +79,7 @@ Core Components:
 * Collaborative Features: Tools for team-based development with real-time editing and role-based access management
 
  Development Approach:
-## The platform is being built as a "user-friendly playground" that unifies code generation, deployment workflows, and collaborative tooling within a single interface. It aims to support rapid MVP development through automated code generation, visual flowcharts, and guided workflows to make Polkadot development accessible even to users with minimal Rust or blockchain experience
+#### The platform is being built as a "user-friendly playground" that unifies code generation, deployment workflows, and collaborative tooling within a single interface. It aims to support rapid MVP development through automated code generation, visual flowcharts, and guided workflows to make Polkadot development accessible even to users with minimal Rust or blockchain experience
 ---
       Any PoC/MVP or other relevant prior work or research on the topic
 
@@ -291,7 +291,7 @@ Polkavision is unique because it:
  - Team Name: PolkaVision  
  - Contact Name:  Dave Kafai Cheng
  - Contact Email: firstdreamlord@gmail.com
- - Website: [Mythic Mind Labs]([https://skillbridge1.netlify.app/](https://mythicmindlabs.com/))
+ - Website: [Mythic Mind Labs](https://mythicmindlabs.com/)
   
 Team members
 * Dave Kafai Cheng
@@ -323,20 +323,24 @@ Dave Cheng - With a foundation in cloud computing, AI, and Blockchain, Dave cont
 
 ## Recent Achievements
 
-- **Echo Pay-2:** 3rd Prize Winner, EasyA x Polkadot London Hackathon 2025  
-  - Recognized for building innovative solutions on Polkadot’s interoperable, scalable, and secure blockchain platform.
-- **Encode London Hackathon 2024:** 2nd Prize 2nd Prize - ![image](https://github.com/user-attachments/assets/42cbe579-22d7-46a7-b73f-b5a94c8f8a52)
+- **Echo Pay-2:** 3rd Prize Winner, EasyA x Polkadot London Hackathon 2025
+    
+- ![2nd Prize Encode London Hackathon 2024:](https://www.linkedin.com/pulse/inside-encode-london-highlights-from-web3-hackathon-research-fmffe/?trackingId=TvzJrWrl3cEu8xevI4XThA%3D%3D) - WeatherShield DeFi
 
-1st Prize - AI Forge Dominos Hackathon  
-![image](https://github.com/user-attachments/assets/b7e32ac0-456d-45cc-8b9e-494edac0b4a0)
+- ![1st Prize xLondon: Discover Blockchain 2024]([https://www.linkedin.com/posts/davecheng82_xalliancedao-xlondon-blockchain-activity-7270841007875756032-tDoD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA5j_R4B90C9XcAaNDt1yS4yHKEKQ5jreb4)
 
-1st Prize Business Analysis of Solana-Based SaaS Solutions
-![image](https://github.com/user-attachments/assets/aef96f37-e119-47b5-8684-f8e7cef5d9a6)
+- ![1st Prize Business Analysis of Solana-Based SaaS Solutions](https://earn.superteam.fun/listing/business-analysis-of-solana-based-saas-solutions/)
+
+- [1st Prize - AI Forge Dominos Hackathon](https://coingeek.com/ai-forge-dominos-hackathon-unearths-ai-solutions-for-food-delivery/)
+
 
 ## Grants Awarded
 
 - **Stellar Kickstarter:** December 2024  
-- **Polkadot Guarantee Payout:** August 2024  
+- **Polkadot Guarantee Payout:** August 2024
+- **Google Startup Fund 2024**
+- **TRON DAO**
+- **Avalanches**
 
 ## Event Participation
 
