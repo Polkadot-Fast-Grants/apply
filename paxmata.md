@@ -225,7 +225,7 @@ completed, including detailed contract specifications.
 
 ### Overview
 
-- **Estimated Duration:** 1.2 months
+- **Estimated Duration:** 1.5 months
 - **Full-Time Equivalent (FTE):** 1
 - **Total Costs:** $10,000 USD
 
@@ -265,7 +265,7 @@ completed, including detailed contract specifications.
 |-----------|--------------|------------|----------------------|
 | 1 | Core Platform Development using assethub, Legal Regestration | $5,000 | 2 weeks |
 | 2 | P2P Lending Integration and Platform Enhancement | $5,000 | 1.5 months |
-| **Total** | | **$10,000** | **3 months** |
+| **Total** | | **$10,000** | **1.75 months** |
 
 ## 🔮 Future Plans
 
