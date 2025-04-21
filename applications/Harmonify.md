@@ -28,9 +28,6 @@ For too long, music‑streaming platforms have treated listener data as their as
 
 # 🔍 Project Details
 
-**Development Status**  
-Development has not yet begun, as our lead is focused on dissertation writing and will complete this in May.  
-
 ## Technology Stack  
 - **Blockchain Layer:** Moonbeam (EVM‑compatible Polkadot parachain)  
 - **Smart Contracts:** Solidity for DataPod and AI curation logic  
