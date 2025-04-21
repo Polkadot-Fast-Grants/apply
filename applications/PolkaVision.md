@@ -115,7 +115,7 @@ Chainziz, Submap, DotAppstore, etc.	Visualization, analytics, and app directorie
 
 Polkadot.js & Substrate	Core tools and frameworks that simplify interaction and development on Polkadot, including user-friendly interfaces and modular blockchain building blocks.	Tooling and development frameworks
 
-I useed this to build EchoPay 2
+I used this to build EchoPay 2
       
 ### Drawing on what we learn from EchoPay 2
 [EchoPay 2](https://github.com/YanniWu88/EchoPay-2/tree/master "EchoPay 2")
@@ -142,6 +142,53 @@ Key takeaway would be connection wallet, and write smart contract on rust
 
 What the Project Will Not Provide:
 
+Excluded Features & Limitations
+1. Low-Level Programming Support
+❌ No assembly or manual Rust optimization
+FlowCode avoids exposing users to low-level Rust/ink! coding, memory management, or performance tweaking. It abstracts these details behind its visual interface and AI-generated code.
+
+2. Multi-Chain Compatibility
+❌ No support for non-Polkadot ecosystems
+The tool is strictly focused on Polkadot/Substrate/Kusama. Cross-chain compatibility with Ethereum, Solana, or other ecosystems is outside its scope.
+
+3. Advanced Infrastructure Management
+❌ No direct control over collators, validators, or RPC nodes
+FlowCode relies on integrations like the Polkadot Deployment Portal (PDP) for infrastructure orchestration. It does not manage relay chain validators or coretime allocation directly.
+
+4. Custom Runtime Development
+❌ No manual runtime pallet configuration
+Users cannot directly modify Substrate pallets or runtime logic. All runtime templates (e.g., OZ Generic/EVM) are pre-defined and managed via AI.
+
+5. On-Chain Governance Tools
+❌ No native governance dashboards
+While FlowCode generates governance-related modules (e.g., voting systems), it does not provide tools for managing on-chain treasury proposals or council elections.
+
+6. Financial Services
+❌ No built-in wallets or payment gateways
+FlowCode focuses on dApp development, not financial infrastructure. Users must integrate third-party wallets (e.g., Talisman, Polkadot.js).
+
+7. Manual Error Handling
+❌ No fine-grained exception control
+The AI automatically handles common errors (e.g., transaction failures), avoiding low-level try/catch logic or manual rollback workflows.
+
+8. Legacy System Integration
+❌ No support for non-containerized environments
+FlowCode mandates Docker-based workflows and pre-configured environments. It does not support legacy systems or custom non-containerized setups.
+
+9. Native Mobile Development
+❌ No mobile SDKs or platform-specific tooling
+The platform generates web-first code (React/TypeScript) and does not target iOS/Android native apps.
+
+10. Proprietary AI Models for Code Audits
+❌ No manual AI model training
+Users cannot customize or retrain the underlying AI models (e.g., Llama3Instruct8B) used for code generation or security audits.
+
+Philosophical Exclusions
+No "code-first" workflows: FlowCode prioritizes visual design over traditional coding, even for advanced users.
+
+No permissionless runtime modifications: All deployments adhere to pre-vetted Polkadot runtime standards to ensure security.
+
+No community-driven template submissions: Templates are curated internally to maintain quality and compatibility.
 
 ---
         This is a place for you to manage expectations and clarify any limitations
@@ -152,10 +199,6 @@ What the Project Will Not Provide:
 # What the Project Will Not Provide:
 - While not explicitly stated in the document, the initial version appears to rely on pre-defined program code components rather than unrestricted AI-generated code to ensure security and reliability
 - The platform will not eliminate the need for all development knowledge, but rather lower the barrier to entry
-
-[![1](1)](1)
-
-
 ---
 
       Help us locate your project in the Polkadot landscape and what problems it tries to solve by answering each of these questions:
@@ -182,7 +225,7 @@ Target Audience:
 4. Enables faster development cycles for teams building on Polkadot
 5. Reduces the time and resources needed for onboarding new developers
 
-[![1](1)](1)
+[![Benefits of PolkaVison](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-22%20001211.png)](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-22%20001211.png)
 
  --- 
     Are there any other projects similar to yours in the Polkadot ecosystem?
