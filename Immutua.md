@@ -180,7 +180,7 @@ This initial development demonstrate my technical capability and commitment to t
 |-----------|----------------------------------------------|------------|----------------------|
 | 1         | Heritage Records Parachain                    | $5,000     | 1.5 months           |
 | 2         | Land Registry Parachain and Cross-Chain Communication | $5,000     | 1.5 months           |
-| **Total** |                                              | **$10,000**| **5 months**         |
+| **Total** |                                              | **$10,000**| **3 months**         |
 
 ## 🔮 Future Plans
 
