@@ -11,8 +11,6 @@ Please provide the following:
      A brief description of your project
 #### *PolkaVision* is a comprehensive visual AI development tool that enables users to design, build, and deploy decentralized applications on Polkadot through an intuitive drag-and-drop interface powered by artificial intelligence. It eliminates the steep learning curve typically associated with blockchain development by automatically generating Rust and ink! code from visual workflows and natural language instructions.
 
-[![1](1)](1)
-
 ---
 
     An indication of how your project relates to / integrates into Polkadot
@@ -36,7 +34,7 @@ FlowCode directly addresses these hurdles through:
 
 This toolchain was specifically designed to reduce average smart contract initialization time from 8.2 hours to under 15 minutes based on our hackathon metric tracking, allowing developers to focus on unique value propositions rather than boilerplate implementation.
 
-[![1](1)](1)
+[![Technical Architcture](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235517.png)](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235517.png)
 
 ---
     (Optional but big bonus points): 1-min video pitch
@@ -59,6 +57,8 @@ Technology Stack:
 - Collaboration: Real-time editing and shared environments
 - 🐳☸️ DevOps: Docker, Kubernetes for scalable deployment
 
+[![Polkdot Development Platform Technology Stack](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235231.png)](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235231.png)
+
 Technology Stack:
 1. Visual Workflow Builder: Drag-and-drop interface for designing smart contract architecture and program logic
 2. AI Code Generation Engine: Transforms visual workflows and English instructions into production-ready Rust and ink! code
@@ -80,6 +80,12 @@ Core Components:
 
  Development Approach:
 #### The platform is being built as a "user-friendly playground" that unifies code generation, deployment workflows, and collaborative tooling within a single interface. It aims to support rapid MVP development through automated code generation, visual flowcharts, and guided workflows to make Polkadot development accessible even to users with minimal Rust or blockchain experience
+
+
+[![Development Playground](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235657.png)](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235657.png)
+
+
+
 ---
       Any PoC/MVP or other relevant prior work or research on the topic
 
