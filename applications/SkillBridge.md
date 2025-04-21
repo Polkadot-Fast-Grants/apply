@@ -29,7 +29,9 @@ Please provide the following:
     An indication of why your team is interested in creating this project
 #### 💡 I am motivated to create this project because the $1.5 trillion global freelance economy—comprising 1.5 billion participants worldwide—continues to face fundamental challenges that blockchain technology is uniquely equipped to solve. Polkadot’s interoperable architecture offers an ideal foundation for building a truly global and accessible freelance marketplace, capable of connecting to multiple blockchain ecosystems and supporting fiat on/off ramps.
 
-<<2>
+[![Flow Digram](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194209.png)](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194209.png)
+
+
 
 ### We believe that empowering freelancers with instant, secure payments and trustless work agreements will help distribute economic opportunity more equitably across the world.
 ---
