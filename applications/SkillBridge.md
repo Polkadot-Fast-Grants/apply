@@ -13,7 +13,11 @@ Please provide the following:
 
 #### By utilizing smart contracts for secure escrow, enabling instant cross-chain payments, and incorporating decentralized dispute resolution, SkillBridge creates a trustless environment that benefits freelancers and clients worldwide.
 
-<<1>>
+
+
+[![Ecosystem Challenges](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194350.png)](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194350.png)
+
+
 ---
 
     An indication of how your project relates to / integrates into Polkadot
@@ -31,7 +35,7 @@ Please provide the following:
 ---
     (Optional but big bonus points): 1-min video pitch
 
-[1-min Video Pitch](https://youtube.com/shorts/EF7F8Pyp_FM?feature=share)
+[1-Min Video Pitch](https://youtube.com/shorts/EF7F8Pyp_FM?feature=share)
 
 ---
 🔍 Project Details
@@ -118,7 +122,8 @@ The platform will feature a clean, intuitive interface with the following key sc
 - Transparent process tracking for arbitration
 - Resolution outcome display
 
-<<>>
+[![Platform Interface](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194120.png)](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194120.png)
+
 ---
     Data models / API specifications of the core functionality
 
@@ -184,6 +189,11 @@ SkillBridge fits into the Polkadot ecosystem as a specialized DeFi application f
 
 ### 🗳️ Governance
 - Implements Polkadot's on-chain governance for platform improvements and dispute resolution mechanisms.
+
+
+[![SkillBridge Architecture](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194246.png)](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194246.png)
+
+
 ---
 
       Help us locate your project in the Polkadot landscape and what problems it tries to solve by answering each of these questions:
@@ -206,7 +216,7 @@ aaaaa
 5. Enables cross-border payments without the complexity and fees of traditional banking
 6. Promotes financial inclusion and access to Web3 jobs
 
-<<>>
+[![Platform](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194420.png)](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194420.png)
 
  --- 
     Are there any other projects similar to yours in the Polkadot ecosystem?
