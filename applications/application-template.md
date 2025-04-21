@@ -1,4 +1,4 @@
-# 📝 Project Name
+# 📝 Name of your Project
 
 ## 🌟 Project Overview
 
