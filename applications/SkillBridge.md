@@ -30,7 +30,9 @@ Please provide the following:
 ### We believe that empowering freelancers with instant, secure payments and trustless work agreements will help distribute economic opportunity more equitably across the world.
 ---
     (Optional but big bonus points): 1-min video pitch
-<<2>>
+
+[1-min Video Pitch](https://youtube.com/shorts/EF7F8Pyp_FM?feature=share)
+
 ---
 🔍 Project Details
 
@@ -252,21 +254,22 @@ aaaaa
   
 Team members
 * Yanni Freya Wu
-* [[Yanni Wu Linkedin](https://www.linkedin.com/in/yanni-wu-a64850352)])
+
 
       Please list the legal name of all grant beneficiaries. Solo developers (1-person teams) are eligible for funding. LinkedIn Profiles (if available)
-
-[https://www.linkedin.com/in/yanni-wu-a64850352/](https://www.linkedin.com/in/yanni-wu-a64850352/)
+ 
+ [[Yanni Wu Linkedin](https://www.linkedin.com/in/yanni-wu-a64850352)])
+ 
 ---
     Team Code Repos
 
-[Skillbridge](https://github.com/MasteraSnackin/Skillbridge-UPDATE"SkillBridge")
+[Skillbridge](https://github.com/MasteraSnackin/Skillbridge-UPDATE)
 
 ---
 
     Please also provide the GitHub accounts of all team members:
 
-[Yanni_Wu_Github](https://github.com/YanniWu88"Yanni_Wu_Github")
+[Yanni_Wu_Github](https://github.com/YanniWu88)
 
 Team's experience
 
@@ -401,7 +404,7 @@ Number 	Deliverable 	Specification
 7. Establish a review and scoring mechanism for the delivery work results in specific industries
 
         How you intend to continue development after the Fast-Grant
-1.   [Polkadot-grants-and-funding-guide](https://polkadot.com/blog/the-ultimate-2024-polkadot-grants-and-funding-guide/"-polkadot-grants-and-funding-guide")
+1.   [Polkadot-grants-and-funding-guide](https://polkadot.com/blog/the-ultimate-2024-polkadot-grants-and-funding-guide/)
 
 Any plans for seeking additional funding (other grants, VC funding, etc.)
 We intend to apply for larger grants from the Polkadot Treasury for specific feature expansions, 
@@ -429,16 +432,21 @@ Team Expansion Plans:
 Just found out about this grant on Saturday so I am in discussions with two experienced developers— [Dave Cheng Linkedin](https://www.linkedin.com/in/davecheng82/) and ([James Walker Linkedin](https://www.linkedin.com/in/james-defi/)—either of whom may join the project, depending on their availability.
 
 In addition, we are speaking with two more developers who have hands-on experience with Substrate development and are expected to join the team after the initial funding phase. Their expertise would significantly accelerate the development of more advanced features.
+
 Relevant Experience:
 
 Several members of our team, including myself, have personal experience working as freelancers and have encountered the exact challenges SkillBridge aims to solve. This gives us a unique, user-centered perspective that informs our product design and priorities.
 
 We have also been active participants in the Polkadot ecosystem for over a year. Notably, we received a guarantee fund for our project EchoPay 2 at the EasyA London Hackathon 2024. In addition, we have attended numerous workshops, webinars, and community events to deepen our knowledge and strengthen our connections within the ecosystem.
 
-Remember that the Fast-Grants Programme is designed as a first step for promising projects. We're looking for projects that can continue to grow beyond this initial funding.
+    Other funding you may have applied for
+
+on Thursday 17 April 2025 I did submit Idea to Student Blockchain Event
+[Student Blockchain Event](https://moledao.io/#/event/8ac9b6be-343c-4f0a-bcb3-27068ab2e8f7)
+here the document [SKillBridge: Empowering Freelancers Through Decentralized Innovation](https://docs.google.com/document/d/1g6tVjUvINIDS3MUAqD0bIxgS1lInLzHLMLFrS-0P2ns/edit?tab=t.0)
 
 
-Other funding you may have applied for
+
 
 
 
