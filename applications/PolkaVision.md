@@ -449,14 +449,14 @@ I am seeking funding to support the following next steps in our project developm
 | Number | Deliverable                   | Specification                                                                                          | Cost (USD) | Estimated Completion |
 |--------|-------------------------------|--------------------------------------------------------------------------------------------------------|------------|---------------------|
 | 0a     | License                       | Project code will be released under the MIT license.                                                   |            |                     |
-| 0b     | Documentation                 | Inline documentation for all smart contracts and core functions.<br>User tutorial covering:<br>- Job posting and bidding<br>- Escrow fund management<br>- Cross-chain payment flows |            |                     |
-| 0c     | Testing and Testing Guide     | Comprehensive unit tests for all core functions.<br>Testing guide with instructions for:<br>- Running the test suite<br>- Validating escrow lock/release<br>- Verifying payment settlement finality |            |                     |
+| 0b     | Documentation                 | Inline documentation for all smart contracts and core functions.<br>User tutorial covering:<br>-|            |                     |
+| 0c     | Testing and Testing Guide     | Comprehensive unit tests for all core functions.<br>Testing guide with instructions for:<br>- Running the test suite<br> |            |                     |
 | 0d     | Article                       | Publish an article detailing:<br>- Polkadot XCM integration for cross-chain payments<br>- Benefits of decentralized escrow for freelancers<br>- Substrate's technical advantages for marketplaces |            |                     |
-| 1      | Assembled a team      | Defined responsibilities defined                                                                                                             | $2,000     | 1.5 weeks             |
-| 2      | Design   | Golden Path, User Story, wireframe, c4 diagrams, MMP signed off                                                                                           | $3,000     | 5 weeks             |
-| 3     |         |   | $2,000     | 2 weeks             |
-| 4      |    | Demo video/screenshots, test cases passed                                                                                   | $2,000     | 2 weeks             |
-| 5      |    | Demo completed, integration guide in repo                                                                                | $1,000     | 2 weeks             |
+| 1      | Assembled a team      | Defined responsibilities defined              | $2,000     | 1.5 weeks             |
+| 2      | Design   | User story map, UI wireframes, and C4 diagrams created. | $3,000     | 5 weeks |
+| 3     | Prototype | MVP/MMP definitions approved by stakeholders            | $2,000     | 2 weeks |
+| 4      |Prototype | Includes drag-and-drop UI and partial PDP integration.  | $2,000     | 2 weeks |
+| 5      | Prototype| Demo completed, integration guide in repo               | $1,000     | 2 weeks |
 
 ---
     This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, please describe the functionality we should expect in as much detail as possible, plus how we can verify and test that functionality.
