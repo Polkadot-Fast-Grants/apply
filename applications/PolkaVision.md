@@ -419,10 +419,7 @@ I am seeking funding to support the following next steps in our project developm
 - **User Experience Design:**  
 - Planning to build it like the ChatGPT UI, but with the main screen as an open canvas.
 
-
-https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-22%20104659.png
-
-[![PolkaVision](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-22%20001211.png)
+[![PolkaVision](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-22%20104659.png)
 
 
 - While code implementation has not yet begun, we are currently drafting a comprehensive technical architecture document that outlines our approach to building on Polkadot and integrating with the broader ecosystem.
