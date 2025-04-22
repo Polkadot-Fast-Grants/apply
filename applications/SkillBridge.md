@@ -134,8 +134,7 @@ The platform will feature a clean, intuitive interface with the following key sc
 - Transparent process tracking for arbitration
 - Resolution outcome display
 
-[![Platform Interface](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194120.png)](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194120.png)
-
+[![Platform Interface](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194120.png)
 ---
     Data models / API specifications of the core functionality
 
@@ -228,9 +227,10 @@ Target Audience for Initial Phase:
 
 Based on are internal research we will target Freelance and client
 
-[I am a...](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-22%20072906.png)
+[![I am a...](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-22%20072906.png)
 
-[![Survey]https://docs.google.com/spreadsheets/d/1eJ0Sb8azY7bqUNyjHkzMsqJi0D9BmAWAKgNOO0Pz7Io/edit?usp=sharing- 
+
+[![Internal Survey](https://docs.google.com/spreadsheets/d/1eJ0Sb8azY7bqUNyjHkzMsqJi0D9BmAWAKgNOO0Pz7Io/edit?usp=sharing-)
 
 ---
       What need(s) does your project meet?
