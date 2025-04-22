@@ -60,6 +60,11 @@ Please provide the following:
 
 ## Core Components & Architecture
 
+### User Interface:
+* User-friendly dashboard for easy creation and management of escrow agreements
+* Real-time status updates for active, completed, and cancelled escrows
+* Secure wallet integration for transaction signing
+
 ### Smart Contract Escrow System  
 * 🛡️📜 **Secure escrow** using ink! smart contracts on Substrate
 * 🔒💰 **Client funds** locked until work completion is verifie
@@ -83,6 +88,11 @@ Please provide the following:
 * 🌍 **Support** for regional payment methods
 * 📱 **Mobile-first** design for regions with limited computer access
 * 🌐 **Multi-language support**
+
+Revenue Model (MVP):
+* A transaction fee ranging from 0.5% to 5% is charged on transactions that are successfully completed.
+* The fee is automatically deducted when funds are released to the client.
+* There are no upfront charges or fees for creating an post, apply only upon successful completion.
 
 #### **On-Chain Dispute Resolution:** Transparent, auditable process for handling disgreements
 #### **Reputation System:** Blockchain-based, tamper-proof freelancer/client ratings
@@ -213,6 +223,15 @@ Cross-Chain Interoperability: Utilizes XCMP to enable payments across different 
 - Clients (startups, enterprises, DAOs) looking for borderless talent without payment complications or trust issues, Gain access to a transparent and efficient marketplace for sourcing talent with automated safeguards.
 - Digital workers in unbanked or underbanked regions who need reliable access to global opportunities
 - Small businesses seeking specialized skills for project-based work
+
+Target Audience for Initial Phase: 
+
+Based on are internal research we will target Freelance and client
+
+[I am a...](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-22%20072906.png)
+
+[![Survey]https://docs.google.com/spreadsheets/d/1eJ0Sb8azY7bqUNyjHkzMsqJi0D9BmAWAKgNOO0Pz7Io/edit?usp=sharing- 
+
 ---
       What need(s) does your project meet?
 1. Eliminates trust issues through smart contract escrow (47% of freelancers fear non-payment)
