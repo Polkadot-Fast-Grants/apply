@@ -15,7 +15,7 @@ Please provide the following:
 
 
 
-[![Ecosystem Challenges](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194350.png)](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194350.png)
+![Ecosystem Challenges](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194350.png)
 
 
 ---
@@ -29,7 +29,7 @@ Please provide the following:
     An indication of why your team is interested in creating this project
 #### 💡 I am motivated to create this project because the $1.5 trillion global freelance economy—comprising 1.5 billion participants worldwide—continues to face fundamental challenges that blockchain technology is uniquely equipped to solve. Polkadot’s interoperable architecture offers an ideal foundation for building a truly global and accessible freelance marketplace, capable of connecting to multiple blockchain ecosystems and supporting fiat on/off ramps.
 
-[![Flow Digram](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194209.png)](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194209.png)
+![Flow Digram](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194209.png)
 
 
 
@@ -37,7 +37,7 @@ Please provide the following:
 ---
     (Optional but big bonus points): 1-min video pitch
 
-[1-Min Video Pitch](https://youtube.com/shorts/EF7F8Pyp_FM?feature=share)
+![1-Min Video Pitch](https://youtube.com/shorts/EF7F8Pyp_FM?feature=share)
 
 ---
 🔍 Project Details
@@ -65,6 +65,9 @@ Please provide the following:
 * Real-time status updates for active, completed, and cancelled escrows
 * Secure wallet integration for transaction signing
 
+![Sequence diagram](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194209.png)
+
+
 ### Smart Contract Escrow System  
 * 🛡️📜 **Secure escrow** using ink! smart contracts on Substrate
 * 🔒💰 **Client funds** locked until work completion is verifie
@@ -76,6 +79,8 @@ Please provide the following:
 * 🌐💱⛓️ **Support** for multiple currencies through parachain connections
 * 🏦💱🌉  **Bridges** to traditional payment systems for fiat on/off ramps
 * 💰⬇️⚡✅ **Minimal** transaction fees and near-instant settlement
+
+![Sequence diagram](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/image.png)  
 
 ### Decentralized Dispute Resolution: 
 * 🤝⛓️⚖️ **On-chain mediation** for conflict resolution
@@ -134,7 +139,7 @@ The platform will feature a clean, intuitive interface with the following key sc
 - Transparent process tracking for arbitration
 - Resolution outcome display
 
-[![Platform Interface](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194120.png)]
+![Platform Interface](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194120.png)
 
 
 ---
@@ -169,6 +174,7 @@ The platform will feature a clean, intuitive interface with the following key sc
 
  ### 4. Payment API:
  - Integration with Polkadot parachains for cross-chain transactions
+ - I will integrating @polkadot/api to connect with the SubWallet extension and handle transactions, following the same approach    we used with EchoPay-2.
  - Support for fiat on/off ramps
  - Escrow management
  - Payment history tracking
@@ -191,6 +197,9 @@ The platform will feature a clean, intuitive interface with the following key sc
 
 SkillBridge fits into the Polkadot ecosystem as a specialized DeFi application focused on the freelance economy. It leverages Polkadot's core strengths in the following ways:
 
+### Polkadot/api
+We previously used **polkadot/api** on EnchoPay-2 to connect with the SubWallet extension and handle transactions. I'm following the same approach for this integration.
+
 ### 🌉 Cross-Chain Interoperability
 -  Utilizes XCMP to enable payments across different parachains and blockchains, allowing freelancers and clients to use their preferred currencies.
 
@@ -204,7 +213,7 @@ SkillBridge fits into the Polkadot ecosystem as a specialized DeFi application f
 - Implements Polkadot's on-chain governance for platform improvements and dispute resolution mechanisms.
 
 
-[![SkillBridge Architecture](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194246.png)](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194246.png)]
+![SkillBridge Architecture](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194246.png)
 
 
 ---
@@ -229,10 +238,17 @@ Target Audience for Initial Phase:
 
 Based on are internal research we will target Freelance and client
 
-[![I am a...](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-22%20072906.png)
+![#I am a...#](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-22%20072906.png)
 
 
-[![Internal Survey](https://docs.google.com/spreadsheets/d/1eJ0Sb8azY7bqUNyjHkzMsqJi0D9BmAWAKgNOO0Pz7Io/edit?usp=sharing-)
+#[Internal Survey Result](https://docs.google.com/spreadsheets/d/1eJ0Sb8azY7bqUNyjHkzMsqJi0D9BmAWAKgNOO0Pz7Io/edit?usp=sharing-)
+
+- Simplified technical terminology, the feedback we got is most people dont understand what blockchain was
+
+- Features particularly relevant to development milestones (code reviews, repository access, etc.)
+
+![What feature would you find most valuable in a freelance marketplace](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-22%20080729.png)
+
 
 ---
       What need(s) does your project meet?
@@ -266,7 +282,7 @@ Based on are internal research we will target Freelance and client
 - Focuses on instant, cross-chain payments and escrow for the global freelance market, not just Polkadot-native roles.
 - Integrates on-chain, transparent dispute resolution and a blockchain-based reputation system.
 - Prioritizes financial inclusion by leveraging stablecoins and fiat onramps via cross-chain bridges, expanding access to the unbanked.
-- Build from client needs
+- Build from client needs, focus on user experience for non-technical users
 
 
 1. Building a comprehensive freelance marketplace requires the integration of multiple complex systems, including payment processing, escrow, dispute resolution, and reputation management. However, blockchain development has historically focused more on pure financial applications than on addressing challenges in labor markets.
@@ -415,6 +431,16 @@ I am seeking funding to support the following next steps in our project developm
 | 8         | Payment system and platform integration: cross-chain payment flow demo, integration docs                                | $1,000     | 2 weeks             |
 | **Total** |                                                                                                                         | **$10,000**| **3 months**        |
 
+- Design hours (142 @ 21/hr): £2,982                 
+- Development hours (214 hours @ $21/hr): $4,494
+- Smart contract security review: $506
+
+
+
+
+
+
+
 ---
     🔮 Future Plans
 
@@ -429,7 +455,7 @@ I am seeking funding to support the following next steps in our project developm
         How you intend to continue development after the Fast-Grant
 1.   [Polkadot-grants-and-funding-guide](https://polkadot.com/blog/the-ultimate-2024-polkadot-grants-and-funding-guide/)
 
-Any plans for seeking additional funding (other grants, VC funding, etc.)
+    Any plans for seeking additional funding (other grants, VC funding, etc.)
 We intend to apply for larger grants from the Polkadot Treasury for specific feature expansions, 
 
         Your vision for the project's growth and impact in the Polkadot ecosystem
