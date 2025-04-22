@@ -454,9 +454,9 @@ I am seeking funding to support the following next steps in our project developm
 | 0d     | Article                       | Publish an article detailing:<br>- Polkadot XCM integration for cross-chain payments<br>- Benefits of decentralized escrow for freelancers<br>- Substrate's technical advantages for marketplaces |            |                     |
 | 1      | Assembled a team      | Defined responsibilities defined              | $2,000     | 1.5 weeks             |
 | 2      | Design   | User story map, UI wireframes, and C4 diagrams created. | $3,000     | 5 weeks |
-| 3     | Prototype | MVP/MMP definitions approved by stakeholders            | $2,000     | 2 weeks |
-| 4      |Prototype | Includes drag-and-drop UI and partial PDP integration.  | $2,000     | 2 weeks |
-| 5      | Prototype| Demo completed, integration guide in repo               | $1,000     | 2 weeks |
+| 3     | Prototype | MVP/MMP definitions approved by stakeholders            | $2,000     | 1 weeks |
+| 4      |Prototype | Includes drag-and-drop UI and partial PDP integration.  | $2,000     | 2.5 weeks |
+| 5      | Prototype| Demo completed, integration guide in repo               | $1,000     | 2.5 weeks |
 
 ---
     This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, please describe the functionality we should expect in as much detail as possible, plus how we can verify and test that functionality.
