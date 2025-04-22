@@ -134,7 +134,9 @@ The platform will feature a clean, intuitive interface with the following key sc
 - Transparent process tracking for arbitration
 - Resolution outcome display
 
-[![Platform Interface](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194120.png)
+[![Platform Interface](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194120.png)]
+
+
 ---
     Data models / API specifications of the core functionality
 
@@ -202,7 +204,7 @@ SkillBridge fits into the Polkadot ecosystem as a specialized DeFi application f
 - Implements Polkadot's on-chain governance for platform improvements and dispute resolution mechanisms.
 
 
-[![SkillBridge Architecture](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194246.png)](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194246.png)
+[![SkillBridge Architecture](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194246.png)](https://github.com/MasteraSnackin/Skillbridge-UPDATE/blob/main/docs/Screenshot%202025-04-21%20194246.png)]
 
 
 ---
