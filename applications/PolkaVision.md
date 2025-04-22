@@ -20,30 +20,27 @@ Please provide the following:
 - These challenges hinder the growth of the ecosystem
 - Innovation is limited due to a small and specialized developer pool
 
-
-
 ---
 
     An indication of how your project relates to / integrates into Polkadot
-#### 🔗 *PolkaVision*  is specifically designed for the Polkadot ecosystem, generating ink! smart contracts and Rust code optimized for Polkadot's technical environment. The platform streamlines the entire development lifecycle from visual design to deployment on the Polkadot network.
+#### 🔗 *PolkaVision*  It is specifically designed for the Polkadot ecosystem, generating ink! smart contracts and Rust code optimized for Polkadot's technical environment. The platform streamlines the entire development lifecycle, from visual design to deployment on the Polkadot network.
 ---
 
     An indication of why your team is interested in creating this project
 #### 💡 Addressing the critical shortage of Polkadot developers and lowering barriers to entry that currently slow ecosystem growth and innovation.
 
-Our motivation stems from firsthand experience at three different Polkadot Hackathon events participants and mentors, where we consistently observed two critical pain points:
+Our motivation stems from firsthand experience at three different Polkadot hackathon events—as both participants and mentors—where we consistently observed two critical pain points:
 
-1. Time-Consuming Smart Contract Scaffolding: 60% of hackathon teams spent over 40% of their event time configuring basic ink! contract structures rather than innovating
+1. **Time-Consuming Smart Contract Scaffolding:** Over 60% of hackathon teams spent more than 40% of their event time configuring basic ink! contract structures instead of focusing on innovation.
 
-2. Cognitive Overload: New developers struggled with simultaneous mastery of Rust, Substrate pallet design, and Polkadot's cross-chain architecture - a tripled learning curve
+2. **Cognitive Overload:** New developers struggled to simultaneously master Rust, Substrate pallet design, and Polkadot's cross-chain architecture—a tripled learning curve.
    
-PolkVision directly addresses these hurdles through:
-* Hackathon-Optimized Templates: Pre-built smart contract modules for common DeFi/NFT/Gaming use cases with one-click customization
+PolkaVision directly addresses these hurdles through:
+* **Hackathon-Optimized Templates:** Pre-built smart contract modules for common DeFi, NFT, and gaming use cases, with one-click customization.
+* **Real-Time Parity:** Seamless synchronization between visual workflows and the generated ink! code, enabling rapid iteration during timed competitions.
+* **Collision Detection:** AI-powered conflict resolution for cross-chain interactions—particularly valuable when integrating multiple pallets under time constraints.
 
-* Real-Time Parity Between visual workflows and generated ink! code, enabling rapid iteration during timed competitions
-* Collision Detection: AI-powered conflict resolution for cross-chain interactions - particularly valuable when integrating multiple pallets under time constraints
-
-This toolchain is specifically designed to reduce average smart contract initialization time from 8.2 hours to under 15 minutes based on mine hackathon experince, allowing developers to focus on unique value propositions rather than boilerplate implementation.
+This toolchain is specifically designed to reduce the average smart contract initialization time from 8.2 hours to under 15 minutes, based on my hackathon experience—allowing developers to focus on unique value propositions rather than boilerplate implementation.
 
 [![Technical Architcture](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235517.png)](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235517.png)
 
@@ -60,25 +57,25 @@ This toolchain is specifically designed to reduce average smart contract initial
 ## An overview of the technology stack to be used 🛠️
     
 Technology Stack:
-- ⚛️ Frontend: Responsive UI frameworks including React, Typescript, Next.js, and Tailwind CSS
-- 🟢 Backend: Node, Express, Typscript, Handles API endpoints, authentication, and integration with external services (e.g., OpenAI API), AI-powered code generation infrastructure
-- Monorepo Tooling: PNPM (for workspace and dependency management)
-- Other Tooling and Infrastructure: Docker, GitHub Actions, PNPM
-- ☁️🗄️Cloud/Infra: AWS, GCP, or decentralized storage for off-chain data
-- Database: PostgreSQL database
-- Languages: Generates Rust code and ink! smart contracts
-- Deployment: One-click export to GitHub, Google Drive, and direct deployment to Polkadot network
-- Collaboration: Real-time editing and shared environments
-- 🐳☸️ DevOps: Docker, Kubernetes for scalable deployment
+- ⚛️ **Frontend:** Responsive UI frameworks including React, Typescript, Next.js, and Tailwind CSS
+- 🟢 **Backend:** Node, Express, Typscript, Handles API endpoints, authentication, and integration with external services (e.g., OpenAI API), AI-powered code generation infrastructure
+- **Monorepo Tooling:** PNPM (for workspace and dependency management)
+- **Other Tooling and Infrastructure:** Docker, GitHub Actions, PNPM
+- **☁️🗄️Cloud/Infra:** AWS, GCP, or decentralized storage for off-chain data
+- **Database:** PostgreSQL database
+- **Languages:** Generates Rust code and ink! smart contracts
+- **Deployment:** One-click export to GitHub, Google Drive, and direct deployment to Polkadot network
+- **Collaboration:** Real-time editing and shared environments
+- **🐳☸️ DevOps:** Docker, Kubernetes for scalable deployment
 
 [![Polkdot Development Platform Technology Stack](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235231.png)](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235231.png)
 
 Technology Stack:
-1. Visual Workflow Builder: Drag-and-drop interface for designing smart contract architecture and program logic
-2. AI Code Generation Engine: Transforms visual workflows and English instructions into production-ready Rust and ink! code
-3. Specialized Polkadot IDE: Complete development environment tailored for Polkadot
-4. Deployment Pipeline: Streamlined process for deploying to Polkadot network
-5. Collaborative Features: Tools for team-based development with real-time editing and role-based access management
+1. **Visual Workflow Builder:** A drag-and-drop interface for designing smart contract architecture and program logic.
+2. **AI Code Generation Engine:** Transforms visual workflows and natural language instructions into production-ready Rust and ink! code.
+3. **Specialized Polkadot IDE:** A complete development environment tailored specifically for the Polkadot ecosystem.
+4. **Deployment Pipeline:** A streamlined process for deploying smart contracts to the Polkadot network.
+5. **Collaborative Features:** Tools for team-based development, including real-time editing and role-based access management.
 
 ---
       Documentation of core components, protocols, architecture, etc. to be deployed
@@ -86,14 +83,14 @@ Technology Stack:
 ## Core Components & Architecture
 
 Core Components:
-* Visual Workflow Builder: Drag-and-drop interface for designing smart contract architecture and program logic
-* AI Code Generation Engine: Transforms visual workflows and English instructions into production-ready Rust and ink! code
-* Specialized Polkadot IDE: Complete development environment tailored for Polkadot
-* Deployment Pipeline: Streamlined process for deploying to Polkadot network
-* Collaborative Features: Tools for team-based development with real-time editing and role-based access management
+* **Visual Workflow Builder:** A drag-and-drop interface for designing smart contract architecture and program logic.
+* **AI Code Generation Engine:** Transforms visual workflows and natural language instructions into production-ready Rust and ink! code.
+* **Specialized Polkadot IDE:** A complete development environment tailored specifically for the Polkadot ecosystem.
+* **Deployment Pipeline:** A streamlined process for deploying smart contracts to the Polkadot network.
+* **Collaborative Features:** Tools for team-based development, including real-time editing and role-based access management.
 
  Development Approach:
-#### The platform is being built as a "user-friendly playground" that unifies code generation, deployment workflows, and collaborative tooling within a single interface. It aims to support rapid MVP development through automated code generation, visual flowcharts, and guided workflows to make Polkadot development accessible even to users with minimal Rust or blockchain experience
+#### The platform is being built as a **user-friendly playground** that unifies code generation, deployment workflows, and collaborative tooling within a single interface. It aims to support rapid MVP development through automated code generation, visual flowcharts, and guided workflows—making Polkadot development accessible even to users with minimal Rust or blockchain experience.
 
 [![Development Playground](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235657.png)](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235657.png)
 
@@ -102,40 +99,40 @@ Core Components:
 ---
       Any PoC/MVP or other relevant prior work or research on the topic
 
-The PolkaVision concept aims to transform Polkadot development by creating a visual AI tool that converts natural language into functional code.
+The PolkaVision concept aims to transform Polkadot development by providing a visual AI tool that converts natural language into functional code.
 
-I learned about this at the Easy Polkadot London Hackathon 2025.
+I was introduced to this concept at the Easy Polkadot London Hackathon 2025 on Saturday
 
-Polkadot Deployment Portal (PDP) Initiative
-The Polkadot Deployment Portal (PDP) represents another significant development addressing similar developer experience challenges:
+**Polkadot Deployment Portal (PDP) Initiative**
+The Polkadot Deployment Portal (PDP) represents another significant advancement aimed at improving the developer experience:
 "The Polkadot Deployment Portal (PDP), launching soon, will revolutionize how you deploy on Polkadot. Anyone will be able to take advantage of the PDP's intuitive UI and capabilities, allowing you to configure, deploy, and manage a rollup with a few simple clicks."
-
 [Polkadot Deployment Portal:]([https://grants.web3.foundation/applications/project_aurras_mvp_phase_1](https://polkadot.polkassembly.io/forum/t/polkadot-deployment-portal-the-1-click-solution-for-polkadot/12176))
 
-Project Aurras developed an MVP for a middleware solution that acts as an event processor and workflow orchestration platform:
+**Project Aurras** developed an MVP for a middleware solution that functions as both an event processor and a workflow orchestration platform:
 "Aurras is a middleware that acts as an event processor and a low-code workflow orchestration platform. Aurras is being pitched as a next-generation system for enabling decentralized push notifications."
 
-While not directly focused on visual programming, this MVP demonstrates successful implementation of low-code workflow orchestration in the Polkadot ecosystem, which shares conceptual similarities with *PolkaVision's* visual workflow builder.
+While not directly focused on visual programming, this MVP demonstrates the successful implementation of low-code workflow orchestration within the Polkadot ecosystem—highlighting conceptual similarities with PolkaVision's visual workflow builder.
 
-While there isn't a direct precedent for a visual, AI-powered Polkadot development tool exactly matching PolkaVision's description, several related initiatives demonstrate both the need and technical feasibility of such a solution.
+Although there is no direct precedent for a visual, AI-powered Polkadot development tool that fully matches PolkaVision's vision, several related initiatives underscore both the need for and technical feasibility of such a solution.
 
-The existing PoCs and MVPs in the ecosystem provide valuable insights for *PolkaVision's* development path—particularly regarding rapid prototyping capabilities, security considerations, and approaches to lowering the barrier to entry for blockchain development.
+These existing PoCs and MVPs offer valuable insights for PolkaVision's development trajectory—particularly in areas such as rapid prototyping, security considerations, and strategies for lowering the barrier to entry in blockchain development.
 
 [Project Aurras](https://grants.web3.foundation/applications/project_aurras_mvp_phase_1)
 
 
-Chainziz, Submap, DotAppstore, etc.	Visualization, analytics, and app directories that make navigating and understanding the ecosystem easier for developers and users.
+*Chainziz, Submap, DotAppstore**	"Visualization, analytics, and app directories that make it easier for developers and users to navigate and understand the ecosystem."
 
-Polkadot.js & Substrate	Core tools and frameworks that simplify interaction and development on Polkadot, including user-friendly interfaces and modular blockchain building blocks.	Tooling and development frameworks
+**Polkadot.js & Substrate** — Core tools and frameworks that simplify interaction and development on Polkadot, including user-friendly interfaces and modular blockchain building blocks.
+*Category: Tooling and development frameworks*
 
 I used this to build EchoPay 2
       
 ### Drawing on what we learn from EchoPay 2
 [EchoPay 2](https://github.com/YanniWu88/EchoPay-2/tree/master "EchoPay 2")
 
-EchoPay 2 is an innovative payment platform concept enabling users to conduct secure, cross-chain transactions through voice commands. This repository contains the initial proof-of-concept implementation focusing on the frontend interface, wallet connection, and voice input simulation.
+**EchoPay 2** is an innovative payment platform concept that enables users to conduct secure, cross-chain transactions through voice commands. This repository contains the initial proof-of-concept implementation, focusing on the frontend interface, wallet connection, and voice input simulation.
 
-Key takeaway would be connection wallet, voice input simultation and write smart contract on rust, we use connect wallet to charge for AI credits.
+The key takeaways are wallet connection, voice input simulation, and writing smart contracts in Rust. We use the wallet connection to charge for AI credits.
 
 ---
       Mockups/designs of any UI components
@@ -149,7 +146,7 @@ Key takeaway would be connection wallet, voice input simultation and write smart
 Sign up to Polkdot Deployment Portal for early tester
 [early tester of the Polkadot Deployment Portal](https://polkadot.polkassembly.io/forum/t/polkadot-deployment-portal-the-1-click-solution-for-polkadot/12176)
 
-Then connect this to Drag-and-drop interface, template, need more research 
+Then connect this to the drag-and-drop interface and templates. More research is needed.
 
 ### 1. User Model:
 
@@ -204,7 +201,7 @@ Philosophical Exclusions
 
 **No permissionless runtime modifications:** All deployments adhere to pre-vetted Polkadot runtime standards to ensure security.
 
-**No community-driven template submissions:** Templates are curated internally to maintain quality and compatibility.
+**No community-driven template submissions:** TTemplates are curated internally to maintain quality and compatibility.
 
 ---
         This is a place for you to manage expectations and clarify any limitations
