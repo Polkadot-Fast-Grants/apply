@@ -457,7 +457,7 @@ I am seeking funding to support the following next steps in our project developm
 | 0a     | License                       | Project code will be released under the MIT license.                                                   |            |                     |
 | 0b     | Documentation                 | Inline documentation for all smart contracts and core functions.<br>User tutorial covering:<br>-|            |                     |
 | 0c     | Testing and Testing Guide     | Comprehensive unit tests for all core functions.<br>Testing guide with instructions for:<br>- Running the test suite<br> |            |                     |
-| 0d     | Article                       | Publish an article detailing:<br>- Polkadot XCM integration for cross-chain payments<br>- Benefits of decentralized escrow for freelancers<br>- Substrate's technical advantages for marketplaces |            |                     |
+| 0d     | Article                       | Publish an article detailing:<br>-PolkaVision<br>- Benefits of decentralized drag and drop over PDP<br>- |            |                     |
 | 1      | Assembled a team      | Defined responsibilities defined              | $2,000     | 1.5 weeks             |
 | 2      | Design   | User story map, UI wireframes, and C4 diagrams created. | $3,000     | 5 weeks |
 | 3     | Prototype | MVP/MMP definitions approved by stakeholders            | $2,000     | 1 weeks |
@@ -520,6 +520,10 @@ We intend to apply for larger grants from the Polkadot Treasury for specific fea
     Work you have already done
     If there are any other teams who have already contributed to the project
     Other funding you may have applied for
+
+We are aware of a similar project that has been built on Solana, so we are hoping to implement a drag-and-drop interface for this project as well. If we can link it with PDP and ensure it delivers the promised functionality, we would consider it 70% complete.
+We would then move on to integrating it with an LLM, enabling voice input. 
+
 
   ## Team Expansion Plans
 
