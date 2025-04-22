@@ -383,11 +383,11 @@ Dave Cheng - With a foundation in cloud computing, AI, and Blockchain, Dave cont
 
 - **Echo Pay-2:** 3rd Prize Winner, EasyA x Polkadot London Hackathon 2025
     
-- ![2nd Prize Encode London Hackathon 2024:](https://www.linkedin.com/pulse/inside-encode-london-highlights-from-web3-hackathon-research-fmffe/?trackingId=TvzJrWrl3cEu8xevI4XThA%3D%3D) - WeatherShield DeFi
+- [2nd Prize Encode London Hackathon 2024:](https://www.linkedin.com/pulse/inside-encode-london-highlights-from-web3-hackathon-research-fmffe/?trackingId=TvzJrWrl3cEu8xevI4XThA%3D%3D) - WeatherShield DeFi
 
-- ![1st Prize xLondon: Discover Blockchain 2024]([https://www.linkedin.com/posts/davecheng82_xalliancedao-xlondon-blockchain-activity-7270841007875756032-tDoD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA5j_R4B90C9XcAaNDt1yS4yHKEKQ5jreb4)
+- [1st Prize xLondon: Discover Blockchain 2024]([https://www.linkedin.com/posts/davecheng82_xalliancedao-xlondon-blockchain-activity-7270841007875756032-tDoD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA5j_R4B90C9XcAaNDt1yS4yHKEKQ5jreb4)
 
-- ![1st Prize Business Analysis of Solana-Based SaaS Solutions](https://earn.superteam.fun/listing/business-analysis-of-solana-based-saas-solutions/)
+- [1st Prize Business Analysis of Solana-Based SaaS Solutions](https://earn.superteam.fun/listing/business-analysis-of-solana-based-saas-solutions/)
 
 - [1st Prize - AI Forge Dominos Hackathon](https://coingeek.com/ai-forge-dominos-hackathon-unearths-ai-solutions-for-food-delivery/)
 
