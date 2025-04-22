@@ -9,16 +9,18 @@ Please provide the following:
 *Tagline:* PolkaVision  transforms English into Polkadot programs.
 ---
      A brief description of your project
-#### *PolkaVision* is a comprehensive visual AI development tool that enables users to design, build, and deploy decentralized applications on Polkadot through an intuitive drag-and-drop interface powered by artificial intelligence. It eliminates the steep learning curve typically associated with blockchain development by automatically generating Rust and ink! code from visual workflows and natural language instructions.
+#### *PolkaVision* is a comprehensive visual AI development tool that enables users to design, build, and deploy decentralized applications on Polkadot through an intuitive, drag-and-drop interface powered by artificial intelligence. It eliminates the steep learning curve typically associated with blockchain development by automatically generating Rust and ink! code from visual workflows and natural language instructions.
 
 **Pain Points**
-- Polkadot has a steep learning curve for new developers
-- There's a shortage of experienced developers in the Polkadot ecosystem
-- Existing tools may not be user-friendly or accessible to newcomers
+- Polkadot presents a steep learning curve for new developers
+- There is a shortage of experienced developers within the Polkadot ecosystem
+- Existing tools are often not user-friendly or accessible to newcomers
 
 **Why it matters:**
-- These challenges slow down ecosystem growth
+- These challenges hinder the growth of the ecosystem
 - Innovation is limited due to a small and specialized developer pool
+
+
 
 ---
 
@@ -35,13 +37,13 @@ Our motivation stems from firsthand experience at three different Polkadot Hacka
 
 2. Cognitive Overload: New developers struggled with simultaneous mastery of Rust, Substrate pallet design, and Polkadot's cross-chain architecture - a tripled learning curve
    
-FlowCode directly addresses these hurdles through:
+PolkVision directly addresses these hurdles through:
 * Hackathon-Optimized Templates: Pre-built smart contract modules for common DeFi/NFT/Gaming use cases with one-click customization
 
 * Real-Time Parity Between visual workflows and generated ink! code, enabling rapid iteration during timed competitions
 * Collision Detection: AI-powered conflict resolution for cross-chain interactions - particularly valuable when integrating multiple pallets under time constraints
 
-This toolchain was specifically designed to reduce average smart contract initialization time from 8.2 hours to under 15 minutes based on our hackathon metric tracking, allowing developers to focus on unique value propositions rather than boilerplate implementation.
+This toolchain is specifically designed to reduce average smart contract initialization time from 8.2 hours to under 15 minutes based on mine hackathon experince, allowing developers to focus on unique value propositions rather than boilerplate implementation.
 
 [![Technical Architcture](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235517.png)](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235517.png)
 
@@ -58,9 +60,12 @@ This toolchain was specifically designed to reduce average smart contract initia
 ## An overview of the technology stack to be used 🛠️
     
 Technology Stack:
-- ⚛️ Frontend: Responsive UI frameworks including React, Next.js, and Tailwind CSS
-- 🟢  Backend: AI-powered code generation infrastructure
-- ☁️🗄️ Cloud/Infra: AWS, GCP, or decentralized storage for off-chain data
+- ⚛️ Frontend: Responsive UI frameworks including React, Typescript, Next.js, and Tailwind CSS
+- 🟢 Backend: Node, Express, Typscript, Handles API endpoints, authentication, and integration with external services (e.g., OpenAI API), AI-powered code generation infrastructure
+- Monorepo Tooling: PNPM (for workspace and dependency management)
+- Other Tooling and Infrastructure: Docker, GitHub Actions, PNPM
+- ☁️🗄️Cloud/Infra: AWS, GCP, or decentralized storage for off-chain data
+- Database: PostgreSQL database
 - Languages: Generates Rust code and ink! smart contracts
 - Deployment: One-click export to GitHub, Google Drive, and direct deployment to Polkadot network
 - Collaboration: Real-time editing and shared environments
@@ -90,7 +95,6 @@ Core Components:
  Development Approach:
 #### The platform is being built as a "user-friendly playground" that unifies code generation, deployment workflows, and collaborative tooling within a single interface. It aims to support rapid MVP development through automated code generation, visual flowcharts, and guided workflows to make Polkadot development accessible even to users with minimal Rust or blockchain experience
 
-
 [![Development Playground](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235657.png)](https://github.com/MasteraSnackin/PolkaVison/blob/main/doc/Screenshot%202025-04-21%20235657.png)
 
 
@@ -98,7 +102,7 @@ Core Components:
 ---
       Any PoC/MVP or other relevant prior work or research on the topic
 
-The FlowCode concept aims to transform Polkadot development by creating a visual AI tool that converts natural language into functional code.
+The PolkaVision concept aims to transform Polkadot development by creating a visual AI tool that converts natural language into functional code.
 
 I learned about this at the Easy Polkadot London Hackathon 2025.
 
@@ -157,7 +161,7 @@ What the Project Will Not Provide:
 Excluded Features & Limitations
 1. **Low-Level Programming Support**
 ❌ No assembly or manual Rust optimization
-FlowCode avoids exposing users to low-level Rust/ink! coding, memory management, or performance tweaking. It abstracts these details behind its visual interface and AI-generated code.
+PolkaVision avoids exposing users to low-level Rust/ink! coding, memory management, or performance tweaking. It abstracts these details behind its visual interface and AI-generated code.
 
 2. **Multi-Chain Compatibility**
 ❌ No support for non-Polkadot ecosystems
@@ -165,7 +169,7 @@ The tool is strictly focused on Polkadot/Substrate/Kusama. Cross-chain compatibi
 
 3. **Advanced Infrastructure Management**
 ❌ No direct control over collators, validators, or RPC nodes
-FlowCode relies on integrations like the Polkadot Deployment Portal (PDP) for infrastructure orchestration. It does not manage relay chain validators or coretime allocation directly.
+PolkaVision relies on integrations like the Polkadot Deployment Portal (PDP) for infrastructure orchestration. It does not manage relay chain validators or coretime allocation directly.
 
 4. **Custom Runtime Development**
 ❌ No manual runtime pallet configuration
@@ -173,11 +177,11 @@ Users cannot directly modify Substrate pallets or runtime logic. All runtime tem
 
 5. **On-Chain Governance Tools**
 ❌ No native governance dashboards
-While FlowCode generates governance-related modules (e.g., voting systems), it does not provide tools for managing on-chain treasury proposals or council elections.
+While PolkaVision generates governance-related modules (e.g., voting systems), it does not provide tools for managing on-chain treasury proposals or council elections.
 
 6. **Financial Services**
 ❌ No built-in wallets or payment gateways
-FlowCode focuses on dApp development, not financial infrastructure. Users must integrate third-party wallets (e.g., Talisman, Polkadot.js).
+PolkaVision focuses on dApp development, not financial infrastructure. Users must integrate third-party wallets (e.g., Talisman, Polkadot.js).
 
 7. **Manual Error Handling**
 ❌ No fine-grained exception control
@@ -185,7 +189,7 @@ The AI automatically handles common errors (e.g., transaction failures), avoidin
 
 8. **Legacy System Integration**
 ❌ No support for non-containerized environments
-FlowCode mandates Docker-based workflows and pre-configured environments. It does not support legacy systems or custom non-containerized setups.
+PolkaVision mandates Docker-based workflows and pre-configured environments. It does not support legacy systems or custom non-containerized setups.
 
 9. **Native Mobile Development**
 ❌ No mobile SDKs or platform-specific tooling
@@ -196,7 +200,7 @@ The platform generates web-first code (React/TypeScript) and does not target iOS
 Users cannot customize or retrain the underlying AI models (e.g., Llama3Instruct8B) used for code generation or security audits.
 
 Philosophical Exclusions
-**No "code-first" workflows:** FlowCode prioritizes visual design over traditional coding, even for advanced users.
+**No "code-first" workflows:** PolkaVision prioritizes visual design over traditional coding, even for advanced users.
 
 **No permissionless runtime modifications:** All deployments adhere to pre-vetted Polkadot runtime standards to ensure security.
 
