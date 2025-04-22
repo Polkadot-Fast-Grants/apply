@@ -12,13 +12,13 @@ Please provide the following:
 #### *PolkaVision* is a comprehensive visual AI development tool that enables users to design, build, and deploy decentralized applications on Polkadot through an intuitive drag-and-drop interface powered by artificial intelligence. It eliminates the steep learning curve typically associated with blockchain development by automatically generating Rust and ink! code from visual workflows and natural language instructions.
 
 **Pain Points**
-- Polkadot has a step learning curve for new developers
-- Shortage of experienced devs in Polkadot
-- Existing tools mayb not b user-friendly or accessibl for new developers
+- Polkadot has a steep learning curve for new developers
+- There's a shortage of experienced developers in the Polkadot ecosystem
+- Existing tools may not be user-friendly or accessible to newcomers
 
 **Why it matters:**
-- Slow down ecosystem growth
-- Limited innovation due to small developers pool
+- These challenges slow down ecosystem growth
+- Innovation is limited due to a small and specialized developer pool
 
 ---
 
