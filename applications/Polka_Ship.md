@@ -126,8 +126,8 @@ Milestone 3: Launch Freight Futures
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
 | --- | --- | --- | --- |
 | 1 | Front end | $3,000 | 1 month |
-| 2 | Smart Contract logic and backend | $6,000 | 1 month |
-| 3 | Legal Checks | $3,000 | 0.5 months |
+| 2 | Smart Contract logic and backend | $5,000 | 1 month |
+| 3 | Legal Checks | $4,000 | 0.5 months |
 | 4 | launch and live market | $3,000 | 0.5 months |
 | **Total** | | **$15,000** | **3 months** |
 
