@@ -497,12 +497,39 @@ I am seeking funding to support the following next steps in our project developm
 
 ---
     🔮 Future Plans
+- This application is designed to demonstrate the capabilities of Polkadot and make blockchain technology accessible to those who are interested but may not have the time to invest in extensive learning.
+I recommend showcasing and testing the app at the very events where it was conceived, such as hackathons and conferences, to reach an audience eager to explore innovative blockchain solutions.
 
 - A team of specialized AI agents, each focusing on a key aspect of dApp development.
 - AI-generated, ready-to-use websites, complete with UI and backend to seamlessly interact with deployed dApps.
 - AI-generated, end-to-end project documentation, offering clear guidance for users.
 - A native blockchain explorer, enabling users to discover, explore, and interact with existing on-chain programs via CPI.
 - A comprehensive learning hub, featuring a rich repository of resources, tutorials, and hands-on projects, guided by a personal AI tutor agent to simplify Solana development.
+
+
+## Revenue Model
+
+### Tiered Subscription
+
+| Tier        | Price (Monthly) | Features                                         | Target Audience           |
+|-------------|-----------------|--------------------------------------------------|---------------------------|
+| Starter     | Free            | 3 projects, basic AI, testnet-only deploys        | Students/Hobbyists        |
+| Pro         | $99             | Unlimited projects, priority support, GitHub CI/CD| Indie developers          |
+| Teams       | $499            | SSO, custom templates, private runtime modules    | Startups/Enterprises      |
+| Enterprise  | CUSTOM         | Dedicated AI clusters, compliance audits    | Governments/Corporations      |
+
+**When using an LLM model, users will need to provide their own API keys for access.
+
+## Market Strategies
+
+| Strategy              | Execution                                                                                   |
+|-----------------------|---------------------------------------------------------------------------------------------|
+| Hackathon Dominance   | Sponsor 10+ Polkadot hackathons annually, offering dedicated PolkaVision prizes and workshops  |
+| Academic Partnerships | Launch "PolkaVision for Educators" program with curriculum templates for universities          |
+| Ambassador Network    | Recruit 50+ technical advocates from Polkadot developer communities                        |
+
+
+  
 
         How you intend to continue development after the Fast-Grant
 1.   [Polkadot-grants-and-funding-guide](https://polkadot.com/blog/the-ultimate-2024-polkadot-grants-and-funding-guide/)
@@ -523,6 +550,19 @@ We intend to apply for larger grants from the Polkadot Treasury for specific fea
 
 We are aware of a similar project that has been built on Solana, so we are hoping to implement a drag-and-drop interface for this project as well. If we can link it with PDP and ensure it delivers the promised functionality, we would consider it 70% complete.
 We would then move on to integrating it with an LLM, enabling voice input. 
+
+Else use n8n
+
+
+N8N is workflow automation platforms 
+
+
+| Platform    | Blockchain Support | How It Works                                     |
+|-------------|-------------------|--------------------------------------------------|
+| n8n         | Yes               | HTTP Request node for API calls, NFT/crypto ops  |
+| ApiX-Drive  | Yes               | No-code integration with blockchain platforms    |
+| Zapier      | Partial           | Manual API/webhook setup for some crypto APIs    |
+| Node-RED    | Partial           | Custom nodes/scripts for blockchain APIs         |
 
 
   ## Team Expansion Plans
