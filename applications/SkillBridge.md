@@ -452,7 +452,7 @@ I am seeking funding to support the following next steps in our project developm
 6. Expand language support and regional payment integrations to reach more underserved markets
 7. Establish a review and scoring mechanism for the delivery work results in specific industries
 
-Market Strategy
+## Market Strategy
 | Strategy Area              | Key Actions                                                                                                                    |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Beta Launch                | Invite a group of 10-50 freelancers/clients from different industries to test the platform.                                    |
@@ -462,6 +462,15 @@ Market Strategy
 | Influencer Partnerships    | Collaborate with blockchain thought leaders, freelancing influencers, and event organizers to amplify reach.                   |
 | Iterative Improvement      | Regularly update features based on weekly customer questionnaire surveys (e.g., add NFT-based certifications for freelancers).  |
 | Transparency Initiatives   | Publish quarterly reports on platform growth, active users, and fee allocation to build credibility.                           |
+
+## Revenue Stream   
+| Revenue Stream                    | Description                                                                                                                             |
+|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Commission-Based Revenue           | Charge a 4% commission on each successful transaction between freelancers and clients.                                                   |
+| Subscription Fees                  | Offer premium memberships for freelancers or clients, granting access to advanced features (priority listings, analytics, exclusive jobs).|
+| Value-Added Services               | Provide paid services such as skill verification, portfolio certification (NFTs), or AI-driven job matching.                            |
+| Advertising and Sponsorships       | Allow third-party companies to advertise or sponsor sections (e.g., featured projects, freelancer spotlights) on the platform.           |
+| Licensing & White-Label Solutions  | License the platform’s blockchain infrastructure or smart contract templates to other marketplaces or HR tech companies (B2B revenue).   |
 
 
         How you intend to continue development after the Fast-Grant
@@ -490,7 +499,7 @@ We intend to apply for larger grants from the Polkadot Treasury for specific fea
   ## Team Expansion Plans
 
 Team Expansion Plans:
-Just found out about this grant on Saturday so I am in discussions with two experienced developers— [Dave Cheng Linkedin](https://www.linkedin.com/in/davecheng82/) and ([James Walker Linkedin](https://www.linkedin.com/in/james-defi/)—either of whom may join the project, depending on their availability.
+Just found out about this grant on Saturday so I am in discussions with two experienced developers— [Dave Cheng Linkedin](https://www.linkedin.com/in/davecheng82/) and [James Walker Linkedin](https://www.linkedin.com/in/james-defi/)—either of whom may join the project, depending on their availability. 
 
 In addition, we are speaking with two more developers who have hands-on experience with Substrate development and are expected to join the team after the initial funding phase. Their expertise would significantly accelerate the development of more advanced features.
 
