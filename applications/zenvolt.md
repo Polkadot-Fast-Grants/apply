@@ -112,7 +112,7 @@ ZenVolt has been nominated to represent the UK at the UK–Malaysia Sustainabili
 ZenVolt achieved **2nd place at the EasyA x VeChain x BCG Hackathon 2024**, hosted at the University of Cambridge. This hackathon, one of the **most competitive sustainability-focused Web3 competitions** globally, attracted over 500 participants from around the world, including top-tier developers, entrepreneurs and industry leaders. ZenVolt’s performance against such a high-caliber field further validated its technological innovation, scalability and alignment with real-world sustainability challenges. **Boston Consulting Group (BCG)**, one of the world’s top management consulting firms, played a key role in the hackathon and recognized ZenVolt’s model as highly innovative, scalable, and aligned with the future of decentralized sustainability. Primary meetings and positive expert feedback from BCG’s sustainability consulting team helped solidify ZenVolt’s credibility and refine the platform for corporate demands.
 
 ### Mockups / UI
-- UI design ands mockups available for the application
+- UI design ands mockups available for the application: https://www.motiff.com/file/QImySieG8GcqEeEkAdwkj2C?nodeId=2%3A1618&type=design 
 - Early prototype deplyed and tested in Vechain and Flare Coston2 testnet: https://github.com/AbdurRazzak01/Zen
 - Fleet moblity data tested using custom algorithm
   
@@ -297,10 +297,10 @@ She currently serves as **Marketing Lead at Mercor**, a dynamic technology firm,
 
 ## 📊 Development Status
 
-- Frontend and backend prototypes under active development
-- Figma UI available for both fleet dashboard and driver views
-- Smart contracts for tracking and rewards drafted
-- Validation in progress with academic and industry partners
+- Frontend and backend prototypes under active development.
+- Figma UI available for both fleet dashboard and driver views.
+- Smart contracts for tracking and rewards drafted.
+- Validation in progress with academic and industry partners.
 
 ---
 
@@ -363,7 +363,7 @@ ZenVolt’s grant scope focuses on delivering a minimal, working blockchain-back
 
 ZenVolt is designed to become **the on-chain infrastructure for real-time, behavior-verified emissions reduction** in the global transport sector — creating a direct bridge between physical-world environmental action and decentralized finance (DeFi) ecosystems on Polkadot.
 
-We aim to position Polkadot at the forefront of **Web3 climate innovation**, onboarding fleets, drivers,
+We aim to position Polkadot at the forefront of **Web3 climate innovation**, onboarding fleets, drivers and leading logistic companies to unlock the untouched market of nearly a billion dollars. 
 
 ---
 
