@@ -4,6 +4,8 @@ Freight Futures / Polka Ship
 
 ## 🌟 Project Overview
 
+Winner - 1st Place Technical Track at the EasyA x Polkadot London Hackathon 2025
+
 FreightFutures is a prediction market for future freight prices.
 
 In a post-tariff highly volatile period, freight prices are at an unprecedented level of volatility.
