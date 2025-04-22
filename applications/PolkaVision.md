@@ -206,7 +206,6 @@ Philosophical Exclusions
         This is a place for you to manage expectations and clarify any limitations
 
         🧩 Ecosystem Fit
-## SkillBridge in the Polkadot Ecosystem
 
 # What the Project Will Not Provide:
 - While not explicitly stated in the document, the initial version appears to rely on pre-defined program code components rather than unrestricted AI-generated code to ensure security and reliability
