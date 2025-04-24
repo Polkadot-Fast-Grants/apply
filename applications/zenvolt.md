@@ -1,4 +1,4 @@
-# ZenVolt – Polkadot Fast-Grants Application
+ZenVolt – Polkadot Fast-Grants Application
 
 ## 🌟 Project Overview
 
@@ -17,7 +17,7 @@ This model not only accelerates real-world adoption of Polkadot, but also inject
 **Team Motivation:**  
 Companies today are under increasing pressure to meet ambitious ESG targets, yet real-time tools for emissions visibility and automated sustainability verification remain scarce, especially within the transportation sector. ZenVolt is built to fill this crucial gap by combining real-time vehicle data, behavioral science and blockchain technology, making ESG compliance not just automatic and verifiable, but also economically rewarding. We are committed to complementing, not competing with, other initiatives within the Polkadot ecosystem by offering a highly focused, data-driven solution specifically designed for fleet decarbonization. We believe Polkadot’s infrastructure enables us to bring trust, automation and transparent economic incentives into the heart of sustainability compliance.
 
-The ZenVolt team is driven by a strong blend of technical expertise, business strategy and a deep commitment to real-world impact. Abdur Razzak, Founder and CEO of ZenVolt, is a **blockchain developer and AI specialist** recognized with seven blockchain hackathon awards and a graduate of **Accelerate Cambridge(Cohort 36**) at the University of Cambridge Judge Business School, bringing nearly two years of industry experience from **Eli Lilly**, where he specialized in building critical data systems and custom algorithms. **Rebecca Gatto**, ZenVolt’s CMO, is a strategic marketing expert with an **MBA from Cambridge Judge Business School** and professional experience at **The Financial Times**, London, and currently **leads marketing at Mercor**, leveraging deep expertise in business communications, global scaling and growth strategies to drive ZenVolt’s market positioning. 
+The ZenVolt team is driven by a strong blend of technical expertise, business strategy and a deep commitment to real-world impact. Abdur Razzak, Founder and CEO of ZenVolt, is a **blockchain developer and AI specialist** recognized with seven blockchain hackathon awards and a graduate of **Accelerate Cambridge(Cohort 36**) at the University of Cambridge Judge Business School, bringing nearly two years of industry experience from **Eli Lilly**, where he specialized in building **critical data systems and custom algorithms**. **Rebecca Gatto**, ZenVolt’s CMO, is a strategic marketing expert with an **MBA from Cambridge Judge Business School** and professional experience at **The Financial Times**, London, and currently **leads marketing at Mercor**, leveraging deep expertise in business communications, global scaling and growth strategies to drive ZenVolt’s market positioning. 
 
 Together, we bring a unique and diverse mix of skills that combine deep technical knowledge, real-world business expertise and a shared passion for sustainability. More than anything, we see ZenVolt not just as a startup, but as a mission to serve the world empowering fleets and individuals to transition toward carbon neutrality. **Our motivation is rooted in our vision: to make sustainability tangible, measurable, rewarding and accessible for everyone, leveraging the best of blockchain and behavioral science to drive real environmental change.**
 
@@ -65,6 +65,9 @@ The backend interacts directly with blockchain smart contracts and Substrate RPC
 
 - **Data Monetization Layer:** Aggregated, anonymized fleet emissions and driving behavior data is tokenized and made available via smart contracts for secure licensing to insurers, regulators, researchers, and ESG data platforms. The Data Licensing Smart Contract manages access rights, usage limitations, and payment flows automatically, ensuring privacy compliance and fair revenue distribution.
 
+![ZenVoltSystemArchitecture](https://github.com/user-attachments/assets/5b7cd7e4-5b1c-481e-b0aa-ff08271d576c)
+  <figcaption style="text-align: center;"> Figure Caption: ZenVolt System Architecture Design</figcaption>
+
 ##### Core Smart Contract Components
 Smart contracts form the operational backbone of ZenVolt.
 They manage trustless transactions, automate carbon token issuance, handle reward distribution, and provide transparent ESG reporting.
@@ -85,6 +88,9 @@ Generates, stores, and anchors ESG compliance proofs on-chain, producing time-st
 
  5. Data Licensing and Monetization Contract:
 Manages access control and payment flows for anonymized fleet emissions data shared with external third parties (insurers, governments, researchers).
+![ZenVolt_Smart_Contract_Interactions](https://github.com/user-attachments/assets/d5c6fe06-5fd8-4ac9-8623-f36588d3a7ad)
+  <figcaption style="text-align: center;"> Figure Caption: ZenVolt Smart Contract Design</figcaption>
+
 
 ### Prior Work & Validation
 - **Accelerate Cambridge Graduate – Cambridge Judge Business School:**
@@ -288,7 +294,7 @@ In Summary ZenVolt is positioned as **the first full-stack, behavior-driven dece
 -  [github.com/AbdurRazzak01]([https://github.com/AbdurRazzak01])
 
 ### Experience
-- Founder and **CEO** of ZenVolt, **Abdur Razzak** is a final-year **Computer Science (Artificial Intelligence)** student with a strong background in blockchain development, AI-driven sustainability innovation and decentralized systems. He is a **seven-time blockchain hackathon award winner** and has earned recognition in business competitions, including the QI Digital Competition for Web3 marketing innovation and the READY Program in collaboration with the **United Nations**, focusing on sustainable business development. Professionally, he brings nearly two years of experience as a Data Engineer at **Eli Lilly, one of the world’s largest pharmaceutical companies**, where he worked on building custom algorithms, critical data systems and cutting-edge technological solutions in highly regulated environments. He is also a graduate of **Accelerate Cambridge (Cohort 36)**, the world-renowned startup accelerator run by the University of Cambridge Judge Business School, recognized for producing some of the most promising ventures globally.
+- Founder and **CEO** of ZenVolt, **Abdur Razzak** is a final-year **Computer Science (Artificial Intelligence)** student with a strong background in blockchain development, AI-driven sustainability innovation and decentralized systems. He is a **seven-time blockchain hackathon award winner** and has earned recognition in business competitions, including the QI Digital Competition for Web3 marketing innovation and the READY Program in collaboration with the **United Nations**, focusing on sustainable business development. Professionally, he brings nearly two years of experience as a **Data Engineer** at **Eli Lilly, one of the world’s largest pharmaceutical companies**, where he worked on building custom algorithms, critical data systems and cutting-edge technological solutions in highly regulated environments. He is also a graduate of **Accelerate Cambridge (Cohort 36)**, the world-renowned startup accelerator run by the University of Cambridge Judge Business School, recognized for producing some of the most promising ventures globally.
   
 - **Chief Marketing Officer** at ZenVolt, **Rebecca Gatto** brings deep expertise in strategic communications, digital marketing and business growth. She is a seasoned journalist who has worked with various firms in the USA before completing her **MBA at Cambridge Judge Business School**, one of the world's leading business schools. While in London, Rebecca honed her marketing expertise at **The Financial Times**, one of the most respected names in global business journalism, where she focused on business communications and branding strategy.
 She currently serves as **Marketing Lead at Mercor**, a dynamic technology firm, where she drives marketing operations and international growth initiatives. Rebecca’s global network, strategic business insight and cross-sector marketing experience are instrumental in positioning ZenVolt for scalable success.
@@ -311,30 +317,46 @@ She currently serves as **Marketing Lead at Mercor**, a dynamic technology firm,
 - **Team:** 2 full-time developers (with part-time research support from Brunel University partnership)
 - **Total Grant Request:** $10,000 USD
 
-ZenVolt’s grant scope focuses on delivering a minimal, working blockchain-backed emissions tracking-to-tokenization pilot integrated directly with the Polkadot Asset Hub and native Substrate infrastructure.
+ZenVolt’s grant scope focuses on delivering a **working blockchain-backed emissions tracking-to-tokenization pilot** integrated directly with the **Polkadot Asset Hub** and **native Substrate infrastructure**, tested with fleets.
 
 ---
 
-### 🚀 Milestones
+### 🚀 **Milestones and Deliverables Breakdown**
 
-| #   | Deliverable              | Specification                                                                                                         | Cost (USD) | Completion |
-|-----|--------------------------|----------------------------------------------------------------------------------------------------------------------|------------|------------|
-| 0a  | Open-Source License       | Codebase released under Apache 2.0 License for community contribution and transparency.                              | $0         | Month 1    |
-| 0b  | Technical Documentation   | Comprehensive inline code comments + tutorial covering the telemetry pipeline, carbon calculation logic, and token generation process. | $500       | Month 1    |
-| 0c  | Testing Suite             | Unit and integration tests for data ingestion, smart contract functions (minting, rewarding), and emissions validation. | $500       | Month 2    |
-| 0d  | Public Communication      | Publish an article explaining the ZenVolt architecture, pilot results, and how it expands Polkadot’s real-world utility. | $0         | Month 3    |
-| 1   | Smart Contract Deployment | Deploy initial emissions tracking and ZVCT token minting contracts on **Polkadot Asset Hub testnet**; integrate with XCM for basic cross-chain asset movement simulation. | $4,000     | Month 2    |
-| 2   | ESG Pilot Deployment      | Pilot program with 20 fleet vehicles from Brunel University London: generate real-world emissions data, mint carbon tokens, issue driver rewards via dashboard. | $5,000     | Month 3    |
+| #   | **Deliverable**                  | **Specification**                                                                                              | **Cost (USD)** | **Completion Date**  |
+|-----|-----------------------------------|----------------------------------------------------------------------------------------------------------------|----------------|----------------------|
+| **0a**  | **Open-Source License**           | Codebase released under **Apache 2.0 License** for **community contribution** and **transparency**.            | $0             | **Week 1**          |
+| **0b**  | **Technical Documentation**       | 1. Set up documentation **framework** for inline code comments, **API docs**, and **tutorials**.<br>2. Document the **core architecture** and **design decisions** for the **telemetry pipeline**, **carbon calculation logic**, and **smart contract workflows** (minting, rewarding, emissions validation).<br>3. Provide an **overview** of the **data flow** and expected **interactions** between components to ensure consistency in the codebase and later documentation. | $500           | **Week 2**          |
+| **0c**  | **Testing Suite**                 | Develop **unit tests** for **smart contract functions (minting, rewarding)**, and **integration tests** for **data ingestion pipeline** and **emissions validation**. | $500           | **Week 3**          |
+| **0d**  | **Public Communication**          | Publish a **detailed article** explaining **ZenVolt’s architecture**, **pilot results**, and how the project **expands Polkadot’s real-world utility** in **sustainability**. | $0             | **Week 12**         |
+| **1**   | **Smart Contract Deployment**     | Deploy initial **emissions tracking** and **ZVCT token minting contracts** on **Polkadot Asset Hub testnet**. Key actions include the deployment of core smart contract logic and **XCM integration** for **basic cross-chain asset movement simulation**. | $4,000         | **Week 6**          |
+| **2**   | **Backend Development & Telemetry Pipeline** | Set up **backend infrastructure** for **telemetry data ingestion**, develop **data storage architecture** (PostgreSQL), and ensure **secure data management**. Implement **API endpoints** for future frontend and contract interaction. | $1,500         | **Week 6**          |
+| **3**   | **Frontend Development & UI/UX**  | Develop **ReactJS frontend** with **UI components** for **fleet managers** and **drivers** to view **emissions data**, **rewards**, and **ZVCT token balances**. Ensure **mobile-friendly design**, **user experience (UX)** focused on sustainability. | $1,500         | **Week 7**          |
+| **4**   | **Smart Contract Integration**    | **Integrate smart contracts** with **backend** and **frontend**. Ensure that **emissions tracking**, **minting ZVCT tokens**, and **reward distribution** function seamlessly across the system. | $1,000         | **Week 8**          |
+| **5**   | **ESG Pilot Deployment**          | Pilot program with **20 fleet vehicles** from **Brunel University London**: collect **real-world emissions data**, mint **ZVCT tokens**, issue **driver rewards** via **dashboard**, and gather **user feedback** from fleet managers and drivers on the **system’s performance**. Set **success metrics** for **engagement** and **emissions reductions**. | $2,000         | **Week 12**         |
 
 ---
 
-### 💰 Budget Breakdown
+# 💰 **Budget Breakdown for First Funding Request** (Total: $4,000)
 
-| Milestone | Deliverables                   | Cost (USD) | Completion  |
-|-----------|---------------------------------|------------|-------------|
-| 1         | Smart contracts + Asset Hub deployment +  reward distribution | $5,000     | 1.5 months  |
-| 2         | Fleet pilot program + telemetry system + emissions dashboard | $5,000     | 1.5 months  |
-| **Total** |                                 | **$10,000**| **3 months**|
+| **Milestone**    | **Deliverables**                                                  | **Cost (USD)** | **Completion Date**  |
+|------------------|-------------------------------------------------------------------|----------------|----------------------|
+| **0a**           | **Open-Source License**                                           | $0             | **Week 1**          |
+| **0b**           | **Technical Documentation**                                       | $500           | **Week 2**          |
+| **1**            | **Smart contracts deployment** + **Asset Hub deployment** + **reward distribution** | $2,000         | **Week 6**          |
+| **2**            | **Backend development** + **telemetry pipeline** + **data storage** | $1,500         | **Week 6**          |
+| **Total**        |                                                                   | **$4,000**     | **End of Week 6**    |
+
+---
+
+# 💰 **Budget Breakdown for Second Funding Request** (Total: $6,000)
+
+| **Milestone**    | **Deliverables**                                                  | **Cost (USD)** | **Completion Date**  |
+|------------------|-------------------------------------------------------------------|----------------|----------------------|
+| **3**            | **Frontend development** + **dashboard integration**             | $1,500         | **Week 7**          |
+| **4**            | **Smart contract integration** with **frontend** and **backend** | $1,000         | **Week 8**          |
+| **5**            | **ESG Pilot program** + **user feedback**                        | $2,000         | **Week 12**         |
+| **Total**        |                                                                   | **$6,000**     | **End of Week 12**    |
 
 ---
 
