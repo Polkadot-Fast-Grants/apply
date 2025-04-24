@@ -14,6 +14,8 @@
 - A rudimentary MVP concept is currently live at https://www.foundation.dev/, though it is still under active development. This grant will allow me to complete the core features, including expanded authentication options. At present, only wallet-based login is available, but I plan to add social login, email, and passkey support to enable broader access. I also aim to finalize the asset retrieval and send functions, optimizing them for simplicity and flexibility.
 - The project will include detailed documentation on data models and API specifications for the core functionality,
 - A simple visual flow of how a DApp connects to the Polkadot API.
+- ![polkadotapi](https://github.com/user-attachments/assets/6346a6bc-47a0-43d6-834c-74001a6f8293)
+
 - I am requesting funding to complete the base DMS, which includes authentication, asset viewing, and a send function with seamless, dynamic blockchain interaction. A DeFi module is excluded from this scope, as I estimate it will take longer than three months to develop.
 
 
