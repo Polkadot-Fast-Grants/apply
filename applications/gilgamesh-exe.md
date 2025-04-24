@@ -2,7 +2,9 @@
 
 ## 🌟 Project Overview
 
-Project Name: Gilgamesh.exeTagline: A cyberpunk CYOA game on Polkadot—your choices logged on-chain, your legend forged in blockchain-tracked history.
+Project Name: Gilgamesh.exe
+
+Tagline: A cyberpunk CYOA game on Polkadot—your choices logged on-chain, your legend forged in blockchain-tracked history.
 
 Description: Gilgamesh.exe is a choose-your-own-adventure game that reimagines the Epic of Gilgamesh in a gritty cyberpunk world. By leveraging blockchain, every player decision is recorded immutably on-chain. This ensures that each playthrough becomes a permanent, verifiable part of a shared narrative history. While full integration is in development, the game aims to let players own their progress and story outcomes, minting them as NFTs.
 
