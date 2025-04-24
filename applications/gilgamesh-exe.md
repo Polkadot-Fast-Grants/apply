@@ -1,126 +1,135 @@
-# 📝 Name of your Project
+Gilgamesh.exe
 
 ## 🌟 Project Overview
 
-Please provide the following:
+Project Name: Gilgamesh.exeTagline: A cyberpunk CYOA game on Polkadot—your choices logged on-chain, your legend forged in blockchain-tracked history.
 
-- If the name of your project is not descriptive, a tagline (one sentence summary)
-- A brief description of your project
-- An indication of how your project relates to / integrates into Polkadot
-- An indication of why your team is interested in creating this project
-- (Optional but big bonus points): [1-min video pitch](https://www.ycombinator.com/video/)
+Description: Gilgamesh.exe is a choose-your-own-adventure game that reimagines the Epic of Gilgamesh in a gritty cyberpunk world. By leveraging blockchain, every player decision is recorded immutably on-chain. This ensures that each playthrough becomes a permanent, verifiable part of a shared narrative history. While full integration is in development, the game aims to let players own their progress and story outcomes, minting them as NFTs.
+
+Integration with Polkadot: The game utilizes Polkadot's Asset Hub for NFT minting and plans to deploy smart contracts on a Polkadot-compatible EVM layer.
+
+Team Interest: We are deeply interested in merging storytelling with Web3 infrastructure. By building on Polkadot, we aim to pioneer narrative permanence and interactivity in gaming.
 
 ### 🔍 Project Details
 
-We expect applicants to have a solid idea about the project's expected final state. Therefore, please submit (where relevant):
+Technology stack:
+- Frontend: HTML, JS, Python (CLI-based UI for prototype)
+- Smart Contracts: Solidity (via Remix IDE)
+- Blockchain Layer: Polkadot EVM-compatible parachain, Westend for testing
+- NFT: Polkadot Asset Hub
+- Development Tools: MetaMask, local HTTP server
 
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- Any PoC/MVP or other relevant prior work or research on the topic
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and clarify any limitations
+**Core Components**:
+- Decision Tracking Smart Contracts
+- NFT minting via Asset Hub
+- Decentralized save system
+- Future: Immutable Story Graph
+
+**Proof of Concept**:
+- [Demo iteration 0 - Basic game loop](https://youtu.be/t5Ntn5ekXFA)
+- [Iteration 2 - Value save via smart contract](https://youtu.be/egZqN9xHS_g)
+- [Iteration 6 - Story tracker contract](https://youtu.be/y4dbvF7GeIE)
+- [Loom code explanation](https://www.loom.com/share/209e56cbc8cb49988ec97b8b3ddc77cf?sid=d373e33d-da91-4e25-93fd-0c3bf428d90e)
+
+**Limitations**:
+- Full game isn't deployed yet
+- Blockchain interaction currently faces latency issues
+- Frontend and smart contract integration still modular and in-progress
+
+**Will not provide**:
+- Any form of complex trading besides providing NFTs
+- Collating chain data and DeFi information
+- Complete running on the Blockchain (this is potentially slow and unreliable) only saving of story progress and minting of NFTs
 
 ### 🧩 Ecosystem Fit
+ 
+**Ecosystem Role**: Adds narrative permanence to Polkadot via on-chain story tracking and NFT rewards.
 
-Help us locate your project in the Polkadot landscape and what problems it tries to solve by answering each of these questions:
+**Target Audience**:  
+Gamers, Web3 users, story lovers, NFT collectors, and experimental devs.
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Polkadot ecosystem?
-  - If so, how is your project different?
-  - If not, why might such a project not exist yet?
+**Needs Met**:
+- Proof and preservation of player agency
+- Portable, decentralized save states
+- NFT collectibles tied to narrative outcomes
 
-> **Note**: We prioritize projects building on Plaza/Polkadot Hub, games, and DeFi applications, though all types of projects will be considered.
+**Comparison**:
+- No known Polkadot game logs every decision on-chain as a story graph.
+- Unique in combining narrative-driven gameplay with smart contract interaction at a granular level.
 
 ## 👥 Team
 
-- **Team Name:** Name of your team. If you apply as a legal entity, please use its name.
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email
-- **Website:** Your website, GitHub org, blog, or similar
+**Team Name**: Gilgamesh Systems  
+**Contact Name**: Jasmine Thompson
+**Contact Email**: jasmine.s.j.thompson@gmail.com
+**GitHub**: https://github.com/JasmineSJYThompson
+**LinkedIn**: https://github.com/JasmineSJYThompson
+
+**Team Members**:
+- Jasmine Thompson - Developer
+
+**LinkedIn**:
+- https://www.linkedin.com/in/jasminesthompson/
+
+**GitHub Accounts**:
+- https://github.com/JasmineSJYThompson
+
+**Experience**:  
+Experience with smart contracts, Web3, and interactive fiction. Multiple working iterations demonstrating blockchain-linked functionality.
+
+Attended Encode AI Hackerthon developing a DeFi web application, attended the EasyAxPolkadot Hackerthon creating the initial form of Gilgamesh.exe
 
 ### Team members
 
-Please list the legal name of all grant beneficiaries. Solo developers (1-person teams) are eligible for funding.
-
-#### LinkedIn Profiles (if available)
-
-- https://www.linkedin.com/{person_1}
-- https://www.linkedin.com/{person_2}
-
-### Team Code Repos
-
-- https://github.com/{your_organisation}/{project_1}
-- https://github.com/{your_organisation}/{project_2}
-
-Please also provide the GitHub accounts of all team members:
-
-- https://github.com/{team_member_1}
-- https://github.com/{team_member_2}
-
-### Team's experience
-
-Please describe the team's relevant experience, including any previous blockchain projects or contributions to the ecosystem.
+Jasmine Thompson
 
 ## 📊 Development Status
 
-If you've already started implementing your project, please provide a link and a description of the code. Otherwise, please provide some documentation on the research and other work you have conducted before applying.
+Prototype iterations available with video walkthroughs and working contract demos. Game map and mechanics mapped out and modular.
+
+---
 
 ## 📅 Development Roadmap
 
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, please describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality.
-
-**Important notes:**
-- Each milestone is capped at **$5,000 USD**
-- Milestones must be delivered within **3 months** of approval
-- The maximum grant amount is **$10,000 USD** per application (up to **$15,000 USD** per project in exceptional cases)
-- You will only receive payment after successful milestone delivery
-
-### Overview
-
-- **Estimated Duration:** Duration of the whole project (maximum 3 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project
-- **Total Costs:** Requested amount in USD for the whole project (maximum $10,000 USD)
-
-> Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
+**Estimated Duration**: 3 months  
+**FTE**: 1.0  
+**Total Costs**: $10,000
 
 | Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... |
-| 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Article | We will publish an **article** that explains what was done/achieved as part of the grant. |
-| 1. | Feature X | We will create a feature that will... (Please describe in detail) |
-| 2. | Feature Y | The Y feature will... (Please describe in detail) |
-| 3. | Feature Z | The Z feature will... (Please describe in detail) |
+| ------ | ----------- | ------------- |
+| 0a | License | MIT |
+| 0b | Documentation | Inline code documentation + basic setup and usage tutorial |
+| 0c | Testing | Full test coverage for smart contract functions with test guide |
+| 0d | Article | Blog article on Polkadot integration and narrative blockchain tooling |
+| 1 | Story Tracker Contract | Smart contract that logs player decisions immutably |
+| 2 | NFT Minting | Smart contract logic for minting unique path NFTs |
+| 3 | CLI Game Interface | Python-based interface showing story integration with blockchain logic |
 
-### 💰 Budget Breakdown
-
-Please provide a breakdown of your budget by milestone:
+**Budget Breakdown**:
 
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
-| --- | --- | --- | --- |
-| 1 | Features X, Y | $5,000 | 1.5 months |
-| 2 | Feature Z | $5,000 | 1.5 months |
+| --------- | ------------ | ---------- | --------------------- |
+| 1 | Story Tracker + NFT Logic | $5,000 | 1.5 months |
+| 2 | CLI Game + Integration | $5,000 | 1.5 months |
 | **Total** | | **$10,000** | **3 months** |
+
+---
 
 ## 🔮 Future Plans
 
-Please include:
+- Finalize smart contract integration into full game loop
+- Expand to multiplayer or DAO-based storytelling
+- Apply for additional grants and possible VC interest for full game launch
+- Release NFTs as keys for future narrative content or crossover games
 
-- How you intend to continue development after the Fast-Grant
-- Any plans for seeking additional funding (other grants, VC funding, etc.)
-- Your vision for the project's growth and impact in the Polkadot ecosystem
+---
 
 ## ℹ️ Additional Information
 
-Here you can add any additional information that you think is relevant to this application, such as:
-
-- Work you have already done
-- If there are any other teams who have already contributed to the project
-- Other funding you may have applied for
-
-Remember that the Fast-Grants Programme is designed as a first step for promising projects. We're looking for projects that can continue to grow beyond this initial funding.
+- Presentation: https://www.canva.com/design/DAGlG4syXqw/I1lQla71YWCy2bIoX7OqeA/view
+- Story maps:
+  - ![Act One](images/act_one_story_map.jpg)
+  - ![Act Two](images/act_two_story_map.jpg)
+  - ![Act Three](images/act_three_story_map.jpg)
+- The project is built iteratively with many tested prototypes
+- Designed to grow alongside Polkadot’s evolving infrastructure
