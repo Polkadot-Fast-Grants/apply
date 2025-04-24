@@ -61,11 +61,11 @@ Gamers, Web3 users, story lovers, NFT collectors, and experimental devs.
 
 ## 👥 Team
 
-**Team Name**: Gilgamesh Systems  
-**Contact Name**: Jasmine Thompson
-**Contact Email**: jasmine.s.j.thompson@gmail.com
-**GitHub**: https://github.com/JasmineSJYThompson
-**LinkedIn**: https://github.com/JasmineSJYThompson
+- **Team Name**: Gilgamesh Systems  
+- **Contact Name**: Jasmine Thompson
+- **Contact Email**: jasmine.s.j.thompson@gmail.com
+- **GitHub**: https://github.com/JasmineSJYThompson
+- **LinkedIn**: https://github.com/JasmineSJYThompson
 
 **Team Members**:
 - Jasmine Thompson - Developer
