@@ -3,13 +3,17 @@
 
 Please provide the following:
 
+
 - tagline (one sentence summary) " Empowering every voice, delivering justice everywhere — bridging people and the law." 
 - It allows user to
 - Find a lawyer in the nearset area and relevent experitise
 - Customers can connect to a legal expert any hour of the day (24 hours)
-- It'll allows customer to get any legal paper work done from anywhere in the world through our website (Indian Juridiction)
+- It'll allows customer to get any legal paper work done from anywhere in the world through our website (Indian Juridiction).
 
-- We're highly mortivated in creating a platform for providing legal aid and awareness to people and becoming thee voice aginst any actrocities, with increasing crime and distress among the citizens this a highly needed service to the scoiety. This is our core idea to promote this venture so that we can bring a change and make this society better again.
+- We're highly mortivated in creating a platform for providing legal aid and awareness to people and becoming thee voice aginst any actrocities,
+- with increasing crime and distress among the citizens this a highly needed service to the scoiety. 
+- This is our core idea to promote this venture so that we can bring a change and make this society better again.
+
 
 ### 🔍 Project Details
 
@@ -111,6 +115,8 @@ Please provide a breakdown of your budget by milestone:
 | 1 | UI/UX | $3,000 | 1 months |
 | 2 | Mobile Application, blockchain wallet for transaction | $15,000 | 2 months |
 | **Total** | | **$18,000** | **3 months** |
+
+Make sure you show clearly what the funding is going towards (e.g. 30 hours of a full time employee at $X / hour).
 
 ## 🔮 Future Plans
 
