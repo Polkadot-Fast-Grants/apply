@@ -80,29 +80,32 @@ We have not identified any other projects providing AI-driven, interactive exper
 
 ## 👥 Team
 
-- **Team Name:** Name of your team. If you apply as a legal entity, please use its name.
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email
-- **Website:** Your website, GitHub org, blog, or similar
+- **Team Name:** Team PolkaVerse
+- **Contact Name:** Chen Ye (William) Wang
+- **Contact Email:** bwilliamwang@gmail.com
+- **Website:** https://github.com/WilliamUW/EasyAPolkadot
 
 ### Team members
 
 Please list the legal name of all grant beneficiaries. Solo developers (1-person teams) are eligible for funding.
 
+1. Chen Ye (William) Wang
+2. Aiturgan (Aya) Talant
+
 #### LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/{person_1}
-- https://www.linkedin.com/{person_2}
+- https://www.linkedin.com/heywilliamwang
+- https://www.linkedin.com/in/aiturgantalant/
 
 ### Team Code Repos
 
-- https://github.com/{your_organisation}/{project_1}
-- https://github.com/{your_organisation}/{project_2}
+- https://github.com/WilliamUW/EasyAPolkadot
+- https://github.com/WilliamUW/EasyAPolkadotUnity
 
 Please also provide the GitHub accounts of all team members:
 
-- https://github.com/{team_member_1}
-- https://github.com/{team_member_2}
+- https://github.com/williamuw
+- https://github.com/bktfuture
 
 ### Team's experience
 
