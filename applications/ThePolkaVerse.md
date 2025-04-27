@@ -111,9 +111,26 @@ Please also provide the GitHub accounts of all team members:
 
 Please describe the team's relevant experience, including any previous blockchain projects or contributions to the ecosystem.
 
+William Wang
+CS @ UWaterloo
+Incoming @ Meta, Prev @ Bloomberg
+70x Hackathon Wins ($180K in Prizes)
+
+Aya Talant
+CS @ UMSL
+Incoming @ Microsoft, Prev Intern @ Microsoft, Fellow @ Uber
+
 ## 📊 Development Status
 
 If you've already started implementing your project, please provide a link and a description of the code. Otherwise, please provide some documentation on the research and other work you have conducted before applying.
+
+We have won prizes at the EasyA Harvard Polkadot Hackathon twice (2024 and 2025)!
+
+Presentation Video: https://youtu.be/rTmR7d7fA08
+
+Detailed Technical Explanation Video: https://youtu.be/CQ0DuR_dadQ
+
+Presentation: https://www.canva.com/design/DAGMMwZQYqg/SmJTmqBl4GqeMweNXy2ztQ/view?utm_content=DAGMMwZQYqg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb633e28ba7
 
 ## 📅 Development Roadmap
 
