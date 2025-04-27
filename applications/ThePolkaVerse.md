@@ -166,8 +166,8 @@ Please provide a breakdown of your budget by milestone:
 
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
 | --- | --- | --- | --- |
-| 1 | Features X, Y | $5,000 | 1.5 months |
-| 2 | Feature Z | $5,000 | 1.5 months |
+| 1 | Polkadot Unity SDK Integration | $5,000 | 1.5 months |
+| 2 | Polkadot AI Agent Integration | $5,000 | 1.5 months |
 | **Total** | | **$10,000** | **3 months** |
 
 Make sure you show clearly what the funding is going towards (e.g. 30 hours of a full time employee at $X / hour).
