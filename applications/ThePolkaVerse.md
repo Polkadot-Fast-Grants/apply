@@ -151,7 +151,7 @@ Presentation: https://www.canva.com/design/DAGMMwZQYqg/SmJTmqBl4GqeMweNXy2ztQ/vi
 | 0c. | Testing and Testing Guide | Core smart contract functions (asset creation, ownership verification, metadata fetching) will be covered by **unit tests**. A **testing guide** will explain how to set up the environment and run all tests locally. |
 | 0d. | Article | We will publish a **technical article** explaining the architecture of Polkaverse, challenges faced integrating Unity and Polkadot AssetHub, and how developers can build similar experiences. |
 | 1. | Polkadot Unity SDK Integration | We will build and open-source a **Unity SDK integration** that connects Unity WebGL builds with the Polkadot AssetHub via Metamask and Ethers.js. This will include: wallet authentication, real-time fetching of user-owned asset metadata, and spawning corresponding 3D models in the Unity WebGL physics sandbox. The deliverable will include a live Unity WebGL demo and open-source code on GitHub. |
-| 2. | Polkadot AI Agent Integration | We will extend the Unity integration to support **AI interaction** with owned assets. This includes setting up Google Gemini 2.0 Flash model hooks to generate conversations based on asset metadata (description, traits) and adding dynamic chat functionality within the Unity sandbox. A live demo video will be recorded showing real asset spawning and AI chatting in the sandbox environment. |
+| 2. | Polkadot AI Agent Integration | We will extend the Unity integration to support **AI interaction** with owned assets. This includes setting up Google Gemini 2.0 Flash model hooks to generate conversations based on asset metadata (description, traits) and adding dynamic AI agent interactions beyond basic chatting (e.g. image generation, real-time audio chat). A live demo video will be recorded showing AI chatting and agent interactions. |
 
 ---
 
@@ -171,6 +171,8 @@ Please include:
 - Any plans for seeking additional funding (other grants, VC funding, etc.)
 - Your vision for the project's growth and impact in the Polkadot ecosystem
 
+After completing the Fast-Grant milestones, we plan to expand PolkaVerse by adding support for more wallets, building a marketplace for AI-enhanced digital assets, and optimizing the platform for mobile WebGL. We will apply for a full Web3 Foundation Open Grant and explore ecosystem venture funding to support these next stages. Our long-term vision is to make PolkaVerse the leading platform for interactive digital assets on Polkadot, helping broaden the network’s appeal to mainstream users through engaging, AI-driven experiences!
+
 ## ℹ️ Additional Information
 
 Here you can add any additional information that you think is relevant to this application, such as:
@@ -180,3 +182,6 @@ Here you can add any additional information that you think is relevant to this a
 - Other funding you may have applied for
 
 Remember that the Fast-Grants Programme is designed as a first step for promising projects. We're looking for projects that can continue to grow beyond this initial funding.
+
+We have already built a working MVP with a deployed smart contract on Westend AssetHub, Unity WebGL integration, real-time asset spawning, and basic AI chat functionality. PolkaVerse is developed entirely by our two-person team (Aya and William) with no external contributors. We have not received any prior funding, and the Fast-Grant will be our first source of external support.
+
