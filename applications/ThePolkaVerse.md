@@ -139,6 +139,7 @@ Presentation: https://www.canva.com/design/DAGMMwZQYqg/SmJTmqBl4GqeMweNXy2ztQ/vi
 - **Estimated Duration:** 3 months
 - **Full-Time Equivalent (FTE):** 2.0 FTE (2 full-time developer — William and Aya)
 - **Total Costs:** $10,000 USD
+- 100 hours of work from 2 full time employee at $25 / hour across 3 months (34 hours a month)
 
 ---
 
