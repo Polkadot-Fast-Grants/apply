@@ -99,7 +99,7 @@ I plan to continue development, starting with a DeFi module (estimated at 4–6 
 
 
 - Additional Funding:
-No concrete plans yet, but I’m considering an OpenGov proposal after completing a few modules.
+I am open to pursuing additional grants for the modules and eventually plan to submit an OpenGov proposal.
 - Vision for Growth and Impact:
 This ambitious project aims to replicate WordPress’s success in the Polkadot ecosystem. With 43.5% of websites still running on WordPress, I envision Foundation having a similar transformative impact on DApp development.
 
