@@ -89,8 +89,7 @@ Please provide a breakdown of your budget by milestone:
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
 | --- | --- | --- | --- |
 | 1 | Authentication and blockchain connection features | $5,000 | 1 months |
-| 2 |
-Finalizing design and documentation| $3,000 | 1 months |
+| 2 | Finalizing design and documentation| $3,000 | 1 months |
 | **Total** |Fully functional DApp | **$8,000** | **2 months** |
 
 ## 🔮 Future Plans
