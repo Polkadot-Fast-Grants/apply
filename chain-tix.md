@@ -26,12 +26,90 @@ We believe Polkadot's unique infrastructure finally makes scalable, affordable, 
 
 **An overview of the technology stack to be used**
 
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- Any PoC/MVP or other relevant prior work or research on the topic
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and clarify any limitations
+- **Blockchain:** Polkadot Asset Hub
+- **Smart Contracts:** Solidity (optimized for 49KB size limit)
+- **Storage:** IPFS (via Pinata) for NFT metadata and images
+- **Frontend:** HTML, CSS, JavaScript (Ethers.js)
+- **Wallet Connection:** MetaMask + Polkadot extensions
+- **Version Control:** GitHub
+- **Testing/Deployment:** Remix IDE, Pinata IPFS Gateway
+
+Future development will migrate to **Moonbase Alpha** to enable richer smart contracts without size restrictions.
+
+---
+
+## 🛠️ Smart Contract Architecture
+
+### 1. SecretCodeManager.sol
+- Stores **hashed secret words** securely.
+- Verifies secret codes and ensures one mint per wallet.
+- `addSecret()` allows infinite event expansion without redeployment.
+- `verifyAndMarkUsed()` validates secret + marks usage, returning metadata URI.
+
+### 2. SecretPOAPRouter.sol
+- Frontend interacts only with Router.
+- Verifies submitted secret words via Manager.
+- Calls NFT contract to mint collectible if verification succeeds.
+
+### 3. SecretPOAPNFT.sol
+- Minimal ERC-721 contract.
+- Minting rights initially with deployer, updated to Router via `updateMinter()`.
+- All NFTs point to IPFS metadata.
+
+---
+
+## 🎨 Frontend Architecture
+
+- **Mint Page (index1.html):** Connect wallet, enter secret code, mint NFT.
+- **Collectibles Page (collectibles.html):** Fetch and display owned NFTs dynamically from IPFS.
+- **Rewards Page (rewards.html):** Display claimable rewards based on number of collectibles.
+
+Frontend uses Ethers.js for blockchain communication and IPFS gateways for media retrieval.
+
+---
+
+## 🧠 Data Models & Core Functions
+
+| Contract | Function | Input | Output |
+|:---|:---|:---|:---|
+| SecretCodeManager | `addSecret(hashedSecret, uri)` | Hash, Metadata URI | Adds new event secret |
+| SecretCodeManager | `verifyAndMarkUsed(hashedSecret, user)` | Hash, Wallet | Verifies + returns URI |
+| SecretPOAPRouter | `mintWithSecret(secretWord)` | Secret Word (string) | Mints collectible |
+| SecretPOAPNFT | `mint(to, uri)` | Wallet, Metadata URI | Issues NFT |
+| SecretPOAPNFT | `updateMinter(newMinter)` | Address | Sets Router as minter |
+
+---
+
+## 🚀 Proof of Concept / MVP
+
+- Smart contracts deployed and tested on Polkadot Asset Hub.
+- Full working frontend including:
+  - Secret code minting
+  - NFT viewing
+  - Rewards system based on collectibles
+- Metadata stored on IPFS.
+- Complete GitHub repository available.
+- Loom video demo available (link).
+
+---
+
+## 🧩 How Chain-Tix Uses Polkadot
+
+- **Elastic Scaling:** Handles mass NFT minting during major concerts without congestion.
+- **Agile Coretime:** Organizers can pre-purchase blockspace ahead of large events.
+- **Low Gas Costs:** Enables affordable minting for every fan.
+- **Decentralized Metadata:** All event collectibles are stored permanently on IPFS.
+- **49KB Smart Contract Optimization:** Modular design splitting Manager, Router, and NFT contracts.
+
+---
+
+## 🧹 Known Limitations
+
+- Frontend currently deployed only locally (no public hosting yet).
+- NFTs are non-transferable — no secondary trading yet.
+- No on-chain identity integration yet (Frequency integration planned).
+- Advanced organizer dashboards not built yet.
+- Smart contracts currently optimized for Asset Hub size limits — richer contracts will be migrated to **Moonbase Alpha** for future releases.
 
 ### 🧩 Ecosystem Fit
 
@@ -48,92 +126,134 @@ Help us locate your project in the Polkadot landscape and what problems it tries
 
 ## 👥 Team
 
-- **Team Name:** Name of your team. If you apply as a legal entity, please use its name.
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email
-- **Website:** Your website, GitHub org, blog, or similar
-
+- **Team Name:** Chain-Tix
+- **Contact Name:** Pramay Jain
+- **Contact Email:** pramay07@bu.edu
+- **Website:** pramay07_
 ### Team members
 
-Please list the legal name of all grant beneficiaries. Solo developers (1-person teams) are eligible for funding.
+Mahir Patel
 
 #### LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/{person_1}
-- https://www.linkedin.com/{person_2}
+- https://www.linkedin.com/in/pramay-jain/
+- https://www.linkedin.com/in/mahir-patel21/
 
 ### Team Code Repos
 
-- https://github.com/{your_organisation}/{project_1}
-- https://github.com/{your_organisation}/{project_2}
+https://github.com/mahir-pa/poap
 
 Please also provide the GitHub accounts of all team members:
 
-- https://github.com/{team_member_1}
-- https://github.com/{team_member_2}
+https://github.com/pramay2007
+https://github.com/mahir-pa
 
-### Team's experience
+# 🎟️ Chain-Tix — Polkadot Fast-Grant Application
 
-Please describe the team's relevant experience, including any previous blockchain projects or contributions to the ecosystem.
+---
+
+## 👥 Team Experience
+
+Our team has strong experience building on blockchain ecosystems, particularly around smart contracts, NFT minting flows, decentralized storage, and wallet integrations.  
+Previous experience includes:
+
+- Solidity smart contract development (ERC-721, POAP structures).
+- Deployment and testing on Polkadot Asset Hub.
+- Frontend integrations using Ethers.js and decentralized storage via IPFS.
+- Participation in blockchain hackathons focused on NFTs, loyalty systems, and DeFi tools.
+
+Chain-Tix is our next step toward creating scalable, real-world blockchain applications in the live events and entertainment industry.
+
+---
 
 ## 📊 Development Status
 
-If you've already started implementing your project, please provide a link and a description of the code. Otherwise, please provide some documentation on the research and other work you have conducted before applying.
+We have completed a working Proof of Concept (PoC) and MVP:
+
+- Core smart contracts (SecretCodeManager, Router, NFT Minting) are deployed and tested on Polkadot Asset Hub.
+- Frontend interface built with HTML/CSS/JavaScript.
+- Wallet connection and secret word minting functional.
+- Collectibles display and reward claiming system working.
+- IPFS-based decentralized metadata hosting for NFTs.
+- GitHub Repository: [https://github.com/mahir-pa/poap]
+
+Future phases aim to expand functionality and scalability further.
+
+---
 
 ## 📅 Development Roadmap
 
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, please describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality.
-
-**Important notes:**
-- Each milestone is capped at **$5,000 USD**
-- Milestones must be delivered within **3 months** of approval
-- The maximum grant amount is **$10,000 USD** per application (up to **$15,000 USD** per project in exceptional cases)
-- You will only receive payment after successful milestone delivery
-
 ### Overview
 
-- **Estimated Duration:** Duration of the whole project (maximum 3 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project
-- **Total Costs:** Requested amount in USD for the whole project (maximum $10,000 USD)
+- **Estimated Duration:** 3 months
+- **Full-Time Equivalent (FTE):** 1 full-time developer (with part-time support)
+- **Total Costs:** $2,000 USD
 
-> Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
+---
+
+### Milestones and Deliverables
 
 | Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... |
-| 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Article | We will publish an **article** that explains what was done/achieved as part of the grant. |
-| 1. | Feature X | We will create a feature that will... (Please describe in detail) |
-| 2. | Feature Y | The Y feature will... (Please describe in detail) |
-| 3. | Feature Z | The Z feature will... (Please describe in detail) |
+| -----: | :----------- | :------------- |
+| 0a. | License | Project will be released under the MIT License. |
+| 0b. | Documentation | Inline documentation across all contracts + detailed tutorial on minting and claiming rewards. |
+| 0c. | Testing and Testing Guide | Full unit tests for core contracts; testing guide included. |
+| 0d. | Article | Publish a Medium article summarizing development, learnings, and next steps. |
+| 1. | Moonbase Migration | Deploy core smart contracts on Moonbase Alpha to lift size restrictions, allowing for richer metadata handling and broader scalability. |
+| 2. | Artist Dashboard MVP | Build an MVP dashboard where event organizers can see how many collectibles have been minted per event. |
+| 3. | Public Frontend Deployment | Deploy full frontend dApp to Netlify/Fleek so users can interact directly without localhost setup. |
 
-### 💰 Budget Breakdown
+---
 
-Please provide a breakdown of your budget by milestone:
+## 💰 Budget Breakdown
 
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
-| --- | --- | --- | --- |
-| 1 | Features X, Y | $5,000 | 1.5 months |
-| 2 | Feature Z | $5,000 | 1.5 months |
-| **Total** | | **$10,000** | **3 months** |
+| :--- | :--- | :---: | :--- |
+| 1 | Moonbase Migration | $1,000 | 1.5 months |
+| 2 | Artist Dashboard MVP | $500 | 2 months |
+| 3 | Public Frontend Deployment | $500 | 2.5–3 months |
+| **Total** |  | **$2,000** | **3 months** |
 
-Make sure you show clearly what the funding is going towards (e.g. 30 hours of a full time employee at $X / hour).
+Funding is intended to cover:
+- Developer time (est. $25/hour × 80 hours)
+- Infrastructure (IPFS pinning service, hosting costs)
+- Minor UI/UX improvements for public readiness
+
+---
 
 ## 🔮 Future Plans
 
-Please include:
+After completing the Fast-Grant:
 
-- How you intend to continue development after the Fast-Grant
-- Any plans for seeking additional funding (other grants, VC funding, etc.)
-- Your vision for the project's growth and impact in the Polkadot ecosystem
+- **Chain-Tix India Launch:**  
+  Launch Chain-Tix pilot program in India where ticketing problems are larger and loyalty solutions are highly demanded.  
+  Start with 2–3 small concerts/events as test beds, collaborating with independent artists who are highly active but underserved by traditional platforms.
+
+- **Immediate Go-To-Market Strategy:**  
+  Upon receiving the grant, we will immediately initiate **marketing and outreach efforts** to onboard independent artists in India.  
+  Focus will be on educating artists about on-chain loyalty, offering free POAP collectible drops at their concerts, and gathering real user feedback.
+
+- **Funding Expansion:**  
+  Seek additional funding via Moonbeam Foundation grants, Polkadot Treasury, and/or strategic angel investors interested in the Web3 x Events space.
+
+- **Product Growth:**  
+  Expand Chain-Tix to integrate fully with Frequency for decentralized identity management.  
+  Extend POAP collectibles into tradable loyalty points, interoperable across parachains.
+
+Our long-term vision is to become the **go-to decentralized event loyalty platform for India and then scale globally**.
+
+---
 
 ## ℹ️ Additional Information
 
-Here you can add any additional information that you think is relevant to this application, such as:
+- Current work deployed and tested live on Polkadot Asset Hub.
+- Fully open-source GitHub repository available.
+- Frontend and contracts modular and extensible for future feature integrations.
+- We have not applied for any other funding yet — this Fast-Grant would be our first external funding to accelerate the platform.
 
-- Work you have already done
-- If there are any other teams who have already contributed to the project
-- Other funding you may have applied for
+---
 
-Remember that the Fast-Grants Programme is designed as a first step for promising projects. We're looking for projects that can continue to grow beyond this initial funding.
+# 🏆 Thank You
+
+We are excited to continue building Chain-Tix and contributing to the Polkadot ecosystem’s real-world adoption!
+
