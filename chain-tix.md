@@ -1,20 +1,31 @@
-# 📝 Name of your Project
+# 📝 CHAIN-TIX
 
 ## 🌟 Project Overview
 
 Please provide the following:
 
-- If the name of your project is not descriptive, a tagline (one sentence summary)
-- A brief description of your project
-- An indication of how your project relates to / integrates into Polkadot
-- An indication of why your team is interested in creating this project
-- (Optional but **huge bonus points**): [1-min video pitch](https://www.ycombinator.com/video/)
+Tagline - Turning real-world event memories into on-chain collectibles and scalable loyalty programs.
+
+**Brief Description**:
+Chain-Tix is a decentralized ticketing and fan loyalty platform where real-world event attendees mint Proof of Attendance NFTs using secret words shared live at events.
+Fans collect these NFTs as lasting proof of loyalty and can unlock exclusive rewards like merch drops.
+The system ensures fair distribution (one mint per wallet per event) and future scalability to multiple artists and concerts.
+
+**How Chain-Tix Integrates with Polkadot**:
+Chain-Tix leverages Polkadot Asset Hub for low-cost, scalable NFT minting.
+We specifically utilize Elastic Scaling to handle thousands of simultaneous mints during major events without gas wars, and Agile Coretime to allow organizers to pre-purchase blockspace for viral or high-traffic concerts.
+All metadata and images are stored decentralized on IPFS, aligning with Polkadot’s vision of user-owned Web3.
+
+
+**Why We Are Interested in Building Chain-Tix**:
+We are passionate about creating deeper, lasting connections between artists and their real fans.
+Today’s concert memories are lost after a few Instagram posts — Chain-Tix turns them into permanent, verifiable on-chain assets.
+We believe Polkadot's unique infrastructure finally makes scalable, affordable, decentralized loyalty programs possible — and we’re excited to be among the first to build this future.
 
 ### 🔍 Project Details
 
-We expect applicants to have a solid idea about the project's expected final state. Therefore, please submit (where relevant):
+**An overview of the technology stack to be used**
 
-- An overview of the technology stack to be used
 - Documentation of core components, protocols, architecture, etc. to be deployed
 - Any PoC/MVP or other relevant prior work or research on the topic
 - Mockups/designs of any UI components
@@ -33,7 +44,7 @@ Help us locate your project in the Polkadot landscape and what problems it tries
   - If so, how is your project different?
   - If not, why might such a project not exist yet?
 
-> **Note**: We prioritize projects building on Plaza/Polkadot Hub, games, and DeFi applications, though all types of projects will be considered.
+> **Note**: We prioritize projects building on Plaza/Polkadot Hub, games, and DeFi applications, though all types of projects wile considered.
 
 ## 👥 Team
 
