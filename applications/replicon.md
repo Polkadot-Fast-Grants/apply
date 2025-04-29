@@ -5,6 +5,7 @@
 Please provide the following:
 
 - If the name of your project is not descriptive, a tagline (one sentence summary)
+  Replicon: Own Your Digital Twin. Be Part of Every World.
 - A brief description of your project
 - An indication of how your project relates to / integrates into Polkadot
 - An indication of why your team is interested in creating this project
