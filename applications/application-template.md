@@ -8,7 +8,7 @@ Please provide the following:
 - A brief description of your project
 - An indication of how your project relates to / integrates into Polkadot
 - An indication of why your team is interested in creating this project
-- (Optional but big bonus points): [1-min video pitch](https://www.ycombinator.com/video/)
+- (Optional but **huge bonus points**): [1-min video pitch](https://www.ycombinator.com/video/)
 
 ### 🔍 Project Details
 
@@ -106,6 +106,8 @@ Please provide a breakdown of your budget by milestone:
 | 1 | Features X, Y | $5,000 | 1.5 months |
 | 2 | Feature Z | $5,000 | 1.5 months |
 | **Total** | | **$10,000** | **3 months** |
+
+Make sure you show clearly what the funding is going towards (e.g. 30 hours of a full time employee at $X / hour).
 
 ## 🔮 Future Plans
 
