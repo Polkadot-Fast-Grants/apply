@@ -196,7 +196,7 @@ Paxmata has already made significant progress in its development:
 
 ### Overview
 
-- **Estimated Duration:** 2 months
+- **Estimated Duration:** 6 weeks
 - **Full-Time Equivalent (FTE):** 1
 - **Total Costs:** $10,000 USD
 
