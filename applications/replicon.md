@@ -4,9 +4,8 @@
 
 Please provide the following:
 
-- If the name of your project is not descriptive, a tagline (one sentence summary)
-  Replicon: Own Your Digital Twin. Be Part of Every World.
-- A brief description of your project
+- If the name of your project is not descriptive, a tagline (one sentence summary) - Replicon: Own Your Digital Twin. Be Part of Every World.
+- A brief description of your project - Replicon is a decentralised platform that empowers individuals to create, own, and monetise AI-powered digital twins of themselves — complete with lifelike 3D avatars and cloned voices. These digital identities can be licensed as NPCs in video games, virtual worlds, metaverses, and other media, allowing users to become part of immersive digital experiences. Built on the Polkadot blockchain, Replicon ensures transparent licensing, secure ownership, and automated royalty distribution through smart contracts — unlocking a new era of personal empowerment in the digital economy.
 - An indication of how your project relates to / integrates into Polkadot
 - An indication of why your team is interested in creating this project
 - (Optional but **huge bonus points**): [1-min video pitch](https://www.ycombinator.com/video/)
@@ -18,7 +17,7 @@ We expect applicants to have a solid idea about the project's expected final sta
 - An overview of the technology stack to be used
 - Documentation of core components, protocols, architecture, etc. to be deployed
 - Any PoC/MVP or other relevant prior work or research on the topic
-- Mockups/designs of any UI components
+- Mockups/designs of any UI components - https://replicon-mnjp409.gamma.site/
 - Data models / API specifications of the core functionality
 - What your project is *not* or will *not* provide or implement
   - This is a place for you to manage expectations and clarify any limitations
