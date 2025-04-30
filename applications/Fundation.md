@@ -65,7 +65,7 @@ Complete the base functionality (nearly finished), including adding more authent
 Optimize and refactor the code, then release it as open-source on GitHub with comprehensive documentation.
 
 -------------
-## Possible Additional Work for the Last Month
+## Possible Additional Work
 ### Milestone Three: Researching WebAuthn PRF Extension for Wallet Key Generation
 Objective: Research the feasibility of implementing the WebAuthn Pseudo-Random Function (PRF) Extension to generate private keys for Polkadot-based cryptocurrency wallets within the Foundation DApp Management System (DMS). This milestone includes developing a working demo using YubiKey to demonstrate PRF-based key generation. Current support across authenticators and browsers is limited, with YubiKey being the primary supporter. However, I see this as a critical future feature that should not be overlooked.
 
