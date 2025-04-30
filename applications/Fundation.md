@@ -30,7 +30,7 @@ It simplifies the development process, enabling rapid idea deployment.
 - Are there any other projects similar to yours in the Polkadot ecosystem? 
 Yes, [Apillon](https://apillon.io/) on Polkadot, and [Thirdweb](https://thirdweb.com/) and [Magic](https://magic.link/) on Ethereum.
 -  how is this project different? 
-he goal is to create an open-source solution that anyone can host on their own server, prioritizing ease of use. Long-term, I envision an open-source SaaS-like platform that allows users to host their own decentralized services, akin to cPanel for web hosting.
+the goal is to create an open-source solution that anyone can host on their own server, prioritizing ease of use. Long-term, I envision an open-source SaaS-like platform that allows users to host their own decentralized services, akin to cPanel for web hosting.
 
 
 ## 👥 Team
@@ -63,6 +63,15 @@ Complete the base functionality (nearly finished), including adding more authent
 
 ### Milestone Two:
 Optimize and refactor the code, then release it as open-source on GitHub with comprehensive documentation.
+
+-------------
+## Possible Additional Work for the Last Month
+### Milestone Three: Researching WebAuthn PRF Extension for Wallet Key Generation
+Objective: Research the feasibility of implementing the WebAuthn Pseudo-Random Function (PRF) Extension to generate private keys for Polkadot-based cryptocurrency wallets within the Foundation DApp Management System (DMS). This milestone includes developing a working demo using YubiKey to demonstrate PRF-based key generation. Current support across authenticators and browsers is limited, with YubiKey being the primary supporter. However, I see this as a critical future feature that should not be overlooked.
+
+Deliverables:
+Develop a working demo using YubiKey and a Chromium-based browser (e.g., Chrome) to showcase PRF-based private key generation for a Polkadot wallet.
+
 
 
 ### Overview
