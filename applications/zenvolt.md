@@ -343,7 +343,7 @@ ZenVolt’s grant scope focuses on delivering a **working blockchain-backed emis
 |------------------|-------------------------------------------------------------------|----------------|----------------------|
 | **0a**           | **Open-Source License**                                           | $0             | **Week 1**          |
 | **0b**           | **Technical Documentation**                                       | $500           | **Week 2**          |
-| **1**            | **Smart contracts deployment** + **Asset Hub deployment** + **reward distribution** | $2,000         | **Week 6**          |
+| **1**            | **Smart contracts development & testing** + **Asset Hub deployment** + **Token design and distribution testing** | $2,000         | **Week 6**          |
 | **2**            | **Backend development** + **telemetry pipeline** + **data storage** | $1,500         | **Week 6**          |
 | **Total**        |                                                                   | **$4,000**     | **End of Week 6**    |
 
@@ -353,9 +353,9 @@ ZenVolt’s grant scope focuses on delivering a **working blockchain-backed emis
 
 | **Milestone**    | **Deliverables**                                                  | **Cost (USD)** | **Completion Date**  |
 |------------------|-------------------------------------------------------------------|----------------|----------------------|
-| **3**            | **Frontend development** + **dashboard integration**             | $1,500         | **Week 7**          |
+| **3**            | **Frontend development** + **Dashboard integration**             | $1,500         | **Week 7**          |
 | **4**            | **Smart contract integration** with **frontend** and **backend** | $1,000         | **Week 8**          |
-| **5**            | **ESG Pilot program** + **user feedback**                        | $2,000         | **Week 12**         |
+| **5**            | **ESG Pilot program** + **User feedback**                        | $2,000         | **Week 12**         |
 | **Total**        |                                                                   | **$6,000**     | **End of Week 12**    |
 
 ---
