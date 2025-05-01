@@ -185,11 +185,11 @@ Please provide a breakdown of your budget by milestone:
 
 | Milestone 3| Deliverable| Title  | Hours | Rate/hr | Cost (USD) | 
 | --- | --- | --- | --- |--- |--- |
-| 3 | 8 | UI/UX polish | 24 | 20 | 480 |
+| 3 | 8 | UI/UX polish | 24 | 25 | 600 |
 | 3 | 9 | Error Handling/Bug fixing | 8 | 30 | 240 |
 | 3 | 10 | Comprehensive testing | 10 | 30 | 300 |
 | 3 | 0d | Article | 5 | 0 | 0 |
-| 3 | 11 | Deployment on domain | 8 | 20 | 160 |
+| 3 | 11 | Deployment on domain | 8 | 0 | 0 |
 | 3 | 0c | Update User Guide | 6 | 0 | 0 |
 | **M3 Total** |**6 deliverables**|**Polish & Testing**|**61** |--- | **1140** |
 
