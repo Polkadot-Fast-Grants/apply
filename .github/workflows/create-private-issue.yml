@@ -9,17 +9,6 @@ jobs:
   copy_to_private:
     runs-on: ubuntu-latest
     steps:
-      - name: Token presence check
-        run: |
-          if [ -z "$PRIVATE_REPO_PAT" ]; then
-            echo "❌ Token is NOT set properly"
-            exit 1
-          else
-            echo "✅ Token is available"
-          fi
-        env:
-          PRIVATE_REPO_PAT: ${{ secrets.PRIVATE_REPO_PAT }}
-
       - name: Create issue in Internal-Reviews repo
         uses: actions/github-script@v7
         with:
