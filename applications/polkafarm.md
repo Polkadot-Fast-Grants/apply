@@ -1,8 +1,6 @@
-# 📝 Name of your Project
+# 📝 PolkaFarm
 
 ## 🌟 Project Overview
-
-Please provide the following:
 
 PolkaFarm is a secure, user-friendly yield farming DApp built on Polkadot Asset Hub, enabling users to stake WND tokens and earn PLKF rewards through simple, efficient Solidity smart contracts.
 
@@ -167,9 +165,18 @@ PolkaFarm is already partially implemented:
 - **Full-Time Equivalent (FTE)**: 0.5
 - **Total Costs**: $10,000 USD
 
+### Initial Payment: Project Kickoff
+**Payment Upon Grant Approval**: $3,000 USD
+
+This initial funding will be used to:
+- Purchase necessary development tools and services
+- Cover immediate project setup costs
+- Fund the first phase of development work
+- Secure the developer time commitment for the project duration
+
 ### Milestone 1: Enhanced Frontend and Contract Optimization
 **Estimated Duration**: 1.5 months
-**Costs**: $5,000 USD
+**Costs**: $3,500 USD
 
 | Number | Deliverable | Specification |
 |--------|-------------|---------------|
@@ -183,7 +190,7 @@ PolkaFarm is already partially implemented:
 
 ### Milestone 2: Advanced Features and Security
 **Estimated Duration**: 1.5 months
-**Costs**: $5,000 USD
+**Costs**: $3,500 USD
 
 | Number | Deliverable | Specification |
 |--------|-------------|---------------|
@@ -197,23 +204,32 @@ PolkaFarm is already partially implemented:
 
 ### 💰 Budget Breakdown
 
-### Milestone 1: Enhanced Frontend and Contract Optimization
-**Total Cost**: $5,000 USD
+### Initial Payment: Project Kickoff
+**Total Cost**: $3,000 USD
 
 | Item | Description | Hours | Rate | Cost |
 |------|-------------|-------|------|------|
-| Smart Contract Development | Gas optimization, partial withdrawals, emergency functions | 50 | $50/hr | $2,500 |
-| Frontend Enhancements | Analytics dashboard, mobile improvements, notifications | 30 | $50/hr | $1,500 |
-| Documentation & Testing | User guides, inline documentation, test coverage | 20 | $50/hr | $1,000 |
+| Project Setup | Development environment, tooling, initial research | 20 | $50/hr | $1,000 |
+| Preliminary Development | Core feature planning, architecture refinement | 30 | $50/hr | $1,500 |
+| Technical Documentation | Initial documentation and development roadmap | 10 | $50/hr | $500 |
+
+### Milestone 1: Enhanced Frontend and Contract Optimization
+**Total Cost**: $3,500 USD
+
+| Item | Description | Hours | Rate | Cost |
+|------|-------------|-------|------|------|
+| Smart Contract Development | Gas optimization, partial withdrawals, emergency functions | 35 | $50/hr | $1,750 |
+| Frontend Enhancements | Analytics dashboard, mobile improvements, notifications | 20 | $50/hr | $1,000 |
+| Documentation & Testing | User guides, inline documentation, test coverage | 15 | $50/hr | $750 |
 
 ### Milestone 2: Advanced Features and Security
-**Total Cost**: $5,000 USD
+**Total Cost**: $3,500 USD
 
 | Item | Description | Hours | Rate | Cost |
 |------|-------------|-------|------|------|
-| Multiple Reward Pools | Contract development for multiple pool support | 40 | $50/hr | $2,000 |
-| Analytics Suite | Data visualization, historical tracking, API development | 30 | $50/hr | $1,500 |
-| Security & Auditing | Security measures, validation, audit preparation | 30 | $50/hr | $1,500 |
+| Multiple Reward Pools | Contract development for multiple pool support | 30 | $50/hr | $1,500 |
+| Analytics Suite | Data visualization, historical tracking, API development | 20 | $50/hr | $1,000 |
+| Security & Auditing | Security measures, validation, audit preparation | 20 | $50/hr | $1,000 |
 
 **Total Project Budget**: $10,000 USD
 
