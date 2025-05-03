@@ -1,11 +1,8 @@
-# 📝 Name of your Project
+# 📝 Pattern: An AI agent that makes blockchain scanners simple, searchable, and human-readable.
 
 ## 🌟 Project Overview
 
 ### Description
-
-#### Tagline
-Pattern: An AI agent that makes blockchain scanners simple, searchable, and human-readable.
 
 #### Brief
 Pattern is an AI agent that helps both average and power users make sense of blockchain scanner data. Right now, the scanner experience is messy—data is scattered, hard to read, and built for people who already know what they’re doing (and even they struggle sometimes). Pattern changes that. You ask a question in plain language, it pulls real-time data from scanners, breaks it down, and gives you a clear, easy-to-understand answer. Dig deeper, ask follow-ups, or just explore—without friction.
