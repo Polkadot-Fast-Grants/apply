@@ -7,7 +7,7 @@ PolkaFarm is a secure, user-friendly yield farming DApp built on Polkadot Asset 
 PolkaFarm integrates directly with Polkadot's Asset Hub parachain, leveraging its EVM compatibility, native token staking capabilities, and shared security model to deliver a seamless DeFi experience. The platform demonstrates how traditional yield farming can be enhanced through Polkadot's unique cross-chain architecture and low fee structure.
 
 Our team is passionate about expanding DeFi accessibility beyond high-gas networks like Ethereum. We believe Polkadot's parachain ecosystem offers the perfect architecture for creating interoperable financial applications that are both affordable to use and secure by design. PolkaFarm serves as an important DeFi primitive that demonstrates these capabilities while providing real value to users.
-- (Optional but **huge bonus points**): [3-min video pitch](https://youtu.be/3-AhcPuJR0k)
+- [3-min video pitch](https://youtu.be/3-AhcPuJR0k)
 
 ### 🔍 Project Details
 
