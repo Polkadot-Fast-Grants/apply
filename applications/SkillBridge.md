@@ -513,7 +513,19 @@ We have also been active participants in the Polkadot ecosystem for over a year.
 
 On Thursday, 17 April 2025, I submitted my project [SKillBridge: Empowering Freelancers Through Decentralized Innovation](https://docs.google.com/document/d/1g6tVjUvINIDS3MUAqD0bIxgS1lInLzHLMLFrS-0P2ns/edit?tab=t.0) to the [Student Blockchain Event](https://moledao.io/#/event/8ac9b6be-343c-4f0a-bcb3-27068ab2e8f7). This submission is currently under review.
 
+---
+## First FeedBack
+How you'll actually get users. for example, how did your other projects go - did you manage to acquire users afterwards, and how will you do so for this project? or do you already have a waitlist of users?
 
+
+you'll actually get users. for example, how did your other projects go - did you manage to acquire users afterwards, and how will you do so for this project? or do you already have a waitlist of users?
+
+---
+## We also did some brainstorm the problem
+
+![Screenshot 2025-05-03 111423](https://github.com/user-attachments/assets/65be5e91-ba5d-4811-a938-80ed98bd6067)
+
+![Screenshot 2025-05-03 111451](https://github.com/user-attachments/assets/eecc4c3b-1d46-40e3-a316-d32d8fb70ada)
 
 
 
