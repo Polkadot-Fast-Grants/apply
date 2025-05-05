@@ -122,6 +122,7 @@ While we are relatively new to blockchain development, we bring a strong foundat
 | 0d. | Article | We will publish an article on the architecture, licensing framework, and future of decentralized AI markets on Polkadot. |
 | 1. | Smart Contracts: Model Registry & Licensing | We will create a set of ink! smart contracts that enable: model registration with metadata, multiple licensing options (subscription/one-time/pay-per-use), automated royalty distribution, and on-chain license verification. |
 | 2. | Frontend & Recommendation Engine | We will develop a marketplace UI with search functionality, model detail view, wallet integration, and an embedding-based recommendation system to help users discover relevant AI models. |
+| 3. | User Engagement Campaign (Post-MVP, Month 4) | Immediately after MVP launch, execute a user engagement campaign with the following measurable targets: - Onboard at least 10 AI model providers to register models. - Achieve at least 30 unique user sign-ups (wallet connections). - Facilitate at least 10 model licensing transactions. - Collect structured feedback from at least 10 users via surveys or interviews. - Report these metrics in a public summary and final milestone documentation. |
 
 ### 💰 Budget Breakdown
 
@@ -129,7 +130,9 @@ While we are relatively new to blockchain development, we bring a strong foundat
 | --- | --- | --- | --- |
 | 1 | Smart Contracts (Model Registry & Licensing) | $6,000 | 1.5 months |
 | 2 | Frontend & AI Recommendation System | $4,000 | 1.5 months |
-| **Total** | | **$10,000** | **3 months** |
+| 3 | User Engagement Campaign (Post-MVP) | - | Month 4 (Reporting)
+
+| **Total** | | **$10,000** | **3 months (+1 month for user engagement reporting)** |
 
 ## 🔮 Future Plans
 
