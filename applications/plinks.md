@@ -1,4 +1,4 @@
-**Plinks – 1-Click Payment Links for Polkadot Asset Hub**
+## **Plinks – 1-Click Payment Links for Polkadot Asset Hub**
 
 ## 🌟 Project Overview
 
