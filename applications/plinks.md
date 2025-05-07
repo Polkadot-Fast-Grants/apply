@@ -1,5 +1,3 @@
-# 📝 Name of your Project
-
 **Plinks – 1-Click Payment Links for Polkadot Asset Hub**
 
 ## 🌟 Project Overview
