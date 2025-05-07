@@ -92,22 +92,23 @@ A prototype frontend has been deployed in the demo link above. Won 1st place at 
 
 Milestone 1: Build Frontend
  - Frontend is deployed to support all prediction market user journeys (described above)
- - Grant team will be able to login to the frontend and place real bets
+ - Front end will be shared with the grant team (alongside other ICPs who will take part in user research interviews)
 
 Milestone 2: Build Backend Smart Contracts with Polkadot
- - Smart Contracts are deployed to support prediction market functionality for key market.
+ - Smart Contracts are deployed to support prediction market functionality for key markets (China -> US). We will deploy a smart contract for each prediction market created - we will emulate polymarket's trusted smart contract architecture, but importantly entirely on the Polkadot infrastructure. Oracle to be determined through user research, but either a direct connection to Flexport or an escrow and review mechanism emulating polymarket. 
  - Grant team will be able to programmatically interface with the smart contract and confirm it works for all our needed use cases.
 
 Milestone 3: Launch Freight Futures
- - We will launch in relevant Web3 sophisticated investor communities.
- - Grant team will see evidence that users have made bets.
+ - Go to market playbook is to emulate polymarket GTM: Communities, influencers and performance social.
+    - We will launch into the following ICPs: Freight Brokers (existing network + outbound sales), Web3 Traders (Polymarket-adjacent communities like Polymarket Wolves)
+ - Grant team will see evidence of GTM Traction (100k impressions, 500 users)
 
 
 ### Overview
 
 - **Estimated Duration:** 3mo
 - **Full-Time Equivalent (FTE):**  1 FTE
-- **Total Costs:** $15,000
+- **Total Costs:** $10,000
 
 > Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
 
@@ -125,11 +126,10 @@ Milestone 3: Launch Freight Futures
 
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
 | --- | --- | --- | --- |
-| 1 | Front end | $3,000 | 1 month |
-| 2 | Smart Contract logic and backend | $5,000 | 1 month |
-| 3 | Legal Checks | $4,000 | 0.5 months |
-| 4 | launch and live market | $3,000 | 0.5 months |
-| **Total** | | **$15,000** | **3 months** |
+| 1 | Front end (150h x $20/h) | $3,000 | 1 month |
+| 2 | Smart Contract logic and backend on testnet (250h x $20/h) | $5,000 | 1 month |
+| 3 | launch ($1000 for performance marketing and $1000 for influencer marketing) | $2,000 | 0.5 months |
+| **Total** | | **$10,000** | **3 months** |
 
 ## 🔮 Future Plans
 
