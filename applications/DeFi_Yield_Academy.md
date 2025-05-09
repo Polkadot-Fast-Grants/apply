@@ -13,8 +13,8 @@ Our team is passionate about lowering the barrier to entry for DeFi participants
 ### 🔍 Project Details
 
 **Technology Stack:**
-- **Blockchain**: Moonbase Alpha testnet (Moonbeam's testnet on Polkadot)
-- **Smart Contracts**: Solidity
+- **Blockchain**: Polkadot ecosystem via Moonbeam/Moonbase Alpha
+- **Smart Contracts**: Solidity (deployed on Polkadot Hub)
 - **Frontend**: React, Wagmi, Ethers.js, RainbowKit, Tailwind CSS
 - **Backend/Indexing**: Supabase
 
@@ -24,6 +24,7 @@ Our team is passionate about lowering the barrier to entry for DeFi participants
    - Staking contract with fixed-rate yield mechanism
    - Multiple farming pools with variable APYs
    - Quest contract for educational achievements
+   - Security implementation with gas caps and pool size limits to prevent vulnerabilities
 
 2. **Frontend Components**:
    - Wallet connection via RainbowKit
@@ -34,11 +35,10 @@ Our team is passionate about lowering the barrier to entry for DeFi participants
 
 3. **Architecture**:
    - Decentralized frontend hosted on IPFS
-   - Smart contracts deployed on Moonbase Alpha
+   - Smart contracts deployed on Polkadot via Moonbeam
    - Off-chain indexing via Supabase for leaderboard and analytics
 
-**UI Mockups:**
-We've created preliminary mockups for the staking dashboard and farm selection interfaces, which can be viewed at our GitHub repository (link will be provided upon request).
+
 
 **What our project will NOT provide:**
 - Real monetary value or actual token rewards with market value
@@ -49,7 +49,7 @@ We've created preliminary mockups for the staking dashboard and farm selection i
 ### 🧩 Ecosystem Fit
 
 **Ecosystem Position:**
-DeFi Yield Academy fills a critical educational gap in the Polkadot ecosystem by providing a hands-on learning environment for DeFi mechanisms. While there are many DeFi applications being built on Polkadot, few focus on the educational onboarding aspect. Our project serves as both an entry point for new users and a testing ground for more experienced users looking to understand yield farming strategies without risk.
+DeFi Yield Academy fills a critical educational gap in the Polkadot ecosystem by providing a hands-on learning environment for DeFi mechanisms. While many DeFi applications are being built on Polkadot, few focus on the educational onboarding aspect. Our project serves as both an entry point for new users and a testing ground for more experienced users looking to understand yield farming strategies without risk.
 
 **Target Audience:**
 1. DeFi newcomers looking to understand yield farming concepts
@@ -126,9 +126,13 @@ We are in the early planning stages, with designs and architecture planning unde
 | 0b. | Documentation | We will provide comprehensive inline documentation of all smart contract code and frontend components, plus a tutorial explaining how users can connect their wallet, stake tokens, and track rewards. |
 | 0c. | Testing and Testing Guide | Smart contracts will be fully covered by unit tests using Hardhat and Chai. Frontend components will have Jest tests for critical functionality. A testing guide will describe how to run all tests. |
 | 0d. | Article | We will publish an article explaining the educational benefits of simulated yield farming and how our platform helps users learn DeFi concepts without risk. |
-| 1. | Smart Contracts | We will deploy Solidity smart contracts to Moonbase Alpha including: (1) Mock ERC20 token with faucet functionality, (2) Staking contract with fixed-rate yield calculation, (3) Time-based reward distribution mechanism. |
+| 1. | Smart Contracts | We will deploy Solidity smart contracts to Polkadot hub including: (1) Mock ERC20 token with faucet functionality, (2) Staking contract with fixed-rate yield calculation, (3) Time-based reward distribution mechanism. These contracts will include gas caps and pool size limitations to prevent security vulnerabilities. |
 | 2. | Frontend Implementation | We will create a React application with: (1) Wallet connection using RainbowKit, (2) Staking interface to deposit/withdraw tokens, (3) Real-time display of user's staked balance and accrued rewards, (4) Claim function for harvesting rewards. |
 | 3. | Educational Components | We will implement: (1) Tooltips explaining yield farming concepts, (2) Step-by-step guide for first-time users, (3) Simple APY calculator showing how rewards accumulate over time. |
+
+**KPI Targets for Milestone 1:**
+- ≥50 test wallets staked
+- User retention of at least 1 week for 60% of users
 
 ### Milestone 2 – Game Layer & Educational UI
 
@@ -142,9 +146,13 @@ We are in the early planning stages, with designs and architecture planning unde
 | 0b. | Documentation | We will extend our documentation to cover the new farming pools, quest system, and leaderboard functionality, with guides on completing educational quests and strategies for optimizing yield. |
 | 0c. | Testing and Testing Guide | All new smart contracts and frontend components will be covered by comprehensive tests. The testing guide will be updated to include procedures for testing the multi-pool system and quest completion. |
 | 0d. | Article | We will publish a second article showcasing our complete educational DeFi platform, highlighting the gamification elements and explaining how they enhance the learning experience. |
-| 1. | Multiple Farming Pools | We will implement: (1) Three distinct farming pools with different risk/reward profiles, (2) Variable APY mechanism based on pool utilization, (3) UI for comparing and selecting between pools. |
+| 1. | Multiple Farming Pools | We will implement: (1) Three distinct farming pools with different risk/reward profiles, (2) Variable APY mechanism based on pool utilization, (3) UI for comparing and selecting between pools. Security measures will include gas optimization and pool size limitations. |
 | 2. | Quest System | We will create: (1) Smart contract for tracking educational achievement completion, (2) Five beginner quests teaching fundamental DeFi concepts, (3) Quest progress UI showing completed and available learning objectives. |
 | 3. | Leaderboard & Analytics | We will develop: (1) Supabase integration for tracking user yield performance, (2) Leaderboard ranked by total yield earned, (3) Personal statistics dashboard showing historical performance. |
+
+**KPI Targets for Milestone 2:**
+- ≥100 quests completed
+- User retention of at least 1 week for 70% of users
 
 ### 💰 Budget Breakdown
 
@@ -153,6 +161,20 @@ We are in the early planning stages, with designs and architecture planning unde
 | 1 | Staking Simulation MVP | $5,000 | 2 weeks |
 | 2 | Game Layer & Educational UI | $5,000 | 2 weeks |
 | **Total** | | **$10,000** | **1 month** |
+
+#### Detailed Budget Allocation
+
+**Milestone 1 - $5,000**
+- Smart Contract Development: $2,000 (80 hours × $25/hour)
+- Frontend Development: $1,800 (72 hours × $25/hour)
+- Documentation & Testing: $700 (28 hours × $25/hour)
+- Infrastructure & Deployment: $500 (20 hours × $25/hour)
+
+**Milestone 2 - $5,000**
+- Smart Contract Development: $1,800 (72 hours × $25/hour)
+- Frontend & UI Development: $2,000 (80 hours × $25/hour)
+- Quest System Implementation: $800 (32 hours × $25/hour)
+- Testing & Security Review: $400 (16 hours × $25/hour)
 
 ## 🔮 Future Plans
 
@@ -164,7 +186,7 @@ We are in the early planning stages, with designs and architecture planning unde
 
 **Long-term Vision:**
 - Build bridges to actual DeFi protocols on Polkadot, allowing users to transition from simulation to real participation
-- Develop a comprehensive DeFi curriculum that educational institutions could adopt
+- Develop a comprehensive DeFi curriculum that could be adopted by educational institutions
 - Create API integrations for existing educational platforms to incorporate our simulation tools
 
 **Funding Strategy:**
@@ -181,7 +203,7 @@ Our long-term vision is to establish DeFi Yield Academy as the primary onboardin
 Divine-Favour Chinedu has created educational blog posts and articles as a Technical Writer for the Celo Foundation, focusing on smart contract development and blockchain concepts. This experience will be valuable in developing the educational aspects of our DeFi Yield Academy platform, as it has provided insights into how to effectively communicate complex DeFi concepts to beginners.
 
 **Project Status:**
-The PolkaFarm project is currently in its initial planning and design phase. We have set up our GitHub repository (https://github.com/Adminixtrator/polkafarm) and are preparing to begin development following the approval of this grant. The project will be built from the ground up as outlined in our milestones, with no existing work beyond preliminary planning.
+The PolkaFarm project is currently in its initial planning and design phase. We have set up our GitHub repository (https://github.com/Adminixtrator/polkafarm) and are preparing to begin development following the approval of this grant. As outlined in our milestones, the project will be built from the ground up, with no existing work beyond preliminary planning.
 
 **Why Polkadot:**
 We've chosen to build on Polkadot's ecosystem (specifically Moonbase Alpha) because of its cross-chain capabilities, lower transaction costs, and growing DeFi ecosystem. By creating an educational platform within this ecosystem, we aim to lower the barrier to entry for new users interested in participating in Polkadot's DeFi landscape.
