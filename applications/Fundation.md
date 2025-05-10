@@ -4,7 +4,7 @@
 
 - Purpose: Simplify and accelerate DApp deployment in the Polkadot ecosystem.
 
-- Vision: Fudation is a modular DApp Management System (DMS) designed for the multichain future, drawing inspiration from how WordPress, Drupal, and Joomla empowered developers to easily set up and manage projects in Web2. Upon completion, it has the potential to drive significant growth in the Polkadot ecosystem, much like these CMS platforms transformed traditional web development.
+- Vision: Fundation is a modular DApp Management System (DMS) designed for the multichain future, drawing inspiration from how WordPress, Drupal, and Joomla empowered developers to easily set up and manage projects in Web2. Upon completion, it has the potential to drive significant growth in the Polkadot ecosystem, much like these CMS platforms transformed traditional web development.
 
 - Origin: The idea emerged after I struggled to build my first DApp on Polkadot and noticed a lack of accessible tooling—not just for Polkadot but across Web3. Many existing tools are Ethereum-centric and locked into closed-source SaaS models, limiting flexibility and accessibility.
 
@@ -103,7 +103,7 @@ Example 1: A Web2 front-end developer transitioning to Web3, seeking a tool to h
 
 
 ## 📊 Development Status
-I’ve been working on this project intermittently, but I’m ready to commit more time. Currently, foundation.dev features a basic landing page and a rudimentary MVP concept.
+I’ve been working on this project intermittently, but I’m ready to commit more time. Currently, fundation.dev features a basic landing page and a rudimentary MVP concept.
 
 
 ## 📅 Development Roadmap
