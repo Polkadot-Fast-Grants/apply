@@ -10,7 +10,7 @@
 
 
 ### 🔍 Project Details
-- For the front-end, I selected Next.js, Tailwind CSS, and Shadcn/ui for their rapid development capabilities. For blockchain interaction, I’m using Polkadot-API, paired with Turso DB for authentication and data storage that doesn’t require blockchain finality. 
+- For the front-end, I selected Next.js, Tailwind CSS, and Shadcn/ui for their rapid development capabilities. For blockchain interaction, I’m using Polkadot-API, paired with Turso DB for authentication and data storage that doesn’t require blockchain finality.
 - A rudimentary MVP concept is currently live at https://www.fundation.dev/, though it is still under active development. This grant will allow me to complete the core features, including expanded authentication options. At present, only wallet-based login is available, but I plan to add social login, email, and passkey support to enable broader access. I also aim to finalize the asset retrieval and send functions, optimizing them for simplicity and flexibility.
 - The project will include detailed documentation on data models and API specifications for the core functionality,
 - A simple visual flow of how a DApp connects to the Polkadot API.
@@ -27,16 +27,16 @@ It supports DApp developers within the Polkadot ecosystem.
 Junior developers and front-end developers seeking to build projects quickly.
 - What need(s) does your project meet?
 It simplifies the development process, enabling rapid idea deployment.
-- Are there any other projects similar to yours in the Polkadot ecosystem? 
+- Are there any other projects similar to yours in the Polkadot ecosystem?
 Yes, [Apillon](https://apillon.io/) on Polkadot, and [Thirdweb](https://thirdweb.com/) and [Magic](https://magic.link/) on Ethereum.
--  how is this project different? 
+-  how is this project different?
 the goal is to create an open-source solution that anyone can host on their own server, prioritizing ease of use. Long-term, I envision an open-source SaaS-like platform that allows users to host their own decentralized services, akin to cPanel for web hosting.
 
 
 ## 👥 Team
 
-- **Team Name: Fundation 
-- **Contact Name:Victor Stallone Peck 
+- **Team Name: Fundation
+- **Contact Name:Victor Stallone Peck
 - **Contact Email: swenpeck@outlook.com
 - **Website: [Fundation.dev](https://www.fundation.dev/)
 
@@ -52,8 +52,8 @@ I am primarily a front-end developer, but over the past two years, I’ve explor
 
 
 ## 📊 Development Status
-I’ve been working on this project intermittently, but I’m ready to commit more time. Currently, foundation.dev features a basic landing page and a rudimentary MVP concept.
- 
+I’ve been working on this project intermittently, but I’m ready to commit more time. Currently, fundation.dev features a basic landing page and a rudimentary MVP concept.
+
 
 ## 📅 Development Roadmap
 
@@ -102,5 +102,4 @@ I plan to continue development, starting with a DeFi module (estimated at 4–6 
 - Additional Funding:
 I am open to pursuing additional grants for the modules and eventually plan to submit an OpenGov proposal.
 - Vision for Growth and Impact:
-This ambitious project aims to replicate WordPress’s success in the Polkadot ecosystem. With 43.5% of websites still running on WordPress, I envision Foundation having a similar transformative impact on DApp development.
-
+This ambitious project aims to replicate WordPress’s success in the Polkadot ecosystem. With 43.5% of websites still running on WordPress, I envision Fundation having a similar transformative impact on DApp development.
