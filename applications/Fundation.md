@@ -3,7 +3,7 @@
 ## 🌟 Project Overview
 
 - Simple and easy DApp deployment.
-- Foundation is a modular DApp Management System (DMS) designed for the multichain future, similar to how WordPress, Drupal, and Joomla enabled developers to easily set up and manage their projects.
+- Fundation is a modular DApp Management System (DMS) designed for the multichain future, similar to how WordPress, Drupal, and Joomla enabled developers to easily set up and manage their projects.
 - This project is highly ambitious, but upon completion, it has the potential to drive significant growth in the Polkadot ecosystem, much like how WordPress and other CMS platforms transformed the web.
 -The idea for this project emerged after I attempted to build my first DApp on Polkadot and realized the scarcity of tooling, not only for Polkadot but across Web3 in general. Existing tools are often Ethereum-based and locked into closed-source SaaS models.
 
@@ -11,7 +11,7 @@
 
 ### 🔍 Project Details
 - For the front-end, I selected Next.js, Tailwind CSS, and Shadcn/ui for their rapid development capabilities. For blockchain interaction, I’m using Polkadot-API, paired with Turso DB for authentication and data storage that doesn’t require blockchain finality. 
-- A rudimentary MVP concept is currently live at https://www.foundation.dev/, though it is still under active development. This grant will allow me to complete the core features, including expanded authentication options. At present, only wallet-based login is available, but I plan to add social login, email, and passkey support to enable broader access. I also aim to finalize the asset retrieval and send functions, optimizing them for simplicity and flexibility.
+- A rudimentary MVP concept is currently live at https://www.fundation.dev/, though it is still under active development. This grant will allow me to complete the core features, including expanded authentication options. At present, only wallet-based login is available, but I plan to add social login, email, and passkey support to enable broader access. I also aim to finalize the asset retrieval and send functions, optimizing them for simplicity and flexibility.
 - The project will include detailed documentation on data models and API specifications for the core functionality,
 - A simple visual flow of how a DApp connects to the Polkadot API.
 - ![polkadotapi](https://github.com/user-attachments/assets/6346a6bc-47a0-43d6-834c-74001a6f8293)
@@ -63,14 +63,6 @@ Complete the base functionality (nearly finished), including adding more authent
 
 ### Milestone Two:
 Optimize and refactor the code, then release it as open-source on GitHub with comprehensive documentation.
-
--------------
-## Possible Additional Work
-### Milestone Three: Researching WebAuthn PRF Extension for Wallet Key Generation
-Objective: Research the feasibility of implementing the WebAuthn Pseudo-Random Function (PRF) Extension to generate private keys for Polkadot-based cryptocurrency wallets within the Foundation DApp Management System (DMS). This milestone includes developing a working demo using YubiKey to demonstrate PRF-based key generation. Current support across authenticators and browsers is limited, with YubiKey being the primary supporter. However, I see this as a critical future feature that should not be overlooked.
-
-Deliverables:
-Develop a working demo using YubiKey and a Chromium-based browser (e.g., Chrome) to showcase PRF-based private key generation for a Polkadot wallet.
 
 
 
