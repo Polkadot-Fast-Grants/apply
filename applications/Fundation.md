@@ -73,7 +73,7 @@ Example 1: A Web2 front-end developer transitioning to Web3, seeking a tool to h
 - Simplifies the development process for rapid idea deployment, reducing barriers to entry.
 
 ### Competitors:
--Apillon: A Polkadot-focused Web3 platform offering UI and API integration for parachain services.
+- Apillon: A Polkadot-focused Web3 platform offering UI and API integration for parachain services.
 
 - Thirdweb: An Ethereum/EVM-focused platform with SDKs and smart contract tools, targeting games and creator platforms.
 
