@@ -582,6 +582,11 @@ We have also been active participants in the Polkadot ecosystem for over 3 year.
 
 None for this project
 
+UPDATE: We got the framework from Hieu from Soloana development team and will be using the frame work to build the GUI interfere 
+https://github.com/crea8r/solana-ai-dev
+Still waiting for update from PDP team about testing the application 
+
+
 
 
 
