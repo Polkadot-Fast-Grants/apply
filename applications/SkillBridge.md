@@ -528,6 +528,11 @@ you'll actually get users. for example, how did your other projects go - did you
 ![Screenshot 2025-05-03 111451](https://github.com/user-attachments/assets/eecc4c3b-1d46-40e3-a316-d32d8fb70ada)
 
 
+## Golden Path
+
+![Screenshot 2025-05-12 095759](https://github.com/user-attachments/assets/ac85fca9-2066-43a3-8d8c-254925ef9643)
+![Screenshot 2025-05-12 095728](https://github.com/user-attachments/assets/bdb5fa4d-f887-4720-9e17-3b23534345f9)
+
 
 
 
