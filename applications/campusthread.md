@@ -269,7 +269,7 @@ The project is in the early stage of development, with the following components 
 
 ### 🔹 Overview
 - **Estimated Duration**: 1 months and 7days 
-- **Full-Time Equivalent (FTE)**: 2  
+- **Full-Time Equivalent (FTE)**: 1  
 - **Total Cost**: $10,000 USD  
 - **License**: MIT License
 
@@ -312,22 +312,24 @@ The project is in the early stage of development, with the following components 
 
 
 ---
-🔍 How the Grant Funds Will Be Used (Post-Milestone Support):
-The grant will be used to support the post-milestone expansion and launch of CampusThread, covering:
+🔍 How the Grant Funds Will Be Used:
+Google Cloud (Firebase, Firestore, Cloud Functions, Storage): $X/month for hosting backend services, verification APIs, and storing user content. Estimated at $500/month for 6 months = $3,000.
 
-Google Cloud (Firebase, Firestore, Cloud Functions, Storage) — for hosting backend services, verification APIs, and storing user content.
+App Store & Play Store Developer Accounts: $99/year for Apple App Store, $25 one-time fee for Google Play Store publishing = $124.
 
-App Store & Play Store Developer Accounts — for publishing the mobile app ($99/year Apple, $25 one-time Google).
+Hiring QA Testers & Developers:
 
-Hiring QA Testers & Developers — to improve app stability, test DID workflows, and accelerate iteration.
+QA testers: 2 testers at $25/hour for 200 hours = $5,000.
 
-User Acquisition — campaigns to onboard the first 10,000 students into the decentralized identity system.
+Developers: 1 developer at $25/hour for 125 hours each = $10,000.
 
-Mainnet KILT Fees (optional, for post-MVP production launch) — covering DID/credential issuance for verified users.
+User Acquisition Campaigns: Targeting the first 10,000 students into the decentralized identity system. Estimated $0.3 per student acquisition campaign = $3,000.
 
-Legal & Compliance Review — ensuring data handling, verification, and identity usage complies with privacy laws (e.g. GDPR, FERPA).
+Mainnet KILT Fees (optional, for post-MVP production launch): $2 per credential issuance for verified users. Assuming 500 users, total = $1,000.
 
-Team Scaling & Support — expanding capacity to support student onboarding, handle feedback, and deploy global features.
+Legal & Compliance Review: Legal team to review compliance with GDPR, FERPA, etc. Estimated cost = $1,000.
+
+Team Scaling & Support: Expanding capacity to support student onboarding, handle feedback, and deploy global features. Estimated cost for additional resources and training = $1,500.
 
 
 
