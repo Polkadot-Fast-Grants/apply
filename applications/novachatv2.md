@@ -181,6 +181,7 @@ The NovachatV2 MVP, built from scratch, supports Ethereum-based DeFi interaction
   - Cloud deployment on AWS/GCP with rate limits and public access.
   - Polished chatbot with optimized Flock Web3 Agent Model function calling, low latency, and robust error handling.
   - Manual testing to verify cloud performance and user experience.
+  - Security testing and an audit is conducted.
 
 ## 🔮 Future Plans
 
