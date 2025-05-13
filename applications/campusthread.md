@@ -301,35 +301,13 @@ The project is in the early stage of development, with the following components 
 | **5. Ad Revenue Distribution Pool** | Set up logic to distribute ad revenue ($CAMP) to verified creators whose posts hosted ads. Include admin dashboard (basic) to view impressions and payouts. |
 
 ---
+💰 **Budget Breakdown**
 
-## 💰 Summary Table
-
-| Milestone | Deliverables                        | Cost (USD) | Estimated Completion |
-|----------|--------------------------------------|------------|-----------------------|
-| 1        | DID Integration, Rewards Module      | $5,000     | 7 days            |
-| 2        | Tipping, Faucet, Ad Revenue Pool     | $5,000     | 1 month            |
-| **Total** |                                      | **$10,000** | **1 month 7 days**          |
-
-
----
-🔍 How the Grant Funds Will Be Used:
-Google Cloud (Firebase, Firestore, Cloud Functions, Storage): $X/month for hosting backend services, verification APIs, and storing user content. Estimated at $500/month for 6 months = $3,000.
-
-App Store & Play Store Developer Accounts: $99/year for Apple App Store, $25 one-time fee for Google Play Store publishing = $124.
-
-Hiring QA Testers & Developers:
-
-QA testers: 2 testers at $25/hour for 200 hours = $5,000.
-
-Developers: 1 developer at $25/hour for 125 hours each = $10,000.
-
-User Acquisition Campaigns: Targeting the first 10,000 students into the decentralized identity system. Estimated $0.3 per student acquisition campaign = $3,000.
-
-Mainnet KILT Fees (optional, for post-MVP production launch): $2 per credential issuance for verified users. Assuming 500 users, total = $1,000.
-
-Legal & Compliance Review: Legal team to review compliance with GDPR, FERPA, etc. Estimated cost = $1,000.
-
-Team Scaling & Support: Expanding capacity to support student onboarding, handle feedback, and deploy global features. Estimated cost for additional resources and training = $1,500.
+| **Milestone** | **Deliverables**                                                                                                                                                                                                        | **Cost (USD)** | **Estimated Completion** |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------------ |
+| **1**         | **DID Integration** (Integration of KILT Protocol for student identities), **Rewards Module** (Creation of a rewards system for content creators)                                                                       | \$5,000        | 7 days                   |
+| **2**         | **Tipping** (Allow students to tip content creators with CAMP token), **Faucet** (Implementation of a faucet to distribute tokens to users), **Ad Revenue Pool** (Building a pool for ad revenue sharing with creators) | \$5,000        | 1 month                  |
+| **Total**     |                                                                                                                                                                                                                         | **\$10,000**   | **1 month 7 days**       |
 
 
 
