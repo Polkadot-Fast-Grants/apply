@@ -266,9 +266,6 @@ Delivered 3+ projects, including Solidity Token.
 - **Contributors**: Solo project, no prior funding.
 - **Scalability**: Secure authentication, modular design for enterprise use.
 - **Pitch Video**: [Watch the pitch](https://www.youtube.com/watch?v=x5CVDuosvOI)
-  <div align="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/x5CVDuosvOI" frameborder="0" allowfullscreen></iframe>
-  </div>
 
 ## Installation
 *To be completed post-grant approval*
