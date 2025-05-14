@@ -12,7 +12,7 @@ Masari is building an AI-powered off-price marketplace that helps fashion brands
 
 ### Relation to Polkadot
 
-Our transparency verification module will be deployed on a Polkadot-compatible chain (e.g. Moonbeam). It enables fashion brands to record a public, immutable proof that specific product batches are excess inventory. This will show how Polkadot infrastructure can enable real-world use cases like supply chain transparency, regulatory compliance, and ESG accountability in retail.
+Our transparency verification module will be deployed on Polkadot Asset Hub. It enables fashion brands to record a public, immutable proof that specific product batches are excess inventory.
 
 ### Why We're Creating This Project
 
@@ -188,20 +188,41 @@ This project will be delivered in three milestones over the course of two months
 |     2. | Admin Interface (Web UI)                | We will create a Next.js based admin interface that allows Masari or brand admins to submit batch-level verification data via form or CSV upload. This interface will connect to the blockchain and push verification data to the smart contract using Ethers.js or Polkadot.js |
 |     3. | Public Viewer (Web UI)                  | We will develop a public-facing Next.js web UI that allows shoppers or auditors to view the excess stock verification badge per product. This UI will allow filtering by "Verified" products and display more details retrieved from on-chain data.                             |
 
-### 💰 Budget Breakdown
+### 📅 Development Roadmap
 
-| Milestone | Deliverable | Cost (USD) | Estimated Completion |
-|-----------|-------------|------------|----------------------|
-| 1         | Smart Contract Development & Deployment | $3,500 | Month 1 |
-| 2         | Admin Interface (Web UI) | $3,000 | Month 1.5 |
-| 3         | Public Viewer (Web UI) + Final Documentation, Testing, and Article | $3,500 | Month 2 |
-| **Total** | — | **$10,000** | **2 Months** |
+| Milestone | Deliverables | Cost (USD) | Estimated Completion |
+|-----------|--------------|------------|----------------------|
+| **1**     | - Smart contract development & deployment on Polkadot Asset Hub  
+- Admin interface (Web UI) for batch submission  
+- Inline code documentation and basic unit testing  
+- **Launch goal**: test with up to **1 pilot brand** (or internal simulation if needed), aiming for **≥ 5 batch uploads**, **≥ 200 verified products**, and **≤ 0.05 DOT** per write transaction | $5,000 | 2 Months |
+| **2**     | - Public viewer (Web UI) to display verification badges  
+- Final testing coverage, setup guide, and educational article  
+- Open-source release of the full module  
+- **Launch goal**: public viewer live with **filterable verified products**, on-chain data displayed per product, and a walkthrough article to support testing and adoption | $5,000 | 1 Month |
+| **Total** | — | **$10,000** | **3 Months** |
 
-### Breakdown of Grant Use  
-- **$5,000** — Tech infrastructure (e.g. LLM/API costs for personalization, hosting, domain, smart contract deployment tools)  
-- **$2,500** — Travel and registration for industry events to connect with brands to grow supply side & investors
-- **$1,000** — Internal tools and automation (e.g. video creation, event hosting, community tools)  
-- **$1,500** — Freelancers or creative support for design, content, or marketing
+We are currently in early brand discovery and outreach. While our goal is to onboard a real partner, we will simulate batch attestations with test data if needed to meet technical launch goals and ensure on-chain functionality is fully demonstrated.
+
+On-chain record visibility (e.g. full batch or wallet-level views) will be accessible via Polkadot-native block explorers like Subscan. We do not plan to build a separate explorer as part of this grant.
+
+
+### 💰 Breakdown of Grant Use
+
+This grant will support core tools, infrastructure, and strategic partnerships that enable us to build Masari Tech’s off-price platform.
+
+| Category | Description | Cost (USD) |
+|----------|-------------|------------|
+| **AI Infrastructure & Tools** | API credits, vector database setup, and prompt engineering tools for personalized shopping experience | $2,500 |
+| **Web3 Deployment & Infra** | Smart contract deployment tools, Polkadot integration support, block explorer/testing environments | $2,000 |
+| **Sustainability Partnership** | Integration with SKU-level LCA provider for verified impact¹ | $1,000 |
+| **Virtual Try-On Exploration** | Early pilot conversations and testing setup with VTO providers | $750 |
+| **Developer Tools & Infra** | GitHub Copilot, Vercel hosting, Supabase, CI/CD, domains | $1,250 |
+| **Content & Open-Source Launch** | Design, copywriting, and educational assets for public release | $1,000 |
+| **Intern Enablement** | Onboarding workspace tools (e.g. Notion, Figma upgrades) | $500 |
+| **Total** | — | **$10,000** |
+
+¹ We are also exploring an optional brand-facing **impact dashboard**. If pursued, it would cost approximately **$6,000**, which is not included in this grant.
 
 These estimates are based on ~100–120 hours of work at an average blended rate of ~$80/hour across development, UI, and content execution.
 
