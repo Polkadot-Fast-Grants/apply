@@ -5,6 +5,10 @@
 ![Build Status](https://img.shields.io/badge/build-in%20progress-orange.svg)
 ![Polkadot Ecosystem](https://img.shields.io/badge/Polkadot-Substrate%20%7C%20ink!-pink.svg)
 
+<div align="center">
+  <img src="(https://github.com/user-attachments/assets/4a269c13-340f-4dab-ad6c-848618c1d85a" alt="CodeGuard-AI Logo" width="200"/>
+</div>
+
 **CodeGuard-AI** is an AI-powered tool to secure and optimize **Substrate** and **ink!** projects in the Polkadot ecosystem. It detects vulnerabilities (e.g., XCM flaws, DeFi exploits), rewrites code for efficiency, and implements features like optimized storage pallets. Built with **Rust**, **PHP**, and **JavaScript**, it offers a secure web interface for user authentication, project uploads, and management, delivering enhanced code via zipped folders. Targeting **Plaza/Polkadot Hub** and **DeFi developers**, CodeGuard-AI is tested on the **Rococo testnet** and aims to empower millions of developers globally.
 
 ## Table of Contents
