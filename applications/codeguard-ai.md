@@ -175,7 +175,7 @@ Delivered 3+ projects, including Solidity Token.
 
 ## Development Status
 - **Research**: Substrate, ink!, GPT-4o, OWASP.
-- **Prototype**: PHP CLI tool (Milestone 1).
+- **Prototype**: Frontend Design (Milestone 1).
 - **Repo**: https://github.com/mitmelon/codeguard-ai (TBC).
 
 ## Development Roadmap
