@@ -32,7 +32,7 @@
 Securing Polkadot’s future with AI-driven code excellence.
 
 ### Description
-CodeGuard-AI automates secure code audits for Polkadot developers by analyzing **Substrate pallets** and **ink! smart contracts**. It leverages **GPT-4o** to detect vulnerabilities, rewrite code, and implement Polkadot-specific features. The tool includes a **PHP-based web interface** with user authentication (login/register), a dashboard for statistics, settings for account security (2FA, OpenAI key), and a project report page for managing uploads and downloads. Hosted locally, it integrates **Rust** tools (`cargo-audit`, `clippy`) and **JavaScript** (Polkadot-JS API) for robust functionality, tested on **Rococo**.
+CodeGuard-AI automates secure code audits for Polkadot developers by analyzing **Substrate pallets** and **ink! smart contracts**. It leverages **GPT-4o** to detect vulnerabilities, rewrite code, and implement Polkadot-specific features. The tool includes a **PHP-based web interface** with user authentication (login/register), a dashboard for statistics, settings for account security (2FA, OpenAI key), and a project report page for managing uploads and downloads. Hosted locally, it integrates **Rust** tools (`cargo-audit`, `clippy`, `cargo-geiger`) and **JavaScript** (Polkadot-JS API) for robust functionality, tested on **Rococo**.
 
 ### Relation to Polkadot
 CodeGuard-AI integrates with:
@@ -50,7 +50,7 @@ As a software engineer with over six years of experience in **Rust**, **PHP**, *
 ## Project Details
 
 ### Technology Stack
-- **Rust**: Preprocesses code with `cargo-audit`, `clippy`.
+- **Rust**: Preprocesses code with `cargo-audit`, `clippy`, `cargo-geiger`.
 - **PHP**: Web backend for authentication, uploads, GPT-4o calls, zipping, delivery (PHPMailer).
 - **JavaScript (Node.js)**: Integrates Polkadot-JS API.
 - **GPT-4o API**: Detects vulnerabilities, rewrites code, generates features.
@@ -60,7 +60,8 @@ As a software engineer with over six years of experience in **Rust**, **PHP**, *
 
 ### Core Components
 - **Authentication Module (PHP)**: Login/register with bcrypt, email verification, 2FA settings.
-- **File Processor (PHP)**: Traverses projects, extracts `.rs` files, runs `cargo-audit`.
+- **File Processor (PHP)**: Uploads, Traverses projects, extracts `.rs` files.
+- **File Processor (Rust)**: Runs `cargo-audit`, `clippy`, `cargo-geiger` on code.
 - **AI Analyzer (PHP + GPT-4o)**: Detects vulnerabilities (cybersecurity-informed).
 - **Code Rewriter (PHP + GPT-4o)**: Reviews and Rewrites code, adds features, validated by `cargo-test`.
 - **Web Interface (PHP + JavaScript)**: Login, register, upload, dashboard, settings, project report (Tailwind CSS).
@@ -79,7 +80,7 @@ As a software engineer with over six years of experience in **Rust**, **PHP**, *
 
 ### PoC/MVP
 - **Research**: Substrate vulnerabilities, ink! exploits, GPT-4o, OWASP blockchain security.
-- **Prototype**: PHP CLI tool for traversal and GPT-4o (Milestone 1).
+- **Prototype**: PHP Dashboard for file uploads, settings and GPT-4o (Milestone 1).
 
 ### Mockups
 - **Login/Register**: Email/password forms.
@@ -87,7 +88,7 @@ As a software engineer with over six years of experience in **Rust**, **PHP**, *
 - **Dashboard**: Statistics (projects, analyses, vulnerabilities).
 - **Settings**: Account security, OpenAI key.
 - **Project Report**: Lists projects, download/delete.
-Mockups in Milestone 2 on GitHub.
+Mockups in Milestone 1 on GitHub.
 
 ### Data Models
 ```php
