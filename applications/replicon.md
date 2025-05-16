@@ -20,6 +20,8 @@ Replicon integrates into the Polkadot ecosystem by leveraging its parachain arch
 
 Our team’s inspiration for Replicon is deeply personal. Coming from the film and entertainment industry, particularly working as supporting artists and actors, we’ve experienced firsthand how the likeness, time, and talent of performers are often undervalued — especially in the age of digital reproduction and AI. The recent actors' strike highlighted a growing concern: the unchecked use of performers' digital likenesses without fair compensation or consent. AI-generated doubles, voice clones, and background characters are being created and reused at scale, with minimal transparency or financial benefit for the individuals involved. This exposed a critical need for ethical standards and creator ownership in digital media. Replicon is our answer to that need. We’re building a platform where people can take back control — turning their physical likeness and voice into protected, monetisable AI-powered assets. Through blockchain-based licensing, we're ensuring that individuals, not studios or algorithms, decide how their digital selves are used, and that they’re fairly compensated each time. Replicon isn’t just about innovation — it’s about empowerment, protection, and equity for digital creators and performers in the new era of AI and immersive media.
 
+[Pitch deck](https://www.canva.com/design/DAGlE5jQAl8/QsIN5dHe6iu7FypYtYQT3g/view?utm_content=DAGlE5jQAl8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hcbbd8c44f8)
+
 ### (Optional but **huge bonus points**): [1-min video pitch](https://www.ycombinator.com/video/)
 
 > N/A
@@ -136,11 +138,9 @@ Please also provide the GitHub accounts of all team members:
 
 Please describe the team's relevant experience, including any previous blockchain projects or contributions to the ecosystem.
 
-- **Ana** has more than 10 years of experience in academia working with data, ocean physics models and satellite imagery. At Amata World she has led her CoFounding team well in engaging in with the Startup Race entrepreneurial programme and developing the Lean Startup and other essential business skills and knowledge necessary to increase Amata World’s chance of success. Furthermore, Ana has experience of working in other start-ups as a product/project manager and has built an extensive network within the wider start-up community and people working with emerging tech. She first had the idea of using filming locations for experiences and travel more than 10 years ago, as during her childhood films and books were the only way to explore the world.
+- **Ana** brings over a decade of experience across science, startups, and the film/gaming industries. As co-founder of Amata World and co-host of the Amata World Podcast, she works at the intersection of XR, AI, Web3, and creative industries with public speaking appearances at events such as Blockchain-NFT London and Pocket Gamer Connects Helsinki. Replicon was born on the EasyA London hackathon (winners of the Pitchathon) from her experience as a supporting artist on film sets, where her likeness was scanned without clear consent or fair compensation. This inspired her mission to empower individuals to own, control, and monetise their digital identity to build a fairer future for digital representation.
 
 - **Bryan** is an experienced developer with almost 10 years of experience in the software industry working across multiple industries. His latest interests spans all aspects of emerging technologies including the Metaverse, Web3 and XR. He has also attended multiple hackathons over the years and produced various projects in AI, Web3 and XR.
-
-- **Ana** managed to work on film sets during the last couple of years to understand how industry works, what problems it has and get inside connections, which gave us an advantage, as we learned more about the film industry, how the market is changing due to the recent development in AI and their fears towards IP fraud, as well as through this channel we managed to get in touch with some platforms for indie films. 
 
 ## 📊 Development Status
 
@@ -161,8 +161,16 @@ This section should break the development roadmap down into milestones and deliv
 ### Overview
 
 - **Estimated Duration:** Duration of the whole project (maximum 3 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project
-- **Total Costs:** Requested amount in USD for the whole project (maximum $10,000 USD)
+– **3 months**
+- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project – **340 hours (~2 months)**
+
+| | Rate | Hours | Total (USD) |
+| -----: | ----------- | ------------- | ------------- |
+| Technical Writing | $20/hr | 20 | $400 |
+| Engineering | $30/hr | 320 | $9,600 |
+| | | | $10,000 |
+
+- **Total Costs:** Requested amount in USD for the whole project (maximum $10,000 USD) – **$10,000USD**
 
 > Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
 
@@ -172,10 +180,9 @@ This section should break the development roadmap down into milestones and deliv
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... |
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Article | We will publish an **article** that explains what was done/achieved as part of the grant. |
-| 1. | Scanning and render pipeline | A working backend which can turn scans into assets |
-| 2. | Mobile app | A companion mobile app to perform scanning |
-| 3. | Smart contracts | The smart contract licensing, basic features to start |
-| 4. | Marketplace | The web marketplace which will house the final scans |
+| 1. | Smart contract MVP | Development, testing and documentation of the Replicon foundational smart contracts written in ink!. This includes smart contracts that registers an asset as available on the marketplace (with asset data stored in an IPFS backend). This would also include smart contracts that allow minting of soulbound licensing NFTs, which sets out the terms when licensing an asset from a creator. **Verification**: _Deployed smart contracts on testnet, GitHub repo with documented, successful minting of licensing NFTs associated with rendering assets_ |
+| 2. | A simple asset scanning and rendering pipeline | A companion mobile app plus a backend pipeline which allows a user to use their mobile phone to scan themselves and upload the data, which will be processed into a high quality and animation ready 3D model. The end product can be registered as an asset on the marketplace via the smart contracts. For the MVP, we are only focusing on this single asset type. **Verification**: _Mobile app available via TestReplay (iOS) or APK (Android), can be used to create assets which are minted on the testnet_ |
+| 3. | Web Marketplace | The web application which acts as a marketplace to allow licensing of high quality rendering assets (similar to EpicGame’s [Fab](https://www.fab.com/) or [Sketchfab](https://sketchfab.com/)) but tailored to assets produced by real people. Assets will also link to the person’s bio, and vice versa, allowing them to build a portfolio of their involvement in different gaming or film projects. **Verification**: _GitHub repo, link to live app available, signup available for supporting artists, actors and production companies_ |
 
 ### 💰 Budget Breakdown
 
@@ -183,28 +190,36 @@ Please provide a breakdown of your budget by milestone:
 
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
 | --- | --- | --- | --- |
-| 1 | 1, 2 | $4,000 | 1.5 months |
-| 2 | 3 | $3,000 | 1.5 months |
-| 3 | 4, 0a, 0b, 0c, 0d | $4,000 | 1.5 months |
+| 1 | 0a, 0b, 0c, 0d, Deliverable 1 (Smart Contracts) | $3,000 | 1 months |
+| 2 | Deliverable 2 (Asset Pipeline) | $5,000 | 1.5 months |
+| 3 | Deliverable 3 (Web Marketplace) | $2,000 | 0.5 months |
 | **Total** | | **$10,000** | **3 months** |
-
-Make sure you show clearly what the funding is going towards (e.g. 30 hours of a full time employee at $X / hour).
 
 ## 🔮 Future Plans
 
-Please include:
-
 #### How you intend to continue development after the Fast-Grant
 
-Yes
+- Using personal connections in film and gaming to include more supporting artists, actors and game developers to reach 1000 signups total for the early launch. We have connections in Film London and Games London to reach this target quicker. We also have a network developed through our podcast to help spread the word.
+- Continue to refine the MVP, iron out bugs and resolve any vulnerabilities
+- Social media marketing and community building in the lead up to the official launch
 
 #### Any plans for seeking additional funding (other grants, VC funding, etc.)
 
-Our plan is to eventually pursue VC funding after a certain level of traction
+We are considering a few options for further funding beyond Fast-Grants
+
+- **Pre‑Seed VC & Angels** – We can tap into our network of Web3 and Gaming angels to raise seed/pre-seed funding for the project. This includes a network of gaming angels from Games London
+- **Grants & Ecosystem Programs** – Additional funding opportunities from the Polkadot ecosystem, creative-industry focused funding from the UK government (e.g. [Create Growth Programme](https://iuk-business-connect.org.uk/programme/create-growth/)) or more general grant schemes
 
 #### Your vision for the project's growth and impact in the Polkadot ecosystem
 
-We hope to be the de-facto standard for sourcing ethical metaverse or gaming assets
+> We want people who give their faces, voices, and emotions to digital media to finally own, protect, and benefit from their digital selves in a fair and transparent way.
+
+We hope to be the de-facto standard for sourcing ethical metaverse or gaming assets in the Polkadot ecosystem. Some of our goals:
+
+- **Polkadot Gaming Project Adoption** – New gaming projects on the Polkadot ecosystem are adopting our assets in their projects
+- **New Revenue Streams for Supporting Artists** – We've created a new revenue stream for supporting artists and allowing them to better support themselves through our platform
+- **High Quality and Hassle Free Gaming Assets** – Our system is a cheaper alternative to handcrafting detailed assets for game developers
+- **Disrupting the Film Industry** – Our system can also be used in film projects to generate crowds without having to arrange for extras or use expensive CGI
 
 ## ℹ️ Additional Information
 
@@ -212,7 +227,7 @@ Here you can add any additional information that you think is relevant to this a
 
 #### Work you have already done
 
-> N/A, this has all been recently conceived
+Interviewed supporting artists to verify the idea
 
 #### If there are any other teams who have already contributed to the project
 
