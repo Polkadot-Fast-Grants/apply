@@ -164,7 +164,7 @@ Please provide a breakdown of your budget by milestone:
 | 1 | Feature X | $1,000 | 1 month |
 | 2 | Feature Z | $500 | 0.5 months |
 | 3 | Feature Z | $1,000 | 1 month |
-| **Total** | | **$2,5,000** | **2.5 months** |
+| **Total** | | **$2,500** | **2.5 months** |
 
 ## 🔮 Future Plans 
 
