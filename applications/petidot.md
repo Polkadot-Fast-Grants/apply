@@ -119,6 +119,10 @@ The project is actively being developed, with the current version having been bu
 | 1b.    | **Crate Opening Mechanism**            | Implement smart contracts to allow users to spend tokens and open crates. Each crate mints a new NFT pet with randomized traits and rarity level. |
 | 1c.    | **New Character Variants with Age Design** | Introduce new PetiDot types (e.g., fox, cat, dragon) with age-based stages (baby, teen, adult). Age will evolve visually and influence future gameplay or abilities. |
 | 1d.    | **UI Revamp**                          | Redesign the interface to:<br>– Show token balances<br>– Enable crate opening flow<br>– Display newly acquired NFT characters with animated reveal<br>– Reflect character age stages in card visuals |
+| 1e.    | **Launch Social Media Channels**       | Create and publish content on:<br>– **Twitter/X** (Turkish/English)<br>– **Discord** (with Turkish/English channels)<br>– **Telegram** (Turkish/English)<br>Promote the testnet airdrop and collect waitlist signups. |
+| 1f.    | **Testnet Airdrop Campaign**           | Deploy a **testnet airdrop** to:<br>– Incentivize users to connect wallets and claim tokens<br>– Collect **real waitlist users** (email + wallet addresses)<br>– Offer rewards e.g., "First 500 testers get token to open creates and get free pet NFT's") |
+| 1g.    | **Crypto Influencer Outreach**         | Identify and collaborate with crypto influencers and Polkadot-focused creators for cross-promotion. Negotiate partnerships for airdrop promotion and early user acquisition. |
+| 1h.    | **Reach Out to Crypto Exchanges**      | Contact small-to-mid tier centralized and decentralized exchanges to explore:<br>– Possibility of listing the game token post-launch<br>– Promotion opportunities (e.g., featured projects, airdrop campaigns)<br>– Partnerships for joint marketing efforts |
 ---
 
 ### Milestone 2 — Client Mini-Game, Reward Logic & Mainnet Launch
@@ -126,22 +130,29 @@ The project is actively being developed, with the current version having been bu
 - **Estimated Time:** 6 weeks  
 - **Amount Requested:** $5,000 USD  
 
-| Number | Deliverable                        | Specification |
-|--------|------------------------------------|---------------|
-| 2a.    | **Client-Only Mini-Game**          | Implement a playful, engaging browser-based mini-game where users select an NFT pet and play short animations. Game result is determined locally (for fun), but reward claims depend on token logic. |
-| 2b.    | **Rarity-Weighted Reward Engine**  | Token rewards will be issued based on the rarity and age of the NFT used to play. The smart contract handles all validation, randomness seed, and reward distribution securely. |
-| 2c.    | **Randomness Engine**              | Integrate Polkadot’s XCM VRF-based randomness. |
-| 2d.    | **Mainnet Deployment**             | Finalize and deploy contracts for token, NFT, crate, and reward logic to mainnet. Conduct full end-to-end test on production. |
+| Number | Deliverable                            | Specification |
+|--------|----------------------------------------|---------------|
+| 2a.    | **Client-Only Mini-Game**              | Implement a playful, engaging browser-based mini-game where users select an NFT pet and play short animations. Game result is determined locally (for fun), but reward claims depend on token logic. Add share buttons for social virality and referral tracking. |
+| 2b.    | **Rarity-Weighted Reward Engine**      | Token rewards will be issued based on the rarity and age of the NFT used to play. The smart contract handles all validation, randomness seed, and reward distribution securely. Include daily quests and reward milestones to encourage repeat usage. |
+| 2c.    | **Randomness Engine**                  | Integrate Polkadot’s XCM VRF-based randomness to ensure fair and secure gameplay outcomes and reward distribution across chains. |
+| 2d.    | **Mainnet Deployment**                 | Finalize and deploy contracts for token, NFT, crate, and reward logic to mainnet. Conduct full end-to-end test on production. Launch official “Go Live” announcement across all marketing channels. |
+| 2e.    | **Airdrop Week Campaign** | Host a time-bound **mainnet airdrop event** to incentivize early adoption:<br>– Referral program (invite 3 friends = bonus tokens)<br>– Waitlist participant rewards<br>– Social media sharing bonuses |
+| 2f.    | **Influencer Activation & AMAs**       | Activate partnerships with crypto influencers from Milestone 1 by:<br>– Hosting **live AMAs in Discord/Telegram**<br>– Running co-branded **giveaways** (e.g., token bundles)<br>– Posting influencer gameplay content on socials |
+| 2g.    | **Exchange Launch Support** | Use exchange connections from Milestone 1 to:<br>– Submit the game token for listing (if it qualifies)<br>– Promote the launch through exchange announcements or banners<br>– Discuss joint airdrop or staking campaigns |
+| 2h.    | **Localization & Onboarding Support**  | Provide Turkish/English onboarding guides, walkthrough videos, and wallet integration help docs to improve user retention and ease-of-use for new players. |
+| 2i.    | **Developer-Focused Content** | Publish a developer-focused post (e.g., Medium: “How PetiDot Uses Polkadot’s XCM for Game Randomness”) and share it on dev forums and Reddit. |
+| 2j.    | **Web3 Game Listings** | Submit PetiDot to Web3 game directories like Chainplay, PlayToEarn.net, and others to increase visibility. |
+
 
 ## 🔮 Future Plans
 
-After the Fast-Grant, I plan to focus on growing a strong community around PetiDot. The first step will be to build out the project's social media presence and start engaging with early supporters. I’ll be running a token airdrop campaign to help spread awareness and onboard new users into the ecosystem.
+Following the completion of the Fast-Grant milestones, I will focus on deepening PetiDot’s community roots and scaling user engagement through new content, experiences, and ecosystem integrations.
 
-As the community grows, I’ll continue expanding the world of PetiDot by introducing new pet types and character variants to keep the experience fresh and engaging. I also plan to add more simple and fun mini-games to increase interactivity and give users more ways to engage with their NFT pets.
+I plan to develop a lightweight mobile-friendly version for crate openings, NFT management, and participation in daily activities—making PetiDot more accessible to casual players and mobile-first audiences.
 
-To support these growth initiatives, I intend to seek additional funding specifically to scale the airdrop and community-building efforts. My long-term goal is to position PetiDot as a fun and welcoming entry point into the Polkadot ecosystem—accessible for newcomers, yet built on powerful technology that showcases the strengths of Polkadot Asset Hub.
+Post-mainnet, I’ll explore integrations with other Polkadot parachains (e.g., for staking, cross-chain games, or NFT utility) and collaborations with other gaming or metaverse projects to bring PetiDot pets into new environments.
 
-My vision for PetiDot is to create an approachable and playful gateway into the Polkadot ecosystem—something that lowers the barrier for new users while still showcasing Polkadot's capabilities.
+In later stages, I aim to introduce governance features allowing players to vote on new pet types, crate contents, and game direction. This will foster stronger community involvement and give token holders a direct voice in shaping PetiDot’s future.
 
 ## ℹ️ Additional Information
 
