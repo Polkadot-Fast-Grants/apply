@@ -323,40 +323,14 @@ ZenVolt’s grant scope focuses on delivering a **working blockchain-backed emis
 
 ### 🚀 **Milestones and Deliverables Breakdown**
 
-| #   | **Deliverable**                  | **Specification**                                                                                              | **Cost (USD)** | **Completion Date**  |
-|-----|-----------------------------------|----------------------------------------------------------------------------------------------------------------|----------------|----------------------|
-| **0a**  | **Open-Source License**           | Codebase released under **Apache 2.0 License** for **community contribution** and **transparency**.            | $0             | **Week 1**          |
-| **0b**  | **Technical Documentation**       | 1. Set up documentation **framework** for inline code comments, **API docs**, and **tutorials**.<br>2. Document the **core architecture** and **design decisions** for the **telemetry pipeline**, **carbon calculation logic**, and **smart contract workflows** (minting, rewarding, emissions validation).<br>3. Provide an **overview** of the **data flow** and expected **interactions** between components to ensure consistency in the codebase and later documentation. | $500           | **Week 2**          |
-| **0c**  | **Testing Suite**                 | Develop **unit tests** for **smart contract functions (minting, rewarding)**, and **integration tests** for **data ingestion pipeline** and **emissions validation**. | $500           | **Week 3**          |
-| **0d**  | **Public Communication**          | Publish a **detailed article** explaining **ZenVolt’s architecture**, **pilot results**, and how the project **expands Polkadot’s real-world utility** in **sustainability**. | $0             | **Week 12**         |
-| **1**   | **Smart Contract Deployment**     | Deploy initial **emissions tracking** and **ZVCT token minting contracts** on **Polkadot Asset Hub testnet**. Key actions include the deployment of core smart contract logic and **XCM integration** for **basic cross-chain asset movement simulation**. | $4,000         | **Week 6**          |
-| **2**   | **Backend Development & Telemetry Pipeline** | Set up **backend infrastructure** for **telemetry data ingestion**, develop **data storage architecture** (PostgreSQL), and ensure **secure data management**. Implement **API endpoints** for future frontend and contract interaction. | $1,500         | **Week 6**          |
-| **3**   | **Frontend Development & UI/UX**  | Develop **ReactJS frontend** with **UI components** for **fleet managers** and **drivers** to view **emissions data**, **rewards**, and **ZVCT token balances**. Ensure **mobile-friendly design**, **user experience (UX)** focused on sustainability. | $1,500         | **Week 7**          |
-| **4**   | **Smart Contract Integration**    | **Integrate smart contracts** with **backend** and **frontend**. Ensure that **emissions tracking**, **minting ZVCT tokens**, and **reward distribution** function seamlessly across the system. | $1,000         | **Week 8**          |
-| **5**   | **ESG Pilot Deployment**          | Pilot program with **20 fleet vehicles** from **Brunel University London**: collect **real-world emissions data**, mint **ZVCT tokens**, issue **driver rewards** via **dashboard**, and gather **user feedback** from fleet managers and drivers on the **system’s performance**. Set **success metrics** for **engagement** and **emissions reductions**. | $2,000         | **Week 12**         |
-
----
-
-# 💰 **Budget Breakdown for First Funding Request** (Total: $4,000)
-
-| **Milestone**    | **Deliverables**                                                  | **Cost (USD)** | **Completion Date**  |
-|------------------|-------------------------------------------------------------------|----------------|----------------------|
-| **0a**           | **Open-Source License**                                           | $0             | **Week 1**          |
-| **0b**           | **Technical Documentation**                                       | $500           | **Week 2**          |
-| **1**            | **Smart contracts development & testing** + **Asset Hub deployment** + **Token design and distribution testing** | $2,000         | **Week 6**          |
-| **2**            | **Backend development** + **telemetry pipeline** + **data storage** | $1,500         | **Week 6**          |
-| **Total**        |                                                                   | **$4,000**     | **End of Week 6**    |
-
----
-
-# 💰 **Budget Breakdown for Second Funding Request** (Total: $6,000)
-
-| **Milestone**    | **Deliverables**                                                  | **Cost (USD)** | **Completion Date**  |
-|------------------|-------------------------------------------------------------------|----------------|----------------------|
-| **3**            | **Frontend development** + **Dashboard integration**             | $1,500         | **Week 7**          |
-| **4**            | **Smart contract integration** with **frontend** and **backend** | $1,000         | **Week 8**          |
-| **5**            | **ESG Pilot program** + **User feedback**                        | $2,000         | **Week 12**         |
-| **Total**        |                                                                   | **$6,000**     | **End of Week 12**    |
+| Milestones   | Deliverable                      | Specification                                                                                                                                                                                                                         | Cost (USD) | Completion Date |
+|-----|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------------|
+| 0a  | Open-Source License              | • Codebase released under Apache 2.0 for community contribution and transparency.                                                                                                                                                    | $0         | Week 1          |
+| 0b  | Technical Documentation          | • Set up documentation framework (inline code comments, API docs, tutorials)<br>• Document core architecture & design decisions for the telemetry pipeline, carbon-calculation logic, and smart-contract workflows (minting, rewarding, emissions validation)<br>• Provide end-to-end data-flow overview | $500       | Week 2          |
+| 0c  | Testing Suite                    | • Develop unit tests for smart-contract functions (minting, rewarding)<br>• Develop integration tests for data-ingestion pipeline and emissions-validation logic.                                                                   | $500       | Week 3          |
+| 0d  | Public Communication             | • Publish a detailed article explaining ZenVolt’s architecture, pilot results, and how this project expands Polkadot’s real-world utility in sustainability.                                                                           | $0         | Week 12         |
+| 1   | Core Emissions-to-Token Pipeline | •0b and 0c and their costs are included in this milestone<br> • OCW prototype (off-chain validation, signing, submission) & DID registry setup<br>• Backend ingestion engine (NodeJS + PostgreSQL schema for telemetry & DID mappings)<br>• Emissions Verifier & ZVCT Issuance smart contracts deployed on Asset Hub (incl. token design & testing)<br>• XCM v3 mock integration for cross-chain asset movement | $4,000     | Week 6          |
+| 2   | UI & Live Pilot Deployment       | • ReactJS fleet & driver dashboard with GraphQL APIs<br>• Smart-contract ↔ backend integration (API hooks, event listeners)<br>• Reward distribution & ESG-reporting modules on-chain<br>• Live pilot with 20 Brunel University vehicles (data collection, token minting, driver incentives, feedback)<br>• Final community release & documentation | $6,000     | Week 12         |
 
 ---
 
