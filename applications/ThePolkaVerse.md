@@ -10,7 +10,7 @@ The Polkaverse allows users to create and own digital assets that come to life w
 
 - A brief description of your project
 
-PolkaVerse is a decentralized application that bridges the gap between digital ownership and real-world interaction, powered by Polkadot. Our smart contract on AssetHub enables users to create, own, and verify digital assets, which can then be spawned into a dynamic Unity WebGL physics sandbox and engaged with through AI-powered conversations. By leveraging Polkadot’s scalable asset management and cross-chain interoperability, Polkaverse enhances the tangibility of digital assets, offering users a new, immersive way to experience and interact with their virtual possessions across the broader Polkadot ecosystem.
+PolkaVerse is a decentralized application that bridges the gap between digital ownership and real-world interaction, powered by Polkadot. Our smart contract on AssetHub enables users to create, own, and verify digital assets, which can then be spawned into a dynamic Unity WebGL physics sandbox and engaged with through AI-powered conversations. By leveraging Polkadot's scalable asset management and cross-chain interoperability, Polkaverse enhances the tangibility of digital assets, offering users a new, immersive way to experience and interact with their virtual possessions across the broader Polkadot ecosystem.
 
 - An indication of how your project relates to / integrates into Polkadot
 
@@ -23,7 +23,7 @@ My team (Aya and William) LOVES fun interactive experiences.
 A lot of us have digital assets, however, what else can we do besides looking at a 6 figure jpg of a monkey?
 According to data from Cryptoslam.com, we can notice a huge drop in interest for digital assets with Apr 2025 having the lowest volume and unique seller figures since July 2021. 
 
-That’s why we made the PolkaVerse, a dapp that allows you to create and own digital assets that come to life with a real-time physics sandbox and AI chat integration to solve the problem of static, unengaging digital assets powered by Polkadot Asset Hub.
+That's why we made the PolkaVerse, a dapp that allows you to create and own digital assets that come to life with a real-time physics sandbox and AI chat integration to solve the problem of static, unengaging digital assets powered by Polkadot Asset Hub.
 
 
 - (Optional but **huge bonus points**): [1-min video pitch](https://www.ycombinator.com/video/)
@@ -36,11 +36,11 @@ We expect applicants to have a solid idea about the project's expected final sta
 
 - An overview of the technology stack to be used
 
-Polkaverse utilizes Metamask for secure and decentralized user authentication, allowing users to connect to the Polkadot AssetHub network. Ethers.js facilitates real-time fetching of digital asset data from our smart contract deployed on the Westend AssetHub Testnet. Google’s Gemini 2.0 Flash model powers personalized AI interactions with each user’s assets, while Unity WebGL provides an immersive physics sandbox for spawning and interacting with them.
+Polkaverse utilizes Metamask for secure and decentralized user authentication, allowing users to connect to the Polkadot AssetHub network. Ethers.js facilitates real-time fetching of digital asset data from our smart contract deployed on the Westend AssetHub Testnet. Google's Gemini 2.0 Flash model powers personalized AI interactions with each user's assets, while Unity WebGL provides an immersive physics sandbox for spawning and interacting with them.
 
 - Documentation of core components, protocols, architecture, etc. to be deployed
 
-We have a smart contract deployed on Polkadot Westend Asset Hub to securely create, manage, and verify ownership of user-generated digital assets in a decentralized, trustless way. Once created, users can both chat with the asset using a chatbot initialized from the asset’s description, and spawn them into our 3D sandbox with its respective 3D Model URL. Our contract ensures users can own, prove, and interact with their assets across Polkadot’s entire ecosystem of chains, wallets, and apps in a highly scalable and low-cost manner. 
+We have a smart contract deployed on Polkadot Westend Asset Hub to securely create, manage, and verify ownership of user-generated digital assets in a decentralized, trustless way. Once created, users can both chat with the asset using a chatbot initialized from the asset's description, and spawn them into our 3D sandbox with its respective 3D Model URL. Our contract ensures users can own, prove, and interact with their assets across Polkadot's entire ecosystem of chains, wallets, and apps in a highly scalable and low-cost manner. 
 
 - Any PoC/MVP or other relevant prior work or research on the topic
 
@@ -57,7 +57,7 @@ https://github.com/WilliamUW/EasyAPolkadotUnity
 Help us locate your project in the Polkadot landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
-PolkaVerse enables the next generation of engaging digital assets on Polkadot by turning static collectibles into interactive, AI-powered digital assets. We unlock new forms of utility and entertainment for digital asset holders across Polkadot’s growing ecosystem!
+PolkaVerse enables the next generation of engaging digital assets on Polkadot by turning static collectibles into interactive, AI-powered digital assets. We unlock new forms of utility and entertainment for digital asset holders across Polkadot's growing ecosystem!
 
 
 - Who is your target audience?
@@ -152,7 +152,17 @@ Presentation: https://www.canva.com/design/DAGMMwZQYqg/SmJTmqBl4GqeMweNXy2ztQ/vi
 | 0c. | Testing and Testing Guide | Core smart contract functions (asset creation, ownership verification, metadata fetching) will be covered by **unit tests**. A **testing guide** will explain how to set up the environment and run all tests locally. |
 | 0d. | Article | We will publish a **technical article** explaining the architecture of Polkaverse, challenges faced integrating Unity and Polkadot AssetHub, and how developers can build similar experiences. |
 | 1. | Polkadot Unity SDK Integration | We will build and open-source a **Unity SDK integration** that connects Unity WebGL builds with the Polkadot AssetHub via Metamask and Ethers.js. This will include: wallet authentication, real-time fetching of user-owned asset metadata, and spawning corresponding 3D models in the Unity WebGL physics sandbox. The deliverable will include a live Unity WebGL demo and open-source code on GitHub. |
+| 1a. | Initial User Acquisition | - Launch waitlist with target of 100 signups
+- Create and deploy 10 high-quality demo assets (transformers, celestial bodies, etc.)
+- Achieve 100 unique users trying the demo experience
+- Convert 25% of demo users to wallet connections (25 users)
+- Track and report key metrics: interaction count, retention rate, and wallet creation rate |
 | 2. | Polkadot AI Agent Integration | We will extend the Unity integration to support **AI interaction** with owned assets. This includes setting up Google Gemini 2.0 Flash model hooks to generate conversations based on asset metadata (description, traits) and adding dynamic AI agent interactions beyond basic chatting (e.g. image generation, real-time audio chat). A live demo video will be recorded showing AI chatting and agent interactions. |
+| 2a. | User Growth and Engagement | - Reach 1,000 total users on the platform
+- Achieve 250 wallet connections (25% conversion rate)
+- Enable community asset creation with target of 50 user-generated assets
+- Implement and track premium feature adoption
+- Achieve 5000 interactions by users with assets on our platform.
 
 ---
 
@@ -160,8 +170,8 @@ Presentation: https://www.canva.com/design/DAGMMwZQYqg/SmJTmqBl4GqeMweNXy2ztQ/vi
 
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
 |:---|:---|:---|:---|
-| 1 | Polkadot Unity SDK Integration | $5,000 | 1.5 months |
-| 2 | Polkadot AI Agent Integration | $5,000 | 3 months (final) |
+| 1 | Polkadot Unity SDK Integration + Initial User Acquisition | $5,000 | 1.5 months |
+| 2 | Polkadot AI Agent Integration + User Growth and Engagement | $5,000 | 3 months (final) |
 | **Total** |  | **$10,000** | **3 months** |
 
 ## 🔮 Future Plans
@@ -172,7 +182,7 @@ Please include:
 - Any plans for seeking additional funding (other grants, VC funding, etc.)
 - Your vision for the project's growth and impact in the Polkadot ecosystem
 
-After completing the Fast-Grant milestones, we plan to expand PolkaVerse by adding support for more wallets, building a marketplace for AI-enhanced digital assets, and optimizing the platform for mobile WebGL. We will apply for a full Web3 Foundation Open Grant and explore ecosystem venture funding to support these next stages. Our long-term vision is to make PolkaVerse the leading platform for interactive digital assets on Polkadot, helping broaden the network’s appeal to mainstream users through engaging, AI-driven experiences!
+After completing the Fast-Grant milestones, we plan to expand PolkaVerse by adding support for more wallets, building a marketplace for AI-enhanced digital assets, and optimizing the platform for mobile WebGL. We will apply for a full Web3 Foundation Open Grant and explore ecosystem venture funding to support these next stages. Our long-term vision is to make PolkaVerse the leading platform for interactive digital assets on Polkadot, helping broaden the network's appeal to mainstream users through engaging, AI-driven experiences!
 
 ## ℹ️ Additional Information
 
