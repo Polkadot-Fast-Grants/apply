@@ -151,13 +151,13 @@ Presentation: https://www.canva.com/design/DAGMMwZQYqg/SmJTmqBl4GqeMweNXy2ztQ/vi
 | 0b. | Documentation | We will provide **comprehensive inline code documentation** and a **public tutorial** showing users how to connect wallets, create assets, and interact with them in the Unity WebGL sandbox. |
 | 0c. | Testing and Testing Guide | Core smart contract functions (asset creation, ownership verification, metadata fetching) will be covered by **unit tests**. A **testing guide** will explain how to set up the environment and run all tests locally. |
 | 0d. | Article | We will publish a **technical article** explaining the architecture of Polkaverse, challenges faced integrating Unity and Polkadot AssetHub, and how developers can build similar experiences. |
-| 1. | Polkadot Unity SDK Integration | We will build and open-source a **Unity SDK integration** that connects Unity WebGL builds with the Polkadot AssetHub via Metamask and Ethers.js. This will include: wallet authentication, real-time fetching of user-owned asset metadata, and spawning corresponding 3D models in the Unity WebGL physics sandbox. The deliverable will include a live Unity WebGL demo and open-source code on GitHub. |
+| 1. | 3D Physics Sandbox Integration | We will build and open-source a **3D physics sandbox integration** that connects WebGL builds with the Polkadot AssetHub via Metamask and Ethers.js. This will include: wallet authentication, real-time fetching of user-owned asset metadata, and spawning corresponding 3D models in the physics sandbox. The deliverable will include a live WebGL demo and open-source code on GitHub. |
 | 1a. | Initial User Acquisition | - Launch waitlist with target of 100 signups
 - Create and deploy 10 high-quality demo assets (transformers, celestial bodies, etc.)
 - Achieve 100 unique users trying the demo experience
 - Convert 25% of demo users to wallet connections (25 users)
 - Track and report key metrics: interaction count, retention rate, and wallet creation rate |
-| 2. | Polkadot AI Agent Integration | We will extend the Unity integration to support **AI interaction** with owned assets. This includes setting up Google Gemini 2.0 Flash model hooks to generate conversations based on asset metadata (description, traits) and adding dynamic AI agent interactions beyond basic chatting (e.g. image generation, real-time audio chat). A live demo video will be recorded showing AI chatting and agent interactions. |
+| 2. | AI Agent Integration | We will extend the sandbox integration to support **AI interaction** with owned assets. This includes setting up Google Gemini 2.0 Flash model hooks to generate conversations based on asset metadata (description, traits) and adding dynamic AI agent interactions beyond basic chatting (e.g. image generation, real-time audio chat). A live demo video will be recorded showing AI chatting and agent interactions. |
 | 2a. | User Growth and Engagement | - Reach 1,000 total users on the platform
 - Achieve 250 wallet connections (25% conversion rate)
 - Enable community asset creation with target of 50 user-generated assets
@@ -170,8 +170,8 @@ Presentation: https://www.canva.com/design/DAGMMwZQYqg/SmJTmqBl4GqeMweNXy2ztQ/vi
 
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
 |:---|:---|:---|:---|
-| 1 | Polkadot Unity SDK Integration + Initial User Acquisition | $5,000 | 1.5 months |
-| 2 | Polkadot AI Agent Integration + User Growth and Engagement | $5,000 | 3 months (final) |
+| 1 | 3D Physics Sandbox Integration + Initial User Acquisition | $5,000 | 1.5 months |
+| 2 | AI Agent Integration + User Growth and Engagement | $5,000 | 3 months (final) |
 | **Total** |  | **$10,000** | **3 months** |
 
 ## 🔮 Future Plans
