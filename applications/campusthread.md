@@ -275,7 +275,8 @@ The project is in the early stage of development, with the following components 
 
 ---
 
-### ✅ Milestone 1 – DID Integration & Creator Rewards Module (7days) – $5,000
+
+### ✅ Milestone 1 – DID Integration into existing UI & Creator Rewards Module (7days) – $5,000
 
 | Deliverable | Specification |
 |------------|----------------|
