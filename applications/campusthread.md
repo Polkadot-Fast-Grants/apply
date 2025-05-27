@@ -53,7 +53,7 @@ CampusThread is built with interoperability in mind. We plan to integrate with P
 
 
 **Why We’re Building It:**
-We believe students are the most overlooked demographic in Web3. There is no dedicated platform today that rewards students specifically for their school-related activities, content creation, or campus influence — despite students being one of the most engaged online demographics. Students have very limited opportunities to earn income on traditional platforms, where monetization is largely dependent on ad revenue and controlled by the platforms themselves. This leaves student creators undervalued and underpaid, despite driving significant engagement and content creation.
+We believe students are the most overlooked demographic in Web3. There is no dedicated platform today that rewards students specifically for their school-related activities, content creation, or campus influence — despite students being one of the most engaged online demographics. Students have very limited opportunities to earn income on traditional platforms, where monetization is largely dependent on high visibility, large followers count and platform specific requirements. This leaves student creators undervalued and underpaid, despite driving significant engagement and content creation.
 
 We're building CampusThread because:
 
@@ -65,7 +65,7 @@ We want to create a trusted, verified social layer that brands can advertise on�
 
 We believe Web3 can power the next social media revolution, and students are the ones who will lead it.
 
-We want to enables student creators to earn $CAMP tokens through content engagement, ad revenue sharing, and upcoming marketplace features (for services, digital goods, and NFTs). This moves students beyond just ad-based income and allows them to create multiple, on-chain revenue streams, all transparently tracked via smart contracts on Polkadot.
+We want to enables student creators to earn $CAMP tokens by sharing their school activities, through content engagement, ad revenue sharing, and upcoming marketplace features (for services, physical and digital goods, and NFTs). This moves students beyond just ad-based income and allows them to create multiple, on-chain revenue streams, all transparently tracked via smart contracts on Polkadot.
 
 
 
@@ -324,7 +324,7 @@ Following the Fast-Grant, our primary focus will be scaling CampusThread from a 
 Instead of relying on centralized AdTech like Google AdMob, we will build our own decentralized ad engine. This engine will connect advertisers directly with verified student creators, enhancing trust and transparency, and significantly driving $CAMP token utility.
 
 🛒 CampusThread Marketplace
-A marketplace where students can buy and sell digital goods, services, or course materials using $CAMP tokens—boosting adoption, engagement, and utility across the Polkadot ecosystem.
+A marketplace where students can buy and sell digital and physical goods, services, or course materials using $CAMP tokens—boosting adoption, engagement, and utility across the Polkadot ecosystem.
 
 🌐 Decentralized Storage Migration
 Transition user-generated content and profile data from Firebase to decentralized storage solutions such as IPFS, Filecoin, or Crust Network — reinforcing privacy, censorship resistance, and Web3 alignment.
