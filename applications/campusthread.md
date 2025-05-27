@@ -53,7 +53,7 @@ CampusThread is built with interoperability in mind. We plan to integrate with P
 
 
 **Why We’re Building It:**
-We believe students are the most overlooked demographic in Web3. Despite being highly social, tech-savvy, and constantly online, students have very limited opportunities to earn income on traditional platforms, where monetization is largely dependent on ad revenue and controlled by the platforms themselves. This leaves student creators undervalued and underpaid, despite driving significant engagement and content creation.
+We believe students are the most overlooked demographic in Web3. There is no dedicated platform today that rewards students specifically for their school-related activities, content creation, or campus influence — despite students being one of the most engaged online demographics. Students have very limited opportunities to earn income on traditional platforms, where monetization is largely dependent on ad revenue and controlled by the platforms themselves. This leaves student creators undervalued and underpaid, despite driving significant engagement and content creation.
 
 We're building CampusThread because:
 
