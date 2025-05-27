@@ -53,7 +53,7 @@ CampusThread is built with interoperability in mind. We plan to integrate with P
 
 
 **Why We’re Building It:**
-We believe students are the most overlooked demographic in Web3. They are social, tech-savvy, and always online—but existing platforms don’t reward them for their influence, time, or creativity.
+We believe students are the most overlooked demographic in Web3. Despite being highly social, tech-savvy, and constantly online, students have very limited opportunities to earn income on traditional platforms, where monetization is largely dependent on ad revenue and controlled by the platforms themselves. This leaves student creators undervalued and underpaid, despite driving significant engagement and content creation.
 
 We're building CampusThread because:
 
@@ -64,6 +64,8 @@ We want to help students monetize their school life, not just survive it.
 We want to create a trusted, verified social layer that brands can advertise on—while redistributing ad revenue to creators.
 
 We believe Web3 can power the next social media revolution, and students are the ones who will lead it.
+
+We want to enables student creators to earn $CAMP tokens through content engagement, ad revenue sharing, and upcoming marketplace features (for services, digital goods, and NFTs). This moves students beyond just ad-based income and allows them to create multiple, on-chain revenue streams, all transparently tracked via smart contracts on Polkadot.
 
 
 
