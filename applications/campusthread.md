@@ -318,6 +318,12 @@ Following the Fast-Grant, our primary focus will be scaling CampusThread from a 
 
 🔧 Post-Grant Development Roadmap
 
+🛠️ Developing Adtech Engine
+Instead of relying on centralized AdTech like Google AdMob, we will build our own decentralized ad engine. This engine will connect advertisers directly with verified student creators, enhancing trust and transparency, and significantly driving $CAMP token utility.
+
+🛒 CampusThread Marketplace
+A marketplace where students can buy and sell digital goods, services, or course materials using $CAMP tokens—boosting adoption, engagement, and utility across the Polkadot ecosystem.
+
 🌐 Decentralized Storage Migration
 Transition user-generated content and profile data from Firebase to decentralized storage solutions such as IPFS, Filecoin, or Crust Network — reinforcing privacy, censorship resistance, and Web3 alignment.
 
