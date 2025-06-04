@@ -137,6 +137,26 @@ This section breaks the development roadmap down into 2 milestones and deliverab
 - Expand to support NFT and other digital asset OTC trading
 - Establish Trady as a key piece of Polkadot's DeFi infrastructure, contributing to ecosystem TVL growth and attracting traditional finance institutions
 
+### 🎯 Target Audience
+
+**Primary Users:**
+- **Institutional Traders:** Traditional finance institutions, crypto funds, and investment firms seeking to execute large trades without market impact
+- **High-Net-Worth Individuals (HNWIs):** Crypto whales and affluent investors who need to trade significant amounts of assets privately and efficiently
+- **Decentralized Autonomous Organizations (DAOs):** Treasury management teams requiring large-scale asset swaps for operational needs or strategic rebalancing
+- **Parachain Projects:** Teams needing to trade native tokens or manage treasury assets across different parachains
+
+**Secondary Users:**
+- **Market Makers:** Professional trading firms looking to provide liquidity and arbitrage opportunities
+- **Family Offices:** Wealth management entities handling crypto portfolios for ultra-high-net-worth families
+- **Corporate Treasuries:** Companies holding significant crypto assets that need efficient trading solutions
+
+**User Characteristics:**
+- Trade volumes typically exceeding $50,000 USD per transaction
+- Require privacy and discretion in their trading activities
+- Value security and trustless execution over speed
+- Need cross-chain asset management capabilities
+- Prefer professional-grade interfaces and analytics
+  
 ## ℹ️ Additional Information
 
 **Work Already Done:**
