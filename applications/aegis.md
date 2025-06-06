@@ -2,7 +2,7 @@
 
 ## 🌟 Project Overview
 
-- AEGIS—Secure protocol for trustless digital asset exchanges with cryptographic verification and escrow mechanisms.
+- AEGIS-Secure protocol for trustless digital asset exchanges with cryptographic verification and escrow mechanisms.
 - The name AEGIS draws inspiration from the mythological protective shield ([Aegis](https://en.wikipedia.org/wiki/Aegis)) and the cryptographic Rust crate ([aegis](https://crates.io/crates/aegis)), symbolizing our commitment to providing robust protection for digital asset exchanges.
 - Originally conceived while developing solutions for our gaming project [Zexifi](https://www.youtube.com/watch?v=m_1lXCjuObo).
 - Albeit, working with a Parachain Team, we recognized its potential for broader applications across both gaming and enterprise sectors.
@@ -47,34 +47,32 @@ At its core, the AEGIS protocol ensures:
 
 ### 🧩  Task Breakdown: AEGIS Web3 Protocol
 
-| Phase         | Area/Component         | Task                                   | Description |
-|---------------|------------------------|----------------------------------------|-------------|
-| 🧠 **Design** |                        |                                        |             |
-|               | Stakeholder Mapping    | Define users, roles (e.g., buyer, seller, verifier, agent) | Define user personas and their data flows |
-|               | Protocol Flow Design   | Design transaction states: offer, verification, escrow lock, release, dispute | Define the state machine of asset exchanges |
-|               | Cryptographic Scheme   | Define use of ZKPs, signature aggregation, asset fingerprinting | Decide on cryptographic primitives |
+| Phase         | Area/Component           | Task                                   | Description |
+|---------------|--------------------------|----------------------------------------|-------------|
+| 🧠 **Design** |                          |                                        |             |
+|               | Stakeholder Mapping      | Define users, roles (e.g., buyer, seller, verifier, agent) | Define user personas and their data flows |
+|               | Protocol Flow Design     | Design transaction states: offer, verification, escrow lock, release, dispute | Define the state machine of asset exchanges |
+|               | Cryptographic Scheme     | Define use of ZKPs, signature aggregation, asset fingerprinting | Decide on cryptographic primitives |
 |               | Economic Incentive Model | Design slashing, fees, agent rewards, and settlement logic | Establish rules and incentives for participants |
-|               | Fraud Reversal Logic   | Specify how fraud detection can trigger partial or full reversal without violating immutability | Codify conditions for reversal |
-| 🛠️ **Development** |                  |                                        |             |
-|               | Substrate Pallets      | Asset Registry, Escrow, Attestation     | Encode asset metadata, escrow lock/release logic, and verification layers |
-|               | Ink! Contracts         | Escrow, Auction, Transfer               | Enforce settlement and bidding with on-chain condition checks |
-|               | ZK Integration         | Proof Generators and Verifiers          | Use libraries (e.g., `arkworks`, `halo2`) to implement verifiable claims |
-|               | IPFS Layer             | Asset Storage Handler                   | Store and retrieve cryptographically hashed digital content |
-| 🔌 **Integration** |                   |                                        |             |
-|               | Frontend               | Asset Management UI                     | Enable asset upload, verification status display, and auction listing |
-|               | Game/Enterprise Engines | SDK Integration                         | Provide libraries for Unity, Unreal, and enterprise systems to connect to AEGIS |
-|               | Developer API          | REST/GraphQL Gateways                   | Abstract substrate and IPFS logic for easier third-party adoption |
+|               | Fraud Reversal Logic     | Specify how fraud detection can trigger partial or full reversal without violating immutability | Codify conditions for reversal |
+| 🛠️ **Development** |                          |                                        |             |
+|               | Smart Contracts          | Escrow, Auction, Transfer               | Enforce settlement and bidding with on-chain condition checks |
+|               | ZK Integration           | Proof Generators and Verifiers          | Use libraries (e.g., `arkworks`, `halo2`) to implement verifiable claims |
+|               | IPFS Layer               | Asset Storage Handler                   | Store and retrieve cryptographically hashed digital content |
+| 🔌 **Integration** |                          |                                        |             |
+|               | Frontend                 | Asset Management UI                     | Enable asset upload, verification status display, and auction listing |
+|               | Game/Enterprise Engines  | SDK Integration                         | Provide libraries for Unity, Unreal, and enterprise systems to connect to AEGIS |
+|               | Developer API            | REST/GraphQL Gateways                   | Abstract substrate and IPFS logic for easier third-party adoption |
 
 
 **Technology Stack:**
-- Substrate & FRAME required for pallet development
+- Polkadot Hub for smart contract deployment
 - Ink! Smart Contracts
 - Rust
 - Cairo
 - Ring VRF
 - Multi-Sig
 - IPFS for decentralized storage of digital assets
-- Polkadot XCMP for cross-chain communication
 - TypeScript/React for frontend interfaces
 
 **Core Components:**
@@ -82,43 +80,31 @@ At its core, the AEGIS protocol ensures:
     - Generates immutable hashes of digital assets stored on IPFS
     - Verifies asset authenticity through cryptographic proofs
     - Maintains provenance and chain of custody records
-    - Implemented as a Substrate pallet with Ink! contract integration
+    - Implemented as a Hub-based Asset Registry Contract
 2. **Smart Escrow System**
     - Enforces trustless transactions through programmable escrow contracts
     - Secures assets in temporary custody during transaction processing
     - Executes settlement only when all conditions are verifiably met
     - Handles dispute resolution through predefined rules
     - Implemented as a suite of Ink! smart contracts
-3. **Attestation Framework**
-    - Enables authorized parties to attest to asset attributes
-    - Creates verifiable credential chains for assets with multiple stakeholders
-    - Maintains regulatory compliance through structured verification processes
-    - Implemented as a Substrate pallet with cross-chain capabilities
-4. **Auction and Exchange Protocol**
+3. **Auction and Exchange Protocol**
     - Facilitates transparent bidding processes for transferable assets
     - Manages secure custody during negotiation phases
     - Ensures fair settlement based on predefined conditions
-    - Implemented as Ink! smart contracts with customizable parameters
+    - Deploy with customizable parameters on Hub
 - **Technical Architecture:**
 
 AEGIS will be implemented with the following architecture:
-1. **Substrate Pallets**:
-- Asset Registry Pallet: For managing digital asset registration and metadata
-- Escrow Pallet: For secure custody during transactions
-- Verification Pallet: For cryptographic verification procedures
-- Auction Pallet: For enabling secure bidding processes
-2. **Ink! Smart Contracts**:
-- Escrow Contract: Handles secure custody of assets during transaction process
-- Verification Contract: Implements cryptographic verification functions
-- Auction Contract: Manages bidding and winner determination logic
-- Ownership Transfer Contract: Handles final settlement and asset transfer
-3. **IPFS Integration**:
+1. **Smart Contracts**:
+- Asset Registry Contract: For managing digital asset registration and metadata
+- Escrow Contract: For secure custody during transactions
+- Verification Contract: For cryptographic verification procedures
+- Auction Contract: For enabling secure bidding processes
+- Transfer Contract: For final settlement and ownership changes
+2. **IPFS Integration**:
 - Secure storage for digital assets with content addressing
 - Cryptographic hashing for asset identification and verification
 - Generation of unique digital fingerprints for assets
-4. **Cross-Chain Compatibility**:
-- XCMP support for interacting with other parachains
-- Bridge functionality for external chain integration
 
 **What the project is NOT**:
 - Not a marketplace UI itself (though we will build a reference implementation)
@@ -144,7 +130,7 @@ AEGIS will be implemented with the following architecture:
 - Provides escrow mechanisms that don't require third-party involvement
 - Enables verifiable provenance tracking for digital assets
 - Creates a standardized protocol for secure auctions and exchanges
-- Offers cross-chain compatibility for digital asset transfers
+- Leverages Hub's infrastructure for cost-effective deployment
 
 **Similar Projects:**
 Some parachain projects with marketplace components, AEGIS differentiates itself by:
@@ -205,70 +191,70 @@ The project is currently in the conceptual design phase with the following progr
 
 ### Overview
 
-- **Estimated Duration:** 3 months
+- **Estimated Duration:** 2 months
 - **Full-Time Equivalent (FTE):** 2
-- **Total Costs:** $15,000 USD
+- **Total Costs:** $10,000 USD
 
 > Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a comprehensive **tutorial** that explains how users can implement the AEGIS protocol for secure digital asset exchanges. Documentation will include API references, integration guides, and example implementations for both gaming and enterprise use cases. |
+| Number | Deliverable | Specification                                                                                                                                                                                                                                                                                                                         |
+| -----: | ----------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0a. | License | Apache 2.0                                                                                                                                                                                                                                                                                                                            |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a comprehensive **tutorial** that explains how users can implement the AEGIS protocol for secure digital asset exchanges. Documentation will include API references, integration guides, and example implementations for both gaming and enterprise use cases.          |
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. We will implement integration tests for all critical components and provide security testing for the escrow system. In the guide, we will describe how to run these tests and how to extend them for custom implementations. |
-| 0d. | Article | We will publish an **article** that explains the AEGIS protocol, its implementation, and its applications in both gaming and enterprise contexts. The article will include a demonstration of the reference implementation. |
+| 0d. | Article | We will publish an **article** that explains the AEGIS protocol, its Hub-based implementation, and its applications in both gaming and enterprise contexts. The article will include a demonstration of the reference implementation.                                                                                                 |
 
 ### Milestone 1: Core Protocol Development
 
-- **Estimated Duration:** 1.5 months
-- **Costs:** $7,500 USD
+- **Estimated Duration:** 1 month
+- **Costs:** $5,000 USD
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 1a. | Substrate Module: Asset Registry | We will create a Substrate pallet for digital asset registration that will: 1) Allow registration of digital assets with metadata, 2) Generate and store cryptographic hashes for assets, 3) Track ownership and transfer history, and 4) Support querying of asset data. The module will be tested with unit tests covering all functionality. |
-| 1b. | Cryptographic Verification System | We will implement a verification system that will: 1) Verify the authenticity of digital assets using cryptographic proofs, 2) Integrate with IPFS for content-addressed storage, 3) Provide APIs for external verification of assets. This will include both on-chain verification logic and off-chain components for hash generation. |
+| Number | Deliverable | Specification                                                                                                                                                                                                                                                                                                                             |
+| -----: | ----------- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1a. | Asset Registry Contract | We will create an Ink! smart contract deployed on Hub for digital asset registration that will: 1) Allow registration of digital assets with metadata, 2) Generate and store cryptographic hashes for assets, 3) Track ownership and transfer history, 4) Support querying of asset data. The contract will be optimized for Hub deployment and tested with comprehensive unit tests.    |
+| 1b. | Cryptographic Verification System | We will implement a verification system that will: 1) Verify the authenticity of digital assets using cryptographic proofs, 2) Integrate with IPFS for content-addressed storage, 3) Provide APIs for external verification of assets. This will include both on-chain verification logic and off-chain components for hash generation.   |
 | 1c. | Ink! Smart Contracts: Basic Escrow | We will develop Ink! smart contracts for escrow that will: 1) Hold assets in custody during transaction processes, 2) Release assets only when predefined conditions are met, 3) Handle basic dispute resolution, 4) Support both time-locked and condition-based releases. These will be thoroughly tested for security vulnerabilities. |
-| 1d. | Reference Implementation: Asset Registration UI | We will create a basic web interface demonstrating: 1) How to register assets on the protocol, 2) How to verify asset authenticity, 3) How to browse registered assets, 4) How to initiate escrow transactions. This will serve as a reference for developers integrating with the protocol. |
+| 1d. | Reference Implementation: Asset Registration UI | We will create a basic web interface demonstrating: 1) How to register assets on the protocol, 2) How to verify asset authenticity, 3) How to browse registered assets, 4) How to initiate escrow transactions. This will serve as a reference for developers integrating with the protocol.                                              |
 
 ### Milestone 2: Exchange Protocol & Gaming Implementation
 
-- **Estimated Duration:** 1.5 months
-- **Costs:** $7,500 USD
+- **Estimated Duration:** 1 month
+- **Costs:** $5,000 USD
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 2a. | Auction Protocol Implementation | We will develop an auction system that will: 1) Enable various auction types (English, Dutch, sealed-bid), 2) Handle secure bidding processes, 3) Automatically determine winners based on predefined rules, 4) Integrate with the escrow system for settlement. This will be implemented as Ink! smart contracts with comprehensive testing. |
-| 2b. | Ownership Transfer Mechanism | We will create a secure ownership transfer system that will: 1) Execute transfers only after all conditions are verified, 2) Update on-chain registries and metadata, 3) Generate transfer receipts and proofs, 4) Handle multi-party attestations when required. This will ensure that assets change hands only when appropriate conditions are met. |
-| 2c. | Gaming Use Case Implementation | We will develop a specific implementation for gaming assets that will: 1) Support game-specific asset verification, 2) Include templates for common game item types, 3) Provide integration examples for popular game engines, 4) Demonstrate a complete flow from asset creation to trading. This will show how AEGIS can solve fraud problems in gaming marketplaces. |
-| 2d. | Enterprise Integration Components | We will create enterprise-focused components that will: 1) Add compliance and regulatory features, 2) Support institutional-grade asset verification, 3) Include audit trail capabilities, 4) Demonstrate integration with enterprise systems. This will expand AEGIS's applicability beyond gaming into enterprise asset exchanges. |
+| Number | Deliverable                       | Specification |
+| -----: |-----------------------------------| ------------- |
+| 2a. | Auction Contracts Implementation  | We will develop an auction system that will: 1) Enable various auction types (English, Dutch, sealed-bid), 2) Handle secure bidding processes, 3) Automatically determine winners based on predefined rules, 4) Integrate with the escrow system for settlement. This will be implemented as Ink! smart contracts with comprehensive testing. |
+| 2b. | Ownership Transfer Mechanism      | We will create a secure ownership transfer system that will: 1) Execute transfers only after all conditions are verified, 2) Update on-chain registries and metadata, 3) Generate transfer receipts and proofs, 4) Handle multi-party attestations when required. This will ensure that assets change hands only when appropriate conditions are met. |
+| 2c. | Gaming Use Case Implementation    | We will develop a specific implementation for gaming assets that will: 1) Support game-specific asset verification, 2) Include templates for common game item types, 3) Provide integration examples for popular game engines, 4) Demonstrate a complete flow from asset creation to trading. This will show how AEGIS can solve fraud problems in gaming marketplaces. |
+| 2d. | Enterprise Integration Components | We will create Hub-focused integration components that will: 1) Provide easy-to-use SDK for Hub contract interaction, 2) Include example integrations for various use cases, 3) Create documentation for enterprise adoption, 4) Demonstrate integration patterns for Hub-based applications. This will enable easy adoption of AEGIS across different platforms leveraging Hub's ecosystem. |
 
 ### 💰 Budget Breakdown
 
 | Milestone | Deliverables | Cost (USD)  | Estimated Completion |
-|----------:|--------------|-------------|-----------------------|
-| 1         | Core Protocol Development                  | $7,500 | 1.5 months |
-| 2         | Exchange Protocol & Gaming Implementation  | $7,500 | 1.5 months |
-| **Total** |                                              | **$15,000** | **3 months** |
+|----------:|--------------|-------------|----------------------|
+| 1         | Core Protocol Development                  | $5,000      | 1 month              |
+| 2         | Exchange Protocol & Gaming Implementation  | $5,000      | 1 month            |
+| **Total** |                                              | **$10,000** | **2 months**         |
 
 **Budget Allocation:**
-- **Development (240 hours at $50/hour): $12,000**
-    - Substrate Module Development: 80 hours
-    - Smart Contract Development: 90 hours
-    - UI Development: 40 hours
-    - Documentation & Testing: 30 hours
-- **Infrastructure, DevOps, and Testing Environment:** $1,800
-- **Project Management, Communication, and Miscellaneous Costs:** $1,200
+- **Development (180 hours at $45/hour):** \$8,100
+    - Core Protocol Development: 90 hours
+    - Smart Contract Development: 50 hours
+    - Documentation & Testing: 40 hours
+- **Infrastructure, DevOps, and Testing Environment:** $1,200
+- **Project Management, Communication, and Miscellaneous Costs:** $700
 
 
 ## 🔮 Future Plans
 
 **Short-term Plans (6-12 months after grant):**
-- Launch a rust crate on crates.io
 - Establish partnerships with gaming studios for integration into existing marketplaces
 - Develop additional specialized modules for different asset types (NFTs, game items, credentials)
+- Expand Hub contract capabilities based on community feedback
+
 
 **Long-term Vision (1-2 years):**
-- Establish AEGIS as the standard protocol for secure digital asset exchanges on Polkadot
+- Establish AEGIS as the standard protocol for secure digital asset exchanges on Polkadot Hub
 - Expand into enterprise markets with specialized compliance modules
 - Create a complete ecosystem of tools and services built on the AEGIS protocol
 - Develop advanced features such as fractional ownership and complex escrow arrangements
@@ -299,3 +285,4 @@ The project is currently in the conceptual design phase with the following progr
 - Our vision is for AEGIS to become a foundational component of the Polkadot ecosystem, enabling secure digital asset exchanges across multiple domains.
 - AEGIS can significantly contribute to the adoption and growth of the Polkadot network, particularly in gaming and enterprise applications.
 - AEGIS attempts to provide a viable solution for handling fraud in digital asset exchange ecosystems.
+- By building on Hub, we contribute to the Hub's ecosystem growth 
