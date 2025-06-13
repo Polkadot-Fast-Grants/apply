@@ -588,6 +588,14 @@ Still waiting for update from PDP team about testing the application
 
 
 
+I recently spoke with Nikolai Kozlov from Parity Technologies. He's working to connect me with the PDP team to explore potential beta testing and partnership opportunities. In the meantime, I've developing and test layout for a GUI interface template for the Solana platform to support this initiative.
+
+https://9000-firebase-studio-1749737029596.cluster-jbb3mjctu5cbgsi6hwq6u4btwe.cloudworkstations.dev
+
+image
+
+
+
 
 
 
