@@ -54,7 +54,38 @@ Inspired by apps like [Zapper](https://zapper.xyz/) and DeBank feed, but simplif
 
 #### Where it fits
 
-Tracelet sits at the intersection of tooling and analytics — a complementary utility to wallet extensions and block explorers. It enables both power users and casual users to track their activity without needing to dig through raw extrinsics.
+Tracelet is more than just a tool for individual users — it's an infrastructure piece that supports transparency, user education, and ecosystem usability. Here's how it brings lasting value:
+
+🧭 **1. Improves UX Across dApps**
+
+Most Polkadot dApps rely on users manually checking Subscan or explorer logs to understand what’s happening with their wallet. Tracelet simplifies this into a clean, human-readable timeline that can be embedded in any Polkadot dApp or wallet.
+
+This reduces user confusion and support tickets while improving trust and onboarding.
+
+🔄 **2. Makes On-Chain Activity Understandable**
+
+As governance and staking grow more complex, users need better visibility into what they’ve voted on, what rewards they’re receiving, and how active they’ve been. Tracelet serves as a personalized audit trail, especially useful for voters, nominators, and grant-funded builders.
+
+🔌 **3. Developer-Friendly Building Block**
+
+Tracelet is built to be modular and open-source. Future dApps can:
+
+- Embed activity timelines
+- Hook into wallet-based notifications
+- Use the analytics layer to enrich user dashboards
+- This makes Tracelet a reusable base for ecosystem tools, not just a standalone app.
+
+📊 **4. Foundation for Polkadot User Analytics**
+
+Tracelet opens the door for deeper ecosystem insights — without violating user privacy. As adoption grows, it could help surface:
+
+- Most active parachains by wallet activity
+- Governance participation patterns
+- Ecosystem-wide behavioral trends
+
+🛠 **5. Community Ownership and Contribution**
+
+As an open-source project, Tracelet can become a shared utility that the community improves over time — especially with good docs, contributor-friendly architecture, and issue labeling.
 
 #### Target Audience
 
@@ -111,13 +142,13 @@ Once the grant is approved, I plan to begin with the wallet activity feed MVP an
 
 ### Overview
 
-- **Estimated Duration:** 1.5 months
+- **Estimated Duration:** 2 months
 - **Full-Time Equivalent (FTE):** 1
 - **Total Costs:** $10,000 USD
 
 #### Milestone 1 – Activity Feed MVP
 
-- Estimated Duration: 3 weeks
+- Estimated Duration: 4 weeks
 - FTE: 1
 - Costs: $5,000 USD
 
@@ -133,7 +164,7 @@ Once the grant is approved, I plan to begin with the wallet activity feed MVP an
 
 #### Milestone 2 – Shareable Feeds + Light Analytics
 
-- Estimated Duration: 3 weeks
+- Estimated Duration: 4 weeks
 - FTE: 1
 - Costs: $5,000 USD
 
@@ -151,13 +182,22 @@ Once the grant is approved, I plan to begin with the wallet activity feed MVP an
 
 Please provide a breakdown of your budget by milestone:
 
-| Milestone | Deliverables | Cost (USD) | Estimated Completion |
+| Milestone | Category | Estimated Time (days) | Cost (USD)
 | --- | --- | --- | --- |
-| 1 | Activity Feed MVP | $5,000 | 3 weeks |
-| 2 | Shareable Feeds + Analytics | $5,000 | 3 weeks |
-| **Total** | | **$10,000** | **1.5 months** |
-
-Make sure you show clearly what the funding is going towards (e.g. 30 hours of a full time employee at $X / hour).
+| M1 | UI/UX Design & Prototyping| 2-3 | 750 |
+|| React Component Dev | 7 | 1,750 |
+|| SubQuery Setup & Mapping | 2-4 | 1,000 |
+|| Docs & Tutorials | 2 | 500 |
+|| Testing and Debugging | 2-3 | 750 |
+|| M1 Subtotal || $4,750 |
+| M2 | Charting & Analytics | 4 | 1,000 |
+|| Public Feed URLs | 2 | 500 |
+|| Multichain Intgration | 3-5 | 1,250 |
+|| Docs & API Examples | 2 | 500 |
+|| Testing & Final Polishing | 2-3 | 750 |
+|| M2 Subtotal || $4,000 |
+|| Total Dev Days | ~40 | $8,750 |
+|| Buffer (infra, design, hosting) | - | $1,250 |
 
 ## 🔮 Future Plans
 
