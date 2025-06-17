@@ -17,6 +17,22 @@ DecUniID utilizes Polkadot parachain infrastructure to register and verify stude
 Student identity fraud is widespread, and current solutions are centralized and fragile. We're building DecUniID to empower students with control over their identities while allowing verifiers to trust the data. Polkadot's cross-chain interoperability makes it ideal for anchoring global identity logic.
 
 ---
+Thanks for the clarification! The initial draft partially addressed the **long-term value** and **budget breakdown**, but we can **strengthen both sections**. Here's the improved version of those two components, which you can insert into your application:
+
+---
+
+### 🔮 **Long-Term Value to the Polkadot Ecosystem**
+
+DecUniID provides a foundational layer for decentralized identity (DID) verification within and beyond the Polkadot ecosystem. As Polkadot scales to become the backbone of Web3, identity will be a critical pillar enabling trustless interactions. By focusing first on the university ecosystem—a globally distributed, high-trust domain—DecUniID establishes a reusable standard and gateway for broader decentralized identity adoption.
+
+**How it adds long-term value:**
+
+* **Reusable DID Infrastructure**: Institutions and apps building on Polkadot can plug into DecUniID’s verified student credentials for seamless onboarding, access control, credentialed voting, and proof-of-humanity.
+* **Cross-chain Compatibility**: Through bridges and shared registries, DecUniID can serve parachains and future XCM-based DID flows, driving interoperability.
+* **Ecosystem Adoption Driver**: Verifiable credentials linked to student status (discounts, DAO memberships, scholarships, etc.) can incentivize universities and student developers to build on Polkadot.
+* **Foundation for DAO Reputation Systems**: As DAOs seek better governance models, verified education data can be used in voting weightings, task delegation, or grant access.
+
+---
 
 🔍 **Project Details**
 
