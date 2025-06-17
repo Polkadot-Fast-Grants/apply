@@ -1,128 +1,139 @@
-# 📝 Name of your Project
+📝 Name of your Project
+**DecUniID**
 
-## 🌟 Project Overview
+---
 
-Please provide the following:
+🌟 **Project Overview**
 
-- If the name of your project is not descriptive, a tagline (one sentence summary)
-- A brief description of your project
-- An indication of how your project relates to / integrates into Polkadot
-- An indication of why your team is interested in creating this project
-- (Optional but **huge bonus points**): [1-min video pitch](https://www.ycombinator.com/video/)
+**Tagline:** A decentralized identity protocol for university students globally.
 
-### 🔍 Project Details
+**Description:**
+DecUniID is a decentralized identity verification system built on Polkadot, focused on university students worldwide. It leverages decentralized identifiers (DIDs) and verifiable credentials to create secure, privacy-preserving, and portable identities that can be verified by third parties (e.g., employers, academic institutions) without exposing sensitive data.
 
-We expect applicants to have a solid idea about the project's expected final state. Therefore, please submit (where relevant):
+**Integration with Polkadot:**
+DecUniID utilizes Polkadot parachain infrastructure to register and verify student identities across chains and jurisdictions, offering a scalable identity backbone that any parachain can access.
 
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- Any PoC/MVP or other relevant prior work or research on the topic
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and clarify any limitations
+**Why we’re building this:**
+Student identity fraud is widespread, and current solutions are centralized and fragile. We're building DecUniID to empower students with control over their identities while allowing verifiers to trust the data. Polkadot's cross-chain interoperability makes it ideal for anchoring global identity logic.
 
-### 🧩 Ecosystem Fit
+---
 
-Help us locate your project in the Polkadot landscape and what problems it tries to solve by answering each of these questions:
+🔍 **Project Details**
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Polkadot ecosystem?
-  - If so, how is your project different?
-  - If not, why might such a project not exist yet?
+**Tech Stack:**
 
-> **Note**: We prioritize projects building on Plaza/Polkadot Hub, games, and DeFi applications, though all types of projects will be considered.
+* **Frontend/App:** Flutter
+* **Backend & Storage:** Firebase (Firestore, Auth, Functions)
+* **Blockchain Layer:** Polkadot-based DID registry (e.g., using KILT Protocol or custom smart contracts)
+* **API/Endpoints:** RESTful API for verifiers
 
-## 👥 Team
+**Architecture:**
 
-- **Team Name:** Name of your team. If you apply as a legal entity, please use its name.
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email
-- **Website:** Your website, GitHub org, blog, or similar
+* DID creation on mobile app after verifying institutional email/domain
+* Verifiable credential issuance and storage
+* Firebase backend links to Polkadot for credential anchoring
+* Public API for data consumers to verify student credentials
 
-### Team members
+**PoC / MVP:**
 
-Please list the legal name of all grant beneficiaries. Solo developers (1-person teams) are eligible for funding.
+* Data of 10,000 universities integrated
+* DID issuance upon .edu or whitelisted domain verification
 
-#### LinkedIn Profiles (if available)
+**What it’s not:**
 
-- https://www.linkedin.com/{person_1}
-- https://www.linkedin.com/{person_2}
+* Not a centralized KYC database
+* Not a public repository of sensitive student information
 
-### Team Code Repos
+---
 
-- https://github.com/{your_organisation}/{project_1}
-- https://github.com/{your_organisation}/{project_2}
+🧩 **Ecosystem Fit**
 
-Please also provide the GitHub accounts of all team members:
+**How it fits:**
+Polkadot currently lacks a universally adopted student identity layer. DecUniID fills this gap by acting as a universal ID layer usable across DeFi, gaming, DAO voting, etc.
 
-- https://github.com/{team_member_1}
-- https://github.com/{team_member_2}
+**Target audience:**
 
-### Team's experience
+* University students (onboarded via Flutter app)
+* Verifiers (employers, scholarship bodies, academic partners)
 
-Please describe the team's relevant experience, including any previous blockchain projects or contributions to the ecosystem.
+**Problems it solves:**
 
-## 📊 Development Status
+* Identity verification without privacy loss
+* Prevents student impersonation fraud
+* Makes it easy for Polkadot-based dApps to integrate verified users
 
-If you've already started implementing your project, please provide a link and a description of the code. Otherwise, please provide some documentation on the research and other work you have conducted before applying.
+**Similar projects in Polkadot?**
+No direct student-focused decentralized identity product yet.
 
-## 📅 Development Roadmap
+**Why not already built?**
+The challenge of onboarding real-world institutions and decentralized data handling is high — we’re solving this with domain-based trust and credential issuance.
 
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, please describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality.
+---
 
-**Important notes:**
-- Each milestone is capped at **$5,000 USD**
-- Milestones must be delivered within **3 months** of approval
-- The maximum grant amount is **$10,000 USD** per application (up to **$15,000 USD** per project in exceptional cases)
-- You will only receive payment after successful milestone delivery
+👥 **Team**
 
-### Overview
+* **Team Name:** GoddeyTech
+* **Contact Name:** Ojewoye Wale Goddey
+* **Contact Email:** \[Add your email here]
+* **GitHub:** [https://github.com/goddeytech](https://github.com/goddeytech)
+* **LinkedIn:** [https://www.linkedin.com/in/ojewoye-wale-goddey](https://www.linkedin.com/in/ojewoye-wale-goddey)
 
-- **Estimated Duration:** Duration of the whole project (maximum 3 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project
-- **Total Costs:** Requested amount in USD for the whole project (maximum $10,000 USD)
+**Team Experience:**
+Experienced solo developer with background in Firebase, Flutter, and decentralized systems. Previously built internal student directory platforms and mobile-first ID apps.
 
-> Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
+---
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... |
-| 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Article | We will publish an **article** that explains what was done/achieved as part of the grant. |
-| 1. | Feature X | We will create a feature that will... (Please describe in detail) |
-| 2. | Feature Y | The Y feature will... (Please describe in detail) |
-| 3. | Feature Z | The Z feature will... (Please describe in detail) |
+📊 **Development Status**
 
-### 💰 Budget Breakdown
+Initial database of global universities is ready (10k+).
+Firebase and Flutter project architecture established.
+DID implementation design in progress.
 
-Please provide a breakdown of your budget by milestone:
+---
 
-| Milestone | Deliverables | Cost (USD) | Estimated Completion |
-| --- | --- | --- | --- |
-| 1 | Features X, Y | $5,000 | 1.5 months |
-| 2 | Feature Z | $5,000 | 1.5 months |
-| **Total** | | **$10,000** | **3 months** |
+📅 **Development Roadmap**
 
-Make sure you show clearly what the funding is going towards (e.g. 30 hours of a full time employee at $X / hour).
+**Overview**
 
-## 🔮 Future Plans
+* **Duration:** 3 months
+* **FTE:** 1
+* **Total Cost:** \$10,000 USD
 
-Please include:
+**Milestones**
 
-- How you intend to continue development after the Fast-Grant
-- Any plans for seeking additional funding (other grants, VC funding, etc.)
-- Your vision for the project's growth and impact in the Polkadot ecosystem
+| Number | Deliverable                          | Specification                                                         |
+| ------ | ------------------------------------ | --------------------------------------------------------------------- |
+| 0a.    | License                              | MIT                                                                   |
+| 0b.    | Documentation                        | Full API and Firebase setup guide, plus in-app identity flow tutorial |
+| 0c.    | Testing Guide                        | Unit and integration tests for verification flow                      |
+| 0d.    | Article                              | Publish Medium article on Polkadot student DID use case               |
+| 1.     | DID & Credential Engine              | Build DID registration, credential issuance & Firebase integration    |
+| 2.     | Verification API & University Import | API for third-party verifiers + ingest university list for onboarding |
+| 3.     | Flutter App                          | Student mobile onboarding app to claim and present DID                |
 
-## ℹ️ Additional Information
+**Budget Breakdown**
 
-Here you can add any additional information that you think is relevant to this application, such as:
+| Milestone | Deliverables                      | Cost (USD)   | Estimated Completion |
+| --------- | --------------------------------- | ------------ | -------------------- |
+| 1         | DID Engine & Firebase Integration | \$4,000      | 1.2 months           |
+| 2         | API + University Import           | \$3,000      | 1 month              |
+| 3         | Flutter App with Onboarding       | \$3,000      | 0.8 months           |
+| **Total** |                                   | **\$10,000** | **3 months**         |
 
-- Work you have already done
-- If there are any other teams who have already contributed to the project
-- Other funding you may have applied for
+---
 
-Remember that the Fast-Grants Programme is designed as a first step for promising projects. We're looking for projects that can continue to grow beyond this initial funding.
+🔮 **Future Plans**
+
+* Launch institutional onboarding for issuing universities
+* Apply to Web3 Foundation Open Grants or KILT Grants for extended funding
+* Build DID Wallet plugin for Polkadot.js
+* Monetize API for large-scale verifiers like background check firms
+* Explore NFT-based transcript anchoring or DAO-based student identity governance
+
+---
+
+ℹ️ **Additional Info**
+
+* Firebase and Flutter repo scaffolding is ready
+* No external funding received yet
+* Looking to open-source all modules post-MVP delivery
