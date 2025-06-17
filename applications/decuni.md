@@ -1,155 +1,177 @@
-📝 Name of your Project
-**DecUniID**
+Great — thanks for sharing the approved PAPI grant and clarifying your idea. Using that style and the relevant strengths of your decentralized identity project, here’s a refined grant application draft for your submission to the Polkadot Fast-Grants program:
 
 ---
 
-🌟 **Project Overview**
+# 📝 PolkaID: Decentralized Student Identity Verification
 
-**Tagline:** A decentralized identity protocol for university students globally.
+## 🌟 Project Overview
 
-**Description:**
-DecUniID is a decentralized identity verification system built on Polkadot, focused on university students worldwide. It leverages decentralized identifiers (DIDs) and verifiable credentials to create secure, privacy-preserving, and portable identities that can be verified by third parties (e.g., employers, academic institutions) without exposing sensitive data.
+**Tagline:** A global decentralized identity platform for university students, enabling trusted and private academic status verification across the Polkadot ecosystem.
+
+**Brief Description:**
+PolkaID is a decentralized identity (DID) protocol focused on authenticated student identity verification. It empowers students worldwide with cryptographic credentials that verify their university status, while allowing external institutions (e.g., employers, scholarship programs, web3 DApps) to access this data securely via a Polkadot-connected verification endpoint. With an initial database of over 10,000 universities, PolkaID lays the groundwork for decentralized academic credentials that integrate natively into the Polkadot ecosystem and beyond.
 
 **Integration with Polkadot:**
-DecUniID utilizes Polkadot parachain infrastructure to register and verify student identities across chains and jurisdictions, offering a scalable identity backbone that any parachain can access.
+PolkaID will leverage Polkadot parachains (e.g., KILT Protocol or Litentry) to anchor verifiable credentials. Identity proofs will be issued off-chain via Firebase and hashed on-chain using Polkadot, while verification services will expose a WASM-compatible API that allows DApps and validators to authenticate student identities through signed messages. We’ll ensure compatibility with decentralized identity frameworks in the Polkadot ecosystem, particularly targeting integration with Identity pallets and DID registries.
 
-**Why we’re building this:**
-Student identity fraud is widespread, and current solutions are centralized and fragile. We're building DecUniID to empower students with control over their identities while allowing verifiers to trust the data. Polkadot's cross-chain interoperability makes it ideal for anchoring global identity logic.
-
----
-Thanks for the clarification! The initial draft partially addressed the **long-term value** and **budget breakdown**, but we can **strengthen both sections**. Here's the improved version of those two components, which you can insert into your application:
+**Team Interest:**
+As a solo founder and builder deeply interested in educational equity and real-world use cases for blockchain identity, I (Ojewoye Wale Goddey) see PolkaID as a foundational tool for verifiable reputation. This project addresses an untapped area: university-level student verification in web3, opening the door for education-based DeFi access, talent pipelines, academic DAOs, and global scholarship distribution.
 
 ---
 
-### 🔮 **Long-Term Value to the Polkadot Ecosystem**
+## 🔍 Project Details
 
-DecUniID provides a foundational layer for decentralized identity (DID) verification within and beyond the Polkadot ecosystem. As Polkadot scales to become the backbone of Web3, identity will be a critical pillar enabling trustless interactions. By focusing first on the university ecosystem—a globally distributed, high-trust domain—DecUniID establishes a reusable standard and gateway for broader decentralized identity adoption.
+**Technology Stack:**
 
-**How it adds long-term value:**
+* Flutter (Cross-platform frontend: Android, iOS, Web)
+* Firebase (Realtime DB, Authentication, Hosting)
+* Polkadot Parachain (for credential anchoring — KILT, Litentry, or custom identity chain)
+* REST/GraphQL endpoints for external verifiers
+* Typesense for fuzzy student search indexing
 
-* **Reusable DID Infrastructure**: Institutions and apps building on Polkadot can plug into DecUniID’s verified student credentials for seamless onboarding, access control, credentialed voting, and proof-of-humanity.
-* **Cross-chain Compatibility**: Through bridges and shared registries, DecUniID can serve parachains and future XCM-based DID flows, driving interoperability.
-* **Ecosystem Adoption Driver**: Verifiable credentials linked to student status (discounts, DAO memberships, scholarships, etc.) can incentivize universities and student developers to build on Polkadot.
-* **Foundation for DAO Reputation Systems**: As DAOs seek better governance models, verified education data can be used in voting weightings, task delegation, or grant access.
+**Core Components:**
 
----
+1. **User-facing App (Flutter):**
 
-🔍 **Project Details**
+   * Student registration with university selection (preloaded from 10,000+ universities)
+   * Identity claim creation with verification (e.g., email/portal screenshots)
+   * DID generation tied to student Firebase ID
+   * Polkadot-compatible QR proof for third-party validation
 
-**Tech Stack:**
+2. **Verification API Layer:**
 
-* **Frontend/App:** Flutter
-* **Backend & Storage:** Firebase (Firestore, Auth, Functions)
-* **Blockchain Layer:** Polkadot-based DID registry (e.g., using KILT Protocol or custom smart contracts)
-* **API/Endpoints:** RESTful API for verifiers
+   * Endpoint where employers, DApps, or institutions can validate a student’s DID and credential
+   * RESTful API with public key signature verification
+   * Optional real-time Firebase webhook to fetch live verification status
 
-**Architecture:**
+3. **Blockchain Credential Anchoring:**
 
-* DID creation on mobile app after verifying institutional email/domain
-* Verifiable credential issuance and storage
-* Firebase backend links to Polkadot for credential anchoring
-* Public API for data consumers to verify student credentials
+   * Use of Polkadot parachain identity modules to anchor hashed metadata
+   * Each claim issued will be timestamped and stored on-chain
+   * Flexible revocation system integrated via Firebase flags and on-chain hashes
 
-**PoC / MVP:**
+4. **Admin Console:**
 
-* Data of 10,000 universities integrated
-* DID issuance upon .edu or whitelisted domain verification
-
-**What it’s not:**
-
-* Not a centralized KYC database
-* Not a public repository of sensitive student information
+   * Web interface for moderators to approve claims from students before they go on-chain
+   * Statistics dashboard (number of verified students, institutions, use cases)
 
 ---
 
-🧩 **Ecosystem Fit**
+## 📊 Development Status
 
-**How it fits:**
-Polkadot currently lacks a universally adopted student identity layer. DecUniID fills this gap by acting as a universal ID layer usable across DeFi, gaming, DAO voting, etc.
+The following are already available or in progress:
 
-**Target audience:**
+* Database of 10,000+ universities across all regions (CSV parsed and indexed)
+* Firebase backend (Authentication + Firestore structure)
+* Flutter frontend (WIP, targeting MVP within 2–3 weeks)
 
-* University students (onboarded via Flutter app)
-* Verifiers (employers, scholarship bodies, academic partners)
-
-**Problems it solves:**
-
-* Identity verification without privacy loss
-* Prevents student impersonation fraud
-* Makes it easy for Polkadot-based dApps to integrate verified users
-
-**Similar projects in Polkadot?**
-No direct student-focused decentralized identity product yet.
-
-**Why not already built?**
-The challenge of onboarding real-world institutions and decentralized data handling is high — we’re solving this with domain-based trust and credential issuance.
+This grant will fund the full decentralized identity integration with Polkadot and the student verification gateway/API.
 
 ---
 
-👥 **Team**
+## 📅 Development Roadmap
 
-* **Team Name:** GoddeyTech
-* **Contact Name:** Ojewoye Wale Goddey
-* **Contact Email:** \[Add your email here]
-* **GitHub:** [https://github.com/goddeytech](https://github.com/goddeytech)
-* **LinkedIn:** [https://www.linkedin.com/in/ojewoye-wale-goddey](https://www.linkedin.com/in/ojewoye-wale-goddey)
+### **Estimated Duration:** 6 weeks
 
-**Team Experience:**
-Experienced solo developer with background in Firebase, Flutter, and decentralized systems. Previously built internal student directory platforms and mobile-first ID apps.
+### **FTE:** 1
 
----
+### **Total Grant Request:** \$10,000 USD
 
-📊 **Development Status**
+| No. | Deliverable     | Description                                                      |
+| --: | --------------- | ---------------------------------------------------------------- |
+| 0a. | License         | MIT                                                              |
+| 0b. | Documentation   | Full user/developer docs and README for API and DID structure    |
+| 0c. | Testing & Guide | Unit + integration test suite, verification testing instructions |
+| 0d. | Blog Article    | Launch announcement and DID technical writeup for community      |
 
-Initial database of global universities is ready (10k+).
-Firebase and Flutter project architecture established.
-DID implementation design in progress.
+### **Milestone 1 – Core Identity Framework (\$5,000, 3 weeks):**
 
----
+| No. | Deliverable                 | Description                                                          |
+| --- | --------------------------- | -------------------------------------------------------------------- |
+| 1a. | DID Wallet Support          | Each student gets a decentralized identity, signed with Firebase UID |
+| 1b. | Credential Issuance Flow    | Admin interface to review student submissions and issue credentials  |
+| 1c. | Polkadot Hash Anchoring     | Firebase claims hashed and anchored to a parachain via tx            |
+| 1d. | Flutter UI for Verification | In-app view for proof QR generation and DID export                   |
 
-📅 **Development Roadmap**
+### **Milestone 2 – External API and Verifier Tools (\$5,000, 3 weeks):**
 
-**Overview**
-
-* **Duration:** 3 months
-* **FTE:** 1
-* **Total Cost:** \$10,000 USD
-
-**Milestones**
-
-| Number | Deliverable                          | Specification                                                         |
-| ------ | ------------------------------------ | --------------------------------------------------------------------- |
-| 0a.    | License                              | MIT                                                                   |
-| 0b.    | Documentation                        | Full API and Firebase setup guide, plus in-app identity flow tutorial |
-| 0c.    | Testing Guide                        | Unit and integration tests for verification flow                      |
-| 0d.    | Article                              | Publish Medium article on Polkadot student DID use case               |
-| 1.     | DID & Credential Engine              | Build DID registration, credential issuance & Firebase integration    |
-| 2.     | Verification API & University Import | API for third-party verifiers + ingest university list for onboarding |
-| 3.     | Flutter App                          | Student mobile onboarding app to claim and present DID                |
-
-**Budget Breakdown**
-
-| Milestone | Deliverables                      | Cost (USD)   | Estimated Completion |
-| --------- | --------------------------------- | ------------ | -------------------- |
-| 1         | DID Engine & Firebase Integration | \$4,000      | 1.2 months           |
-| 2         | API + University Import           | \$3,000      | 1 month              |
-| 3         | Flutter App with Onboarding       | \$3,000      | 0.8 months           |
-| **Total** |                                   | **\$10,000** | **3 months**         |
+| No. | Deliverable       | Description                                                     |
+| --- | ----------------- | --------------------------------------------------------------- |
+| 2a. | Verifier REST API | External endpoint for DID lookup and signature validation       |
+| 2b. | SDK (JS + Dart)   | Libraries for third parties to consume and verify credentials   |
+| 2c. | Admin Dashboard   | Web dashboard for stats, revoked claims, verifier access tokens |
+| 2d. | Identity Explorer | Simple web-based explorer to check DID claim hash validity      |
 
 ---
 
-🔮 **Future Plans**
+## 🧩 Ecosystem Fit
 
-* Launch institutional onboarding for issuing universities
-* Apply to Web3 Foundation Open Grants or KILT Grants for extended funding
-* Build DID Wallet plugin for Polkadot.js
-* Monetize API for large-scale verifiers like background check firms
-* Explore NFT-based transcript anchoring or DAO-based student identity governance
+### **Ecosystem Position:**
+
+PolkaID fills a key gap in the Polkadot identity space by creating a scalable, education-specific DID verification layer. While protocols like KILT and Litentry support identity primitives, PolkaID will specialize in academic credentialing and act as a gateway for onboarding university students into the Polkadot ecosystem via reputational credentials.
+
+### **Target Users:**
+
+* **Students:** Verified DID holders who can participate in DApps and DAOs using their academic status
+* **Verifiers:** Employers, DeFi protocols, or community DAOs that want student credential proofs
+* **Builders:** DApps needing a secure way to filter users by academic reputation or affiliation
+
+### **Problems Solved:**
+
+* Prevents fraudulent claims of academic status in web3 grants, jobs, scholarships
+* Offers a reusable student identity for access to education-based DAOs or discounts
+* Builds a new bridge between university systems and decentralized platforms
+
+### **Similar Projects:**
+
+* [KILT Protocol](https://www.kilt.io/) – general-purpose credentials
+* [BrightID](https://www.brightid.org/) – social trust-based identity
+* PolkaID is distinct by focusing narrowly on academic verification with a Firebase/Flutter stack for mass adoption.
 
 ---
 
-ℹ️ **Additional Info**
+## 🔮 Future Plans
 
-* Firebase and Flutter repo scaffolding is ready
-* No external funding received yet
-* Looking to open-source all modules post-MVP delivery
+### **Short-Term (Next 3–6 Months):**
+
+* Add verification integrations with top Polkadot DApps (DAO tools, scholarship funds)
+* Deploy automated university email verification
+* Launch validator node that accepts credential hash submissions
+
+### **Long-Term Vision (6–12 Months):**
+
+* Introduce NFT-based academic certificates
+* Enable cross-chain student identities (e.g., XCM + DID compatibility)
+* Collaborate with parachains on reputation systems for hackathons, fellowships, and DAOs
+
+---
+
+## 💸 Budget Breakdown
+
+| Expense                                           | Cost (USD)   |
+| ------------------------------------------------- | ------------ |
+| Solo Founder Development (6 weeks @ \$1,200/week) | \$7,200      |
+| Identity Anchoring (Transaction + Testing Fees)   | \$500        |
+| Firebase + Typesense Infra (6-month prepaid)      | \$300        |
+| Verification API Gateway Hosting (1 year)         | \$500        |
+| Marketing & Blog Publication                      | \$500        |
+| Audit + External Review (lite)                    | \$1,000      |
+| **Total**                                         | **\$10,000** |
+
+---
+
+## 👥 Team
+
+**Founder Name:** Ojewoye Wale Goddey
+**GitHub:** [github.com/goddeycode](https://github.com/goddeycode)
+**Email:** \[[your-email@example.com](mailto:your-email@example.com)]
+**Project Website:** In development
+**Team Members:** Solo founder (Flutter + Firebase developer)
+
+---
+
+## 📢 Final Thoughts
+
+PolkaID proposes a high-impact application of decentralized identity: verifiable academic status. It not only solves a real-world problem but brings a new, educated demographic into the Polkadot ecosystem. With existing resources (university data, Firebase setup, Flutter experience), this is a low-risk, high-value proposal with clear outcomes and a path to long-term sustainability.
+
+
