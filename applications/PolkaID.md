@@ -1,6 +1,3 @@
-Great — thanks for sharing the approved PAPI grant and clarifying your idea. Using that style and the relevant strengths of your decentralized identity project, here’s a refined grant application draft for your submission to the Polkadot Fast-Grants program:
-
----
 
 # 📝 PolkaID: Decentralized Student Identity Verification
 
@@ -113,7 +110,7 @@ PolkaID fills a key gap in the Polkadot identity space by creating a scalable, e
 ### **Target Users:**
 
 * **Students:** Verified DID holders who can participate in DApps and DAOs using their academic status
-* **Verifiers:** Employers, DeFi protocols, or community DAOs that want student credential proofs
+* **Verifiers:** Employers, DeFi protocols, s or community DAOs that want student credential proofs
 * **Builders:** DApps needing a secure way to filter users by academic reputation or affiliation
 
 ### **Problems Solved:**
