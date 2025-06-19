@@ -66,6 +66,33 @@ This grant will fund the full decentralized identity integration with Polkadot a
 
 ---
 
+## 🧩 Ecosystem Fit
+
+### **Ecosystem Position:**
+
+PolkaID fills a key gap in the Polkadot identity space by creating a scalable, education-specific DID verification layer. While protocols like KILT and Litentry support identity primitives, PolkaID will specialize in academic credentialing and act as a gateway for onboarding university students into the Polkadot ecosystem via reputational credentials.
+
+### **Target Users:**
+
+* **Students:** Verified DID holders who can participate in DApps and DAOs using their academic status
+* **Verifiers:** Employers, DeFi protocols, s or community DAOs that want student credential proofs
+* **Builders:** DApps needing a secure way to filter users by academic reputation or affiliation
+
+### **Problems Solved:**
+
+* Prevents fraudulent claims of academic status in web3 grants, jobs, scholarships
+* Offers a reusable student identity for access to education-based DAOs or discounts
+* Builds a new bridge between university systems and decentralized platforms
+
+---
+
+## 👥 Team
+
+**Founder Name:** Ojewoye Wale Goddey
+**GitHub:** [github.com/Goddey11](https://github.com/Goddey11)
+**Email:** \[[Ojewoyewale.ogd@gmail.com](Ojewoyewale.ogd@gmail.com)]
+**Project Website:** In development
+**Team Members:** Solo founder (Flutter + Firebase developer)
 ## 📅 Development Roadmap
 
 ### **Estimated Duration:** 6 weeks
@@ -101,23 +128,6 @@ This grant will fund the full decentralized identity integration with Polkadot a
 
 ---
 
-## 🧩 Ecosystem Fit
-
-### **Ecosystem Position:**
-
-PolkaID fills a key gap in the Polkadot identity space by creating a scalable, education-specific DID verification layer. While protocols like KILT and Litentry support identity primitives, PolkaID will specialize in academic credentialing and act as a gateway for onboarding university students into the Polkadot ecosystem via reputational credentials.
-
-### **Target Users:**
-
-* **Students:** Verified DID holders who can participate in DApps and DAOs using their academic status
-* **Verifiers:** Employers, DeFi protocols, s or community DAOs that want student credential proofs
-* **Builders:** DApps needing a secure way to filter users by academic reputation or affiliation
-
-### **Problems Solved:**
-
-* Prevents fraudulent claims of academic status in web3 grants, jobs, scholarships
-* Offers a reusable student identity for access to education-based DAOs or discounts
-* Builds a new bridge between university systems and decentralized platforms
 
 ### **Similar Projects:**
 
@@ -155,15 +165,6 @@ PolkaID fills a key gap in the Polkadot identity space by creating a scalable, e
 | Audit + External Review (lite)                    | \$1,000      |
 | **Total**                                         | **\$10,000** |
 
----
-
-## 👥 Team
-
-**Founder Name:** Ojewoye Wale Goddey
-**GitHub:** [github.com/goddeycode](https://github.com/goddeycode)
-**Email:** \[[your-email@example.com](mailto:your-email@example.com)]
-**Project Website:** In development
-**Team Members:** Solo founder (Flutter + Firebase developer)
 
 ---
 
