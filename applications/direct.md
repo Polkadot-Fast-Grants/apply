@@ -45,7 +45,7 @@ We're building Direct because we believe current off-ramp solutions are too slow
 
 * We are not building a centralized CEX-like product
 * We are not a single chain solution; direct plans to become cross chain and support as many people as we can with off ramping their crypto
-* We do not work with ALL cryptocurrencies on a blockchain we support: Due to the volatile nature of tokens, we would only support tokens that our risk tolerance would allow us to.
+* We do not work with ALL cryptocurrencies on a blockchain we support: Due to the volatile nature of tokens, we would only support stablecoins.
 * We don’t offer fiat on-ramping yet (though this may come later)
 
 ---
@@ -73,6 +73,18 @@ Direct brings simple, non-custodial off-ramping to Polkadot. By leveraging ink! 
 ### Similar Projects in Polkadot?
 
 We’re not aware of any Polkadot-native fiat off-ramping tool that combines trustless architecture with simplicity, speed and focus on emerging markets. Projects like Ramp and Transak are custodial and not tailored to local contexts or Polkadot.
+
+---
+## 🚀 Go-to-Market Plan
+To reach real users and drive adoption, we plan the following phased approach:
+
+### Phase 1: Polkadot Ecosystem
+
+  * Integrate with wallets like Talisman, Nova, and SubWallet.
+
+### Phase 2: User Acquisition in Emerging Markets
+
+  * Host Twitter Spaces and incentive campaigns (bounties for feedback, referrals and thread contests).
 
 ---
 
@@ -106,7 +118,7 @@ We’re not aware of any Polkadot-native fiat off-ramping tool that combines tru
 
 ### Team Experience
 
-Our team consists of three student developers with experience across Solana, Sui, and ink!. We've built tools spanning AI and Web3, and participated in 4+ hackathons where we consistently placed among the top teams. We’ve shipped working prototypes, pitched at finals, and built everything from smart contracts to frontend UIs.
+Our team consists of three student developers with experience across Solana, Sei, and ink!. We've built tools spanning AI and Web3, and participated in 4+ hackathons where we consistently placed among the top teams. We’ve shipped working prototypes, pitched at finals, and built everything from smart contracts to frontend UIs.
 
 Enenche, our product lead, is active in the blockchain ecosystem through DAOs like Rootstock, Superteam, and Base. He has written and deployed an ink! contract, and authored a technical tutorial on it. We're comfortable with the Substrate/Polkadot stack and confident in our ability to deliver production-ready tools.
 
@@ -138,7 +150,7 @@ We’re deeply motivated to build useful crypto infrastructure for real users �
 | 0c.    | Testing and Testing Guide       | Full unit tests for smart contract, backend API, and wallet flows                        |
 | 0d.    | Article                         | A technical write-up covering our Polkadot integration and lessons learned               |
 | 1.     | Smart Contract & Wallet Support | ink! contract for holding/converting tokens; Polkadot wallet integration (connect, sign) |
-| 2.     | Off-Ramp Flow                   | Enable users to off-ramp from the Polkadot main chain to fiat with minimal UI            |
+| 2.     | Off-Ramp Flow                   | Enable users to off-ramp from the Polkadot main chain to fiat with simple/familiar UI    |
 | 3.     | Test & Deploy                   | Test contracts, backend infra (Railway), connect to frontend and run in real-world trial |
 
 ---
@@ -151,14 +163,18 @@ We’re deeply motivated to build useful crypto infrastructure for real users �
 | 2         | Full off-ramp flow, frontend, and testing in live environment | \$5,000      | 1.5 months           |
 | **Total** |                                                               | **\$10,000** | **3 months**         |
 
-**Cost Allocation:**
+## 💸 Detailed Cost Allocation
 
-* Legal incorporation: \$75 (business registration, fees)
-* Backend (Railway) subscription
-* Engineering/dev time
-* Smart contract development & testing
-* Frontend UI + wallet flows
-* Real-world testing & iteration
+| Item                                      | Cost (USD) |
+|-------------------------------------------|------------|
+| Engineering (frontend/backend/contract)   | $6,000     |
+| Smart contract audit + testing            | $1,000     |
+| Hosting & infrastructure (Railway, etc.)  | $750       |
+| Legal incorporation and filings           | $75        |
+| User research and real-world testing      | $1,000     |
+| Community & growth (initial GTM push)     | $1,175     |
+
+**Total: $10,000**
 
 ---
 
@@ -182,4 +198,4 @@ We also plan to apply for additional funding — whether through follow-up grant
 * MVP available on Solana devnet
 * All three members are active developers, working part-time as students
 * Legal setup is pending; part of the grant will cover that
-* We’ve previously contributed to Web3 projects on Solana and Sui
+* We’ve previously built to Web3 projects on Solana and Sei
