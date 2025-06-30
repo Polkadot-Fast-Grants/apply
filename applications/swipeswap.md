@@ -10,7 +10,7 @@ SwipeSwap is a revolutionary decentralized exchange designed specifically for mo
 
 **Why This Project:** The current DEX landscape is dominated by desktop-first interfaces that are intimidating for mainstream users. We believe that the next wave of DeFi adoption will come from mobile-first platforms that feel familiar and intuitive to everyday users.
 
-**[Demo Video](assets/demo-swipswap.mov)** - *Coming soon with our React prototype*
+**[Demo Video](https://github.com/valkyrieholland/apply/raw/refs/heads/master/assets/demo-swipswap.mp4)** - *Coming soon with our React prototype*
 
 ### 🔍 Project Details
 
