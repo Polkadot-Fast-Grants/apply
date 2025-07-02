@@ -76,15 +76,27 @@ We’re not aware of any Polkadot-native fiat off-ramping tool that combines tru
 
 ---
 ## 🚀 Go-to-Market Plan
-To reach real users and drive adoption, we plan the following phased approach:
+To drive adoption and bring users to the technical integrations we've built, we are focusing on a phased approach targeted at the Polkadot ecosystem, starting with Nigeria and expanding across Africa.
 
-### Phase 1: Polkadot Ecosystem
+### Phase 1: Polkadot Ecosystem Integration
 
-  * Integrate with wallets like Talisman, Nova, and SubWallet.
+->Integrate Direct with major Polkadot wallets: Talisman, Nova Wallet, SubWallet.
 
-### Phase 2: User Acquisition in Emerging Markets
+->Announce integrations through wallet partner channels and ecosystem newsletters.
 
-  * Host Twitter Spaces and incentive campaigns (bounties for feedback, referrals and thread contests).
+### Phase 2: User Acquisition in Nigeria
+
+->Host Twitter Spaces focused on Polkadot and Direct’s unique use cases.
+
+->Launch bounties for creators to publish threads, tutorials, and blog posts about Direct.
+
+->Share real user stories and use cases specific to the Nigerian market.
+
+->Collaborate with Polkadot Ambassadors to co-host IRL events.
+
+->Work with African Web3 communities to promote Direct in regional Telegram, WhatsApp, and Discord groups.
+
+->Run referral campaigns that reward users for bringing friends to Direct.
 
 ---
 
