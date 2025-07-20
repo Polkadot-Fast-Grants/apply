@@ -168,6 +168,13 @@ We are developing a **smart contract-based micro-escrow system** on Polkadot tha
 
 ---
 
+**Team**
+Emmanuel (Project Lead)
+Full-stack Developer & Ethereum CAT Contributor | 9+ years experience building dApps
+I was part of Dash, the first DAO, contributing to decentralized governance and Web3 development. At Pi Network, I led a team to launch Pi Ad-server services, aligning business goals with tech solutions. I hold a Bachelor’s in Computer Science, with experience in web development, Web3, and DAOs.
+
+LinkedIn: https://github.com/Emmanueleclipse
+
 ## Final Thought
 
 Emerging markets don’t need speculative DeFi — they need **stable, usable infrastructure** that solves real problems.
@@ -175,3 +182,5 @@ Emerging markets don’t need speculative DeFi — they need **stable, usable in
 We are building a **USD-backed stablecoin + decentralized escrow system on Polkadot** to do exactly that. With fast settlement, low fees, and mobile-first access, our goal is to enable **millions of traders and freelancers** to safely participate in the global economy.
 
 > The future of finance in the Global South will not be built by banks — it will be built by resilient communities on chains like **Polkadot**.
+
+Slide deck https://escrapitchdeck.vercel.app/
