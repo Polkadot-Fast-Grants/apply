@@ -161,8 +161,8 @@ We are developing a **smart contract-based micro-escrow system** on Polkadot tha
 
 | Item | Description | Cost |
 |------|-------------|------|
-| **Wallet MVP** | Web & mobile wallet with WhatsApp/SMS interface and account abstraction | $5,000 |
-| **Smart Contract Audit** | Independent audit of escrow contracts by a reputable firm | $5,000 |
+| **Wallet MVP** | Mobile wallet with WhatsApp interface and account abstraction | $5,000 |
+| **Smart Contract Audit** | Development and audit of escrow contract| $5,000 |
 
 > Additional costs (e.g., liquidity, compliance, and field support) will be raised separately or covered through matching grants/partnerships.
 
