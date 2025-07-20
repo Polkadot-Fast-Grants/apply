@@ -131,20 +131,35 @@ We are developing a **smart contract-based micro-escrow system** on Polkadot tha
   Can link seamlessly to local payment rails and other blockchains as needed.
 
 ---
+### Overview
+
+- **Estimated Duration:** 3 months  
+- **Full-Time Equivalent (FTE):** 1.5 FTE  
+- **Total Costs:** $10,000 USD  
+
+> Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
+
+| Number | Deliverable | Specification |
+|--------:|-------------|----------------|
+| 0a. | License | MIT License |
+| 0b. | Documentation | We will provide **inline code documentation** and a **tutorial** showing how users can interact with the stablecoin wallet and micro-escrow system via testnet. |
+| 0c. | Testing and Testing Guide | We will implement comprehensive **unit and integration tests** for both the wallet backend and escrow contracts. A **Testing Guide** will outline how to execute and interpret test results. |
+| 0d. | Article | We will publish an article detailing the project, implementation process, and early use case results (e.g., pilot in Nigeria/Argentina), aimed at both technical and non-technical audiences. |
+| 1. | Stablecoin Wallet MVP | We will build and deploy a **Polkadot-integrated wallet MVP** that supports storage and transfer of a test USD-pegged stablecoin. The wallet will include a **WhatsApp/SMS interface** prototype and basic account abstraction. It will run on testnet and simulate fiat on/off-ramps using mock data. |
+| 2. | Smart Contract Micro-Escrow System | We will develop and deploy a **smart contract-based escrow system** on a Polkadot parachain testnet. It will allow users to lock and release stablecoin payments conditionally. A **dispute resolution flow** will be implemented, along with **mobile-first frontend access** and backend integration with the wallet MVP. |
+
 
 ## Rollout Roadmap
 
 ### Phase 1: Pilot (0–2 months)
 
 - Partner with fiat custodians and compliance providers
-- Deploy smart contracts on a Polkadot parachain
 - Launch wallet MVP with WhatsApp/SMS-based interface
 - Run pilot in Nigeria and Argentina with test user group
 
 ### Phase 2: MVP Launch (3–5 months)
 
 - Launch decentralized escrow with live dispute resolution
-- Integrate off-ramps to local fiat through exchanges and agent networks
 - Begin onboarding merchants, freelancers, and informal vendors
 
 ### Phase 3: Scale & Integrate (6+ months)
