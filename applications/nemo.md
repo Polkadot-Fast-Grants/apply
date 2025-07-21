@@ -66,11 +66,26 @@ Estimated Duration: 8 weeks\
 FTE: 2 full-time members\
 Total Cost: \$9,000 USD
 
-| Milestone | Deliverables                                                                                                                                                                                                                                                        | Cost (USD) | Timeline |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | -------- |
-| 1         | - Define behavior mapping schema  - Implement backend service to extract and tag tx data - Design MBTI mapping rules based on wallet patterns- Develop NFT schema with evolving traits- Build frontend wallet connect + NFT preview UI                              | \$3,000    | Week 1–2 |
-| 2         | - Deploy persona NFT contract on AssetHub- Integrate frontend NFT minting flow- Build MBTI personality quiz UI and backend- Develop LLM prompt template generator based on traits- Run first internal test: create AI twin from sample wallet                       | \$3,000    | Week 3–4 |
-| 3         | - Create chat interface + character response logic- Implement payment gate for chatting with agents- Simulate XCMP fetch logic with mock wallet data- Build leaderboard UI (by type, volume, etc.)- Launch shareable persona card feature- Run public meme campaign | \$3,000    | Week 5–8 |
+### Milestones & Deliverables
+
+| Milestone | Deliverables                                                                                                                      | Cost (USD) | Timeline   |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- |
+| 1         | - Behavior mapping schema (MBTI traits, behavior classification)<br>- Backend parser and wallet activity tagging service<br>- NFT contract: evolving MBTI-type soulbound NFTs<br>- Frontend wallet connect + preview<br>- Unit tests + documentation                     | $3,000     | Month 1    |
+| 2         | - Persona minting UI<br>- Deploy NFT contract on AssetHub<br>- LLM prompt builder logic<br>- Internal MVP: generate and chat with basic AI twin<br>- Implement payment access gate (mock logic)<br>- Technical blog post                                | $3,500     | Month 2    |
+| 3         | - Final chat UI with persona response tuning<br>- Shareable profile card generator<br>- Leaderboard UI by personality type and engagement<br>- Simulate XCMP updates (mocked)<br>- Testing + bugfixing<br>- Prepare final delivery and video demo                        | $3,500     | Month 3    |
+
+### Budget Breakdown
+
+| Role                  | Hours | Rate (USD/hr) | Subtotal (USD) |
+|-----------------------|--------|----------------|----------------|
+| Backend Dev     | 100    | $30            | $3,000         |
+| Smart Contract Dev    | 60     | $35            | $2,100         |
+| Frontend Dev    | 80     | $30            | $2,400         |
+| AI/Prompt Dev    | 30     | $35            | $1,050         |
+| Testing & Docs        | 20     | $25            | $500           |
+| **Total**             | —      | —              | **$9,050**     |
+
+Requested Grant Amount: **$10,000** (buffer included for unforeseen infrastructure or contract deployment costs)
 
 **Deliverables 0a–0d**
 
