@@ -83,7 +83,7 @@ This ensures that wallet identity is separated from persona visibility. All beha
 
 **Estimated Duration**: 3 months
 **FTE**: 2 full-time members
-**Total Cost**: \$15,000 USD
+**Total Cost**: \$10,000 USD
 
 ### Deliverables 0a–0d
 
@@ -103,7 +103,7 @@ This ensures that wallet identity is separated from persona visibility. All beha
 | Basic UI for wallet connect, persona mint preview                     |
 | Unit tests and integration with AssetHub                              |
 
-**Cost**: \$7,500 USD
+**Cost**: \$5,000 USD
 
 ### Milestone 2 (Month 1.5–3)
 
@@ -117,20 +117,20 @@ This ensures that wallet identity is separated from persona visibility. All beha
 | Mocked XCMP simulation for multichain activity sync                                                              |
 | Blog post + tutorial + testing & feedback round                                                                  |
 
-**Cost**: \$7,500 USD
+**Cost**: \$5,000 USD
 
 ### Budget Breakdown
 
 | Role               | Hours | Rate (USD/hr) | Subtotal (USD) |
 | ------------------ | ----- | ------------- | -------------- |
-| Backend Developer  | 140   | \$35          | \$4,900        |
-| Smart Contract Dev | 100   | \$40          | \$4,000        |
-| Frontend Developer | 120   | \$35          | \$4,200        |
-| AI/Prompt Engineer | 40    | \$40          | \$1,600        |
-| Testing & Docs     | 40    | \$30          | \$1,200        |
-| **Total**          | —     | —             | **\$15,900**   |
+| Backend Developer  | 120   | \$30          | \$3,600        |
+| Smart Contract Dev | 80    | \$35          | \$2,800        |
+| Frontend Developer | 100   | \$30          | \$3,000        |
+| AI/Prompt Engineer | 30    | \$35          | \$1,050        |
+| Testing & Docs     | 20    | \$25          | \$500          |
+| **Total**          | —     | —             | **\$10,950**   |
 
-Requested Grant Amount: **\$15,000** (remaining buffer self-funded)
+Requested Grant Amount: **\$10,000** (remaining buffer self-funded)
 
 ## **Future Plans**
 
