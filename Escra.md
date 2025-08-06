@@ -188,7 +188,8 @@ Emmanuel (Project Lead)
 Full-stack Developer & Ethereum CAT Contributor | 9+ years experience building dApps
 I was part of Dash, the first DAO, contributing to decentralized governance and Web3 development. At Pi Network, I led a team to launch Pi Ad-server services, aligning business goals with tech solutions. I hold a Bachelor’s in Computer Science, with experience in web development, Web3, and DAOs.
 
-LinkedIn: https://github.com/Emmanueleclipse
+LinkedIn: https://github.com/EmmanuelEklipse
+
 
 ## Final Thought
 
