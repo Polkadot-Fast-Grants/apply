@@ -139,14 +139,14 @@ We are developing a **smart contract-based micro-escrow system** on Polkadot tha
 
 > Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
 
-| Number | Deliverable | Specification |
-|--------:|-------------|----------------|
+| Number | Deliverable                     | Specification |
+|--------:|-------------------------------|----------------|
 | 0a. | License | MIT License |
-| 0b. | Documentation | We will provide **inline code documentation** and a **tutorial** showing how users can interact with the stablecoin wallet and micro-escrow system via testnet. |
+| 0b. | Documentation | We will provide **inline code documentation** and a **tutorial** showing how users can interact with the stablecoin wallet and micro-escrow system via the Moonbeam testnet. |
 | 0c. | Testing and Testing Guide | We will implement comprehensive **unit and integration tests** for both the wallet backend and escrow contracts. A **Testing Guide** will outline how to execute and interpret test results. |
-| 0d. | Article | We will publish an article detailing the project, implementation process, and early use case results (e.g., pilot in Nigeria/Argentina), aimed at both technical and non-technical audiences. |
-| 1. | Stablecoin Wallet MVP | We will build and deploy a **Polkadot-integrated wallet MVP** that supports storage and transfer of a test USD-pegged stablecoin. The wallet will include a **WhatsApp/SMS interface** prototype and basic account abstraction. It will run on testnet and simulate fiat on/off-ramps using mock data. |
-| 2. | Smart Contract Micro-Escrow System | We will develop and deploy a **smart contract-based escrow system** on a Polkadot parachain testnet. It will allow users to lock and release stablecoin payments conditionally. A **dispute resolution flow** will be implemented, along with **mobile-first frontend access** and backend integration with the wallet MVP. |
+| 0d. | Article | We will publish an article detailing the project, implementation process, audit outcomes, and early use case results (e.g., pilot in Nigeria/Argentina), aimed at both technical and non-technical audiences. |
+| 1. | Stablecoin Wallet MVP | We will build and deploy a Moonbeam-integrated wallet MVP that supports storage and transfer of a testnet USD-pegged stablecoin. The wallet will include a WhatsApp/SMS interface prototype, basic account abstraction, and simulate fiat on/off-ramps using mock data. |
+| 2. | Smart Contract Micro-Escrow System | We will develop and deploy a smart contract-based escrow system on the Moonbeam testnet, enabling users to lock and release stablecoin payments conditionally. The system includes: (a) mobile-first frontend, (b) backend integration with wallet MVP, (c) lightweight **dispute resolution by platform arbitration model, and (d) a third-party audit with the final audit report published in our documentation. |
 
 
 ## Rollout Roadmap
@@ -177,7 +177,7 @@ We are developing a **smart contract-based micro-escrow system** on Polkadot tha
 | Item | Description | Cost |
 |------|-------------|------|
 | **Wallet MVP** | Mobile wallet with WhatsApp interface and account abstraction | $5,000 |
-| **Smart Contract Audit** | Development and audit of escrow contract| $5,000 |
+| **Smart Contract Development & Audit** | Development and audit of escrow contract| $5,000 |
 
 > Additional costs (e.g., liquidity, compliance, and field support) will be raised separately or covered through matching grants/partnerships.
 
@@ -200,3 +200,4 @@ We are building a **USD-backed stablecoin + decentralized escrow system on Polka
 > The future of finance in the Global South will not be built by banks — it will be built by resilient communities on chains like **Polkadot**.
 
 Slide deck https://escrapitchdeck.vercel.app/
+
