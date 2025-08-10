@@ -188,7 +188,7 @@ Emmanuel (Project Lead)
 Full-stack Developer & Ethereum CAT Contributor | 9+ years experience building dApps
 I was part of Dash, the first DAO, contributing to decentralized governance and Web3 development. At Pi Network, I led a team to launch Pi Ad-server services, aligning business goals with tech solutions. I hold a Bachelor’s in Computer Science, with experience in web development, Web3, and DAOs.
 
-LinkedIn: https://github.com/EmmanuelEklipse
+LinkedIn:https://www.linkedin.com/in/emmanueleclipsewebsite
 
 
 ## Final Thought
@@ -200,5 +200,6 @@ We are building a **USD-backed stablecoin + decentralized escrow system on Polka
 > The future of finance in the Global South will not be built by banks — it will be built by resilient communities on chains like **Polkadot**.
 
 Slide deck https://escrapitchdeck.vercel.app/
+
 
 
