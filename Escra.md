@@ -31,7 +31,7 @@ These conditions restrict their ability to operate globally, compete with peers,
 
 ## Solution 1: USD-Backed Stablecoin on Polkadot for Cross-Border Payments
 
-We are launching a **USD-pegged stablecoin** on **Polkadot**, backed 1:1 by USD fiat reserves held by a regulated institution (e.g., Paxos or Circle). This provides international traders with a stable, low-cost, and reliable tool for sending and receiving payments.
+We are launching a **USD-pegged stablecoin** on **Polkadot**, backed 1:1 by USD fiat reserves held by a regulated institution Circle. This provides international traders with a stable, low-cost, and reliable tool for sending and receiving payments.
 
 ### How It Works
 
@@ -200,4 +200,5 @@ We are building a **USD-backed stablecoin + decentralized escrow system on Polka
 > The future of finance in the Global South will not be built by banks — it will be built by resilient communities on chains like **Polkadot**.
 
 Slide deck https://escrapitchdeck.vercel.app/
+
 
