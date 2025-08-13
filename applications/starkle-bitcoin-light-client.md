@@ -94,6 +94,20 @@ Starkle – Bitcoin Light Client (Rust)
 
 > Deliverables 0a–0d are mandatory and included in M1.
 
+### Milestone 0 — Required Deliverables (no cost)
+**0a. License**  
+MIT (code) and CC BY 4.0 (docs) for this grant’s deliverables unless Polkadot requires a specific OSI-approved license.
+
+**0b. Documentation**  
+Inline Rust doc comments plus a short tutorial (README section) showing how to build/run the client, sync headers, and verify a sample Merkle proof.
+
+**0c. Testing & Testing Guide**  
+Unit tests covering header parsing/validation and Merkle inclusion (≥80% line coverage of core modules). A TESTING.md explaining how to run the suite locally.
+
+**0d. Article**  
+A medium-length article (Mirror/Medium/Substack) summarizing the work done in this grant with links to repo, tests, and tutorial.
+
+
 ### Milestone 1 — SPV Header Sync & Docs — **$3,500** — 3–4 weeks
 - **0a. License:** MIT
 - **0b. Documentation:** README + usage guide (run sync, query tip/header)
