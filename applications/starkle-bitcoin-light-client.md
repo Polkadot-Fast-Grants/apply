@@ -15,6 +15,8 @@ Starkle – Bitcoin Light Client (Rust)
 
 **How it relates to Polkadot:** Substrate pallets, oracles and bridges can consume **real BTC state** (payments, PoR, collateral, alerts) without centralized indexers.
 
+**Why Polkadot.** Substrate pallets and app-chains can integrate real BTC signals with fewer trust assumptions. This grant delivers header sync, Merkle verification, fixtures, docs, tests, and a WASM wrapper; a zk-export format is prepared for later cross-chain verification.
+
 **Why we’re building it:** BTC is the most secure chain but hard to integrate trustlessly. We reduce integration work to a lightweight client + API so Polkadot apps can unlock BTC payments and collateral with fewer trust assumptions.
 
 ---
@@ -115,6 +117,8 @@ A medium-length article (Mirror/Medium/Substack) summarizing the work done in th
 
 **Verification:** CI passing, test vectors included, demo: sync to testnet height N and print tip.
 
+**Acceptance criteria:** All tests pass on CI; example commands reproduce documented outputs; README section for this milestone updated.
+
 ### Milestone 2 — Merkle Proof Verification — **$3,000** — 3–4 weeks
 - **3. Merkle module:** verify inclusion proofs against `merkle_root`
 - **4. CLI & examples:** `verify-merkle <txid> <blockhash>` using fixtures
@@ -122,12 +126,16 @@ A medium-length article (Mirror/Medium/Substack) summarizing the work done in th
 
 **Verification:** run CLI to verify inclusion for provided fixtures; unit tests passing.
 
+**Acceptance criteria:** All tests pass on CI; example commands reproduce documented outputs; README section for this milestone updated.
+
 ### Milestone 3 — WASM Build & ZK-Export Skeleton — **$3,450** — 3–4 weeks
 - **6. WASM wrapper:** compile `api` to WASM, simple browser/off-chain example
 - **7. ZK-export skeleton:** JSON trace format (headers/tx path) with schema + sample
 - **8. Developer docs:** integration notes for Substrate off-chain worker/pallet
 
 **Verification:** WASM demo page or example script; JSON schema + sample traces committed.
+
+**Acceptance criteria:** All tests pass on CI; example commands reproduce documented outputs; README section for this milestone updated.
 
 ---
 
@@ -139,6 +147,14 @@ A medium-length article (Mirror/Medium/Substack) summarizing the work done in th
 | M2 | Merkle verification + CLI + fixtures | 60 | $50 | $3,000 |
 | M3 | WASM build + ZK-export skeleton + docs | 69 | $50 | $3,450 |
 | **Total** |  | **199** |  | **$9,950** |
+
+| Milestone | Deliverables (summary)                         | Hours | Rate  | Cost (USD) |
+|-----------|------------------------------------------------|-------|-------|------------|
+| 1         | Header sync (SPV), fixtures, docs              | 55    | $60/h | $3,300     |
+| 2         | Merkle proof verification + tests + guide      | 55    | $60/h | $3,300     |
+| 3         | WASM wrapper + examples + README tutorial      | 55    | $60/h | $3,300     |
+| **Total** |                                                |       |       | **$9,900** |
+
 
 *If an additional helper is engaged, hours will be rebalanced without changing the total.*
 
