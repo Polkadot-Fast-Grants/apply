@@ -15,7 +15,7 @@ Starkle – Bitcoin Light Client (Rust)
 
 **How it relates to Polkadot:** Substrate pallets, oracles and bridges can consume **real BTC state** (payments, PoR, collateral, alerts) without centralized indexers.
 
-**Why Polkadot.** Substrate pallets and app-chains can integrate real BTC signals with fewer trust assumptions. This grant delivers header sync, Merkle verification, fixtures, docs, tests, and a WASM wrapper; a zk-export format is prepared for later cross-chain verification.
+**Why Polkadot.** Substrate pallets and app-chains can integrate real BTC signals with fewer trust assumptions. This grant delivers header sync, Merkle verification, fixtures, docs, tests and a WASM wrapper; a zk-export format is prepared for later cross-chain verification.
 
 **Why we’re building it:** BTC is the most secure chain but hard to integrate trustlessly. We reduce integration work to a lightweight client + API so Polkadot apps can unlock BTC payments and collateral with fewer trust assumptions.
 
@@ -58,7 +58,7 @@ Starkle – Bitcoin Light Client (Rust)
 - Substrate dev teams, oracle/bridge maintainers, wallet teams
 
 **Needs met**
-- Trust-minimized BTC integrations without centralized indexers
+- Trust-minimized BTC integrations without centralised indexers
 - Deterministic, testable proof verification
 
 **Similar efforts**
@@ -83,7 +83,7 @@ Starkle – Bitcoin Light Client (Rust)
 
 - CLI wallet working (mnemonic, derivation, SegWit address)
 - Scaffolding for header parsing & proof verification in repo
-- This grant covers SPV header sync, Merkle verification, docs, tests, and a WASM build + ZK-export skeleton.
+- This grant covers SPV header sync, Merkle verification, docs, tests and a WASM build + ZK-export skeleton.
 
 ---
 
@@ -99,13 +99,13 @@ Starkle – Bitcoin Light Client (Rust)
 MIT (code) and CC BY 4.0 (docs) for this grant’s deliverables unless Polkadot requires a specific OSI-approved license.
 
 **0b. Documentation**  
-Inline Rust doc comments plus a short tutorial (README section) showing how to build/run the client, sync headers, and verify a sample Merkle proof.
+Inline Rust doc comments plus a short tutorial (README section) showing how to build/run the client, sync headers and verify a sample Merkle proof.
 
 **0c. Testing & Testing Guide**  
 Unit tests covering header parsing/validation and Merkle inclusion (≥80% line coverage of core modules). A TESTING.md explaining how to run the suite locally.
 
 **0d. Article**  
-A medium-length article (Mirror/Medium/Substack) summarizing the work done in this grant with links to repo, tests, and tutorial.
+A medium-length article (Mirror/Medium/Substack) summarizing the work done in this grant with links to repo, tests and tutorial.
 
 ### Milestone 1 — SPV Header Sync & Docs — **$3,500** — 3–4 weeks
 - **0a. License:** MIT
@@ -141,12 +141,6 @@ A medium-length article (Mirror/Medium/Substack) summarizing the work done in th
 
 # 💰 Budget Breakdown
 
-| Milestone | Deliverables (summary) | Hours | Rate | Cost |
-|---|---|---:|---:|---:|
-| M1 | SPV headers + docs + tests + article | 70 | $50 | $3,500 |
-| M2 | Merkle verification + CLI + fixtures | 60 | $50 | $3,000 |
-| M3 | WASM build + ZK-export skeleton + docs | 69 | $50 | $3,450 |
-| **Total** |  | **199** |  | **$9,950** |
 
 | Milestone | Deliverables (summary)                         | Hours | Rate  | Cost (USD) |
 |-----------|------------------------------------------------|-------|-------|------------|
