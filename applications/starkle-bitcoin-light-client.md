@@ -13,7 +13,7 @@ Starkle – Bitcoin Light Client (Rust)
 - exposes a small API/SDK (Rust + WASM) for Substrate chains and off-chain workers,
 - prepares ZK-verifiable export formats for future on-chain verification.
 
-**How it relates to Polkadot:** Substrate pallets, oracles, and bridges can consume **real BTC state** (payments, PoR, collateral, alerts) without centralized indexers.
+**How it relates to Polkadot:** Substrate pallets, oracles and bridges can consume **real BTC state** (payments, PoR, collateral, alerts) without centralized indexers.
 
 **Why we’re building it:** BTC is the most secure chain but hard to integrate trustlessly. We reduce integration work to a lightweight client + API so Polkadot apps can unlock BTC payments and collateral with fewer trust assumptions.
 
@@ -92,8 +92,6 @@ Starkle – Bitcoin Light Client (Rust)
 - **FTE:** ~0.8 FTE (primarily solo dev + occasional collaborator)  
 - **Total Cost:** **$9,950 USD**
 
-> Deliverables 0a–0d are mandatory and included in M1.
-
 ### Milestone 0 — Required Deliverables (no cost)
 **0a. License**  
 MIT (code) and CC BY 4.0 (docs) for this grant’s deliverables unless Polkadot requires a specific OSI-approved license.
@@ -106,7 +104,6 @@ Unit tests covering header parsing/validation and Merkle inclusion (≥80% line 
 
 **0d. Article**  
 A medium-length article (Mirror/Medium/Substack) summarizing the work done in this grant with links to repo, tests, and tutorial.
-
 
 ### Milestone 1 — SPV Header Sync & Docs — **$3,500** — 3–4 weeks
 - **0a. License:** MIT
