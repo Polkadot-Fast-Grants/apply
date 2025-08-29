@@ -1,0 +1,183 @@
+# 📝 PolkaLeads
+
+## 🌟 Project Overview
+
+First and only PolkaDot native CRM with Lead Generation and Marketing campaigns.
+
+PolkaLeads is a lead generation tool made for Web2 marketing agencies or else, harnessing and storing Polkadot's wallets data for marketing campaigns.
+
+Demo Link: https://drive.google.com/file/d/1IF--fOBMJWOc53_DRqP-Bcxrnt8kh2YR/view?usp=drive_link
+
+Y Combinator Style Video Link:
+https://drive.google.com/file/d/1ufI9Z-8RnFO3PdJWaYTQIO30kFkKH4QP/view?usp=sharing
+
+Website Link:
+https://polkaleads.netlify.app/login
+
+
+### 🔍 Project Details
+
+Technology Stack:
+
+Blockchain: Polkadot, Polkadot-API (PAPI)
+
+Identity verification with: KILT, External APIs, ENS/PNS records, DAO rosters, POAP claims, etc. 
+
+
+XMTP for wallet-to-wallet messaging.
+
+Data Layer:
+DotLake: Leverages DotLake’s BigQuery tables to provide real-time wallet data filtration for lead generation and on-chain analytics. This enables highly targeted lead identification and scoring based on transaction volumes and wallet behaviors.
+
+PostgreSQL, Redis.
+
+Frontend:
+Next.js, TypeScript, Tailwind CSS
+
+Backend:
+Node.js/Express: A fast and lightweight backend framework for creating API services. Express powers the communication between the frontend, backend, and Polkadot blockchain, handling user requests and data processing.
+
+-Talisman Wallet
+
+Development Tools:
+GitHub, Docker
+
+
+### 🧩 Ecosystem Fit
+
+The Web2 sales and growth world is starving for new, untapped, high-value leads, while traditional channels like LinkedIn, cold email, and paid ads are oversaturated and increasingly expensive. Our tool bridges this gap by helping businesses reach qualified decision-makers hidden in the "underdog" blockchains - a market segment with minimal competition and strong intent.
+
+🌐 Current Opportunity
+540K monthly active wallets on Polkadot
+32M monthly active wallets across other “underdog” blockchains (PolkaDot, Cosmos, Avalanche, Near, Aptos, Sui)
+95%+ of B2B sales tools ignore these ecosystems
+This is a massive blue-ocean lead pool that is largely invisible to Web2 lead-gen tools and even most Web3 CRM competitors.
+
+WEB2 USE CASES
+🔍 Recruit Polkadot Devs
+Track wallets on testnets / Substrate. Sell access to job boards or headhunter tools.
+📊 CRM with Wallet Scoring
+Score DOT wallets based on behavior. Enrich your CRM with Web3-native intel.
+🏗️ SaaS for DOT Hardware Startups
+Target validator-linked wallets. Sell remote ops, logistics, or IoT tools.
+
+
+
+🧠 Why Polkadot First?
+
+Polkadot is the perfect entry point for wallet-based lead generation because:
+🛡️ 90% fewer ads than Ethereum or BNB → less noise, higher response rates.
+⚙️ 70% of wallets are builders (not airdrop hunters or NFT flippers).
+👨‍💻 60% are developers, validators, or power users → exactly the type of high-intent, B2B-friendly leads Web2 sales teams crave.
+🧬 Strong “underdog” identity → easy to rally community attention and build loyalty by being the first tool to take them seriously.
+
+
+
+🥊 Competitive Landscape:
+NAME			Pay-Per-Lead	Underdog B-chains	Cost
+ADDRESSABLE 	X			X			$1500+/month
+COOKIE 3		X			X			$600+/month
+ABSOLUTE LABS	X			X			Enterprise
+
+
+⚡ Our Advantage:
+✅ Flexible pay-per-lead pricing → no expensive monthly lock-ins.
+✅ Focus on underdog blockchains first → zero competition, high-value leads.
+✅ Faster onboarding → no enterprise friction, plug-and-play for growth teams.
+
+
+## 👥 Team
+
+- **Team Name:**PolkaLeads Team
+- **Contact Name:** Vlada Kandyba, Michael Rose
+- **Contact Email:** hello.vladasana@gmail.com, michaelrose.work93@gmail.com
+- **Website:** https://github.com/vladasanadev?tab=repositories
+
+### Team members
+
+Vlada - CTO of WhaleIntel.ai | Ex-SheCodes & WunderAI | Web3 KOL on Instagram | Hackathon Winner
+Michael Rose - 10 years sales & marketing | international GTM strategies at BDG | Hackathon Winner
+
+#### LinkedIn Profiles
+
+- https://www.linkedin.com/in/vlada-kandyba-3386a2227/
+- https://www.linkedin.com/in/michael-rose-sales/
+
+### Team Code Repos
+
+https://github.com/vladasanadev/polkalead
+https://github.com/vladasanadev/TrustDotLeads
+
+## 📊 Development Status
+
+Current Progress:  
+
+MVP code available
+https://github.com/vladasanadev/TrustDotLeads
+
+## 📅 Development Roadmap
+
+### Overview
+
+- **Estimated Duration:** 2,5 months
+- **Full-Time Equivalent (FTE):**  2
+- **Total Costs:**  $7240 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... |
+| 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| 0d. | Article | We will publish an **article** that explains what was done/achieved as part of the grant. |
+| 1. | Identity verification with | KILT, Lens/Farcaster APIs, ENS/PNS records, DAO rosters (Collab.Land, Guild.xyz), POAP claims, Covalent/Debank/Arkham APIs etc.
+| 2. | XMTP | Wallet-to-wallet messaging
+| 3. | DotLake | DotLake’s BigQuery tables provide real-time wallet data filtration for lead generation and on-chain analytics.
+| 4. | Postgres | A relational database to store and manage lead information, user data, and transaction records securely and efficiently.
+| 5. | Logins/Routing | Google Auth, 
+| 6. | ”Roast My Wallet” tool | Wallet analyzing tool as a part of the marketing campaign. 
+| 7. | LeadScore Algorithm | Original algorithm for wallet scoring and lead price-value evaluation.
+
+
+
+
+
+
+
+### 💰 Budget Breakdown
+
+Milestone 1
+-Logins/Routing
+-UI/UX Front End
+-DotLake
+
+Cost: ~29h x $40/h = $1160 USD
+2 Weeks
+
+Milestone 2
+-XMTP
+-Data Pipeline + Data Storage
+-Identity verification (KILT, Lens/Farcaster APIs, ENS/PNS records, DAO rosters (Collab.Land, Guild.xyz), POAP claims, Covalent/Debank/Arkham APIs etc.)
+-User Research
+
+Cost: ~92h x $40/h = $3680 USD
+1 Month
+
+Milestone 3
+-LeadScore
+-”Roast My Wallet” tool
+
+Cost: ~60h x $40/h = $2400 USD
+1 Month
+
+TOTAL: $7240
+
+🔮 Future Plans
+
+Applying for the Polkadot Marketing Bounty to activate guerilla marketing campaigns.
+
+Implement additional “underdog” blockchains
+Extend support beyond Polkadot to other overlooked ecosystems such as Cosmos, Near, and Avalanche, enabling broader wallet scanning and deeper lead generation opportunities.
+
+
+Integrate advanced marketing campaign options
+ Add features for automated wallet segmentation, influencer collaboration tracking, and integrated yapping campaigns, allowing customers to launch and manage growth initiatives directly from within the platform.
