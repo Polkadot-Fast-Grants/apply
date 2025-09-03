@@ -134,23 +134,29 @@ Polkadot is the perfect entry point for wallet-based lead generation because:
 
 
 
-### 🥊 Competitive Landscape:
-NAME			Pay-Per-Lead	Underdog B-chains	Cost
-ADDRESSABLE 	X			X			$1500+/month
-COOKIE 3		X			X			$600+/month
-ABSOLUTE LABS	X			X			Enterprise
+### 🥊 Competitive Landscape: 
+
+| NAME          | Pay-Per-Lead | Underdog B-chains | Cost          |
+| ------------- | ------------ | ----------------- | ------------- |
+| ADDRESSABLE   | X            | X                 | \$1500+/month |
+| COOKIE 3      | X            | X                 | \$600+/month  |
+| ABSOLUTE LABS | X            | X                 | Enterprise    |
 
 
-### ⚡ Our Advantage:
+
+### ⚡ Our Advantage: 
+
 ✅ Flexible pay-per-lead pricing → no expensive monthly lock-ins.
-✅ Focus on underdog blockchains first → zero competition, high-value leads.
-✅ Faster onboarding → no enterprise friction, plug-and-play for growth teams.
+
+✅ Focus on underdog blockchains first → zero competition, high-value leads. 
+
+✅ Faster onboarding → no enterprise friction, plug-and-play for growth teams. 
 
 
 
 ## 👥 Team
 
-- **Team Name:**PolkaLeads Team
+- **Team Name:** PolkaLeads Team
 - **Contact Name:** Vlada Kandyba, Michael Rose
 - **Contact Email:** hello.vladasana@gmail.com, michaelrose.work93@gmail.com
 - **Website:** https://github.com/vladasanadev?tab=repositories
@@ -185,6 +191,8 @@ https://github.com/vladasanadev/TrustDotLeads
 
 
 - Early feedback collected from hackathon participants and Web3 agency advisors
+
+
 - First wave of a potential user research feedback from 2 agencies
 
 
