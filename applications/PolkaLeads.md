@@ -1,4 +1,4 @@
-# 📝 POLKALEADS
+# 📝 POLKALEADS 
 
 ## 🌟 Project Overview
 
@@ -47,84 +47,84 @@ GitHub, Docker
 The Web2 sales and growth world is starving for new, untapped, high-value leads, while traditional channels like LinkedIn, cold email, and paid ads are oversaturated and increasingly expensive. Our tool bridges this gap by helping businesses reach qualified decision-makers hidden in the "underdog" blockchains - a market segment with minimal competition and strong intent.
 
 ## 🌐 Current Opportunity
--540K monthly active wallets on Polkadot
--32M monthly active wallets across other “underdog” blockchains (PolkaDot, Cosmos, Avalanche, Near, Aptos, Sui)
--95%+ of B2B sales tools ignore these ecosystems
+- 540K monthly active wallets on Polkadot
+- 32M monthly active wallets across other “underdog” blockchains (PolkaDot, Cosmos, Avalanche, Near, Aptos, Sui)
+- 95%+ of B2B sales tools ignore these ecosystems
 
 This is a massive blue-ocean lead pool that is largely invisible to Web2 lead-gen tools and even most Web3 CRM competitors.
 
 ## 🔗 Web2 Use Cases
 ### 🏦 Finance & Tax
--Crypto Wealth Insurance / Digital Asset Protection
+- Crypto Wealth Insurance / Digital Asset Protection
 Agencies can pitch insurance products that protect portfolios and wallets against theft, hacks, or loss.
 
 
--Crypto/Fiat Tax Services
+- Crypto/Fiat Tax Services
 Offer professional tax prep or accounting software tailored to DOT staking, crowdloans, and cross-border income.
 
 
 
-###🌍 Travel & Digital Nomad Lifestyle
--Book Flights & Hotels with DOT
+### 🌍 Travel & Digital Nomad Lifestyle
+- Book Flights & Hotels with DOT
 Partner Web2 businesses that accept Coinbase Commerce to allow crypto payments.
 
 
--Co-Living Spaces in Global Hotspots
+- Co-Living Spaces in Global Hotspots
 Target DOT holders for nomad-friendly communities in Lisbon, Bali, Buenos Aires, and other hubs.
 
 
--Relocation & Residency Services
+- Relocation & Residency Services
 Run wallet-linked ad campaigns for Estonia e-residency, Portugal golden visa, or Dubai relocation packages.
 
 
--Crypto-Inclusive Travel Insurance
+- Crypto-Inclusive Travel Insurance
 Sell policies that cover laptops, wallets, and digital assets for travelers moving across borders.
 
 
 
-###🔐 Hardware & Security
--Privacy-Centric Devices
+### 🔐 Hardware & Security
+- Privacy-Centric Devices
 Market Web2 brands like Purism (Linux phones) or Ghost laptops directly to DOT users.
 
 
--Physical Security
+- Physical Security
 Promote safes, biometric locks, and dedicated insurance for hardware wallets and sensitive devices.
 
 
 
-##🔗 Web3 Use Cases
-###Community & Premium Services
--Premium Research / Signal Services: Offer airdrop alerts, token performance analytics, or other insights to users who hold or stake significant DOT.
+## 🔗 Web3 Use Cases
+### Community & Premium Services
+- Premium Research / Signal Services: Offer airdrop alerts, token performance analytics, or other insights to users who hold or stake significant DOT.
 
 
--Paid DAO Memberships: Grant engaged DOT holders access to exclusive governance, mentorship, or investment insight programs.
-
-
-
-###Web3 Infrastructure & Data Services
--Analytics & Monitoring: Sell dashboards tracking DeFi transaction trends across Polkadot parachains to developers and projects.
-
-
--Investor Prospecting Lists: Match wallet activity with socials to create lead packs for projects seeking qualified investors.
+- Paid DAO Memberships: Grant engaged DOT holders access to exclusive governance, mentorship, or investment insight programs.
 
 
 
-###Staking & Yield Services
--Premium Staking / Yield Aggregators: Target DOT holders with high balances and active staking to move them into platforms that optimize returns.
+### Web3 Infrastructure & Data Services
+- Analytics & Monitoring: Sell dashboards tracking DeFi transaction trends across Polkadot parachains to developers and projects.
 
 
--Staking-as-a-Service Platforms: Promote services where users delegate to validators for guaranteed returns, with agencies earning per onboarded user.
+- Investor Prospecting Lists: Match wallet activity with socials to create lead packs for projects seeking qualified investors.
 
 
 
-###Parachain-Specific Growth
--Crowdloan Contributor Acquisition: Target DOT holders who actively stake or govern with personalized campaigns to drive contributions to parachain crowdloans.
+### Staking & Yield Services
+- Premium Staking / Yield Aggregators: Target DOT holders with high balances and active staking to move them into platforms that optimize returns.
 
 
--Early Liquidity / TVL Growth: Use wallet-linked leads with existing token balances to onboard liquidity providers and boost TVL for DeFi apps.
+- Staking-as-a-Service Platforms: Promote services where users delegate to validators for guaranteed returns, with agencies earning per onboarded user.
 
 
-##🧠 Why Polkadot First
+
+### Parachain-Specific Growth
+- Crowdloan Contributor Acquisition: Target DOT holders who actively stake or govern with personalized campaigns to drive contributions to parachain crowdloans.
+
+
+- Early Liquidity / TVL Growth: Use wallet-linked leads with existing token balances to onboard liquidity providers and boost TVL for DeFi apps.
+
+
+## 🧠 Why Polkadot First
 
 Polkadot is the perfect entry point for wallet-based lead generation because:
 🛡️ 90% fewer ads than Ethereum or BNB → less noise, higher response rates.
@@ -134,14 +134,14 @@ Polkadot is the perfect entry point for wallet-based lead generation because:
 
 
 
-###🥊 Competitive Landscape:
+### 🥊 Competitive Landscape:
 NAME			Pay-Per-Lead	Underdog B-chains	Cost
 ADDRESSABLE 	X			X			$1500+/month
 COOKIE 3		X			X			$600+/month
 ABSOLUTE LABS	X			X			Enterprise
 
 
-###⚡ Our Advantage:
+### ⚡ Our Advantage:
 ✅ Flexible pay-per-lead pricing → no expensive monthly lock-ins.
 ✅ Focus on underdog blockchains first → zero competition, high-value leads.
 ✅ Faster onboarding → no enterprise friction, plug-and-play for growth teams.
@@ -172,23 +172,23 @@ https://github.com/vladasanadev/TrustDotLeads
 
 ## 📊 Development Status
 
--Basic MVP code available → https://github.com/vladasanadev/TrustDotLeads
+- Basic MVP code available → https://github.com/vladasanadev/TrustDotLeads
 
 
--MVP Demo live → https://polkaleads.netlify.app/login
+- MVP Demo live → https://polkaleads.netlify.app/login
 
 
--Integrated wallet login with Talisman
+- Integrated wallet login with Talisman
 
 
--Basic UI/UX front end completed in Next.js/TypeScript
+- Basic UI/UX front end completed in Next.js/TypeScript
 
 
--Early feedback collected from hackathon participants and Web3 agency advisors
--First wave of a potential user research feedback from 2 agencies
+- Early feedback collected from hackathon participants and Web3 agency advisors
+- First wave of a potential user research feedback from 2 agencies
 
 
-##Validation
+## Validation
 🏆Hackathon Winner (WebZero Hackathon Marketing bounty)
 
 
@@ -220,41 +220,41 @@ https://github.com/vladasanadev/TrustDotLeads
 
 
 
-### 💰 Budget Breakdown
+## 💰 Budget Breakdown
 
-Milestone 1
--Logins/Routing
--UI/UX Front End
--DotLake
+### Milestone 1
+- Logins/Routing
+- UI/UX Front End
+- DotLake
 
 Cost: ~29h x $40/h = $1160 USD
 2 Weeks
 
-Milestone 2
--XMTP
--Data Pipeline + Data Storage
--Identity verification (KILT, Lens/Farcaster APIs, ENS/PNS records, DAO rosters (Collab.Land, Guild.xyz), POAP claims, Covalent/Debank/Arkham APIs etc.)
--User Research
+### Milestone 2
+- XMTP
+- Data Pipeline + Data Storage
+- Identity verification (KILT, Lens/Farcaster APIs, ENS/PNS records, DAO rosters (Collab.Land, Guild.xyz), POAP claims, Covalent/Debank/Arkham APIs etc.)
+- User Research
 
 Cost: ~92h x $40/h = $3680 USD
 1 Month
 
-Milestone 3
--LeadScore
--”Roast My Wallet” tool
+### Milestone 3
+- LeadScore
+- ”Roast My Wallet” tool
 
 Cost: ~60h x $40/h = $2400 USD
 1 Month
 
-TOTAL: $7240
+### TOTAL: $7240
 
-🔮 Future Plans
+## 🔮 Future Plans
 
-Applying for the Polkadot Marketing Bounty to activate guerilla marketing campaigns.
+- Applying for the Polkadot Marketing Bounty to activate guerilla marketing campaigns.
 
-Implement additional “underdog” blockchains
+- Implement additional “underdog” blockchains
 Extend support beyond Polkadot to other overlooked ecosystems such as Cosmos, Near, and Avalanche, enabling broader wallet scanning and deeper lead generation opportunities.
 
 
-Integrate advanced marketing campaign options
+- Integrate advanced marketing campaign options
  Add features for automated wallet segmentation, influencer collaboration tracking, and integrated yapping campaigns, allowing customers to launch and manage growth initiatives directly from within the platform.
