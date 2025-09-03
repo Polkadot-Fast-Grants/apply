@@ -21,7 +21,7 @@ https://polkaleads.netlify.app/login
 
 ## 🔍 Project Details
 
-**Technology Stack:**
+ **Technology Stack:** 
 
 - Blockchain: Polkadot, Polkadot-API (PAPI)
 
@@ -48,7 +48,7 @@ GitHub, Docker
 
 ## 🧩 Ecosystem Fit
 
-The Web2 sales and growth world is starving for new, untapped, high-value leads, while traditional channels like LinkedIn, cold email, and paid ads are oversaturated and increasingly expensive. Our tool bridges this gap by helping businesses reach qualified decision-makers hidden in the "underdog" blockchains - a market segment with minimal competition and strong intent.
+The Web2 sales and growth world is starving for new, untapped, high-value leads, while traditional channels like LinkedIn, cold email, and paid ads are oversaturated and increasingly expensive. Our tool bridges this gap by helping businesses reach qualified decision-makers hidden in the **"underdog"** blockchains - a market segment with minimal competition and strong intent.
 
 ## 🌐 Current Opportunity
 - 540K monthly active wallets on Polkadot
@@ -131,9 +131,13 @@ Promote safes, biometric locks, and dedicated insurance for hardware wallets and
 ## 🧠 Why Polkadot First
 
 Polkadot is the perfect entry point for wallet-based lead generation because:
+
 🛡️ 90% fewer ads than Ethereum or BNB → less noise, higher response rates.
+
 ⚙️ 70% of wallets are builders (not airdrop hunters or NFT flippers).
+
 👨‍💻 60% are developers, validators, or power users → exactly the type of high-intent, B2B-friendly leads Web2 sales teams crave.
+
 🧬 Strong “underdog” identity → easy to rally community attention and build loyalty by being the first tool to take them seriously.
 
 
@@ -171,7 +175,7 @@ Vlada - CTO of WhaleIntel.ai | Ex-SheCodes & WunderAI | Web3 KOL on Instagram | 
 
 Michael Rose - 10 years sales & marketing | international GTM strategies at BDG | Hackathon Winner
 
-**LinkedIn Profiles:**
+ **LinkedIn Profiles:** 
 
 - https://www.linkedin.com/in/vlada-kandyba-3386a2227/
 - https://www.linkedin.com/in/michael-rose-sales/
@@ -237,23 +241,24 @@ https://github.com/vladasanadev/TrustDotLeads
 - UI/UX Front End
 - DotLake
 
-Cost: ~29h x $40/h = $1160 USD
+ **Cost: ~29h x $40/h = $1160 USD** 
 2 Weeks
 
 ### Milestone 2
 - XMTP
 - Data Pipeline + Data Storage
 - Identity verification (KILT, Lens/Farcaster APIs, ENS/PNS records, DAO rosters (Collab.Land, Guild.xyz), POAP claims, Covalent/Debank/Arkham APIs etc.)
-- User Research
+- User Research: speak with 10 Web2 and 10 Web3 agencies
 
-Cost: ~92h x $40/h = $3680 USD
+ **Cost: ~92h x $40/h = $3680 USD** 
 1 Month
 
-### Milestone 3
-- LeadScore
+### Milestone 3 
+
+- LeadScore algorithm 
 - ”Roast My Wallet” tool
 
-Cost: ~60h x $40/h = $2400 USD
+ **Cost: ~60h x $40/h = $2400 USD** 
 1 Month
 
 ### TOTAL: $7240
