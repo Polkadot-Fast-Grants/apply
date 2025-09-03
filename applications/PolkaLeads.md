@@ -2,22 +2,26 @@
 
 ## 🌟 Project Overview
 
-First and only PolkaDot native CRM with Lead Generation and Marketing campaigns.
+ **First and only PolkaDot native CRM with Lead Generation and Marketing campaigns.** 
 
 PolkaLeads is a lead generation tool made for Web2 marketing agencies or else, harnessing and storing Polkadot's wallets data for marketing campaigns.
 
-Demo Link: https://drive.google.com/file/d/1IF--fOBMJWOc53_DRqP-Bcxrnt8kh2YR/view?usp=drive_link
+Demo Link:
+
+https://drive.google.com/file/d/1IF--fOBMJWOc53_DRqP-Bcxrnt8kh2YR/view?usp=drive_link
 
 Y Combinator Style Video Link:
+
 https://drive.google.com/file/d/1ufI9Z-8RnFO3PdJWaYTQIO30kFkKH4QP/view?usp=sharing
 
 Website Link:
+
 https://polkaleads.netlify.app/login
 
 
 ## 🔍 Project Details
 
-Technology Stack:
+**Technology Stack:**
 
 - Blockchain: Polkadot, Polkadot-API (PAPI)
 
@@ -26,9 +30,9 @@ Technology Stack:
 - XMTP for wallet-to-wallet messaging.
 
 - Data Layer:
-- DotLake: Leverages DotLake’s BigQuery tables to provide real-time wallet data filtration for lead generation and on-chain analytics. This enables highly targeted lead identification and scoring based on transaction volumes and wallet behaviors.
+DotLake: Leverages DotLake’s BigQuery tables to provide real-time wallet data filtration for lead generation and on-chain analytics. This enables highly targeted lead identification and scoring based on transaction volumes and wallet behaviors.
 
-- PostgreSQL, Redis.
+PostgreSQL, Redis.
 
 - Frontend:
 Next.js, TypeScript, Tailwind CSS
@@ -134,7 +138,7 @@ Polkadot is the perfect entry point for wallet-based lead generation because:
 
 
 
-### 🥊 Competitive Landscape: 
+###  Competitive Landscape: 
 
 | NAME          | Pay-Per-Lead | Underdog B-chains | Cost          |
 | ------------- | ------------ | ----------------- | ------------- |
@@ -164,9 +168,10 @@ Polkadot is the perfect entry point for wallet-based lead generation because:
 ### Team members
 
 Vlada - CTO of WhaleIntel.ai | Ex-SheCodes & WunderAI | Web3 KOL on Instagram | Hackathon Winner
+
 Michael Rose - 10 years sales & marketing | international GTM strategies at BDG | Hackathon Winner
 
-LinkedIn Profiles:
+**LinkedIn Profiles:**
 
 - https://www.linkedin.com/in/vlada-kandyba-3386a2227/
 - https://www.linkedin.com/in/michael-rose-sales/
@@ -221,9 +226,6 @@ https://github.com/vladasanadev/TrustDotLeads
 | 5. | Logins/Routing | Google Auth, 
 | 6. | ”Roast My Wallet” tool | Wallet analyzing tool as a part of the marketing campaign. 
 | 7. | LeadScore Algorithm | Original algorithm for wallet scoring and lead price-value evaluation.
-
-
-
 
 
 
