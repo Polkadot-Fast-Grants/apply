@@ -3,7 +3,7 @@
 
 ## TL;DR
 
-We are building a **USD-backed stablecoin** and a **decentralized micro-escrow system** on **Polkadot**, backed by real USD fiat reserves. This dual system directly addresses two major pain points in the Global South:
+We are building a **USD-backed stablecoin** and a **decentralized micro-escrow system** on **Paseo → Asset Hub**, backed by real USD fiat reserves. This dual system directly addresses two major pain points in the Global South:
 
 - **Stable, low-cost cross-border payments** for businesses and freelancers reliant on imports and international services
 - **Affordable, secure escrow** for informal traders in high-risk, low-trust economies
@@ -29,7 +29,7 @@ These conditions restrict their ability to operate globally, compete with peers,
 
 ---
 
-## Solution 1: USD-Backed Stablecoin on Polkadot for Cross-Border Payments
+## Solution 1: USD-Backed Stablecoin on natively on Paseo → Asset Hub for Cross-Border Payments
 
 We are launching a **USD-pegged stablecoin** on **Polkadot**, backed 1:1 by USD fiat reserves held by a regulated institution Circle. This provides international traders with a stable, low-cost, and reliable tool for sending and receiving payments.
 
@@ -129,7 +129,7 @@ We are developing a **smart contract-based micro-escrow system** on Polkadot tha
 
 - **Interoperability**  
   Can link seamlessly to local payment rails and other blockchains as needed.
-
+We will launch directly on Paseo → Asset Hub, the canonical environment for stable assets and escrow on Polkadot. Asset Hub ensures interoperability with parachains while maintaining low fees and security guarantees. Future integrations with Moonbeam, Astar, or Phala may follow to extend compatibility, but our canonical deployment will remain Polkadot-native.
 ---
 ### Overview
 
@@ -142,11 +142,11 @@ We are developing a **smart contract-based micro-escrow system** on Polkadot tha
 | Number | Deliverable                     | Specification |
 |--------:|-------------------------------|----------------|
 | 0a. | License | MIT License |
-| 0b. | Documentation | We will provide **inline code documentation** and a **tutorial** showing how users can interact with the stablecoin wallet and micro-escrow system via the Moonbeam testnet. |
+| 0b. | Documentation | We will provide **inline code documentation** and a **tutorial** showing how users can interact with the stablecoin wallet and micro-escrow system via the Paseo → Asset Hub. |
 | 0c. | Testing and Testing Guide | We will implement comprehensive **unit and integration tests** for both the wallet backend and escrow contracts. A **Testing Guide** will outline how to execute and interpret test results. |
 | 0d. | Article | We will publish an article detailing the project, implementation process, audit outcomes, and early use case results (e.g., pilot in Nigeria/Argentina), aimed at both technical and non-technical audiences. |
-| 1. | Stablecoin Wallet MVP | We will build and deploy a Moonbeam-integrated wallet MVP that supports storage and transfer of a testnet USD-pegged stablecoin. The wallet will include a WhatsApp/SMS interface prototype, basic account abstraction, and simulate fiat on/off-ramps using mock data. |
-| 2. | Smart Contract Micro-Escrow System | We will develop and deploy a smart contract-based escrow system on the Moonbeam testnet, enabling users to lock and release stablecoin payments conditionally. The system includes: (a) mobile-first frontend, (b) backend integration with wallet MVP, (c) lightweight **dispute resolution by platform arbitration model, and (d) a third-party audit with the final audit report published in our documentation. |
+| 1. | Stablecoin Wallet MVP | We will build and deploy a on Paseo → Asset Hub wallet MVP that supports storage and transfer of a testnet USD-pegged stablecoin. The wallet will include a WhatsApp/SMS interface prototype, basic account abstraction, and simulate fiat on/off-ramps using mock data. |
+| 2. | Smart Contract Micro-Escrow System | We will develop and deploy a smart contract-based escrow system on on Paseo → Asset Hub, enabling users to lock and release stablecoin payments conditionally. The system includes: (a) mobile-first frontend, (b) backend integration with wallet MVP, (c) lightweight **dispute resolution by platform arbitration model, and (d) a third-party audit with the final audit report published in our documentation. |
 
 
 ## Rollout Roadmap
@@ -200,6 +200,7 @@ We are building a **USD-backed stablecoin + decentralized escrow system on Polka
 > The future of finance in the Global South will not be built by banks — it will be built by resilient communities on chains like **Polkadot**.
 
 Slide deck https://escrapitchdeck.vercel.app/
+
 
 
 
