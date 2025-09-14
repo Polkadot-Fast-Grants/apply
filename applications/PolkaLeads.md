@@ -232,6 +232,39 @@ https://github.com/vladasanadev/TrustDotLeads
 | 7. | LeadScore Algorithm | Original algorithm for wallet scoring and lead price-value evaluation.
 
 
+## 🧩 GMS 
+
+We are planning to apply for the marketing bounty after delivering the milestones in this grant campaign. There we will detailed dive into the specifics of marketing and sales of the product, but here we can already outline concepts:
+
+- starting out with guerilla type campaigns aimed at the small-middle size sales/marketing agencies both Web2 and Web3. Our angle is: “Untapped Web3 Leads from “underdog” blockchains” 
+
+a) Activating comment bots on tiktok and reddit to drive traffic to our website. As their social media pages usually don’t have a lot of views and comments - they will definitely see them. 
+
+b) Also we are looking into creating viral momentum on X using yapping campaings center we around our tech wrapped in a fun way. 
+
+### Example: 
+
+1. “Roast My Wallet Tool”. It’s a tool based on our LeadScore algorithm designed to roast your wallet in a fun way like: “50 tokens. Balance: $3.47. That’s not a wallet, that’s a parking meter.” or “Wallet says ‘Web3 pioneer,’ bank account says ‘Web2 employee’.” 
+
+
+2. Public Leaderboard 
+A playful “Wall of Fame / Wall of Shame”:
+ • Top Degens of the Week (most microcaps bought).
+ • Gas Guzzlers (most wasted ETH on fees).
+ • Dust Kings (most tokens under $1).
+ • Whale of the Day (largest single wallet swap). 
+
+
+3. Wallet Matchmaking 
+ • “Find your DeFi soulmate wallet.”
+ • Your tool matches two wallets by transaction patterns, risk appetite, or token overlap. 
+
+
+c) Making live streams where people can drop their wallets and we rate and roast them live on screen. 
+
+
+d) Direct reach out to agencies offering free trial. 
+
 
 
 ## 💰 Budget Breakdown
