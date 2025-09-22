@@ -1,7 +1,5 @@
 Name of your Project
 🌟 Project Overview
-Please provide the following:
-
 Bnashee Music- Music Airdrop Protocol
 Banshee is a music NFT marketplace for fans to receive airdrops of song, albums, and rewards.
 
@@ -12,7 +10,6 @@ The Banshee Team is committed to creating an ecosystem that allows musicians to 
 https://youtu.be/v4H3mpTrPxc (this video is 3mins long FYI)
 
 🔍 Project Details
-We expect applicants to have a solid idea about the project's expected final state. Therefore, please submit (where relevant):
 Banshee is a music airdrop protocol that airdrops songs, albums, and other rewards to fans. We are a subscription-based NFT marketplace, but users are purchasing/signing up for airdrops of music sent to them on monthly basis. This project also brings the Audius ecosystem to Polkadot. Audius is the most popular web3 music platform with over 7.5million monthly active users. Banshee will be 1) integrate the Polkadot Asset Hub by deploying our contracts on its mainnet. 2) Intergrate Audius into the project as well bringing its users base to Polkadot's Asset Hub. 3) Build the Proof-of-Performance royality system on-top of Polkadot. A high-level overview: A marketplace listing samples of Audius artists music for fans to sign up for monthly airdrops of NFT songs, albums, or rewards from those artists. The Proof-of-Performance model is a royalty system to pay the artists by tracking the NFTs on-chain (transfers, resales, and attendance).
 
 An overview of the technology stack to be used
@@ -21,8 +18,7 @@ An overview of the technology stack to be used
 3) Crossmint and Unlock Protocol will be integrated for a more user-friendly interface for fans to sign up for airdrops.
 4) Subquery will be the indexer used to track Banshee NFT transactions for the minting and transfer of Banshee tokens to musicians for NFT resales.
    
-Documentation of core components, protocols, architecture, etc. to be deployed
-Any PoC/MVP or other relevant prior work or research on the topic
+Documentation of core components, protocols, architecture, etc. to be deployed:
 https://banshee-music.com/ 
 https://github.com/Banshee-Music
 
@@ -33,8 +29,6 @@ Proof-of-Performance is a proof-of-work model where airdrops, tickets, and rewar
 The Banshee token model will be an XCM token that utilizes Polkadots interoperablity for transfers and minting. Banshee's Marketplace can therefore support other chains, but the protocols utility token mints and settles on Polkadot.
 
 🧩 Ecosystem Fit
-Help us locate your project in the Polkadot landscape and what problems it tries to solve by answering each of these questions:
-
 Banshee will bring music songs, albums, and masters to the Polkadot Asset Hub. Banshee is building on-top of Audius to extend their ecosystem to Polkadot. This will bring their 7.5 million user base to Polkadot. 
 
 Banshee's target audience is the average Audius user/fan who would like to receive regular songs, rewards that are released to fans. Banshee also accomplishes the need for musicians to receive stable income from their work while remaining independent by 1) subscription based model for airdrops. 2) A verifiable, decentralized royalty model for tracking music transactions onchain (Via Subquery). The Polkadot Asset Hub will be the central chain that the project (Airdrops and Proof-of-Performance) are built on top of.  This project is unique in its model of focusing on subscription based airdrops of music while having a royality system that utilizes an indexer (Subquery).
@@ -48,9 +42,10 @@ Team members
 Lamont Veal - Blockchain Developer
 Marcel Myers Jr. - Domain Expert (Recording Artist/Music Producer)
 
-LinkedIn Profiles (if available)
 https://www.linkedin.com/in/lamont-veal-63a1b0186/
+
 https://www.instagram.com/petemyers_/?hl=en
+
 https://open.spotify.com/artist/6gC1muwQTKA2XQcM5kXWBt/discography
 
 Team Code Repos
@@ -86,17 +81,6 @@ Full-Time Equivalent (FTE): Average number of full-time employees working on the
 Total Costs: Requested amount in USD for the whole project (maximum $10,000 USD)
 Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
 
-Number	Deliverable	Specification
-0a.	License	Apache 2.0 / GPLv3 / MIT / Unlicense
-0b.	Documentation	We will provide both inline documentation of the code and a basic tutorial that explains how a user can...
-0c.	Testing and Testing Guide	Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.
-0d.	Article	We will publish an article that explains what was done/achieved as part of the grant.
-1.	Feature X	We will create a feature that will... (Please describe in detail)
-2.	Feature Y	The Y feature will... (Please describe in detail)
-3.	Feature Z	The Z feature will... (Please describe in detail)
-💰 Budget Breakdown
-Please provide a breakdown of your budget by milestone:
-
 Milestone	Deliverables	Cost (USD)	Estimated Completion
 1	Features (Marketplace UI)- Audius Integration, Subscription UI	$2,000 2-3 weeks (20-30 hours of development)
 2	Feature IPFS integration	$1,000	1-2 weeks. (10 hours of development)
@@ -109,16 +93,15 @@ There will be 5 milestones/deliverables to be completed within 2 months:
 2) Crossmint integration to the UI for direct purchase of airdrop subscriptions.-$1,000 
 3) Integration of Pinata IPFS files for Music to be delivered to fans. The NFTs airdropped will give fans access to Pinata IPFS files storing songs. -$1,000
 4) Proof-of-Performance smart contract integration to Subquery. Token smart contract that mints token with every new transaction from NFT marketplace smart contract. This includes testing as well.- $4,000
-5) Deployment of all smart contracts to Polkadot Asset Hub mainnet. $1,000
+5) Deployment of all smart contracts to Polkadot Asset Hub mainnet, documentation posted on homepage, and social media set up (X, Telegram). $1,000
 
 🔮 Future Plans
 Please include:
 
 How you intend to continue development after the Fast-Grant
-We have no plans additional funding other than the deployment of the Banshee token. ICO
-We plan on integrating Spotify to the marketplace after the initial launch.
+Banshee Music will be a self-sustaining project that with minimal funding needed to launch and maintain the project. We have no plans additional funding other than the deployment of the Banshee token. We plan on integrating Spotify to the marketplace after the initial launch. 
 
 Work you have already done
 If there are any other teams who have already contributed to the project
-Other funding you may have applied for
+Other funding you may have applied for- We not received any other funding past a hackathon win (Moonbeam Hackathon 2024).
 Remember that the Fast-Grants Programme is designed as a first step for promising projects. We're looking for projects that can continue to grow beyond this initial fund
