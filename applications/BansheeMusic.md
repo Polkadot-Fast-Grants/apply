@@ -40,6 +40,7 @@ Contact Email: Lxveal1983@gmail.com
 Website: https://banshee-music.com/ 
 Team members
 Lamont Veal - Blockchain Developer
+
 Marcel Myers Jr. - Domain Expert (Recording Artist/Music Producer)
 
 https://www.linkedin.com/in/lamont-veal-63a1b0186/
