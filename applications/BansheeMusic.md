@@ -35,10 +35,14 @@ Banshee's target audience is the average Audius user/fan who would like to recei
 
 👥 Team
 Team Name: Banshee Music Labs, LLC
+
 Contact Name: Lamont Veal
+
 Contact Email: Lxveal1983@gmail.com
+
 Website: https://banshee-music.com/ 
-Team members
+
+Team members: 
 Lamont Veal - Blockchain Developer
 
 Marcel Myers Jr. - Domain Expert (Recording Artist/Music Producer)
