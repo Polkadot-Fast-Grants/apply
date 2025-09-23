@@ -58,7 +58,7 @@ Team's experience
 Lamont is a blockchain developer with 6 years of experience in Web3. He has worked with notable web3 companies such as Ledger, BNB Chain, and Consensys. 
 Marcel (Pete) Myers is a recording artist and music producer. His songs have more than 55,000 streams on Spotify. He has more than 10 years of experience in the music industry.
 
-📊 Development Status
+📊 Development Status: 
 NFT marketplace and airdrop smart contracts are currently on the Moonbase Alpha Testnet. A POC of the marketplace has been created as well. Hete is the projects github: https://github.com/Banshee-Music
 
 
@@ -69,18 +69,6 @@ There will be 5 milestones/deliverables to be completed within 2 months:
 3) Integration of Pinata IPFS files for Music to be delivered to fans. The NFTs airdropped will give fans access to Pinata IPFS files storing songs. (1 week)
 4) Proof-of-Performance smart contract integration to Subquery. Token smart contract that mints token with every new transaction from NFT marketplace smart contract. (2-3weeks)
 5) Deployment of all smart contracts to Polkadot Asset Hub mainnet. (1-week)
-
-Important notes:
-
-Each milestone is capped at $5,000 USD
-Milestones must be delivered within 3 months of approval
-The maximum grant amount is $10,000 USD per application (up to $15,000 USD per project in exceptional cases)
-You will only receive payment after successful milestone delivery
-Overview
-Estimated Duration: Duration of the whole project (maximum 3 months)
-Full-Time Equivalent (FTE): Average number of full-time employees working on the project
-Total Costs: Requested amount in USD for the whole project (maximum $10,000 USD)
-Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
 
 Milestone	Deliverables	Cost (USD)	Estimated Completion
 1	Features (Marketplace UI)- Audius Integration, Subscription UI	$2,000 2-3 weeks (20-30 hours of development)
