@@ -8,7 +8,6 @@
 
 
 
-
 ## 🔎 Project Overview
 
 Evrloot is a browser-based dark fantasy RPG built on Polkadot’s Moonbeam chain. Since its launch, Evrloot has:
@@ -87,7 +86,7 @@ Please provide a breakdown of your budget by milestone:
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
 | --- | --- | --- | --- |
 | 1 | Month Aug-Oct | $4,300  | 3 months |
-| 2 | Feature Z | $4,300 | 3 months |
+| 2 | Month Nov-Jan | $4,300 | 3 months |
 | **Total** | | **$8,600** | **6 months** |
 
 ### Our cost
