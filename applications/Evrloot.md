@@ -6,7 +6,8 @@
 
 [<img width="750" height="506" alt="Evrloot" src="https://github.com/user-attachments/assets/78949042-9991-4341-a71a-ebcd709b3fce" />](https://youtu.be/RAvca9ur9CQ)
 
-
+## 🎉 tl;dr
+Evrloot is a success. Yet web3 gaming crumbles before our eyes, and so do we. We are in a strategic pause; everyone is working for free. But we can't pay the operational server cost and risk shutting down the game. This is what we would like to address with your help until we successfully secure funding.
 
 ## 🔎 Project Overview
 
