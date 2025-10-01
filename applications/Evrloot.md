@@ -73,7 +73,7 @@ All three founders are currently working **without salary** to sustain the proje
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | Currently, Evrloot is in private repositories and we dont have plans to open source it (most games don't, to avoid reverse-engineering gameplay). |
+| 0a. | License | Currently, Evrloot is in private repositories and we dont have plans to open source it (most games don't, to avoid reverse-engineering gameplay). Should this be a hard requirement for existing players like us, lets talk! |
 | 0b. | Documentation | We will provide both documentation on maintenance |
 | 1. | Maintenance  | Maintenance and bug-fix coverage report |
 | 2. | Uptime Report | Stating Playability and metricd |
