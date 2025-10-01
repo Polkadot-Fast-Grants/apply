@@ -15,7 +15,7 @@ Evrloot is a browser-based dark fantasy RPG built on Polkadot’s Moonbeam chain
 - Recorded over **1.5M total on-chain transactions** on Polkadot.
 - Reached roughly **10,600 players in 2025**.
 - Grown a **fiercely loyal community**, recognized by ecosystem leaders.
-- Generated **~$2,000 marketplace fees** in a short test phase, validating the economy.
+- Generated **~$15,000 marketplace fees** in a short test phase, validating the economic feasibility of our ethical model without needing a Token.
 
 ### Evrloot is the Polkadot-native game
 Evrloot started as a passion project of internet strangers—and advanced to a beautiful Polkaot success story. It is now the flagship blockchain game built natively on the Polkadot ecosystem, representing the most successful gaming application directly built on Polkadot to date. As the **Polkadot Native Game**, Evrloot has proven its market fit with thousands of active players, dominating transaction charts on Moonbeam and Polkadot throughout multiple successful seasons. Just the share of how often Evrloot was mentioned in the Kusamarian shows the pace at which Evrloot was developing. 
