@@ -69,8 +69,26 @@ All three founders are currently working **without salary** to sustain the proje
 
 ---
 
+
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Currently, Evrloot is in private repositories and we dont have plans to open source it (most games don't, to avoid reverse-engineering gameplay). |
+| 0b. | Documentation | We will provide both documentation on maintenance |
+| 1. | Maintenance  | Maintenance and bug-fix coverage report |
+| 2. | Uptime Report | Stating Playability and metricd |
+
 ## 💰 Budget Breakdown
-**Total request: $8,600 USD** (within $10,000 cap).
+
+Please provide a breakdown of your budget by milestone:
+
+| Milestone | Deliverables | Cost (USD) | Estimated Completion |
+| --- | --- | --- | --- |
+| 1 | Month Aug-Oct | $4,300  | 3 months |
+| 2 | Feature Z | $4,300 | 3 months |
+| **Total** | | **$8,600** | **6 months** |
+
+### Our cost
 
 - **Infrastructure (25% – $2,150):** Hosting fees, servers, subscriptions, blockchain services, Discord.  
 - **Developer Support (75% – $6,450):** Part-time blockchain developer for system stability and fixes + Comms to Community.  
