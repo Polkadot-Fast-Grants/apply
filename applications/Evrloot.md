@@ -20,14 +20,15 @@ Evrloot is a browser-based dark fantasy RPG built on Polkadot’s Moonbeam chain
 - Generated **~$2,000 marketplace fees** in a short test phase, validating the economy.
 
 ### Evrloot is the Polkadot-native game
-Evrloot is the flagship blockchain game built natively on the Polkadot ecosystem, representing the most successful gaming application on the network to date. As the **Polkadot Native Game**, Evrloot has proven its market fit with thousands of active players, dominating transaction charts on Moonbeam and Polkadot throughout multiple successful seasons. With our vibrant Discord community and established player base, we have built the foundation for Web3 gaming excellence on Polkadot. Just the share of how often Evrloot was mentioned in the Kusamarian shows the pace that Evrloot was developing at. Evrloot was built from the ground up specifically for the Polkadot ecosystem, starting in 2021 on Kusama. We migrated to Moonbeam for smart contract functionality while maintaining deep integration with Polkadot's cross-chain capabilities. We were among the first to successfully implement RMRK 2.0 standards with our Book of Lore NFT collection, establishing ourselves as pioneers in Polkadot's NFT and gaming space.
+Evrloot is the flagship blockchain game built natively on the Polkadot ecosystem, representing the most successful gaming application on the network to date. As the **Polkadot Native Game**, Evrloot has proven its market fit with thousands of active players, dominating transaction charts on Moonbeam and Polkadot throughout multiple successful seasons. Just the share of how often Evrloot was mentioned in the Kusamarian shows the pace at which Evrloot was developing. 
+Evrloot was built from the ground up specifically for the Polkadot ecosystem, starting with RMRK NFTs on Kusama in 2021. We migrated to Moonbeam for smart contract functionality while maintaining deep integration with Polkadot's cross-chain capabilities. We were among the first to successfully implement RMRK 2.0 standards with our Book of Lore NFT collection, establishing ourselves as pioneers in Polkadot's NFT and gaming space.
 
 ### The strategic Pause of Evrloot
-After three years of dedicated development and community building, Evrloot has reached a critical juncture. Despite our considerable success, the market conditions for Web3 games have drastically worsened in 2025, creating a challenging environment for funding and sustainability. Many Web3 gaming projects across the industry are struggling or shutting down due to widespread funding shortages. 
-Unfortunately, we ourselves have been unable to secure the necessary funding to continue, leading us to freeze Evrloot in its current state and reduce all operational costs, including salaries, to zero, without disbanding the company. 
+After four years of dedicated development and community building, without an OpenGov ask, Evrloot has reached a critical juncture. Despite our considerable success, the market conditions for Web3 games have drastically worsened in 2025, creating a challenging environment for funding and sustainability. Many Web3 gaming projects across the industry are struggling or shutting down due to widespread funding shortages. 
+Unfortunately, we have been unable to secure the necessary funding to continue, which has led us to freeze Evrloot in its current state and reduce all operational costs, including salaries, to zero, without disbanding the company. 
 
 ### The Ask: Help with operational running cost
-While this pause was a difficult but necessary step, we cannot keep the game running under these conditions long-term and urgently need your help to preserve the community and maintain the infrastructure. We believe that, unlike many other teams, our exceptionally strong and loyal community positions Evrloot uniquely for success. This strategic pause is designed to preserve that community and strengthen our foundation, helping us secure the necessary funding to relaunch and continue growing the project within the Polkadot ecosystem.
+While this pause was a difficult but necessary step, we cannot sustain the game under these conditions in the long term and urgently need your help to preserve the community and maintain the infrastructure. We believe that, unlike many other teams, our exceptionally strong and loyal community positions Evrloot uniquely for success. This strategic pause is designed to preserve that community and strengthen our foundation, helping us secure the necessary funding to relaunch and continue growing the project within the Polkadot ecosystem.
 
 
 ## 🥗 Project Details
@@ -73,48 +74,48 @@ Evrloot’s **free-to-play design** and **NFT-based progression system** already
 **Chainfood Studio GmbH (Germany)** is the company behind Evrloot.  
 All three founders are currently working **without salary** to sustain the project.
 
-**Key team members:**
-- **Tobias Amann** – Co-founder & CEO (deckard@evrloot.com)  
-- **Co-Founder 2** – Smart contract developer (volunteer)  
-- **Co-Founder 3** – Game systems engineer (volunteer)  
+**Founders**
+- **Tobias Amann** – CEO (deckard@evrloot.io)  
+- **Lucas Moskau** – CTO (luuu@evrloot.io)  
+- **Josef Englmeier** – TAX/LEGAL/GM (evrlord@evrloot.io)  
 
-The team has delivered consistently: from the first RMRK Book of Lore collection to a live, fully playable RPG with active marketplace and community. Evrloot is deeply rooted in Polkadot and has resisted offers to migrate ecosystems.
-
----
-
-## Work Plan & Milestones
-We propose two clear milestones aligned with Fast Grants’ retroactive and milestone-based structure:
-
-**Milestone 1 (Month 1–3):**
-- Retroactive reimbursement for the past month of infrastructure.  
-- Maintenance and bug-fix coverage for the first two forward months.  
-- **Deliverable:** 100% uptime report + summary of maintenance performed.  
-
-**Milestone 2 (Month 4–6):**
-- Continued maintenance for three months.  
-- Monitoring, minor upgrades, and preparations for relaunch.  
-- **Deliverable:** Final system health report + log of developer hours.  
-
-All deliverables will be documented with invoices, hours, and public code contributions.
++ 9 passionate developers from all across the globe
 
 ---
 
 ## Budget Breakdown
 **Total request: $8,600 USD** (within $10,000 cap).
 
-- **Infrastructure (25% – $2,150):** Hosting fees, servers, essential services.  
-- **Developer Support (75% – $6,450):** Part-time blockchain developer for system stability and fixes.  
+- **Infrastructure (25% – $2,150):** Hosting fees, servers, subscriptions, blockchain services, Discord.  
+- **Developer Support (75% – $6,450):** Part-time blockchain developer for system stability and fixes + Comms to Community.  
 
 No funds are allocated to founders’ salaries or overhead. Expenses will be tracked and reported transparently.
 
 ---
 
+## Work Plan & Milestones
+We propose two clear milestones 
+
+**Milestone 1 (Month Aug-Oct):** $4300 
+- Retroactive reimbursement for the past months of running cost  
+- Maintenance and bug-fix coverage for the first two forward months.  
+- **Deliverable:** Uptime report + summary of maintenance performed.  
+
+**Milestone 2 (Nov-Jan):** $4300 
+- Continued maintenance for three months.  
+- Monitoring, minor upgrades, and preparations for relaunch.  
+- **Deliverable:** System health report + log of developer hours.  
+
+All deliverables will be documented.
+
+---
+
+
+
+---
+
 ## Conclusion
 Evrloot is **the flagship Polkadot-native game** with thousands of active players, millions of transactions, and a loyal community.  
-This Fast Grant will:
-
-- Reimburse one past month ($8,000 retroactive).  
-- Fund six forward months ($8,600 proactive).  
 
 The grant ensures Evrloot **remains online and playable** during this strategic pause, preserving momentum for Polkadot’s gaming ecosystem.
 
@@ -122,5 +123,5 @@ The grant ensures Evrloot **remains online and playable** during this strategic 
 
 **Coordinator:**  
 **Tobias Amann**  
-Co-Founder & CEO, Chainfood Studio GmbH (Germany)  
-📧 deckard@evrloot.com
+Co-Founder & CEO, Chainfood GmbH (Germany)  
+📧 deckard@evrloot.io
