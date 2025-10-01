@@ -13,14 +13,19 @@
 
 Evrloot is a browser-based dark fantasy RPG built on Polkadot’s Moonbeam chain. Since its launch, Evrloot has:
 
-- Recorded **~300K on-chain transactions** during soft launch and over **1.5M total transactions** to date.
-- Reached roughly **8,000 monthly active users** at peak.
+- Recorded over **1.5M total on-chain transactions** on Polkadot.
+- Reached roughly **10,600 players in 2025**.
 - Grown a **fiercely loyal community**, recognized by ecosystem leaders.
 - Generated **~$2,000 marketplace fees** in a short test phase, validating the economy.
 
 ### Evrloot is the Polkadot-native game
-Evrloot is the flagship blockchain game built natively on the Polkadot ecosystem, representing the most successful gaming application on the network to date. As the **Polkadot Native Game**, Evrloot has proven its market fit with thousands of active players, dominating transaction charts on Moonbeam and Polkadot throughout multiple successful seasons. Just the share of how often Evrloot was mentioned in the Kusamarian shows the pace at which Evrloot was developing. 
+Evrloot started as a passion project of internet strangers—and advanced to a beautiful Polkaot success story. It is now the flagship blockchain game built natively on the Polkadot ecosystem, representing the most successful gaming application directly built on Polkadot to date. As the **Polkadot Native Game**, Evrloot has proven its market fit with thousands of active players, dominating transaction charts on Moonbeam and Polkadot throughout multiple successful seasons. Just the share of how often Evrloot was mentioned in the Kusamarian shows the pace at which Evrloot was developing. 
 Evrloot was built from the ground up specifically for the Polkadot ecosystem, starting with RMRK NFTs on Kusama in 2021. We migrated to Moonbeam for smart contract functionality while maintaining deep integration with Polkadot's cross-chain capabilities. We were among the first to successfully implement RMRK 2.0 standards with our Book of Lore NFT collection, establishing ourselves as pioneers in Polkadot's NFT and gaming space.
+
+### What Evrloot is NOT
+- We will never compromise on our core values or ethical gaming principles
+- We will never implement pay-to-win mechanics
+- We will do everything not to abandon our existing community during the transition period
 
 ### The strategic Pause of Evrloot
 After four years of dedicated development and community building, without an OpenGov ask, Evrloot has reached a critical juncture. Despite our considerable success, the market conditions for Web3 games have drastically worsened in 2025, creating a challenging environment for funding and sustainability. Many Web3 gaming projects across the industry are struggling or shutting down due to widespread funding shortages. 
@@ -51,7 +56,7 @@ While this pause was a difficult but necessary step, we cannot sustain the game 
 
 
 
-##👔 Team & Organization
+## 👔 Team & Organization
 **Chainfood Studio GmbH (Germany)** is the company behind Evrloot.  
 All three founders are currently working **without salary** to sustain the project.
 
@@ -98,6 +103,9 @@ Evrloot is **the flagship Polkadot-native game** with thousands of active player
 The grant ensures Evrloot **remains online and playable** during this strategic pause, preserving momentum for Polkadot’s gaming ecosystem.
 
 ---
+
+## Further Info
+Evrloot source code is not open source
 
 **Coordinator:**  
 **Tobias Amann**  
