@@ -1,7 +1,7 @@
 
 
 
-# Evrloot: Polkadot-Native Web3 RPG – Fast Grant Proposal
+# Evrloot: Keep it playable
 
 
 [<img width="750" height="506" alt="Evrloot" src="https://github.com/user-attachments/assets/78949042-9991-4341-a71a-ebcd709b3fce" />](https://youtu.be/RAvca9ur9CQ)
@@ -51,26 +51,8 @@ While this pause was a difficult but necessary step, we cannot sustain the game 
 
 
 
----
 
-
-
-
-These metrics demonstrate strong traction and prove Evrloot is the **Polkadot-native game** with the most visible community impact.
-
----
-
-## Community Impact & Growth
-- **On-Chain Engagement:** 1.5M+ transactions across Kusama/Polkadot.  
-- **Active Users:** ~8,000 MAU during launch peak.  
-- **Loyal Community:** Publicly described as *“a very special game… with a fiercely loyal community”*.  
-- **Economic Activity:** ~$2,000 earned in early fee revenue.  
-
-Evrloot’s **free-to-play design** and **NFT-based progression system** already showcase how Polkadot gaming can succeed.
-
----
-
-## Team & Organization
+##👔 Team & Organization
 **Chainfood Studio GmbH (Germany)** is the company behind Evrloot.  
 All three founders are currently working **without salary** to sustain the project.
 
@@ -83,7 +65,7 @@ All three founders are currently working **without salary** to sustain the proje
 
 ---
 
-## Budget Breakdown
+## 💰 Budget Breakdown
 **Total request: $8,600 USD** (within $10,000 cap).
 
 - **Infrastructure (25% – $2,150):** Hosting fees, servers, subscriptions, blockchain services, Discord.  
@@ -93,7 +75,7 @@ No funds are allocated to founders’ salaries or overhead. Expenses will be tra
 
 ---
 
-## Work Plan & Milestones
+## ⏰ Work Plan & Milestones
 We propose two clear milestones 
 
 **Milestone 1 (Month Aug-Oct):** $4300 
@@ -111,10 +93,7 @@ All deliverables will be documented.
 ---
 
 
-
----
-
-## Conclusion
+## 🥬 Conclusion
 Evrloot is **the flagship Polkadot-native game** with thousands of active players, millions of transactions, and a loyal community.  
 
 The grant ensures Evrloot **remains online and playable** during this strategic pause, preserving momentum for Polkadot’s gaming ecosystem.
