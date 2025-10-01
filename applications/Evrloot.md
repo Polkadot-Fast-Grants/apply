@@ -57,9 +57,9 @@ While this pause was a difficult but necessary step, we cannot sustain the game 
 All three founders are currently working **without salary** to sustain the project.
 
 **Founders**
-- **Tobias Amann** – CEO (deckard@evrloot.io)  
-- **Lucas Moskau** – CTO (luuu@evrloot.io)  
-- **Josef Englmeier** – TAX/LEGAL/GM (evrlord@evrloot.io)  
+- [**Tobias Amann**](https://www.linkedin.com/in/tobias-amann-375bba83/) – CEO (deckard@evrloot.io)  
+- [**Lucas Moskau**](https://www.linkedin.com/in/lucas-moskau-06a765171/) – CTO (luuu@evrloot.io)  
+-[ **Josef Englmeier**](https://www.linkedin.com/in/josef-englmeier-84188952/) – TAX/LEGAL/GM (evrlord@evrloot.io)  
 
 + 9 passionate developers from all across the globe
 
