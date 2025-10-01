@@ -59,7 +59,7 @@ All three founders are currently working **without salary** to sustain the proje
 **Founders**
 - [**Tobias Amann**](https://www.linkedin.com/in/tobias-amann-375bba83/) – CEO (deckard@evrloot.io)  
 - [**Lucas Moskau**](https://www.linkedin.com/in/lucas-moskau-06a765171/) – CTO (luuu@evrloot.io)  
--[ **Josef Englmeier**](https://www.linkedin.com/in/josef-englmeier-84188952/) – TAX/LEGAL/GM (evrlord@evrloot.io)  
+- [**Josef Englmeier**](https://www.linkedin.com/in/josef-englmeier-84188952/) – TAX/LEGAL/GM (evrlord@evrloot.io)  
 
 + 9 passionate developers from all across the globe
 
