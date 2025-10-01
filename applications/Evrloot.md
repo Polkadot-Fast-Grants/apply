@@ -4,10 +4,7 @@
 # Evrloot: Polkadot-Native Web3 RPG – Fast Grant Proposal
 
 
-[1-min Pitch Video
-](https://youtu.be/RAvca9ur9CQ)
-
-<img width="1504" height="1014" alt="Evrloot" src="https://github.com/user-attachments/assets/2cf25470-66ac-4ded-8bae-76fbc18377a6" />
+[<img width="750" height="506" alt="Evrloot" src="https://github.com/user-attachments/assets/78949042-9991-4341-a71a-ebcd709b3fce" />](https://youtu.be/RAvca9ur9CQ)
 
 
 ---
