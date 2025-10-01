@@ -11,7 +11,6 @@
 
 ## 🔎 Project Overview
 
-# Introduction
 Evrloot is a browser-based dark fantasy RPG built on Polkadot’s Moonbeam chain. Since its launch, Evrloot has:
 
 - Recorded **~300K on-chain transactions** during soft launch and over **1.5M total transactions** to date.
