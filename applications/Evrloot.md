@@ -3,10 +3,15 @@
 
 # Evrloot: Polkadot-Native Web3 RPG – Fast Grant Proposal
 
-![Evrloot Gameplay](https://example.com/evrloot-screenshot.png)  
-*Evrloot gameplay screenshot showcasing the game’s dark fantasy world and NFT-based mechanics.*
+
+[1-min Pitch Video
+](https://youtu.be/RAvca9ur9CQ)
+
+<img width="1504" height="1014" alt="Evrloot" src="https://github.com/user-attachments/assets/2cf25470-66ac-4ded-8bae-76fbc18377a6" />
+
 
 ---
+
 
 ## Introduction
 Evrloot is a browser-based dark fantasy RPG built on Polkadot’s Moonbeam chain. Since its launch, Evrloot has:
