@@ -8,7 +8,7 @@
   - Add DOT payouts (using Subscan 7-day EMA price for compliance).  
   - Surface Polkadot repos/bounties in Plaza and Polkadot Hub.  
   - Provide funding links repos can share with their communities.  
-- **Why us:** We’ve already onboarded 1,000+ developers. MergeFund.org is live . We’re the first to combine GitHub-native workflows with community funding links that turn repos into crowdfunded projects.
+- **Why us:** We’ve already onboarded 1,000+ developers. [MergeFund.org](https://mergefund.org) is live. We’re the first to combine GitHub-native workflows with community funding links that turn repos into crowdfunded projects.
 
 ---
 
@@ -38,17 +38,17 @@
 
 ## Team
 - **Team Name:** MergeFund  
-- **Contact Name:** isaac gbaba
-- **Contact Email:** isaac@mergefund.org 
+- **Contact Name:** Isaac Gbaba  
+- **Contact Email:** isaac@mergefund.org  
 - **Website:** [mergefund.org](https://mergefund.org)  
-- **GitHub:** https://github.com/MergeFund  
+- **GitHub:** [https://github.com/MergeFund](https://github.com/MergeFund)  
 
 ### Team members
-- Isaac Gbaba — Frontend/DevTools ( ex berkeley lab)
+- Isaac Gbaba — Frontend/DevTools (ex-Berkeley Lab)  
 - Damien Johnson — Backend/Infra (ex-AWS, Accenture)  
-- Evelyn yaskin — Frontend (ex-Emoney)  
-- Matt boekamp — Backend (Hanover Insurance)  
-- Alvin he — Finance/BD (ex-Dell, CVS)  
+- Evelyn Yaskin — Frontend (ex-Emoney)  
+- Matt Boekamp — Backend (Hanover Insurance)  
+- Alvin He — Finance/BD (ex-Dell, CVS)  
 
 ---
 
@@ -103,6 +103,15 @@
 | 1 | DOT payouts, GitHub App flow, docs/tests | $4,500 | Weeks 1–3 |
 | 2 | Plaza/Hub discovery, 10-repo pilot, metrics | $3,000 | Weeks 4–6 |
 | **Total** |  | **$7,500** | 6–8 weeks |
+
+---
+
+## Funding Use
+The requested $7,500 will go toward:  
+- **Engineering hours** (~120–140 hrs at ~$50/hr) for building the DOT payout adapter, GitHub App integrations, and Plaza/Hub discovery.  
+- **Testing & QA** for payout flows, repo onboarding, and metrics dashboard.  
+- **Documentation & developer guides** to make Polkadot repo adoption simple.  
+- **Community pilot costs**, including onboarding ≥10 Polkadot repos and running a developer campaign to direct our 1,000+ signed-up developers into solving Polkadot issues.  
 
 ---
 
