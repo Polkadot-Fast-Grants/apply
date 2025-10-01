@@ -76,7 +76,9 @@ All three founders are currently working **without salary** to sustain the proje
 | 0a. | License | Currently, Evrloot is in private repositories and we dont have plans to open source it (most games don't, to avoid reverse-engineering gameplay). Should this be a hard requirement for existing players like us, lets talk! |
 | 0b. | Documentation | We will provide both documentation on maintenance |
 | 1. | Maintenance  | Maintenance and bug-fix coverage report |
-| 2. | Uptime Report | Stating Playability and metricd |
+| 2. | Uptime Report | Stating Playability and metrics |
+| 3. | Launch Prep | Minor upgrades, and preparations for relaunch. |
+
 
 ## 💰 Budget Breakdown
 
@@ -96,24 +98,6 @@ Please provide a breakdown of your budget by milestone:
 No funds are allocated to founders’ salaries or overhead. Expenses will be tracked and reported transparently.
 
 ---
-
-## ⏰ Work Plan & Milestones
-We propose two clear milestones 
-
-**Milestone 1 (Month Aug-Oct):** $4300 
-- Retroactive reimbursement for the past months of running cost  
-- Maintenance and bug-fix coverage for the first two forward months.  
-- **Deliverable:** Uptime report + summary of maintenance performed.  
-
-**Milestone 2 (Nov-Jan):** $4300 
-- Continued maintenance for three months.  
-- Monitoring, minor upgrades, and preparations for relaunch.  
-- **Deliverable:** System health report + log of developer hours.  
-
-All deliverables will be documented.
-
----
-
 
 ## 🥬 Conclusion
 Evrloot is **the flagship Polkadot-native game** with thousands of active players, millions of transactions, and a loyal community.  
