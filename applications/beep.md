@@ -30,8 +30,8 @@ Our team is deeply invested in the Polkadot ecosystem beyond just this project. 
 After successfully building and testing Beep on Cosmos (50+ beta testers), we recognize that Polkadot's advanced interoperability features and parachain architecture are essential for creating seamless cross-ecosystem experiences. Our existing relationship with the Polkadot ecosystem, combined with proven user traction, positions us uniquely to bridge sophisticated blockchain technology with everyday users in emerging markets.
 
 ### Video Pitch
-- [1-min video pitch demonstrating USSD wallet functionality](https://placeholder-video-link.com)
-- [Technical demo of current Cosmos integration](https://placeholder-demo-link.com)
+- [1-min video pitch demonstrating USSD wallet functionality](https://www.youtube.com/watch?v=rQeesN75A_0)
+- [Technical demo of current Cosmos integration](https://www.youtube.com/watch?v=N4WyuUJ4u5s)
 
 ## 🔍 Project Details
 
@@ -49,7 +49,7 @@ After successfully building and testing Beep on Cosmos (50+ beta testers), we re
 
 **Blockchain Layer:**
 - CosmWasm Contracts (Existing) - Neutron testnet deployment
-- Plaza Integration (New) - Polkadot.js client, subxt & PolkaVM smart contract
+- Plaza Integration (New) - PAPI, subxt & PolkaVM smart contract
 - Moonbeam Integration (New) - XCM-enabled smart contract
 - XCM Handler (New) - Cross-parachain messaging
 - Chain Adapters (New) - Picasso/Composable integration
@@ -64,7 +64,7 @@ After successfully building and testing Beep on Cosmos (50+ beta testers), we re
 ### Core Components Architecture
 
 #### 1. Multi-Ecosystem Intent Engine
-The intent engine abstracts complex cross-chain operations into simple user commands. Users can express intents like "send $10 to +2348012345678" and the engine determines optimal routing, whether via Cosmos, Polkadot, or cross-ecosystem bridges.
+The intent engine abstracts complex cross-chain operations into simple user commands. Users can express intents like "send $10 to +2348012345678" and the system determines optimal routing via Cosmos, Polkadot, or cross-ecosystem bridges.
 
 **Key Features:**
 - Cross-chain route optimization
@@ -265,7 +265,7 @@ No direct competitors exist in the Polkadot ecosystem, combining:
 
 ### Current Implementation Status
 
-**Completed (Live on Cosmos Testnet):**
+**Completed (Live on Neutron Testnet):**
 
 #### Beep Protocol CosmWasm Contracts
 - Smart contract wallet with paymaster
@@ -399,7 +399,7 @@ No direct competitors exist in the Polkadot ecosystem, combining:
 - Scale from 100 to 1,000+ active users
 - Expand to 3 additional African markets (Ghana, Kenya, South Africa)
 - Partner with local mobile money operators
-- Implement referral and incentive programs
+- Expand referral and incentive programs
 
 ### Additional Funding Strategy
 
@@ -440,7 +440,7 @@ No direct competitors exist in the Polkadot ecosystem, combining:
 - 🏆 **HackAtom Winner**: 1st place CosmosHub Africa HackAtom (2024)
 - 💰 **Grant Recipient**: Funded by Cosmos AEZ DAO for initial development
 - 👥 **Proven Traction**: 50+ beta testers with real transaction volume
-- 🔧 **Production Ready**: Deployed and tested smart contracts on Neutron
+- 🔧 **Production Ready**: Deployed and tested smart contracts on Neutron testnet
 - 📱 **User Validation**: Average 4.2/5 user satisfaction rating
 - 🎓 **Polkadot Ambassador**: Recognized contributor to ecosystem growth and education
 
