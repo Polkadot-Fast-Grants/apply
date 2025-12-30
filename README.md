@@ -66,7 +66,7 @@ Anyone is welcome to apply for a fast-grant. We are looking for projects with hi
 
 Note that:
 
-- 💵 Grant payouts are **denominated in USD** and paid out after a milestone has been delivered and _successfully evaluated_. Payouts are made in DOT using the 7-day EMA price as listed by Subscan at the day of payout initiation without any top-up requests thereafter due to potential price movements.
+- 💵 Grants are USD-denominated. Once a milestone is accepted, we convert the USD amount to DOT using a single market rate captured at payout initiation without any top-up requests thereafter due to potential price movements.
 - 💰 Grants are capped at **$10,000 USD per application** with a maximum of **$15,000 USD per project** (in exceptional cases where additional funding is needed). However, **only apply for what you need. It's way easier for us to approve a smaller amount** (e.g. $2,000) than the maximum, especially if you don't yet have any traction or users etc. Remember that you'll need to show what the funding is going towards (e.g. 30 hours of a full time employee at $X / hour).
 - 💸 Each milestone is capped at **$5,000 USD**.
 - 👨‍💻 Solo developers (1-person teams) are eligible for funding.
